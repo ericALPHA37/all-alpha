@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALPHA CODE — A Trilogia | ALL-ALPHA®</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#080808; --surface:#111; --border:#1E1E1E;
+    --gold:#D4AF37; --gold2:#8B6914; --gold3:#2A2000;
+    --red:#8B0000; --red2:#C0392B;
+    --white:#F0EDE5; --grey:#888; --grey2:#333;
+    --bebas:'Bebas Neue',sans-serif;
+    --serif:'Crimson Pro',Georgia,serif;
+    --mono:'Space Mono',monospace;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--white);font-family:var(--serif);font-size:18px;line-height:1.7;overflow-x:hidden}
+
+  /* TOPBAR */
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(8,8,8,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+  .topbar-logo{font-family:var(--bebas);font-size:20px;letter-spacing:4px;color:var(--gold)}
+  .topbar-cta{background:var(--gold);color:#080808;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:1px;padding:8px 18px;border-radius:4px;text-decoration:none;transition:background .2s}
+  .topbar-cta:hover{background:#fff}
+
+  .wrap{max-width:780px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+  /* HERO */
+  .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:120px 0 80px;position:relative;overflow:hidden}
+  .hero::after{content:'A';position:absolute;right:-60px;top:50%;transform:translateY(-50%);font-family:var(--bebas);font-size:600px;line-height:1;color:rgba(212,175,55,.03);pointer-events:none}
+  .hero-eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:4px;color:var(--gold2);margin-bottom:20px}
+  .hero-title{font-family:var(--bebas);font-size:clamp(52px,10vw,96px);line-height:.92;letter-spacing:2px;color:var(--white);margin-bottom:16px}
+  .hero-title span{color:var(--gold)}
+  .hero-subtitle{font-family:var(--serif);font-style:italic;font-size:clamp(18px,2.5vw,24px);color:var(--grey);margin-bottom:40px;max-width:560px}
+  .hero-rule{width:60px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);margin:28px 0}
+  .hero-lead{font-size:19px;line-height:1.7;max-width:580px;color:rgba(240,237,229,.85);margin-bottom:48px}
+  .hero-lead strong{color:var(--gold);font-weight:600}
+
+  .mantra-block{border-left:2px solid var(--gold2);padding:20px 28px;margin:48px 0;background:var(--gold3);border-radius:0 8px 8px 0}
+  .mantra-block p{font-style:italic;font-size:20px;color:var(--gold);line-height:1.5}
+  .mantra-block cite{display:block;margin-top:10px;font-style:normal;font-family:var(--mono);font-size:10px;color:var(--gold2);letter-spacing:2px}
+
+  .shdr{font-family:var(--mono);font-size:10px;letter-spacing:4px;color:var(--gold2);text-transform:uppercase;margin-bottom:32px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+
+  /* MODAL FORMULÁRIO */
+  .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:200;align-items:center;justify-content:center;padding:20px}
+  .modal-overlay.active{display:flex}
+  .modal{background:var(--surface);border:1px solid var(--gold2);border-radius:16px;padding:36px 32px;max-width:480px;width:100%;position:relative}
+  .modal-close{position:absolute;top:16px;right:16px;background:none;border:none;color:var(--grey);font-size:20px;cursor:pointer;font-family:var(--mono)}
+  .modal-title{font-family:var(--bebas);font-size:28px;color:var(--gold);letter-spacing:2px;margin-bottom:6px}
+  .modal-sub{font-style:italic;color:var(--grey);font-size:15px;margin-bottom:24px}
+  .modal-product{background:var(--gold3);border:1px solid var(--gold2);border-radius:8px;padding:14px 18px;margin-bottom:24px}
+  .modal-product-name{font-family:var(--mono);font-size:11px;color:var(--gold);font-weight:700;letter-spacing:1px}
+  .modal-product-price{font-family:var(--bebas);font-size:32px;color:var(--white);margin-top:4px}
+  .form-group{margin-bottom:16px}
+  .form-label{font-family:var(--mono);font-size:10px;letter-spacing:2px;color:var(--grey);display:block;margin-bottom:6px}
+  .form-input{width:100%;background:#0A0A0A;border:1px solid var(--border);border-radius:6px;padding:12px 14px;color:var(--white);font-family:var(--serif);font-size:16px;transition:border-color .2s;outline:none}
+  .form-input:focus{border-color:var(--gold2)}
+  .form-input::placeholder{color:var(--grey2)}
+  .btn-pay{display:block;width:100%;padding:16px;background:var(--gold);border:none;border-radius:8px;color:#080808;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:2px;text-align:center;cursor:pointer;transition:all .2s;margin-top:8px;text-decoration:none}
+  .btn-pay:hover{background:#fff}
+  .modal-note{font-family:var(--mono);font-size:9px;color:var(--grey);text-align:center;margin-top:12px;line-height:1.6}
+
+  /* VOLUMES */
+  .volumes{padding:80px 0}
+  .volumes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:48px}
+  @media(max-width:640px){.volumes-grid{grid-template-columns:1fr}}
+  .vol-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:24px 20px;position:relative;overflow:hidden;transition:border-color .3s,transform .2s;cursor:pointer}
+  .vol-card:hover{border-color:var(--gold2);transform:translateY(-3px)}
+  .vol-card.featured{border-color:var(--gold)}
+  .vol-card.featured::before{content:'NOVO';position:absolute;top:14px;right:14px;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:2px;background:var(--gold);color:#080808;padding:2px 8px;border-radius:3px}
+  .vol-num{font-family:var(--bebas);font-size:48px;color:var(--gold);line-height:1;margin-bottom:12px;opacity:.6}
+  .vol-title{font-weight:600;font-size:15px;color:var(--white);margin-bottom:6px}
+  .vol-sub{font-style:italic;font-size:13px;color:var(--grey);margin-bottom:16px;line-height:1.4}
+  .vol-price{font-family:var(--mono);font-size:22px;font-weight:700;color:var(--gold);margin-bottom:6px}
+  .vol-price span{font-size:12px;color:var(--grey);font-weight:400}
+  .vol-lang{font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--grey);margin-bottom:18px}
+  .btn-buy{display:block;width:100%;padding:11px;background:transparent;border:1px solid var(--gold2);border-radius:6px;color:var(--gold);font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:2px;text-align:center;cursor:pointer;transition:all .2s;text-decoration:none}
+  .btn-buy:hover,.vol-card.featured .btn-buy{background:var(--gold);color:#080808;border-color:var(--gold)}
+  .btn-buy-primary{display:block;width:100%;padding:16px;background:var(--gold);border:none;border-radius:8px;color:#080808;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:2px;text-align:center;cursor:pointer;transition:all .2s;text-decoration:none;margin-bottom:12px}
+  .btn-buy-primary:hover{background:#fff}
+
+  /* PACK */
+  .pack-card{background:var(--gold3);border:1px solid var(--gold);border-radius:16px;padding:36px 32px;text-align:center;position:relative;overflow:hidden}
+  .pack-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+  .pack-badge{display:inline-block;background:var(--red);color:#fff;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:2px;padding:4px 12px;border-radius:20px;margin-bottom:20px}
+  .pack-title{font-family:var(--bebas);font-size:38px;letter-spacing:3px;color:var(--gold);margin-bottom:8px}
+  .pack-sub{font-style:italic;color:var(--grey);margin-bottom:24px}
+  .pack-was{font-family:var(--mono);font-size:13px;color:var(--grey);text-decoration:line-through;margin-bottom:4px}
+  .pack-now{font-family:var(--bebas);font-size:56px;color:var(--gold);line-height:1}
+  .pack-now span{font-size:22px}
+  .pack-save{display:inline-block;font-family:var(--mono);font-size:10px;color:var(--red2);font-weight:700;margin-top:6px;margin-bottom:24px}
+  .pack-includes{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin:20px 0;font-family:var(--mono);font-size:10px;color:var(--grey);letter-spacing:1px}
+  .pack-includes span{display:flex;align-items:center;gap:6px}
+  .pack-includes span::before{content:'◆';color:var(--gold);font-size:8px}
+
+  /* INSIDE */
+  .inside{padding:80px 0;border-top:1px solid var(--border)}
+  .inside-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:580px){.inside-grid{grid-template-columns:1fr}}
+  .inside-item{padding:20px;background:var(--surface);border:1px solid var(--border);border-radius:8px;display:flex;gap:14px}
+  .inside-icon{font-size:20px;flex-shrink:0;margin-top:2px}
+  .inside-title{font-weight:600;font-size:15px;margin-bottom:4px}
+  .inside-desc{font-size:13px;color:var(--grey);line-height:1.5}
+
+  /* ABOUT */
+  .about{padding:80px 0;border-top:1px solid var(--border)}
+  .about-grid{display:grid;grid-template-columns:1fr 2fr;gap:48px;align-items:start}
+  @media(max-width:600px){.about-grid{grid-template-columns:1fr}}
+  .about-avatar{width:100%;aspect-ratio:3/4;background:var(--surface);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+  .about-avatar-letter{font-family:var(--bebas);font-size:80px;color:var(--gold);line-height:1}
+  .about-avatar-name{font-family:var(--mono);font-size:10px;letter-spacing:3px;color:var(--grey)}
+  .about-name{font-family:var(--bebas);font-size:36px;color:var(--gold);margin-bottom:4px}
+  .about-role{font-family:var(--mono);font-size:10px;color:var(--grey);letter-spacing:2px;margin-bottom:20px}
+  .about-bio{color:rgba(240,237,229,.8);line-height:1.75;margin-bottom:20px}
+  .about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+  .stat{text-align:center;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:8px}
+  .stat-n{font-family:var(--bebas);font-size:32px;color:var(--gold)}
+  .stat-l{font-family:var(--mono);font-size:9px;color:var(--grey);letter-spacing:1px}
+
+  /* TESTI */
+  .testi{padding:80px 0;border-top:1px solid var(--border)}
+  .testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:580px){.testi-grid{grid-template-columns:1fr}}
+  .testi-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px}
+  .testi-stars{color:var(--gold);font-size:12px;margin-bottom:10px;letter-spacing:3px}
+  .testi-text{font-style:italic;font-size:15px;color:rgba(240,237,229,.8);margin-bottom:14px;line-height:1.6}
+  .testi-author{font-family:var(--mono);font-size:10px;color:var(--grey);letter-spacing:1px}
+
+  /* FAQ */
+  .faq{padding:80px 0;border-top:1px solid var(--border)}
+  .faq-item{border-bottom:1px solid var(--border);padding:20px 0}
+  .faq-q{font-weight:600;font-size:16px;color:var(--white);margin-bottom:8px}
+  .faq-a{font-size:15px;color:var(--grey);line-height:1.7}
+
+  /* CTA FINAL */
+  .cta-final{padding:100px 0;text-align:center;border-top:1px solid var(--border)}
+  .cta-final-title{font-family:var(--bebas);font-size:clamp(40px,8vw,72px);line-height:.95;color:var(--white);margin-bottom:20px}
+  .cta-final-title span{color:var(--gold)}
+  .cta-final-sub{font-style:italic;color:var(--grey);font-size:18px;margin-bottom:48px;max-width:480px;margin-left:auto;margin-right:auto}
+
+  footer{border-top:1px solid var(--border);padding:32px 0;text-align:center}
+  footer p{font-family:var(--mono);font-size:10px;color:var(--grey);letter-spacing:1px}
+  footer a{color:var(--gold2);text-decoration:none}
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  .fade-up{animation:fadeUp .7s ease both}
+</style>
+</head>
+<body>
+
+<!-- MODAL FORMULÁRIO -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-title">QUASE LÁ</div>
+    <div class="modal-sub">Introduz os teus dados para receber o livro por email</div>
+    <div class="modal-product" id="modal-product">
+      <div class="modal-product-name" id="modal-name">ALPHA CODE Vol.3</div>
+      <div class="modal-product-price" id="modal-price">$22 USD</div>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="input-name">O TEU NOME</label>
+      <input class="form-input" type="text" id="input-name" placeholder="Ex: João Silva">
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="input-email">O TEU EMAIL</label>
+      <input class="form-input" type="email" id="input-email" placeholder="Ex: joao@email.com">
+    </div>
+    <a href="#" class="btn-pay" id="btn-paypal" target="_blank" onclick="goPayPal()">
+      PAGAR COM PAYPAL →
+    </a>
+    <div class="modal-note">
+      Após o pagamento, o livro chega ao teu email em minutos.<br>
+      Pagamento seguro via PayPal · ALL-ALPHA® · 2026
+    </div>
+  </div>
+</div>
+
+<!-- TOPBAR -->
+<nav class="topbar">
+  <span class="topbar-logo">ALL-ALPHA®</span>
+  <a href="#volumes" class="topbar-cta">COMPRAR AGORA</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-eyebrow fade-up">Éric ALPHA · ALL-ALPHA® · 2026</p>
+    <h1 class="hero-title fade-up">ALPHA<br><span>CODE</span></h1>
+    <p class="hero-subtitle fade-up">A Trilogia Completa — Do Plano à Execução ao Império</p>
+    <div class="hero-rule"></div>
+    <p class="hero-lead">
+      Três volumes. Três fases de transformação. Do homem que planeia tudo e executa pouco,
+      ao operário que constrói activos, família e legado —
+      <strong>sem atalhos, sem paternalismos, sem mentiras bonitas.</strong>
+    </p>
+    <div class="mantra-block">
+      <p>«&nbsp;Quando a ponte cai, o Operário não explica o rio. Constrói uma sala de comando.&nbsp;»</p>
+      <cite>— ALPHA CODE Vol.3 · Éric ALPHA</cite>
+    </div>
+    <a href="#volumes" class="btn-buy-primary" style="max-width:360px">VER OS VOLUMES →</a>
+  </div>
+</section>
+
+<!-- VOLUMES -->
+<section class="volumes" id="volumes">
+  <div class="wrap">
+    <p class="shdr">A Trilogia</p>
+    <div class="volumes-grid">
+      <div class="vol-card">
+        <div class="vol-num">01</div>
+        <div class="vol-title">Guerra Silenciosa</div>
+        <div class="vol-sub">O Despertar do Guerreiro Interior</div>
+        <div class="vol-price">$15 <span>USD</span></div>
+        <div class="vol-lang">PT · EN disponível</div>
+        <button class="btn-buy" onclick="openModal('ALPHA CODE Vol.1 — Guerra Silenciosa','$15 USD',15)">COMPRAR VOL.1</button>
+      </div>
+      <div class="vol-card">
+        <div class="vol-num">02</div>
+        <div class="vol-title">Alquimia Dados e Sangue</div>
+        <div class="vol-sub">O Sistema do Homem de Resultado</div>
+        <div class="vol-price">$18 <span>USD</span></div>
+        <div class="vol-lang">PT · EN disponível</div>
+        <button class="btn-buy" onclick="openModal('ALPHA CODE Vol.2 — Alquimia Dados e Sangue','$18 USD',18)">COMPRAR VOL.2</button>
+      </div>
+      <div class="vol-card featured">
+        <div class="vol-num">03</div>
+        <div class="vol-title">A Morte do Génio e a Disciplina do Operário</div>
+        <div class="vol-sub">O Despertar do Homem Indomável</div>
+        <div class="vol-price">$22 <span>USD</span></div>
+        <div class="vol-lang">PT · EN · PDF Impressão</div>
+        <button class="btn-buy" onclick="openModal('ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário','$22 USD',22)">COMPRAR VOL.3</button>
+      </div>
+    </div>
+
+    <!-- PACK -->
+    <div class="pack-card" id="pack">
+      <div class="pack-badge">MELHOR VALOR · EDIÇÃO LIMITADA</div>
+      <div class="pack-title">TRILOGIA COMPLETA</div>
+      <div class="pack-sub">Os 3 volumes + versão EN + PDF para impressão</div>
+      <div class="pack-was">$55 USD se comprado separado</div>
+      <div class="pack-now"><span>$</span>39</div>
+      <div class="pack-save">▲ POUPAS $16 USD (29% desconto)</div>
+      <div class="pack-includes">
+        <span>3 PDFs digitais</span>
+        <span>PT + EN</span>
+        <span>PDF gráfica</span>
+        <span>Actualizações</span>
+      </div>
+      <button class="btn-buy-primary" onclick="openModal('ALPHA CODE — Trilogia Completa (Vol.1 + Vol.2 + Vol.3 + EN + Impressão)','$39 USD',39)">
+        COMPRAR A TRILOGIA — $39 USD
+      </button>
+      <p style="font-family:var(--mono);font-size:10px;color:var(--grey)">
+        ● Entrega imediata por email · Pagamento seguro via PayPal
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE ESTÁ DENTRO -->
+<section class="inside">
+  <div class="wrap">
+    <p class="shdr">O que está dentro dos livros</p>
+    <div class="inside-grid">
+      <div class="inside-item">
+        <div class="inside-icon">⚡</div>
+        <div><div class="inside-title">WIP=1 — O Código</div><div class="inside-desc">Como parar de ter 10 projectos a 40% e começar a ter 1 projecto a 100%.</div></div>
+      </div>
+      <div class="inside-item">
+        <div class="inside-icon">🏭</div>
+        <div><div class="inside-title">Sistema Nagato</div><div class="inside-desc">Liderar sem estar no palco. Construir um exército que executa enquanto dormes.</div></div>
+      </div>
+      <div class="inside-item">
+        <div class="inside-icon">🛡️</div>
+        <div><div class="inside-title">A Paz Inegociável</div><div class="inside-desc">Cortar ladrões de foco. Centering. Blindagem emocional para não seres drenado.</div></div>
+      </div>
+      <div class="inside-item">
+        <div class="inside-icon">💰</div>
+        <div><div class="inside-title">Engenharia do Dinheiro</div><div class="inside-desc">Poupança forçada, arbitragem de capital, frota ghost. Dinheiro que trabalha.</div></div>
+      </div>
+      <div class="inside-item">
+        <div class="inside-icon">🔥</div>
+        <div><div class="inside-title">A Alquimia da Dor</div><div class="inside-desc">O Juramento da Catedral. Como transformar a dor profunda no combustível do império.</div></div>
+      </div>
+      <div class="inside-item">
+        <div class="inside-icon">⚔️</div>
+        <div><div class="inside-title">Blindagem Espiritual</div><div class="inside-desc">O Código 666-7-16. A armadura que resiste quando tudo tenta derrubar-te.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="wrap">
+    <p class="shdr">O Autor</p>
+    <div class="about-grid">
+      <div class="about-avatar">
+        <div class="about-avatar-letter">É</div>
+        <div class="about-avatar-name">ÉRIC ALPHA</div>
+      </div>
+      <div>
+        <div class="about-name">Éric Xavier</div>
+        <div class="about-role">FUNDADOR · ALL-ALPHA® · SU HOLDING</div>
+        <p class="about-bio">Farmacêutico especialista em cadeia de abastecimento de saúde. Empresário. Pai. Autor da série ALPHA CODE. Construído no asfalto de Maputo, testado em corredores de Ministérios, em inundações de Macaneta e em noites de Centering onde o ego morreu para o Operário nascer.</p>
+        <p class="about-bio">Não escreve sobre sucesso teórico. Escreve sobre o que sobreviveu — e o que construiu depois de sobreviver.</p>
+        <div class="about-stats">
+          <div class="stat"><div class="stat-n">3</div><div class="stat-l">VOLUMES</div></div>
+          <div class="stat"><div class="stat-n">60K+</div><div class="stat-l">PALAVRAS</div></div>
+          <div class="stat"><div class="stat-n">14</div><div class="stat-l">MANTRAS</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTEMUNHOS -->
+<section class="testi">
+  <div class="wrap">
+    <p class="shdr">O que dizem os soldados</p>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"O WIP=1 mudou a minha semana. Fechei 3 projectos em 30 dias depois de anos a andar em círculos."</div>
+        <div class="testi-author">M.S. · Empresário · Maputo</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Não é livro de auto-ajuda. É um manual de guerra. Dói a ler — e é por isso que funciona."</div>
+        <div class="testi-author">J.R. · Consultor · Lisboa</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"A parte da Alquimia da Dor... não consigo explicar. Chorei. E depois fui trabalhar."</div>
+        <div class="testi-author">T.M. · Empreendedor · Johannesburg</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Comprei o Vol.3 às 23h. Não dormi. Terminei às 4h e tinha um plano de 30 dias na mesa."</div>
+        <div class="testi-author">C.N. · Gestor · Dubai</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <p class="shdr">Perguntas frequentes</p>
+    <div class="faq-item">
+      <div class="faq-q">Como recebo o livro após a compra?</div>
+      <div class="faq-a">Após o pagamento via PayPal, recebes o PDF por email em minutos. O email que usas no formulário é onde o livro chega.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">O pagamento é seguro?</div>
+      <div class="faq-a">Todos os pagamentos são processados pelo PayPal. Os teus dados financeiros estão protegidos pela segurança do PayPal.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">O Vol.3 vem em inglês também?</div>
+      <div class="faq-a">Sim. O pacote inclui a versão PT, a versão EN completa e um PDF de impressão com fundo branco para gráfica.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Posso comprar os 3 volumes separados?</div>
+      <div class="faq-a">Sim. Cada volume tem o seu botão de compra. Mas a Trilogia Completa poupa-te $16 USD.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Tenho dúvidas antes de comprar.</div>
+      <div class="faq-a">Envia email para ericdcxavier@icloud.com ou WhatsApp +258 84 389 5232. Respondemos em 24h.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="wrap">
+    <h2 class="cta-final-title">BEM-VINDO<br>AO <span>MODO<br>EXECUÇÃO.</span></h2>
+    <p class="cta-final-sub">Não precisas de mais um livro. Precisas deste. Uma vez. Lido com caneta na mão.</p>
+    <button class="btn-buy-primary" style="max-width:420px;margin:0 auto 16px;display:block" onclick="openModal('ALPHA CODE — Trilogia Completa (Vol.1 + Vol.2 + Vol.3 + EN + Impressão)','$39 USD',39)">
+      COMPRAR A TRILOGIA — $39 USD
+    </button>
+    <p style="font-family:var(--mono);font-size:10px;color:var(--grey)">ericdcxavier@icloud.com · +258 84 389 5232</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>ALL-ALPHA® · SU HOLDING · 2026 · Maputo, Moçambique</p>
+    <p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p>
+    <p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados · ALPHA CODE é marca registada da ALL-ALPHA®</p>
+  </div>
+</footer>
+
+<script>
+  // Produto seleccionado
+  let selectedProduct = {};
+
+  function openModal(name, price, amount) {
+    selectedProduct = { name, price, amount };
+    document.getElementById('modal-name').textContent = name;
+    document.getElementById('modal-price').textContent = price;
+    document.getElementById('modal-overlay') && null;
+    document.getElementById('modal').parentElement.classList.add('active');
+    document.getElementById('input-name').focus();
+  }
+
+  function closeModal() {
+    document.getElementById('modal').parentElement.classList.remove('active');
+    document.getElementById('input-name').value = '';
+    document.getElementById('input-email').value = '';
+  }
+
+  function goPayPal() {
+    const name = document.getElementById('input-name').value.trim();
+    const email = document.getElementById('input-email').value.trim();
+
+    if (!name || !email) {
+      alert('Por favor preenche o teu nome e email para receber o livro.');
+      return false;
+    }
+
+    if (!email.includes('@')) {
+      alert('Email inválido. Verifica o email para receber o livro.');
+      return false;
+    }
+
+    // Enviar dados ao Make webhook (captura do comprador)
+    const webhookUrl = 'https://hook.us2.make.com/8is5homf5xvnhrh50jq275ovo6boht11';
+    fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        volume: selectedProduct.name,
+        amount: selectedProduct.amount.toString()
+      }),
+      mode: 'no-cors'
+    }).catch(() => {}); // silencioso — o pagamento avança mesmo se falhar
+
+    // Link PayPal directo
+    const paypalUrl = `https://www.paypal.com/paypalme/EricXALPHA/${selectedProduct.amount}USD`;
+    window.open(paypalUrl, '_blank');
+
+    // Mostrar mensagem de acompanhamento
+    setTimeout(() => {
+      alert(`Obrigado ${name}! Após o pagamento o livro chega a ${email} em minutos.\n\nSe tiveres algum problema: ericdcxavier@icloud.com`);
+      closeModal();
+    }, 1500);
+
+    return false;
+  }
+
+  // Fechar modal ao clicar fora
+  document.getElementById('modal').parentElement.addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+</script>
+</body>
+</html>
