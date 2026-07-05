@@ -147,6 +147,20 @@
 
   @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
   .fade-up{animation:fadeUp .7s ease both}
+
+  .pay-step{display:none}
+  .pay-step.active{display:block}
+  .ref-box{background:var(--gold3);border:1px solid var(--gold);border-radius:8px;padding:16px 18px;text-align:center;margin-bottom:20px}
+  .ref-label{font-family:var(--mono);font-size:9px;letter-spacing:2px;color:var(--gold2);margin-bottom:4px}
+  .ref-code{font-family:var(--bebas);font-size:26px;color:var(--gold);letter-spacing:2px}
+  .ref-amount{font-family:var(--mono);font-size:13px;color:var(--white);margin-top:6px}
+  .pay-method{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+  .pay-method-name{font-family:var(--mono);font-size:11px;color:var(--grey);letter-spacing:1px}
+  .pay-method-number{font-family:var(--bebas);font-size:18px;color:var(--white)}
+  .btn-whatsapp{display:block;width:100%;padding:16px;background:#25D366;border:none;border-radius:8px;color:#080808;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:2px;text-align:center;cursor:pointer;transition:all .2s;margin-top:16px;text-decoration:none}
+  .btn-whatsapp:hover{background:#1ebe5a}
+  .pay-instructions{font-size:14px;color:var(--grey);line-height:1.6;margin:16px 0;text-align:left}
+  .pay-instructions b{color:var(--white)}
 </style>
 </head>
 <body>
@@ -155,26 +169,63 @@
 <div class="modal-overlay" id="modal">
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">✕</button>
-    <div class="modal-title">QUASE LÁ</div>
-    <div class="modal-sub">Introduz os teus dados para receber o livro por email</div>
-    <div class="modal-product" id="modal-product">
-      <div class="modal-product-name" id="modal-name">ALPHA CODE Vol.3</div>
-      <div class="modal-product-price" id="modal-price">$22 USD</div>
+
+    <!-- STEP 1: DADOS -->
+    <div class="pay-step active" id="step-form">
+      <div class="modal-title">QUASE LÁ</div>
+      <div class="modal-sub">Introduz os teus dados para gerar a tua referência de pagamento</div>
+      <div class="modal-product" id="modal-product">
+        <div class="modal-product-name" id="modal-name">ALPHA CODE Vol.3</div>
+        <div class="modal-product-price" id="modal-price">$22 USD</div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="input-name">O TEU NOME</label>
+        <input class="form-input" type="text" id="input-name" placeholder="Ex: João Silva">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="input-email">O TEU EMAIL</label>
+        <input class="form-input" type="email" id="input-email" placeholder="Ex: joao@email.com">
+      </div>
+      <a href="#" class="btn-pay" id="btn-gerar" onclick="return gerarReferencia()">
+        GERAR REFERÊNCIA E VER FORMAS DE PAGAMENTO →
+      </a>
+      <div class="modal-note">
+        Pagamento por M-Pesa, e-Mola ou BIM · Entrega após confirmação · ALL-ALPHA® · 2026
+      </div>
     </div>
-    <div class="form-group">
-      <label class="form-label" for="input-name">O TEU NOME</label>
-      <input class="form-input" type="text" id="input-name" placeholder="Ex: João Silva">
-    </div>
-    <div class="form-group">
-      <label class="form-label" for="input-email">O TEU EMAIL</label>
-      <input class="form-input" type="email" id="input-email" placeholder="Ex: joao@email.com">
-    </div>
-    <a href="#" class="btn-pay" id="btn-paypal" target="_blank" onclick="goPayPal()">
-      PAGAR COM PAYPAL →
-    </a>
-    <div class="modal-note">
-      Após o pagamento, o livro chega ao teu email em minutos.<br>
-      Pagamento seguro via PayPal · ALL-ALPHA® · 2026
+
+    <!-- STEP 2: PAGAMENTO -->
+    <div class="pay-step" id="step-payment">
+      <div class="modal-title">PAGAR AGORA</div>
+      <div class="modal-sub">Usa a tua referência em todas as transferências</div>
+      <div class="ref-box">
+        <div class="ref-label">A TUA REFERÊNCIA</div>
+        <div class="ref-code" id="ref-code">ALPHA-XXXXX</div>
+        <div class="ref-amount" id="ref-amount">$0 USD · 0 MZN</div>
+      </div>
+      <div class="pay-method">
+        <div class="pay-method-name">M-PESA</div>
+        <div class="pay-method-number">+258 84 389 5232</div>
+      </div>
+      <div class="pay-method">
+        <div class="pay-method-name">E-MOLA</div>
+        <div class="pay-method-number">868 330 859</div>
+      </div>
+      <div class="pay-method">
+        <div class="pay-method-name">MILLENNIUM BIM</div>
+        <div class="pay-method-number">121 995 349</div>
+      </div>
+      <div class="pay-instructions">
+        1. Transfere o valor indicado para um dos números acima.<br>
+        2. Usa a <b>tua referência</b> na descrição, se o método permitir.<br>
+        3. Envia o comprovativo por WhatsApp — o livro chega ao teu email logo após confirmação.
+      </div>
+      <a href="#" class="btn-whatsapp" id="btn-whatsapp" target="_blank">
+        ENVIAR COMPROVATIVO POR WHATSAPP →
+      </a>
+      <div class="modal-note">
+        Confirmação manual · Entrega por email após validação do pagamento · ALL-ALPHA® · 2026
+      </div>
     </div>
   </div>
 </div>
@@ -254,7 +305,7 @@
         COMPRAR A TRILOGIA — $39 USD
       </button>
       <p style="font-family:var(--mono);font-size:10px;color:var(--grey)">
-        ● Entrega imediata por email · Pagamento seguro via PayPal
+        ● Pagamento por M-Pesa, e-Mola ou BIM · Entrega após confirmação
       </p>
     </div>
   </div>
@@ -352,11 +403,11 @@
     <p class="shdr">Perguntas frequentes</p>
     <div class="faq-item">
       <div class="faq-q">Como recebo o livro após a compra?</div>
-      <div class="faq-a">Após o pagamento via PayPal, recebes o PDF por email em minutos. O email que usas no formulário é onde o livro chega.</div>
+      <div class="faq-a">Após transferires para M-Pesa, e-Mola ou BIM e enviares o comprovativo por WhatsApp, confirmamos o pagamento e o PDF chega ao teu email — normalmente em poucas horas.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q">O pagamento é seguro?</div>
-      <div class="faq-a">Todos os pagamentos são processados pelo PayPal. Os teus dados financeiros estão protegidos pela segurança do PayPal.</div>
+      <div class="faq-a">Os pagamentos são feitos directamente por M-Pesa, e-Mola ou Millennium BIM — sem intermediários. A confirmação é feita manualmente após recepção do comprovativo por WhatsApp.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q">O Vol.3 vem em inglês também?</div>
@@ -396,12 +447,15 @@
 <script>
   // Produto seleccionado
   let selectedProduct = {};
+  const REGISTAR_VENDA_URL = 'https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro';
+  const WHATSAPP_NUMBER = '258843895232';
 
   function openModal(name, price, amount) {
     selectedProduct = { name, price, amount };
     document.getElementById('modal-name').textContent = name;
     document.getElementById('modal-price').textContent = price;
-    document.getElementById('modal-overlay') && null;
+    document.getElementById('step-form').classList.add('active');
+    document.getElementById('step-payment').classList.remove('active');
     document.getElementById('modal').parentElement.classList.add('active');
     document.getElementById('input-name').focus();
   }
@@ -410,45 +464,60 @@
     document.getElementById('modal').parentElement.classList.remove('active');
     document.getElementById('input-name').value = '';
     document.getElementById('input-email').value = '';
+    document.getElementById('step-form').classList.add('active');
+    document.getElementById('step-payment').classList.remove('active');
   }
 
-  function goPayPal() {
+  async function gerarReferencia() {
     const name = document.getElementById('input-name').value.trim();
     const email = document.getElementById('input-email').value.trim();
+    const btn = document.getElementById('btn-gerar');
 
     if (!name || !email) {
       alert('Por favor preenche o teu nome e email para receber o livro.');
       return false;
     }
-
     if (!email.includes('@')) {
       alert('Email inválido. Verifica o email para receber o livro.');
       return false;
     }
 
-    // Enviar dados ao Make webhook (captura do comprador)
-    const webhookUrl = 'https://hook.us2.make.com/8is5homf5xvnhrh50jq275ovo6boht11';
-    fetch(webhookUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        volume: selectedProduct.name,
-        amount: selectedProduct.amount.toString()
-      }),
-      mode: 'no-cors'
-    }).catch(() => {}); // silencioso — o pagamento avança mesmo se falhar
+    btn.textContent = 'A GERAR REFERÊNCIA...';
 
-    // Link PayPal directo
-    const paypalUrl = `https://www.paypal.com/paypalme/EricXALPHA/${selectedProduct.amount}USD`;
-    window.open(paypalUrl, '_blank');
+    try {
+      const res = await fetch(REGISTAR_VENDA_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          nome: name,
+          email: email,
+          produto: selectedProduct.name,
+          valor_usd: selectedProduct.amount
+        })
+      });
+      const data = await res.json();
 
-    // Mostrar mensagem de acompanhamento
-    setTimeout(() => {
-      alert(`Obrigado ${name}! Após o pagamento o livro chega a ${email} em minutos.\n\nSe tiveres algum problema: ericdcxavier@icloud.com`);
-      closeModal();
-    }, 1500);
+      if (!data.success) {
+        throw new Error(data.error || 'Erro desconhecido');
+      }
+
+      document.getElementById('ref-code').textContent = data.referencia;
+      document.getElementById('ref-amount').textContent =
+        `$${data.valor_usd} USD · ${data.valor_mzn.toLocaleString('pt-PT')} MZN`;
+
+      const waMessage = encodeURIComponent(
+        `Olá! Fiz o pagamento da encomenda ${data.referencia} — ${selectedProduct.name} — ${data.valor_mzn} MZN. Nome: ${name}. Email: ${email}. Segue o comprovativo:`
+      );
+      document.getElementById('btn-whatsapp').href = `https://wa.me/${WHATSAPP_NUMBER}?text=${waMessage}`;
+
+      document.getElementById('step-form').classList.remove('active');
+      document.getElementById('step-payment').classList.add('active');
+    } catch (err) {
+      alert('Não foi possível gerar a referência agora. Tenta novamente ou contacta ericdcxavier@icloud.com / WhatsApp +258 84 389 5232.');
+      console.error(err);
+    } finally {
+      btn.textContent = 'GERAR REFERÊNCIA E VER FORMAS DE PAGAMENTO →';
+    }
 
     return false;
   }
