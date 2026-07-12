@@ -136,6 +136,40 @@ footer a{color:var(--gold2);text-decoration:none}
 .pay-method-number{font-family:var(--bebas);font-size:18px}
 .pay-instructions{font-size:14px;color:var(--grey);margin:15px 0}
 .btn-whatsapp{display:block;padding:15px;background:#25D366;color:#080808;border-radius:8px;text-align:center;text-decoration:none;font-family:var(--mono);font-size:10px;font-weight:700}
+
+/* ===== ALPHA CODE V2 — CAPAS REAIS EM 3D ===== */
+.hero .wrap{width:100%}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(430px,.97fr);gap:42px;align-items:center}
+.hero-books{position:relative;min-height:610px;perspective:1700px;filter:drop-shadow(0 35px 42px rgba(0,0,0,.72))}
+.hero-books::after{content:'';position:absolute;left:8%;right:2%;bottom:34px;height:52px;background:radial-gradient(ellipse,rgba(212,175,55,.24),rgba(0,0,0,0) 68%);filter:blur(13px);z-index:0}
+.book-3d{position:absolute;bottom:70px;width:35%;aspect-ratio:.69;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.8,.2,1),filter .4s;z-index:2}
+.book-3d img{width:100%;height:100%;object-fit:cover;display:block;border-radius:2px 6px 6px 2px;box-shadow:0 28px 40px rgba(0,0,0,.68),inset -7px 0 0 rgba(255,255,255,.05);border:1px solid rgba(212,175,55,.28)}
+.book-3d::before{content:'';position:absolute;top:7px;right:-15px;width:15px;height:calc(100% - 14px);background:linear-gradient(90deg,#c6b38a,#f6eed9 45%,#7a6845);transform:rotateY(90deg);transform-origin:left;box-shadow:inset 0 0 8px rgba(0,0,0,.45)}
+.book-3d::after{content:'';position:absolute;left:5px;right:-8px;bottom:-12px;height:12px;background:linear-gradient(#6d5a34,#17130b);transform:rotateX(90deg);transform-origin:top}
+.book-3d:hover{z-index:8;filter:brightness(1.07)}
+.book-one{left:0;transform:rotateY(17deg) rotateZ(-2deg) translateY(18px)}
+.book-one:hover{transform:rotateY(5deg) rotateZ(0) translateY(-10px) scale(1.05)}
+.book-two{left:31.5%;z-index:5;width:38%;transform:translateY(-8px) rotateY(0deg)}
+.book-two:hover{transform:translateY(-28px) scale(1.055)}
+.book-three{right:0;transform:rotateY(-17deg) rotateZ(2deg) translateY(20px)}
+.book-three:hover{transform:rotateY(-5deg) rotateZ(0) translateY(-10px) scale(1.05)}
+.book-caption{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-family:var(--mono);font-size:8px;letter-spacing:2px;color:var(--gold2);z-index:4}
+.vol-card{overflow:visible;padding-top:20px}
+.cover-stage{height:325px;display:flex;align-items:flex-end;justify-content:center;perspective:1200px;margin:-4px 0 22px;position:relative}
+.cover-stage::after{content:'';position:absolute;width:74%;height:24px;bottom:-3px;background:radial-gradient(ellipse,rgba(212,175,55,.2),transparent 68%);filter:blur(6px)}
+.cover-book{height:300px;max-width:91%;position:relative;transform-style:preserve-3d;transform:rotateY(-12deg) rotateX(1deg);transition:transform .45s cubic-bezier(.2,.8,.2,1);z-index:2}
+.cover-book img{height:100%;width:auto;max-width:100%;object-fit:cover;display:block;border-radius:2px 5px 5px 2px;border:1px solid rgba(212,175,55,.25);box-shadow:16px 24px 30px rgba(0,0,0,.65)}
+.cover-book::before{content:'';position:absolute;top:6px;right:-11px;width:11px;height:calc(100% - 12px);background:linear-gradient(90deg,#bca879,#f6edd8 48%,#55472c);transform:rotateY(90deg);transform-origin:left}
+.vol-card:nth-child(2) .cover-book{transform:rotateY(0deg) translateY(-8px)}
+.vol-card:nth-child(3) .cover-book{transform:rotateY(12deg)}
+.vol-card:hover .cover-book{transform:rotateY(0deg) translateY(-13px) scale(1.035)}
+.vol-card .vol-num{display:none}
+.vol-card .vol-title{font-family:var(--bebas);font-size:25px;min-height:auto;letter-spacing:.4px}
+.vol-card .vol-sub{min-height:48px}
+.collection-note{text-align:center;font-family:var(--mono);font-size:9px;color:var(--gold2);letter-spacing:1.5px;margin-top:-20px;margin-bottom:34px}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}.hero-books{min-height:480px;max-width:680px;width:100%;margin:0 auto}.hero-copy{max-width:760px}.book-3d{bottom:55px}.cover-stage{height:290px}.cover-book{height:265px}}
+@media(max-width:620px){.hero-books{min-height:350px;margin-top:12px}.book-3d{width:38%;bottom:48px}.book-two{left:31%;width:40%}.book-caption{font-size:7px}.cover-stage{height:350px}.cover-book{height:325px}.vol-card .vol-title{font-size:28px}.hero-grid{gap:10px}}
+
 @media(max-width:820px){.cards4,.movement-grid{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}.testi-grid{grid-template-columns:1fr}.testi-card.feature{grid-row:auto}.about-grid{grid-template-columns:1fr}.mobile-buy{display:block}body{padding-bottom:78px}}
 @media(max-width:620px){.wrap{padding:0 20px}.section{padding:72px 0}.hero-actions{display:grid}.hero-actions .btn{width:100%}.cards4,.volumes-grid,.movement-grid,.inside-grid,.reader-grid,.timeline{grid-template-columns:1fr}.trust-strip{grid-template-columns:1fr}.pack-card{padding:30px 20px}.modal{padding:32px 22px}}
 </style>
@@ -163,14 +197,22 @@ footer a{color:var(--gold2);text-decoration:none}
 
 <nav class="topbar"><span class="topbar-logo">ALL-ALPHA®</span><a href="#volumes" class="topbar-cta">COMPRAR AGORA</a></nav>
 
-<section class="hero"><div class="wrap"><div class="hero-copy">
+<section class="hero"><div class="wrap"><div class="hero-grid">
+<div class="hero-copy">
 <p class="eyebrow">Éric ALPHA · ALL-ALPHA® · 2026</p>
 <h1 class="hero-title">ALPHA <span>CODE</span></h1>
 <h2 class="hero-positioning">Mais do que um livro.<br>O início de uma nova identidade.</h2>
-<p class="hero-lead">Um sistema criado para homens que decidiram parar de viver no piloto automático, assumir responsabilidade pela própria vida e construir disciplina, propósito e legado.</p>
-<div class="hero-actions"><a href="#volumes" class="btn">COMPRAR AGORA</a><a href="#amostra" class="btn secondary">VER O QUE ESTÁ DENTRO</a></div>
-<div class="hero-proof"><span>Leitura dinâmica</span><span>PDF digital</span><span>Actualizações futuras</span><span>Pack disponível</span></div>
+<p class="hero-lead">Três volumes. Um sistema. Um código para quem decidiu deixar de ser espectador e construir disciplina, execução e legado.</p>
+<div class="hero-actions"><a href="#volumes" class="btn">EXPLORAR A TRILOGIA</a><a href="#amostra" class="btn secondary">VER O QUE ESTÁ DENTRO</a></div>
+<div class="hero-proof"><span>Capas e edições oficiais</span><span>PDF digital</span><span>Métodos locais de pagamento</span><span>Pack disponível</span></div>
 <div class="community-line">“The Alpha Life is just beginning.”<small>— IVAN JAWANA TEMBE · PRIMEIRO LEITOR DO VOLUME I</small></div>
+</div>
+<div class="hero-books" aria-label="Trilogia ALPHA CODE em 3D">
+<figure class="book-3d book-one"><img src="assets/alpha-code-vol1.webp" alt="Capa do ALPHA CODE Volume I — O Manual do Indivíduo Indomável"></figure>
+<figure class="book-3d book-two"><img src="assets/alpha-code-vol2.webp" alt="Capa do ALPHA CODE Volume II — O Despertar do Homem Indomável"></figure>
+<figure class="book-3d book-three"><img src="assets/alpha-code-vol3.webp" alt="Capa do ALPHA CODE Volume III — A Morte do Génio e a Disciplina do Operário"></figure>
+<div class="book-caption">A TRILOGIA OFICIAL · MANIFESTO · SISTEMA · EXECUÇÃO</div>
+</div>
 </div></div></section>
 
 <section class="section"><div class="wrap">
@@ -186,10 +228,11 @@ footer a{color:var(--gold2);text-decoration:none}
 <section class="section" id="volumes"><div class="wrap">
 <p class="shdr">A colecção</p><h2 class="section-title">Três volumes. <span>Uma evolução.</span></h2>
 <p class="section-lead">Manifesto, sistema e execução: uma sequência pensada para acompanhar a passagem da consciência à construção.</p>
+<div class="collection-note">CAPAS REAIS · COLECÇÃO EDITORIAL ALL-ALPHA®</div>
 <div class="volumes-grid">
-<article class="vol-card"><div class="vol-num">01</div><div class="vol-stage">MANIFESTO</div><div class="vol-title">Guerra Silenciosa</div><div class="vol-sub">O Despertar do Guerreiro Interior</div><div class="vol-price">$15 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.1 — Guerra Silenciosa','$15 USD',15)">COMPRAR VOL. I</button></article>
-<article class="vol-card"><div class="vol-num">02</div><div class="vol-stage">SISTEMA</div><div class="vol-title">Alquimia Dados e Sangue</div><div class="vol-sub">O Sistema do Homem de Resultado</div><div class="vol-price">$18 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.2 — Alquimia Dados e Sangue','$18 USD',18)">COMPRAR VOL. II</button></article>
-<article class="vol-card featured"><div class="vol-num">03</div><div class="vol-stage">EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-sub">O Despertar do Homem Indomável</div><div class="vol-price">$22 USD</div><div class="vol-lang">PDF · PORTUGUÊS · VERSÃO GRÁFICA</div><button class="btn" onclick="openModal('ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário','$22 USD',22)">COMPRAR VOL. III</button></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="assets/alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">$15 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável','$15 USD',15)">COMPRAR VOL. I</button></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="assets/alpha-code-vol2.webp" alt="ALPHA CODE Volume II"></div></div><div class="vol-stage">VOLUME II · SISTEMA</div><div class="vol-title">O Despertar do Homem Indomável</div><div class="vol-sub">Identidade, disciplina e reconstrução</div><div class="vol-price">$18 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.2 — O Despertar do Homem Indomável','$18 USD',18)">COMPRAR VOL. II</button></article>
+<article class="vol-card featured"><div class="cover-stage"><div class="cover-book"><img src="assets/alpha-code-vol3.webp" alt="ALPHA CODE Volume III"></div></div><div class="vol-stage">VOLUME III · EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-sub">O Despertar do Homem Indomável</div><div class="vol-price">$22 USD</div><div class="vol-lang">PDF · PORTUGUÊS · VERSÃO GRÁFICA</div><button class="btn" onclick="openModal('ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário','$22 USD',22)">COMPRAR VOL. III</button></article>
 </div>
 <div class="pack-card"><div class="pack-badge">MELHOR VALOR</div><div class="pack-title">TRILOGIA COMPLETA</div><div class="pack-sub">Os três volumes reunidos num único percurso.</div><div class="pack-price">$39</div><div class="pack-includes"><span>3 PDFs digitais</span><span>PDF gráfica do Vol. III</span><span>Actualizações futuras</span><span>Métodos locais de pagamento</span></div><button class="btn" onclick="openModal('ALPHA CODE — Trilogia Completa','$39 USD',39)">COMPRAR A TRILOGIA — $39</button></div>
 </div></section>
