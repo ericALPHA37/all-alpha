@@ -537,9 +537,330 @@ footer a{color:var(--gold2);text-decoration:none}
   .mobile-buy{left:10px;right:10px;bottom:8px}
 }
 
+
+/* ===== V5 · THE ALPHA DAWN ===== */
+:root{
+  --dawn-progress:0;
+  --dawn-amber:0;
+  --dawn-horizon:0;
+  --dawn-warmth:0;
+}
+body{
+  background:
+    radial-gradient(circle at 50% 108%,rgba(245,175,66,calc(.03 + var(--dawn-warmth)*.20)),transparent 34%),
+    linear-gradient(
+      180deg,
+      rgb(
+        calc(8 + var(--dawn-progress)*16),
+        calc(8 + var(--dawn-progress)*10),
+        calc(8 + var(--dawn-progress)*3)
+      ),
+      rgb(
+        calc(8 + var(--dawn-progress)*28),
+        calc(8 + var(--dawn-progress)*18),
+        calc(8 + var(--dawn-progress)*5)
+      )
+    );
+  transition:background .12s linear;
+}
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 50% 105%,
+      rgba(246,190,83,calc(var(--dawn-progress)*.24)),
+      rgba(153,74,10,calc(var(--dawn-progress)*.10)) 28%,
+      transparent 58%);
+}
+body::after{
+  content:'';
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  height:1px;
+  z-index:-1;
+  pointer-events:none;
+  opacity:calc(var(--dawn-horizon));
+  background:linear-gradient(90deg,transparent,var(--gold),#ffe9a6,var(--gold),transparent);
+  box-shadow:
+    0 0 calc(25px + var(--dawn-horizon)*55px) rgba(255,191,65,.74),
+    0 -14px calc(40px + var(--dawn-horizon)*85px) rgba(212,175,55,.20);
+}
+
+/* Intro mark */
+.alpha-intro{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#050505;
+  transition:opacity .7s ease,visibility .7s ease;
+}
+.alpha-intro.hidden{opacity:0;visibility:hidden}
+.intro-core{text-align:center;transform:translateY(-2vh)}
+.intro-emblem{
+  width:120px;
+  height:112px;
+  margin:0 auto 22px;
+  position:relative;
+}
+.intro-emblem::before,
+.intro-emblem::after{
+  content:'';
+  position:absolute;
+  top:5px;
+  width:22px;
+  height:100px;
+  border-radius:4px;
+  background:linear-gradient(180deg,#f8e8aa,#c69a2b 70%,#63450a);
+  box-shadow:0 0 24px rgba(212,175,55,.22);
+}
+.intro-emblem::before{left:30px;transform:skewX(-18deg)}
+.intro-emblem::after{right:30px;transform:skewX(18deg)}
+.intro-horizon{
+  position:absolute;
+  left:0;
+  right:0;
+  top:72px;
+  height:2px;
+  transform:scaleX(0);
+  transform-origin:center;
+  background:linear-gradient(90deg,transparent,var(--gold),#fff1b8,var(--gold),transparent);
+  box-shadow:0 0 18px rgba(255,199,84,.72);
+  animation:introHorizon 1.15s .18s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-name{
+  font-family:var(--bebas);
+  font-size:29px;
+  letter-spacing:8px;
+  color:var(--white);
+  opacity:0;
+  transform:translateY(10px);
+  animation:introName .7s .75s forwards;
+}
+.intro-tagline{
+  margin-top:7px;
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:2px;
+  color:var(--gold2);
+  opacity:0;
+  animation:introName .7s 1s forwards;
+}
+@keyframes introHorizon{
+  0%{transform:scaleX(0);opacity:0}
+  30%{opacity:1}
+  100%{transform:scaleX(1);opacity:1}
+}
+@keyframes introName{
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Navbar intelligence */
+.topbar{
+  transition:
+    padding .35s ease,
+    background .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+.topbar.scrolled{
+  padding-top:8px;
+  padding-bottom:8px;
+  background:rgba(10,9,7,.84);
+  border-bottom-color:rgba(212,175,55,.28);
+  box-shadow:0 12px 35px rgba(0,0,0,.33);
+}
+.topbar.scrolled .topbar-logo{
+  text-shadow:0 0 18px rgba(212,175,55,.28);
+}
+
+/* Hero entrance */
+.hero-copy>*{
+  opacity:0;
+  transform:translateY(14px);
+  animation:heroReveal .75s ease forwards;
+}
+.hero-copy>*:nth-child(1){animation-delay:1.55s}
+.hero-copy>*:nth-child(2){animation-delay:1.67s}
+.hero-copy>*:nth-child(3){animation-delay:1.78s}
+.hero-copy>*:nth-child(4){animation-delay:1.90s}
+.hero-copy>*:nth-child(5){animation-delay:2.02s}
+.hero-copy>*:nth-child(6){animation-delay:2.13s}
+.hero-copy>*:nth-child(7){animation-delay:2.24s}
+@keyframes heroReveal{to{opacity:1;transform:none}}
+
+/* Deliberate motion only */
+.pillar,.vol-card,.testi-card,.movement-card,.inside-item,.step,
+.shelf-book,.author-book,.library-stats,.coming-row{
+  transition:
+    transform .28s ease,
+    border-color .28s ease,
+    background .28s ease,
+    box-shadow .28s ease;
+}
+.reveal-on-scroll{
+  opacity:0;
+  transform:translateY(18px);
+}
+.reveal-on-scroll.revealed{
+  opacity:1;
+  transform:none;
+  transition:opacity .72s ease,transform .72s ease;
+}
+
+/* Alpha Dawn finale */
+.alpha-dawn-finale{
+  position:relative;
+  min-height:92vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:120px 24px 135px;
+  border-top:1px solid rgba(212,175,55,.22);
+  background:
+    linear-gradient(180deg,rgba(13,12,10,.92),rgba(48,27,8,.82) 60%,rgba(126,63,9,.62));
+}
+.alpha-dawn-finale::before{
+  content:'';
+  position:absolute;
+  left:-10%;
+  right:-10%;
+  bottom:-38%;
+  height:68%;
+  background:
+    radial-gradient(ellipse at center,
+      rgba(255,225,139,.88) 0%,
+      rgba(236,166,51,.45) 17%,
+      rgba(160,72,7,.22) 36%,
+      transparent 69%);
+  filter:blur(16px);
+}
+.alpha-dawn-finale::after{
+  content:'';
+  position:absolute;
+  left:5%;
+  right:5%;
+  bottom:22%;
+  height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),#fff2bc,var(--gold),transparent);
+  box-shadow:
+    0 0 30px rgba(255,210,104,.75),
+    0 -10px 70px rgba(212,175,55,.40);
+}
+.dawn-content{
+  position:relative;
+  z-index:2;
+  max-width:920px;
+  text-align:center;
+}
+.dawn-kicker{
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:4px;
+  color:#e8bc58;
+  margin-bottom:26px;
+}
+.dawn-title{
+  font-family:var(--bebas);
+  font-size:clamp(54px,9vw,104px);
+  line-height:.92;
+  color:#fff1c2;
+  text-shadow:0 0 40px rgba(212,175,55,.20);
+}
+.dawn-title span{
+  display:block;
+  margin-top:12px;
+  color:var(--gold);
+}
+.dawn-sub{
+  max-width:650px;
+  margin:28px auto 34px;
+  font-size:21px;
+  color:rgba(255,244,210,.74);
+  font-style:italic;
+}
+.dawn-emblem{
+  width:90px;
+  height:82px;
+  margin:0 auto 28px;
+  position:relative;
+}
+.dawn-emblem::before,
+.dawn-emblem::after{
+  content:'';
+  position:absolute;
+  top:4px;
+  width:17px;
+  height:75px;
+  background:linear-gradient(180deg,#fff1bd,#c99f32);
+  border-radius:3px;
+}
+.dawn-emblem::before{left:23px;transform:skewX(-18deg)}
+.dawn-emblem::after{right:23px;transform:skewX(18deg)}
+.dawn-emblem i{
+  position:absolute;
+  left:0;
+  right:0;
+  top:54px;
+  height:2px;
+  background:linear-gradient(90deg,transparent,#ffe89c,transparent);
+  box-shadow:0 0 16px rgba(255,218,116,.82);
+}
+.dawn-cta{
+  min-width:290px;
+  box-shadow:0 16px 45px rgba(82,41,0,.30);
+}
+.dawn-note{
+  margin-top:16px;
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:1.4px;
+  color:rgba(255,238,188,.52);
+}
+
+/* Soundless brand signature line */
+.alpha-signature-line{
+  height:1px;
+  margin:0 auto;
+  width:min(680px,72vw);
+  background:linear-gradient(90deg,transparent,var(--gold2),var(--gold),var(--gold2),transparent);
+  box-shadow:0 0 18px rgba(212,175,55,.25);
+}
+
+@media (prefers-reduced-motion:reduce){
+  .alpha-intro{display:none}
+  .hero-copy>*{opacity:1;transform:none;animation:none}
+  .reveal-on-scroll{opacity:1;transform:none}
+  *{scroll-behavior:auto!important}
+}
+@media(max-width:620px){
+  .intro-emblem{transform:scale(.82)}
+  .intro-name{font-size:24px;letter-spacing:6px}
+  .alpha-dawn-finale{min-height:83vh;padding:100px 20px 125px}
+  .dawn-sub{font-size:18px}
+  .dawn-cta{min-width:0;width:100%}
+}
+
 </style>
 </head>
 <body>
+
+<div class="alpha-intro" id="alphaIntro" aria-hidden="true">
+  <div class="intro-core">
+    <div class="intro-emblem"><div class="intro-horizon"></div></div>
+    <div class="intro-name">ALL-ALPHA®</div>
+    <div class="intro-tagline">THE ALPHA DAWN</div>
+  </div>
+</div>
+
 <div class="modal-overlay" id="modal"><div class="modal">
 <button class="modal-close" onclick="closeModal()" aria-label="Fechar">✕</button>
 <div class="pay-step active" id="step-form">
@@ -769,9 +1090,25 @@ footer a{color:var(--gold2);text-decoration:none}
 <div class="faq-item"><div class="faq-q">Posso comprar os volumes separadamente?</div><div class="faq-a">Sim. Cada volume pode ser comprado separadamente, mas a trilogia oferece o melhor valor.</div></div>
 </div></section>
 
-<section class="cta-final"><div class="wrap"><h2>A próxima versão da tua vida<br><span>pode começar hoje.</span></h2><p>Não é apenas um livro. É uma decisão.</p><button class="btn" onclick="openModal('ALPHA CODE — Trilogia Completa','$39 USD',39)">QUERO ENTRAR PARA O MOVIMENTO ALPHA</button></div></section>
 
-<footer><div class="wrap"><p>ALL-ALPHA® · 2026 · MAPUTO, MOÇAMBIQUE</p><p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p><p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados.</p></div></footer>
+<section class="alpha-dawn-finale" id="alpha-dawn">
+  <div class="dawn-content reveal-on-scroll">
+    <div class="dawn-emblem" aria-hidden="true"><i></i></div>
+    <div class="dawn-kicker">THE ALPHA DAWN</div>
+    <h2 class="dawn-title">
+      A maioria espera pelo nascer do sol.
+      <span>O Alpha constrói-o.</span>
+    </h2>
+    <p class="dawn-sub">O amanhecer não é um tema. É o resultado de atravessar a noite com disciplina, sistema e execução.</p>
+    <button class="btn dawn-cta" onclick="document.getElementById('volumes').scrollIntoView({behavior:'smooth'})">
+      ENTRAR NO UNIVERSO ALL-ALPHA
+    </button>
+    <div class="dawn-note">ALL-ALPHA® · CONSTRUÇÃO · DISCIPLINA · LEGADO</div>
+  </div>
+</section>
+
+
+<footer style="background:#2b1808;border-top-color:rgba(212,175,55,.26)"><div class="wrap"><p>ALL-ALPHA® · 2026 · MAPUTO, MOÇAMBIQUE</p><p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p><p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados.</p></div></footer>
 <div class="mobile-buy"><a class="btn" href="#volumes">COMPRAR AGORA</a></div>
 
 <script>
@@ -811,5 +1148,61 @@ async function gerarReferencia(){
 }
 document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal()});
 </script>
+
+<script>
+(function(){
+  const root = document.documentElement;
+  const topbar = document.querySelector('.topbar');
+  const intro = document.getElementById('alphaIntro');
+
+  function clamp(v,min,max){ return Math.min(max,Math.max(min,v)); }
+
+  function updateDawn(){
+    const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    const p = clamp(window.scrollY / max, 0, 1);
+    const eased = p*p*(3 - 2*p);
+    root.style.setProperty('--dawn-progress', eased.toFixed(4));
+    root.style.setProperty('--dawn-amber', clamp((p-.28)/.72,0,1).toFixed(4));
+    root.style.setProperty('--dawn-horizon', clamp((p-.72)/.28,0,1).toFixed(4));
+    root.style.setProperty('--dawn-warmth', clamp((p-.42)/.58,0,1).toFixed(4));
+    if(topbar) topbar.classList.toggle('scrolled', window.scrollY > 42);
+  }
+
+  const revealTargets = document.querySelectorAll(
+    '.section-title,.section-lead,.pillar,.vol-card,.pack-card,.testi-card,'+
+    '.movement-card,.inside-item,.about-grid,.step,.faq-item,.library-stats,'+
+    '.shelf-block,.coming-row,.dawn-content'
+  );
+  revealTargets.forEach(el => el.classList.add('reveal-on-scroll'));
+
+  if('IntersectionObserver' in window){
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    },{threshold:.11,rootMargin:'0px 0px -35px 0px'});
+    revealTargets.forEach(el=>observer.observe(el));
+  } else {
+    revealTargets.forEach(el=>el.classList.add('revealed'));
+  }
+
+  window.addEventListener('scroll', updateDawn, {passive:true});
+  window.addEventListener('resize', updateDawn);
+  updateDawn();
+
+  window.addEventListener('load', ()=>{
+    window.setTimeout(()=>{
+      if(intro) intro.classList.add('hidden');
+    }, 1450);
+  });
+  window.setTimeout(()=>{
+    if(intro) intro.classList.add('hidden');
+  }, 2200);
+})();
+</script>
+
 </body>
 </html>
