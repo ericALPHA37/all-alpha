@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#080808">
-<meta name="all-alpha-version" content="10.0">
+<meta name="all-alpha-version" content="10.1">
 <meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
 <meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
 
@@ -98,6 +98,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,.builder-portal:focus-v
 .inside-item{padding:21px;display:flex;gap:14px}
 .inside-title{font-weight:600;font-size:16px}
 .inside-desc{font-size:14px;color:var(--grey)}
+/* V10.1 · LAUNCH CANDIDATE */
 /* V10 · O CONSTRUTOR */
 .builder-section{position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(8,8,8,.12),rgba(42,32,0,.05) 48%,rgba(8,8,8,.1))}
 .builder-section::before{content:'';position:absolute;left:0;right:0;top:92px;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,.42),transparent);opacity:.55}
@@ -1274,6 +1275,7 @@ body::after{
 <div class="form-group"><label class="form-label" for="input-name">O TEU NOME</label><input class="form-input" id="input-name" placeholder="Ex: João Silva"></div>
 <div class="form-group"><label class="form-label" for="input-email">O TEU EMAIL</label><input class="form-input" type="email" id="input-email" placeholder="Ex: joao@email.com"></div>
 <a href="#" class="btn" style="width:100%" id="btn-gerar" onclick="return gerarReferencia()">GERAR REFERÊNCIA →</a>
+<div class="modal-note">O nome e o e-mail são enviados para gerar a referência e preparar a confirmação da encomenda.</div>
 <div class="modal-note">Pagamento por M-Pesa, e-Mola ou BIM · Confirmação manual após envio do comprovativo</div>
 </div>
 <div class="pay-step" id="step-payment">
@@ -1291,7 +1293,7 @@ body::after{
 <section class="hero">
 <img class="emblem-watermark" src="all-alpha-hero-symbol.svg" alt="" aria-hidden="true"><div class="wrap"><div class="hero-grid">
 <div class="hero-copy">
-<p class="eyebrow">Éric ALPHA · ALL-ALPHA® · 2026</p>
+<p class="eyebrow">ÉRIC ALPHA · ALL-ALPHA® · 2026</p>
 <h1 class="hero-title">ALPHA <span>CODE</span></h1>
 <h2 class="hero-positioning">Mais do que um livro.<br>O início de uma nova identidade.</h2>
 <p class="hero-lead">Três volumes. Um sistema. Um código para quem decidiu deixar de ser espectador e construir disciplina, execução e legado.</p>
@@ -1331,11 +1333,11 @@ body::after{
 <p class="section-lead">Manifesto, sistema e execução: uma sequência pensada para acompanhar a passagem da consciência à construção.</p>
 <div class="collection-note">CAPAS REAIS · COLECÇÃO EDITORIAL ALL-ALPHA®</div>
 <div class="volumes-grid">
-<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">$15 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável','$15 USD',15)">COMPRAR VOL. I</button></article>
-<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol2.webp" alt="ALPHA CODE Volume II"></div></div><div class="vol-stage">VOLUME II · SISTEMA</div><div class="vol-title">O Despertar do Homem Indomável</div><div class="vol-sub">Identidade, disciplina e reconstrução</div><div class="vol-price">$18 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('ALPHA CODE Vol.2 — O Despertar do Homem Indomável','$18 USD',18)">COMPRAR VOL. II</button></article>
-<article class="vol-card featured"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol3.webp" alt="ALPHA CODE Volume III"></div></div><div class="vol-stage">VOLUME III · EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-sub">O Despertar do Homem Indomável</div><div class="vol-price">$22 USD</div><div class="vol-lang">PDF · PORTUGUÊS · VERSÃO GRÁFICA</div><button class="btn" onclick="openModal('ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário','$22 USD',22)">COMPRAR VOL. III</button></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">$15 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('vol1')">COMPRAR VOL. I</button></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol2.webp" alt="ALPHA CODE Volume II"></div></div><div class="vol-stage">VOLUME II · SISTEMA</div><div class="vol-title">O Despertar do Homem Indomável</div><div class="vol-sub">Identidade, disciplina e reconstrução</div><div class="vol-price">$18 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('vol2')">COMPRAR VOL. II</button></article>
+<article class="vol-card featured"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol3.webp" alt="ALPHA CODE Volume III"></div></div><div class="vol-stage">VOLUME III · EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-price">$22 USD</div><div class="vol-lang">PDF · PORTUGUÊS · VERSÃO GRÁFICA</div><button class="btn" onclick="openModal('vol3')">COMPRAR VOL. III</button></article>
 </div>
-<div class="pack-card"><div class="pack-badge">MELHOR VALOR</div><div class="pack-title">TRILOGIA COMPLETA</div><div class="pack-sub">Os três volumes reunidos num único percurso.</div><div class="pack-price">$39</div><div class="pack-includes"><span>3 PDFs digitais</span><span>PDF gráfica do Vol. III</span><span>Actualizações futuras</span><span>Métodos locais de pagamento</span></div><button class="btn" onclick="openModal('ALPHA CODE — Trilogia Completa','$39 USD',39)">COMPRAR A TRILOGIA — $39</button></div>
+<div class="pack-card"><div class="pack-badge">MELHOR VALOR</div><div class="pack-title">TRILOGIA COMPLETA</div><div class="pack-sub">Os três volumes reunidos num único percurso.</div><div class="pack-price">$39</div><div class="pack-includes"><span>3 PDFs digitais</span><span>PDF gráfica do Vol. III</span><span>Actualizações futuras</span><span>Métodos locais de pagamento</span></div><button class="btn" onclick="openModal('trilogy')">COMPRAR A TRILOGIA — $39</button></div>
 </div></section>
 
 
@@ -1394,7 +1396,6 @@ body::after{
           <div class="shelf-copy">
             <span>VOLUME III · EXECUÇÃO</span>
             <h4>A Morte do Génio e a Disciplina do Operário</h4>
-            <p>O Despertar do Homem Indomável</p>
           </div>
         </article>
       </div>
@@ -1405,7 +1406,7 @@ body::after{
       <div class="shelf-heading">
         <div>
           <span class="shelf-kicker">O HOMEM POR TRÁS DO MÉTODO</span>
-          <h3>Universo Éric Xavier</h3>
+          <h3>Universo Éric Alpha</h3>
         </div>
         <p>Memória, afecto, paternidade e Maputo.</p>
       </div>
@@ -1488,7 +1489,9 @@ body::after{
     <div class="builder-grid">
       <figure class="builder-portal" tabindex="0">
         <div class="builder-monogram" aria-hidden="true">É</div>
-        <img src="assets/eric-alpha-portal.jpg" width="2880" height="3840" loading="lazy" decoding="async" alt="Éric Alpha de pé sob arcos vermelhos num ambiente natural" onerror="this.closest('.builder-portal').classList.add('image-missing');this.remove()">
+        <picture>
+          <img src="assets/eric-alpha-portal.jpg" width="1440" height="1920" loading="lazy" decoding="async" alt="Éric Alpha de pé sob arcos vermelhos num ambiente natural" onerror="this.closest('.builder-portal').classList.add('image-missing');this.remove()">
+        </picture>
         <figcaption class="builder-caption">Toda transformação começa quando alguém decide atravessar o portal.</figcaption>
       </figure>
 
@@ -1585,15 +1588,27 @@ body::after{
 
 <script>
 let selectedProduct={};
+const USD_TO_MZN_RATE=64.5;
 const REGISTAR_VENDA_URL='https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro';
 const WHATSAPP_NUMBER='258843895232';
-function openModal(name,price,amount){
- selectedProduct={name,price,amount};
- document.getElementById('modal-name').textContent=name;
- document.getElementById('modal-price').textContent=price;
+const PRODUCT_CATALOG={
+ vol1:{name:'ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável',title:'O Manual do Indivíduo Indomável',priceUsd:15},
+ vol2:{name:'ALPHA CODE Vol.2 — O Despertar do Homem Indomável',title:'O Despertar do Homem Indomável',priceUsd:18},
+ vol3:{name:'ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário',title:'A Morte do Génio e a Disciplina do Operário',priceUsd:22},
+ trilogy:{name:'ALPHA CODE — Trilogia Completa',title:'Trilogia Completa',priceUsd:39}
+};
+function formatMzn(value){return `${String(Math.round(value)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')} MZN`}
+function getMznFromUsd(usd){return Math.round(Number(usd)*USD_TO_MZN_RATE)}
+function openModal(productKey){
+ const product=PRODUCT_CATALOG[productKey];
+ if(!product)return false;
+ selectedProduct={...product,key:productKey,price:`$${product.priceUsd} USD`,mzn:getMznFromUsd(product.priceUsd)};
+ document.getElementById('modal-name').textContent=selectedProduct.name;
+ document.getElementById('modal-price').textContent=`${selectedProduct.price} · ${formatMzn(selectedProduct.mzn)}`;
  document.getElementById('step-form').classList.add('active');
  document.getElementById('step-payment').classList.remove('active');
  document.getElementById('modal').classList.add('active');
+ return false;
 }
 function closeModal(){document.getElementById('modal').classList.remove('active')}
 async function gerarReferencia(){
@@ -1604,12 +1619,22 @@ async function gerarReferencia(){
  if(!email.includes('@')){alert('Email inválido.');return false}
  btn.textContent='A GERAR REFERÊNCIA...';
  try{
-  const res=await fetch(REGISTAR_VENDA_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:name,email:email,produto:selectedProduct.name,valor_usd:selectedProduct.amount})});
+  const res=await fetch(REGISTAR_VENDA_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:name,email:email,produto:selectedProduct.name,valor_usd:selectedProduct.priceUsd})});
   const data=await res.json();
   if(!data.success)throw new Error(data.error||'Erro');
+  const referencia=data.referencia;
+  const valorUsd=Number(data.valor_usd||selectedProduct.priceUsd);
+  const valorMzn=getMznFromUsd(valorUsd);
   document.getElementById('ref-code').textContent=data.referencia;
-  document.getElementById('ref-amount').textContent=`$${data.valor_usd} USD · ${data.valor_mzn.toLocaleString('pt-PT')} MZN`;
-  const waMessage=encodeURIComponent(`Olá! Fiz o pagamento da encomenda ${data.referencia} — ${selectedProduct.name} — ${data.valor_mzn} MZN. Nome: ${name}. Email: ${email}. Segue o comprovativo:`);
+  document.getElementById('ref-amount').textContent=`$${valorUsd} USD · ${formatMzn(valorMzn)}`;
+  const waMessage=encodeURIComponent(`Olá! Fiz o pagamento da encomenda ${referencia}.
+Referência: ${referencia}
+Nome: ${name}
+Email: ${email}
+Produto: ${selectedProduct.name}
+Título: ${selectedProduct.title}
+Valor: $${valorUsd} USD · ${formatMzn(valorMzn)}
+Segue o comprovativo em anexo.`);
   document.getElementById('btn-whatsapp').href=`https://wa.me/${WHATSAPP_NUMBER}?text=${waMessage}`;
   document.getElementById('step-form').classList.remove('active');
   document.getElementById('step-payment').classList.add('active');
@@ -1619,6 +1644,7 @@ async function gerarReferencia(){
  return false;
 }
 document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()});
 </script>
 
 <script>
