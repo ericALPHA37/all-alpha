@@ -913,6 +913,104 @@ body::after{
   .topbar-cta{padding:8px 10px;font-size:8px}
 }
 
+
+/* ===== V7 · ALPHA DAWN CINEMATIC FINALE ===== */
+.alpha-dawn-v7{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:150px 24px 180px;
+  isolation:isolate;
+  background:linear-gradient(to bottom,#050505 0%,#080808 28%,#11100e 47%,#1a1711 62%,#2c2212 76%,#5b3d13 89%,#b87d20 100%);
+  border-top:1px solid rgba(212,175,55,.18);
+}
+.alpha-dawn-v7::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-4;
+  background:
+    radial-gradient(circle at 50% 115%,rgba(255,225,140,.38),transparent 32%),
+    radial-gradient(circle at 50% 108%,rgba(220,146,35,.28),transparent 47%);
+}
+.alpha-dawn-v7::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-3;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,transparent 0 48%,rgba(255,255,255,.018) 50%,transparent 52%),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 1px,transparent 1px 4px);
+  mix-blend-mode:screen;
+  opacity:.38;
+}
+.dawn-v7-content{position:relative;z-index:4;max-width:980px;text-align:center}
+.dawn-v7-emblem{
+  display:block;width:110px;height:110px;margin:0 auto 26px;
+  filter:drop-shadow(0 0 16px rgba(246,228,163,.32)) drop-shadow(0 0 38px rgba(212,175,55,.22));
+  animation:dawnEmblemFloat 5.5s ease-in-out infinite;
+}
+.dawn-v7-kicker{font-family:var(--mono);font-size:9px;letter-spacing:5px;color:#f0c45f;margin-bottom:28px}
+.dawn-v7-title{
+  margin:0;font-family:var(--bebas);font-size:clamp(58px,9vw,108px);line-height:.95;
+  color:#f7f0df;text-wrap:balance;text-shadow:0 0 28px rgba(0,0,0,.34)
+}
+.dawn-v7-title span{
+  display:block;margin-top:14px;color:#f2c44f;
+  text-shadow:0 0 18px rgba(212,175,55,.18),0 0 50px rgba(212,175,55,.14)
+}
+.dawn-v7-text{
+  max-width:720px;margin:30px auto 38px;font-size:clamp(18px,2.4vw,23px);
+  line-height:1.65;color:rgba(255,244,217,.78);font-style:italic
+}
+.dawn-v7-cta{
+  display:inline-flex;min-width:310px;justify-content:center;text-decoration:none;
+  box-shadow:0 18px 50px rgba(67,34,2,.34),0 0 26px rgba(212,175,55,.16)
+}
+.dawn-horizon{
+  position:absolute;left:0;right:0;bottom:18%;height:2px;z-index:2;
+  background:linear-gradient(90deg,transparent,#c99d31,#fff0b3,#c99d31,transparent);
+  box-shadow:0 0 22px rgba(255,224,141,.78),0 -18px 60px rgba(212,175,55,.42),0 -50px 120px rgba(212,175,55,.20);
+  animation:horizonGlow 5s ease-in-out infinite
+}
+.dawn-sun{
+  position:absolute;left:50%;bottom:calc(18% - 58px);width:116px;height:116px;border-radius:50%;
+  transform:translateX(-50%);z-index:1;
+  background:radial-gradient(circle at 50% 42%,#fff3c1 0%,#f1c34b 30%,#d38f22 62%,rgba(211,143,34,0) 72%);
+  opacity:.76;
+  box-shadow:0 0 40px rgba(255,222,126,.52),0 0 110px rgba(212,175,55,.34),0 0 190px rgba(212,175,55,.18);
+  animation:sunRisePulse 6s ease-in-out infinite
+}
+.dawn-stars{
+  position:absolute;inset:0;z-index:-1;opacity:.3;
+  background-image:
+    radial-gradient(circle at 12% 18%,rgba(255,224,140,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 26% 31%,rgba(255,224,140,.65) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 71% 24%,rgba(255,224,140,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 84% 37%,rgba(255,224,140,.55) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 43% 14%,rgba(255,224,140,.48) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 61% 43%,rgba(255,224,140,.42) 0 1px,transparent 1.5px);
+  animation:starDrift 18s linear infinite alternate
+}
+@keyframes horizonGlow{0%,100%{opacity:.5;transform:scaleX(.82)}50%{opacity:1;transform:scaleX(1)}}
+@keyframes dawnEmblemFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes sunRisePulse{0%,100%{transform:translateX(-50%) scale(.94);opacity:.62}50%{transform:translateX(-50%) scale(1.05);opacity:.88}}
+@keyframes starDrift{from{transform:translateY(0)}to{transform:translateY(-16px)}}
+@media(max-width:620px){
+  .alpha-dawn-v7{min-height:92vh;padding:120px 20px 150px}
+  .dawn-v7-emblem{width:88px;height:88px}
+  .dawn-v7-cta{min-width:0;width:100%}
+  .dawn-horizon{bottom:15%}
+  .dawn-sun{bottom:calc(15% - 46px);width:92px;height:92px}
+}
+@media(prefers-reduced-motion:reduce){
+  .dawn-v7-emblem,.dawn-horizon,.dawn-sun,.dawn-stars{animation:none!important}
+}
+
 </style>
 </head>
 <body id="top">
@@ -1156,21 +1254,30 @@ body::after{
 </div></section>
 
 
-<section class="alpha-dawn-finale" id="alpha-dawn">
-  <div class="dawn-content reveal-on-scroll">
-    <div class="dawn-emblem" aria-hidden="true"></div>
-    <div class="dawn-kicker">THE ALPHA DAWN</div>
-    <h2 class="dawn-title">
+
+<section class="alpha-dawn-v7" id="alpha-dawn">
+  <div class="dawn-stars" aria-hidden="true"></div>
+  <div class="dawn-sun" aria-hidden="true"></div>
+  <div class="dawn-horizon" aria-hidden="true"></div>
+
+  <div class="dawn-v7-content reveal-on-scroll">
+    <img class="dawn-v7-emblem" src="all-alpha-emblem.svg" alt="" aria-hidden="true">
+    <div class="dawn-v7-kicker">THE ALPHA DAWN</div>
+
+    <h2 class="dawn-v7-title">
       A maioria espera pelo nascer do sol.
       <span>O Alpha constrói-o.</span>
     </h2>
-    <p class="dawn-sub">O amanhecer não é um tema. É o resultado de atravessar a noite com disciplina, sistema e execução.</p>
-    <button class="btn dawn-cta" onclick="document.getElementById('volumes').scrollIntoView({behavior:'smooth'})">
-      ENTRAR NO UNIVERSO ALL-ALPHA
-    </button>
-    <div class="dawn-note">ALL-ALPHA® · CONSTRUÇÃO · DISCIPLINA · LEGADO</div>
+
+    <p class="dawn-v7-text">
+      Não termina aqui. Cada livro desta biblioteca é apenas mais um passo.
+      O verdadeiro projecto és tu.
+    </p>
+
+    <a class="btn dawn-v7-cta" href="#volumes">ENTRAR NO UNIVERSO ALL-ALPHA</a>
   </div>
 </section>
+
 
 
 <footer style="background:#2b1808;border-top-color:rgba(212,175,55,.26)"><div class="wrap"><p>ALL-ALPHA® · 2026 · MAPUTO, MOÇAMBIQUE</p><p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p><p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados.</p></div></footer>

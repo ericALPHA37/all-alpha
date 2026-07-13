@@ -1,0 +1,15 @@
+ALL-ALPHA V7 — ALPHA DAWN
+
+1. Descompacta o ZIP.
+2. Faz upload de TODOS os ficheiros para a raiz do repositório.
+3. Substitui o index.html existente.
+4. Faz Commit changes.
+5. Aguarda 1–5 minutos e atualiza o site.
+
+Inclui:
+- Nova secção final Alpha Dawn cinematográfica.
+- Horizonte dourado animado.
+- Sol subtil no horizonte.
+- Emblema flutuante.
+- Gradiente completo de noite para amanhecer.
+- Mantém todo o conteúdo e assets da V6.
