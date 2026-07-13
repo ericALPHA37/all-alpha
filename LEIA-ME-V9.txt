@@ -1,0 +1,14 @@
+ALL-ALPHA V9 — SIGNATURE MOTION
+
+1. Extrai o ZIP.
+2. Faz upload de TODOS os ficheiros para a raiz do repositório.
+3. Substitui os existentes.
+4. Commit changes.
+5. Aguarda 1–5 minutos e atualiza o site.
+
+NOVO
+- Abertura oficial animada da marca:
+  escuridão → horizonte → ponto de luz → símbolo → ALL-ALPHA®.
+- Frase de posicionamento na abertura.
+- A mesma assinatura é repetida no Alpha Dawn final.
+- O GitHub continua totalmente estático, sem dependências externas.

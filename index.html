@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#080808">
-<meta name="all-alpha-version" content="8.0">
+<meta name="all-alpha-version" content="9.0">
 <meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
 <meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
 
@@ -1046,17 +1046,186 @@ body::after{
 @media(max-width:620px){.hero-symbol-statement{max-width:100%;padding:12px}.hero-symbol-statement img{width:44px;height:44px}.alpha-dawn-v8{min-height:100vh;padding:100px 20px 220px}.dawn-v8-emblem{width:82px;height:82px}.dawn-v8-cta{width:100%;min-width:0}.dawn-v8-horizon{bottom:17%}.dawn-v8-sun{bottom:calc(17% - 27px);width:54px;height:54px}.dawn-v8-signature{bottom:36px}}
 @media(prefers-reduced-motion:reduce){.hero-books img,.vol-card img,.shelf-book img,.author-book img,.dawn-v8-emblem,.dawn-v8-horizon,.dawn-v8-sun{animation:none!important}}
 
+
+/* ===== V9 · SIGNATURE MOTION ===== */
+.alpha-intro-v9{
+  background:
+    radial-gradient(circle at 50% 57%,rgba(212,175,55,.035),transparent 26%),
+    #040404;
+}
+.intro-v9-stage{
+  width:min(88vw,620px);
+  text-align:center;
+  transform:translateY(-1vh);
+}
+.intro-v9-symbol{
+  position:relative;
+  width:190px;
+  height:170px;
+  margin:0 auto 20px;
+}
+.intro-v9-symbol img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  opacity:0;
+  transform:translateY(14px) scale(.94);
+  filter:
+    drop-shadow(0 0 12px rgba(246,228,163,.24))
+    drop-shadow(0 0 36px rgba(212,175,55,.16));
+  animation:v9SymbolReveal .72s 1.05s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-v9-line{
+  position:absolute;
+  left:-18%;
+  right:-18%;
+  top:65%;
+  height:2px;
+  z-index:4;
+  transform:scaleX(0);
+  transform-origin:left center;
+  background:linear-gradient(90deg,transparent,#c79b30,#fff0b3,#c79b30,transparent);
+  box-shadow:
+    0 0 18px rgba(255,224,141,.66),
+    0 0 42px rgba(212,175,55,.24);
+  animation:v9LineDraw .9s .18s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-v9-core{
+  position:absolute;
+  left:50%;
+  top:calc(65% - 6px);
+  width:12px;
+  height:12px;
+  z-index:5;
+  border-radius:50%;
+  opacity:0;
+  transform:translateX(-50%) scale(.2);
+  background:#fff0b3;
+  box-shadow:
+    0 0 20px rgba(255,239,184,.85),
+    0 0 60px rgba(212,175,55,.55),
+    0 0 120px rgba(212,175,55,.28);
+  animation:v9CoreIgnite .8s .74s ease forwards;
+}
+.intro-v9-name{
+  opacity:0;
+  transform:translateY(10px);
+  font-family:var(--bebas);
+  font-size:34px;
+  letter-spacing:9px;
+  color:#f1eee7;
+  animation:v9TextRise .65s 1.55s ease forwards;
+}
+.intro-v9-tagline{
+  margin-top:7px;
+  opacity:0;
+  transform:translateY(8px);
+  font-family:var(--mono);
+  font-size:8px;
+  letter-spacing:3.5px;
+  color:#d7ab43;
+  animation:v9TextRise .6s 1.78s ease forwards;
+}
+.intro-v9-thesis{
+  max-width:520px;
+  margin:18px auto 0;
+  opacity:0;
+  font-family:var(--mono);
+  font-size:7px;
+  line-height:1.7;
+  letter-spacing:1.5px;
+  color:rgba(246,228,163,.55);
+  animation:v9Fade .6s 2.02s ease forwards;
+}
+@keyframes v9LineDraw{
+  0%{transform:scaleX(0);opacity:0}
+  15%{opacity:1}
+  100%{transform:scaleX(1);opacity:1}
+}
+@keyframes v9CoreIgnite{
+  0%{opacity:0;transform:translateX(-50%) scale(.2)}
+  55%{opacity:1;transform:translateX(-50%) scale(1.35)}
+  100%{opacity:1;transform:translateX(-50%) scale(1)}
+}
+@keyframes v9SymbolReveal{
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes v9TextRise{
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes v9Fade{
+  to{opacity:1}
+}
+
+/* Signature replay on the final horizon */
+.alpha-dawn-v8.is-active .dawn-v8-horizon{
+  animation:v9DawnLine 1.25s cubic-bezier(.2,.7,.2,1) both,dawnV8Horizon 5.5s 1.25s ease-in-out infinite;
+  transform-origin:left center;
+}
+.alpha-dawn-v8.is-active .dawn-v8-sun{
+  animation:v9DawnCore .95s .75s ease both,dawnV8Pulse 6s 1.7s ease-in-out infinite;
+}
+.alpha-dawn-v8.is-active .dawn-v8-emblem{
+  animation:v9DawnSymbol .8s 1.2s ease both,dawnV8Float 5.5s 2s ease-in-out infinite;
+}
+.alpha-dawn-v8:not(.is-active) .dawn-v8-horizon{
+  transform:scaleX(0);
+  opacity:0;
+}
+.alpha-dawn-v8:not(.is-active) .dawn-v8-sun,
+.alpha-dawn-v8:not(.is-active) .dawn-v8-emblem{
+  opacity:0;
+}
+@keyframes v9DawnLine{
+  from{transform:scaleX(0);opacity:0}
+  to{transform:scaleX(1);opacity:1}
+}
+@keyframes v9DawnCore{
+  0%{opacity:0;transform:translateX(-50%) scale(.2)}
+  70%{opacity:.62;transform:translateX(-50%) scale(1.15)}
+  100%{opacity:.48;transform:translateX(-50%) scale(1)}
+}
+@keyframes v9DawnSymbol{
+  from{opacity:0;transform:translateY(14px) scale(.94)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+
+@media(max-width:620px){
+  .intro-v9-symbol{width:145px;height:132px}
+  .intro-v9-name{font-size:27px;letter-spacing:6px}
+  .intro-v9-thesis{font-size:6px;letter-spacing:1.1px}
+}
+@media(prefers-reduced-motion:reduce){
+  .intro-v9-symbol img,.intro-v9-line,.intro-v9-core,.intro-v9-name,.intro-v9-tagline,.intro-v9-thesis{
+    animation:none!important;opacity:1!important;transform:none!important;
+  }
+  .alpha-dawn-v8 .dawn-v8-horizon,
+  .alpha-dawn-v8 .dawn-v8-sun,
+  .alpha-dawn-v8 .dawn-v8-emblem{
+    animation:none!important;opacity:1!important;transform:none!important;
+  }
+}
+
 </style>
 </head>
 <body id="top">
 
-<div class="alpha-intro" id="alphaIntro" aria-hidden="true">
-  <div class="intro-core">
-    <div class="intro-emblem"><div class="intro-horizon"></div></div>
-    <div class="intro-name">ALL-ALPHA®</div>
-    <div class="intro-tagline">THE ALPHA DAWN</div>
+
+<div class="alpha-intro alpha-intro-v9" id="alphaIntro" aria-hidden="true">
+  <div class="intro-v9-stage">
+    <div class="intro-v9-symbol">
+      <span class="intro-v9-line"></span>
+      <span class="intro-v9-core"></span>
+      <img src="all-alpha-hero-symbol.svg" alt="">
+    </div>
+    <div class="intro-v9-name">ALL-ALPHA®</div>
+    <div class="intro-v9-tagline">THE ALPHA DAWN</div>
+    <div class="intro-v9-thesis">MAIS DO QUE LIVROS. UM SISTEMA PARA CONSTRUIR PESSOAS.</div>
   </div>
 </div>
+
 
 <div class="modal-overlay" id="modal"><div class="modal">
 <button class="modal-close" onclick="closeModal()" aria-label="Fechar">✕</button>
@@ -1417,11 +1586,32 @@ document.getElementById('modal').addEventListener('click',function(e){if(e.targe
   window.addEventListener('load', ()=>{
     window.setTimeout(()=>{
       if(intro) intro.classList.add('hidden');
-    }, 1450);
+    }, 2450);
   });
   window.setTimeout(()=>{
     if(intro) intro.classList.add('hidden');
-  }, 2200);
+  }, 3200);
+})();
+</script>
+
+
+<script>
+(function(){
+  const dawn = document.querySelector('.alpha-dawn-v8');
+  if(!dawn) return;
+  if(!('IntersectionObserver' in window)){
+    dawn.classList.add('is-active');
+    return;
+  }
+  const dawnObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        dawn.classList.add('is-active');
+        dawnObserver.unobserve(dawn);
+      }
+    });
+  },{threshold:.28});
+  dawnObserver.observe(dawn);
 })();
 </script>
 
