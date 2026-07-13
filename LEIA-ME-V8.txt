@@ -1,0 +1,16 @@
+ALL-ALPHA V8 — HERO SYMBOL
+
+1. Extrai o ZIP.
+2. Faz upload de TODOS os ficheiros para a raiz do repositório.
+3. Substitui os ficheiros existentes.
+4. Faz Commit changes.
+5. Aguarda 1–5 minutos e atualiza o site.
+
+Inclui:
+- Hero Symbol oficial refinado.
+- Nova assinatura visual no hero.
+- Microanimação subtil nas capas.
+- Alpha Dawn refinado: menos esfera, mais amanhecer.
+- Horizonte mais fino e luminoso.
+- Névoa dourada.
+- Assinatura final ALL-ALPHA® · Maputo · Moçambique.

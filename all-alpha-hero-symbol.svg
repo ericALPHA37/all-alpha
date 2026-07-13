@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+<title id="t">ALL-ALPHA Hero Symbol</title>
+<desc id="d">Architectural Alpha rising from a luminous horizon.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFF0B3"/>
+    <stop offset=".52" stop-color="#D4AF37"/>
+    <stop offset="1" stop-color="#6C4B0E"/>
+  </linearGradient>
+  <linearGradient id="h" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D4AF37" stop-opacity="0"/>
+    <stop offset=".18" stop-color="#D4AF37"/>
+    <stop offset=".5" stop-color="#FFF0B3"/>
+    <stop offset=".82" stop-color="#D4AF37"/>
+    <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<path d="M94 424 218 84h76l124 340h-75l-87-248-87 248H94Z" fill="url(#g)"/>
+<path d="M0 337h512v7H0z" fill="url(#h)" filter="url(#glow)"/>
+<circle cx="256" cy="340.5" r="9.5" fill="#FFF0B3" filter="url(#glow)"/>
+</svg>

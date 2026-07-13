@@ -9,6 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#080808">
+<meta name="all-alpha-version" content="8.0">
 <meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
 <meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
 
@@ -880,7 +881,7 @@ body::after{
   white-space:nowrap;
 }
 .intro-emblem{
-  background:url('all-alpha-emblem.svg') center/contain no-repeat;
+  background:url('all-alpha-hero-symbol.svg') center/contain no-repeat;
 }
 .intro-emblem::before,
 .intro-emblem::after,
@@ -888,7 +889,7 @@ body::after{
 .dawn-emblem{
   width:96px;
   height:96px;
-  background:url('all-alpha-emblem.svg') center/contain no-repeat;
+  background:url('all-alpha-hero-symbol.svg') center/contain no-repeat;
 }
 .dawn-emblem::before,
 .dawn-emblem::after,
@@ -1011,6 +1012,40 @@ body::after{
   .dawn-v7-emblem,.dawn-horizon,.dawn-sun,.dawn-stars{animation:none!important}
 }
 
+
+/* ===== V8 · HERO SYMBOL + REFINED DAWN ===== */
+.hero-symbol-statement{display:flex;align-items:center;gap:16px;margin:28px 0 26px;padding:14px 16px;max-width:520px;border:1px solid rgba(212,175,55,.24);background:linear-gradient(90deg,rgba(212,175,55,.07),rgba(255,255,255,.01));border-radius:14px}
+.hero-symbol-statement img{width:52px;height:52px;flex:0 0 auto;filter:drop-shadow(0 0 12px rgba(212,175,55,.22))}
+.hero-symbol-statement div{display:flex;flex-direction:column;gap:4px}
+.hero-symbol-statement strong{font-family:var(--bebas);font-size:19px;letter-spacing:2.6px;color:var(--white)}
+.hero-symbol-statement span{font-family:var(--mono);font-size:7px;letter-spacing:1.5px;color:var(--gold2)}
+.hero-books img,.vol-card img,.shelf-book img,.author-book img{animation:alphaBookFloat 7s ease-in-out infinite;transform-origin:center bottom}
+.vol-card:nth-child(2) img,.shelf-book:nth-child(2) img{animation-delay:-2.1s}
+.vol-card:nth-child(3) img,.shelf-book:nth-child(3) img{animation-delay:-4.2s}
+@keyframes alphaBookFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-6px) rotate(.25deg)}}
+
+.alpha-dawn-v8{position:relative;min-height:105vh;display:flex;align-items:flex-start;justify-content:center;overflow:hidden;isolation:isolate;padding:120px 24px 240px;background:linear-gradient(to bottom,#050505 0%,#070707 25%,#0e0d0b 43%,#18140d 60%,#2f220e 75%,#6d4714 89%,#c99028 100%);border-top:1px solid rgba(212,175,55,.18)}
+.alpha-dawn-v8::before{content:'';position:absolute;inset:0;z-index:-5;background:radial-gradient(ellipse at 50% 110%,rgba(255,228,151,.30),transparent 34%),radial-gradient(ellipse at 50% 102%,rgba(214,139,33,.18),transparent 50%)}
+.dawn-v8-content{position:relative;z-index:4;max-width:960px;text-align:center}
+.dawn-v8-emblem{width:96px;height:96px;margin:0 auto 24px;display:block;filter:drop-shadow(0 0 14px rgba(246,228,163,.28));animation:dawnV8Float 5.5s ease-in-out infinite}
+.dawn-v8-kicker{margin-bottom:24px;font-family:var(--mono);font-size:9px;letter-spacing:5px;color:#e9b84f}
+.dawn-v8-title{margin:0;font-family:var(--bebas);font-size:clamp(54px,8vw,96px);line-height:.98;color:#f6f0e4;text-wrap:balance}
+.dawn-v8-title span{display:block;margin-top:12px;color:#f0bf47}
+.dawn-v8-text{max-width:680px;margin:28px auto 36px;color:rgba(255,244,217,.78);font-size:clamp(18px,2.2vw,22px);line-height:1.7;font-style:italic}
+.dawn-v8-cta{display:inline-flex;justify-content:center;min-width:280px;text-decoration:none}
+.dawn-v8-horizon{position:absolute;left:0;right:0;bottom:16%;height:1px;z-index:2;background:linear-gradient(90deg,transparent,#b78326,#fff0b3,#b78326,transparent);box-shadow:0 0 18px rgba(255,224,141,.62),0 -10px 55px rgba(212,175,55,.34),0 -30px 110px rgba(212,175,55,.16);animation:dawnV8Horizon 5.5s ease-in-out infinite}
+.dawn-v8-sun{position:absolute;left:50%;bottom:calc(16% - 32px);width:64px;height:64px;border-radius:50%;transform:translateX(-50%);z-index:1;opacity:.48;background:radial-gradient(circle,#fff2bf 0%,#e8b13c 34%,rgba(213,141,27,.22) 62%,transparent 72%);box-shadow:0 0 52px rgba(255,222,126,.46),0 0 130px rgba(212,175,55,.34),0 0 230px rgba(212,175,55,.22);filter:blur(.3px);animation:dawnV8Pulse 6s ease-in-out infinite}
+.dawn-v8-mist{position:absolute;left:-10%;right:-10%;bottom:10%;height:20%;z-index:0;background:linear-gradient(to top,rgba(255,221,134,.18),rgba(255,221,134,.06) 45%,transparent);filter:blur(22px)}
+.dawn-v8-stars{position:absolute;inset:0;z-index:-1;opacity:.2;background-image:radial-gradient(circle at 18% 14%,rgba(255,224,140,.75) 0 1px,transparent 1.4px),radial-gradient(circle at 38% 28%,rgba(255,224,140,.48) 0 1px,transparent 1.4px),radial-gradient(circle at 67% 18%,rgba(255,224,140,.66) 0 1px,transparent 1.4px),radial-gradient(circle at 84% 31%,rgba(255,224,140,.46) 0 1px,transparent 1.4px)}
+.dawn-v8-signature{position:absolute;left:0;right:0;bottom:48px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(255,242,204,.78)}
+.dawn-v8-signature span{font-family:var(--bebas);font-size:24px;letter-spacing:5px}
+.dawn-v8-signature small{font-family:var(--mono);font-size:7px;letter-spacing:2px}
+@keyframes dawnV8Horizon{0%,100%{opacity:.48;transform:scaleX(.82)}50%{opacity:1;transform:scaleX(1)}}
+@keyframes dawnV8Pulse{0%,100%{transform:translateX(-50%) scale(.9);opacity:.36}50%{transform:translateX(-50%) scale(1.04);opacity:.56}}
+@keyframes dawnV8Float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@media(max-width:620px){.hero-symbol-statement{max-width:100%;padding:12px}.hero-symbol-statement img{width:44px;height:44px}.alpha-dawn-v8{min-height:100vh;padding:100px 20px 220px}.dawn-v8-emblem{width:82px;height:82px}.dawn-v8-cta{width:100%;min-width:0}.dawn-v8-horizon{bottom:17%}.dawn-v8-sun{bottom:calc(17% - 27px);width:54px;height:54px}.dawn-v8-signature{bottom:36px}}
+@media(prefers-reduced-motion:reduce){.hero-books img,.vol-card img,.shelf-book img,.author-book img,.dawn-v8-emblem,.dawn-v8-horizon,.dawn-v8-sun{animation:none!important}}
+
 </style>
 </head>
 <body id="top">
@@ -1043,15 +1078,24 @@ body::after{
 <a href="#" class="btn-whatsapp" id="btn-whatsapp" target="_blank" rel="noopener">ENVIAR COMPROVATIVO →</a>
 </div></div></div>
 
-<nav class="topbar"><a class="brand-lockup" href="#top" aria-label="ALL-ALPHA — início"><img src="all-alpha-emblem.svg" alt=""><span>ALL-ALPHA®</span></a><div style="display:flex;gap:9px;align-items:center"><a href="#biblioteca" class="topbar-cta" style="background:transparent;color:var(--gold);border:1px solid var(--gold2)">BIBLIOTECA</a><a href="#volumes" class="topbar-cta">COMPRAR AGORA</a></div></nav>
+<nav class="topbar"><a class="brand-lockup" href="#top" aria-label="ALL-ALPHA — início"><img src="all-alpha-hero-symbol.svg" alt=""><span>ALL-ALPHA®</span></a><div style="display:flex;gap:9px;align-items:center"><a href="#biblioteca" class="topbar-cta" style="background:transparent;color:var(--gold);border:1px solid var(--gold2)">BIBLIOTECA</a><a href="#volumes" class="topbar-cta">COMPRAR AGORA</a></div></nav>
 
 <section class="hero">
-<img class="emblem-watermark" src="all-alpha-emblem.svg" alt="" aria-hidden="true"><div class="wrap"><div class="hero-grid">
+<img class="emblem-watermark" src="all-alpha-hero-symbol.svg" alt="" aria-hidden="true"><div class="wrap"><div class="hero-grid">
 <div class="hero-copy">
 <p class="eyebrow">Éric ALPHA · ALL-ALPHA® · 2026</p>
 <h1 class="hero-title">ALPHA <span>CODE</span></h1>
 <h2 class="hero-positioning">Mais do que um livro.<br>O início de uma nova identidade.</h2>
 <p class="hero-lead">Três volumes. Um sistema. Um código para quem decidiu deixar de ser espectador e construir disciplina, execução e legado.</p>
+
+<div class="hero-symbol-statement" aria-label="Identidade ALL-ALPHA">
+  <img src="all-alpha-hero-symbol.svg" alt="">
+  <div>
+    <strong>MAIS DO QUE LIVROS.</strong>
+    <span>UM SISTEMA PARA CONSTRUIR PESSOAS.</span>
+  </div>
+</div>
+
 <div class="hero-actions"><a href="#volumes" class="btn">EXPLORAR A TRILOGIA</a><a href="#amostra" class="btn secondary">VER O QUE ESTÁ DENTRO</a></div>
 <div class="hero-proof"><span>Capas e edições oficiais</span><span>PDF digital</span><span>Métodos locais de pagamento</span><span>Pack disponível</span></div>
 <div class="community-line">“The Alpha Life is just beginning.”<small>— IVAN JAWANA TEMBE · PRIMEIRO LEITOR DO VOLUME I</small></div>
@@ -1255,28 +1299,33 @@ body::after{
 
 
 
-<section class="alpha-dawn-v7" id="alpha-dawn">
-  <div class="dawn-stars" aria-hidden="true"></div>
-  <div class="dawn-sun" aria-hidden="true"></div>
-  <div class="dawn-horizon" aria-hidden="true"></div>
 
-  <div class="dawn-v7-content reveal-on-scroll">
-    <img class="dawn-v7-emblem" src="all-alpha-emblem.svg" alt="" aria-hidden="true">
-    <div class="dawn-v7-kicker">THE ALPHA DAWN</div>
+<section class="alpha-dawn-v8" id="alpha-dawn">
+  <div class="dawn-v8-stars" aria-hidden="true"></div>
+  <div class="dawn-v8-mist" aria-hidden="true"></div>
+  <div class="dawn-v8-sun" aria-hidden="true"></div>
+  <div class="dawn-v8-horizon" aria-hidden="true"></div>
 
-    <h2 class="dawn-v7-title">
+  <div class="dawn-v8-content reveal-on-scroll">
+    <img class="dawn-v8-emblem" src="all-alpha-hero-symbol.svg" alt="" aria-hidden="true">
+    <div class="dawn-v8-kicker">THE ALPHA DAWN</div>
+    <h2 class="dawn-v8-title">
       A maioria espera pelo nascer do sol.
       <span>O Alpha constrói-o.</span>
     </h2>
-
-    <p class="dawn-v7-text">
-      Não termina aqui. Cada livro desta biblioteca é apenas mais um passo.
+    <p class="dawn-v8-text">
+      Cada livro é uma ferramenta. Cada sistema é uma ponte.
       O verdadeiro projecto és tu.
     </p>
+    <a class="btn dawn-v8-cta" href="#volumes">ENTRAR NA BIBLIOTECA</a>
+  </div>
 
-    <a class="btn dawn-v7-cta" href="#volumes">ENTRAR NO UNIVERSO ALL-ALPHA</a>
+  <div class="dawn-v8-signature">
+    <span>ALL-ALPHA®</span>
+    <small>MAPUTO · MOÇAMBIQUE</small>
   </div>
 </section>
+
 
 
 
