@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#120b06">
+<title>A Princesa Elysha e as Pedras de Luz do Código ALPHA</title>
+<style>
+:root{--ink:#17130f;--paper:#f7f1e7;--gold:#d4af37;--gold2:#fff0b3;--dark:#090806;--muted:#b9aa92}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#070605;color:#f7f1e7;font-family:Georgia,'Times New Roman',serif}
+body{overflow-x:hidden;background:radial-gradient(circle at 50% 15%,rgba(212,175,55,.12),transparent 38%),linear-gradient(#080705,#120b06 68%,#2b1709)}
+button,a{font:inherit}.shell{min-height:100vh;display:grid;grid-template-rows:auto 1fr auto}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem clamp(1rem,3vw,2rem);background:rgba(7,6,5,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(212,175,55,.2)}
+.brand{display:flex;align-items:center;gap:.8rem;min-width:0}.brand img{width:30px;height:30px}.brand div{min-width:0}.brand strong{display:block;letter-spacing:.14em;font:700 .82rem/1.1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--gold)}.brand span{display:block;margin-top:.25rem;color:#cdbfa9;font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.actions{display:flex;gap:.6rem}.btn{border:1px solid rgba(212,175,55,.45);background:#11100e;color:#f8efdd;padding:.72rem .95rem;text-decoration:none;cursor:pointer;border-radius:999px}.btn.primary{background:var(--gold);color:#17130f;border-color:var(--gold);font-weight:700}.btn:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+main{display:grid;place-items:center;padding:clamp(1rem,3vw,2.2rem)}
+.reader{width:min(1180px,100%);display:grid;gap:1.2rem}.intro{text-align:center;max-width:760px;margin:0 auto}.eyebrow{font:700 .65rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.34em;color:var(--gold);text-transform:uppercase}.intro h1{margin:.65rem 0 .35rem;font-size:clamp(1.8rem,4vw,3.8rem);line-height:1.02}.intro p{color:#d6c8b4;line-height:1.7;margin:.35rem auto;max-width:650px}
+.book-stage{position:relative;display:grid;place-items:center;min-height:clamp(360px,68vh,760px);perspective:1800px}
+.book{position:relative;width:min(1120px,96vw);aspect-ratio:792/612;background:#22160e;border-radius:10px;box-shadow:0 34px 80px rgba(0,0,0,.65),0 0 0 1px rgba(212,175,55,.25);transform-style:preserve-3d;overflow:hidden}
+.book::before{content:"";position:absolute;inset:0;z-index:5;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.25),transparent 7%,transparent 48.5%,rgba(0,0,0,.16) 50%,transparent 51.5%,transparent 93%,rgba(0,0,0,.28)),linear-gradient(180deg,rgba(255,255,255,.05),transparent 18%,transparent 85%,rgba(0,0,0,.16));mix-blend-mode:multiply}
+.page{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#f4efe7;opacity:0;transform:rotateY(-9deg) translateX(2%);transform-origin:left center;transition:opacity .32s ease,transform .55s cubic-bezier(.2,.75,.2,1);user-select:none;-webkit-user-drag:none}.page.active{opacity:1;transform:rotateY(0) translateX(0)}
+.page.turning-next{transform:rotateY(-18deg) translateX(-1%);opacity:.15}.page.turning-prev{transform:rotateY(12deg) translateX(1%);opacity:.15}
+.nav-button{position:absolute;top:50%;z-index:12;translate:0 -50%;width:52px;height:52px;border-radius:50%;border:1px solid rgba(212,175,55,.55);background:rgba(7,6,5,.78);color:var(--gold2);font-size:1.55rem;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(8px)}.nav-button.prev{left:-18px}.nav-button.next{right:-18px}.nav-button:disabled{opacity:.28;cursor:not-allowed}.nav-button:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+.controls{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1rem}.status{font:600 .72rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;color:#dfd1bd}.progress{height:4px;background:rgba(255,255,255,.12);border-radius:99px;overflow:hidden}.progress span{display:block;height:100%;width:10%;background:linear-gradient(90deg,#8b6b1a,var(--gold2));transition:width .35s ease}.hint{font-size:.8rem;color:#a99a85;text-align:right}
+.thumbs{display:flex;gap:.55rem;overflow:auto;padding:.3rem .15rem .7rem;scrollbar-width:thin}.thumb{flex:0 0 112px;border:1px solid rgba(212,175,55,.18);background:#100e0b;padding:0;cursor:pointer;border-radius:6px;overflow:hidden;opacity:.55}.thumb.active{opacity:1;border-color:var(--gold)}.thumb img{display:block;width:100%;height:auto}.thumb:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+.legacy{margin-top:1.3rem;border:1px solid rgba(212,175,55,.25);padding:clamp(1.2rem,3vw,2rem);background:linear-gradient(135deg,rgba(212,175,55,.08),rgba(255,255,255,.02));text-align:center}.legacy strong{display:block;color:var(--gold2);font-size:clamp(1.25rem,3vw,2rem);margin-bottom:.55rem}.legacy p{margin:.3rem auto;color:#d7c9b5;line-height:1.7;max-width:720px}.legacy .kidz{font:700 .72rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.28em;color:var(--gold);margin-top:1rem;text-transform:uppercase}
+footer{text-align:center;padding:1.3rem;color:#a79780;font:500 .7rem/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em}
+@media (pointer:fine){body{cursor:none}.alpha-cursor{position:fixed;z-index:9999;width:28px;height:28px;pointer-events:none;transform:translate(-50%,-50%);filter:drop-shadow(0 0 9px rgba(212,175,55,.55));transition:width .15s,height .15s,rotate .2s;will-change:transform}.alpha-cursor.hot{width:34px;height:34px;rotate:12deg}}
+@media (pointer:coarse){.alpha-cursor{display:none}}
+@media(max-width:700px){header{align-items:flex-start;width:100%;max-width:100vw;overflow:hidden}.brand{max-width:calc(100vw - 2rem)}.actions{flex-shrink:0}.actions .btn:not(.primary){display:none}.actions .btn.primary{max-width:42vw;white-space:normal;text-align:center;line-height:1.2}.book-stage{min-height:auto}.book{width:100%;border-radius:4px}.nav-button{width:44px;height:44px}.nav-button.prev{left:6px}.nav-button.next{right:6px}.controls{grid-template-columns:1fr auto}.progress{grid-column:1/-1;grid-row:2}.hint{display:none}.thumb{flex-basis:86px}.brand span{max-width:45vw}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.page{transform:none!important}}
+</style>
+</head>
+<body>
+<div class="alpha-cursor" aria-hidden="true"><img src="../../assets/all-alpha-cursor.svg" alt="" width="28" height="28"></div>
+<div class="shell">
+<header>
+  <div class="brand"><img src="../../assets/all-alpha-cursor.svg" alt="ALL-ALPHA"><div><strong>O LEGADO ALL-ALPHA</strong><span>A Princesa Elysha e as Pedras de Luz do Código ALPHA</span></div></div>
+  <div class="actions"><a class="btn" href="../../index.html#biblioteca">Voltar</a><button class="btn" id="fullscreenBtn" type="button">Ecrã inteiro</button><a class="btn primary" href="A-Princesa-Elysha-optimizado.pdf" download>Descarregar grátis</a></div>
+</header>
+<main>
+  <article class="reader">
+    <div class="intro"><div class="eyebrow">Livro aberto · Gratuito · Humanismo</div><h1>A Princesa Elysha e as Pedras de Luz do Código ALPHA</h1><p>Nem tudo o que construímos existe para gerar receita. Algumas obras existem para lembrar quem somos e aquilo que nunca deixaremos para trás.</p></div>
+    <section class="book-stage" aria-label="Leitor do livro">
+      <button class="nav-button prev" id="prevBtn" type="button" aria-label="Página anterior">‹</button>
+      <div class="book" id="book"></div>
+      <button class="nav-button next" id="nextBtn" type="button" aria-label="Página seguinte">›</button>
+    </section>
+    <div class="controls"><div class="status" id="status">PÁGINA 1 / 10</div><div class="progress" aria-hidden="true"><span id="progress"></span></div><div class="hint">Setas do teclado · deslizar no telemóvel</div></div>
+    <div class="thumbs" id="thumbs" aria-label="Miniaturas das páginas"></div>
+    <section class="legacy"><strong>O humanismo não é um detalhe da ALL-ALPHA. É uma herança.</strong><p>Este livro permanece aberto e gratuito porque os princípios de coragem, bondade, presença e construção devem chegar ao futuro sem barreiras. É essa continuidade que prepara o caminho para o ALPHA Kidz Care.</p><div class="kidz">O futuro vem com o Kidz Care</div></section>
+  </article>
+</main>
+<footer>ALL-ALPHA® · MAPUTO, MOÇAMBIQUE · LIVRO ABERTO PARA O FUTURO</footer>
+</div>
+<script>
+const total=10,book=document.getElementById('book'),thumbs=document.getElementById('thumbs');let current=0,startX=0;
+const pages=[];
+for(let i=1;i<=total;i++){
+  const n=String(i).padStart(2,'0');
+  const img=new Image();img.src=`pages/page-${n}.webp`;img.alt=`Página ${i} do livro A Princesa Elysha e as Pedras de Luz do Código ALPHA`;img.className='page'+(i===1?' active':'');img.loading=i<3?'eager':'lazy';img.decoding='async';book.appendChild(img);pages.push(img);
+  const b=document.createElement('button');b.type='button';b.className='thumb'+(i===1?' active':'');b.setAttribute('aria-label',`Abrir página ${i}`);b.innerHTML=`<img src="pages/page-${n}.webp" alt="" loading="lazy">`;b.onclick=()=>go(i-1);thumbs.appendChild(b);
+}
+function update(){pages.forEach((p,i)=>p.classList.toggle('active',i===current));[...thumbs.children].forEach((t,i)=>t.classList.toggle('active',i===current));document.getElementById('status').textContent=`PÁGINA ${current+1} / ${total}`;document.getElementById('progress').style.width=`${((current+1)/total)*100}%`;document.getElementById('prevBtn').disabled=current===0;document.getElementById('nextBtn').disabled=current===total-1;const target=thumbs.children[current];thumbs.scrollTo({left:target.offsetLeft-(thumbs.clientWidth/2)+(target.clientWidth/2),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
+function go(next){if(next<0||next>=total||next===current)return;const dir=next>current?'turning-next':'turning-prev';pages[current].classList.add(dir);setTimeout(()=>{pages[current].classList.remove('active',dir);current=next;update()},matchMedia('(prefers-reduced-motion: reduce)').matches?0:180)}
+document.getElementById('prevBtn').onclick=()=>go(current-1);document.getElementById('nextBtn').onclick=()=>go(current+1);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='PageDown')go(current+1);if(e.key==='ArrowLeft'||e.key==='PageUp')go(current-1);if(e.key==='Home')go(0);if(e.key==='End')go(total-1)});
+book.addEventListener('touchstart',e=>startX=e.changedTouches[0].clientX,{passive:true});book.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>45)go(current+(dx<0?1:-1))},{passive:true});
+document.getElementById('fullscreenBtn').onclick=async()=>{if(!document.fullscreenElement){await document.documentElement.requestFullscreen?.()}else{await document.exitFullscreen?.()}};
+const cursor=document.querySelector('.alpha-cursor');if(matchMedia('(pointer:fine)').matches){document.addEventListener('mousemove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'});document.querySelectorAll('a,button').forEach(el=>{el.addEventListener('mouseenter',()=>cursor.classList.add('hot'));el.addEventListener('mouseleave',()=>cursor.classList.remove('hot'))})}
+update();
+</script>
+</body>
+</html>
