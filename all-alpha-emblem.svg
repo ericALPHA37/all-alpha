@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">ALL-ALPHA Horizon Emblem</title>
+<desc id="desc">Architectural letter A rising from a golden horizon.</desc>
+<defs>
+  <linearGradient id="alphaGold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F6E4A3"/>
+    <stop offset=".55" stop-color="#D4AF37"/>
+    <stop offset="1" stop-color="#6E4D10"/>
+  </linearGradient>
+  <linearGradient id="horizonGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D4AF37" stop-opacity="0"/>
+    <stop offset=".18" stop-color="#D4AF37"/>
+    <stop offset=".5" stop-color="#FFF0B3"/>
+    <stop offset=".82" stop-color="#D4AF37"/>
+    <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<path d="M88 424 219 80h74l131 344h-77l-91-254-91 254H88Z" fill="url(#alphaGold)"/>
+<path d="M0 334h512v8H0z" fill="url(#horizonGold)" filter="url(#glow)"/>
+<circle cx="256" cy="338" r="10" fill="#FFF0B3"/>
+</svg>

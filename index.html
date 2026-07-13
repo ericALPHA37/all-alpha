@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ALPHA CODE — uma trilogia sobre disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
 <title>ALPHA CODE — Mais do que um livro | ALL-ALPHA®</title>
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#080808">
+<meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
+<meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -849,9 +856,66 @@ body::after{
   .dawn-cta{min-width:0;width:100%}
 }
 
+
+/* ===== V6 · OFFICIAL WORKING EMBLEM ===== */
+.brand-lockup{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--gold);
+  text-decoration:none;
+  min-width:0;
+}
+.brand-lockup img{
+  width:34px;
+  height:34px;
+  display:block;
+  flex:0 0 auto;
+  filter:drop-shadow(0 0 9px rgba(212,175,55,.18));
+}
+.brand-lockup span{
+  font-family:var(--bebas);
+  font-size:21px;
+  letter-spacing:4px;
+  white-space:nowrap;
+}
+.intro-emblem{
+  background:url('all-alpha-emblem.svg') center/contain no-repeat;
+}
+.intro-emblem::before,
+.intro-emblem::after,
+.intro-emblem .intro-horizon{display:none!important}
+.dawn-emblem{
+  width:96px;
+  height:96px;
+  background:url('all-alpha-emblem.svg') center/contain no-repeat;
+}
+.dawn-emblem::before,
+.dawn-emblem::after,
+.dawn-emblem i{display:none!important}
+.emblem-watermark{
+  position:absolute;
+  right:5vw;
+  top:50%;
+  width:min(38vw,460px);
+  opacity:.025;
+  transform:translateY(-50%);
+  pointer-events:none;
+}
+@media(max-width:820px){
+  .mobile-buy{display:none!important}
+  body{padding-bottom:0!important}
+}
+@media(max-width:620px){
+  .brand-lockup span{font-size:17px;letter-spacing:2.5px}
+  .brand-lockup img{width:29px;height:29px}
+  .topbar{padding-left:14px;padding-right:14px}
+  .topbar-cta{padding:8px 10px;font-size:8px}
+}
+
 </style>
 </head>
-<body>
+<body id="top">
 
 <div class="alpha-intro" id="alphaIntro" aria-hidden="true">
   <div class="intro-core">
@@ -881,9 +945,10 @@ body::after{
 <a href="#" class="btn-whatsapp" id="btn-whatsapp" target="_blank" rel="noopener">ENVIAR COMPROVATIVO →</a>
 </div></div></div>
 
-<nav class="topbar"><span class="topbar-logo">ALL-ALPHA®</span><div style="display:flex;gap:9px;align-items:center"><a href="#biblioteca" class="topbar-cta" style="background:transparent;color:var(--gold);border:1px solid var(--gold2)">BIBLIOTECA</a><a href="#volumes" class="topbar-cta">COMPRAR AGORA</a></div></nav>
+<nav class="topbar"><a class="brand-lockup" href="#top" aria-label="ALL-ALPHA — início"><img src="all-alpha-emblem.svg" alt=""><span>ALL-ALPHA®</span></a><div style="display:flex;gap:9px;align-items:center"><a href="#biblioteca" class="topbar-cta" style="background:transparent;color:var(--gold);border:1px solid var(--gold2)">BIBLIOTECA</a><a href="#volumes" class="topbar-cta">COMPRAR AGORA</a></div></nav>
 
-<section class="hero"><div class="wrap"><div class="hero-grid">
+<section class="hero">
+<img class="emblem-watermark" src="all-alpha-emblem.svg" alt="" aria-hidden="true"><div class="wrap"><div class="hero-grid">
 <div class="hero-copy">
 <p class="eyebrow">Éric ALPHA · ALL-ALPHA® · 2026</p>
 <h1 class="hero-title">ALPHA <span>CODE</span></h1>
@@ -1093,7 +1158,7 @@ body::after{
 
 <section class="alpha-dawn-finale" id="alpha-dawn">
   <div class="dawn-content reveal-on-scroll">
-    <div class="dawn-emblem" aria-hidden="true"><i></i></div>
+    <div class="dawn-emblem" aria-hidden="true"></div>
     <div class="dawn-kicker">THE ALPHA DAWN</div>
     <h2 class="dawn-title">
       A maioria espera pelo nascer do sol.
@@ -1109,7 +1174,7 @@ body::after{
 
 
 <footer style="background:#2b1808;border-top-color:rgba(212,175,55,.26)"><div class="wrap"><p>ALL-ALPHA® · 2026 · MAPUTO, MOÇAMBIQUE</p><p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p><p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados.</p></div></footer>
-<div class="mobile-buy"><a class="btn" href="#volumes">COMPRAR AGORA</a></div>
+
 
 <script>
 let selectedProduct={};

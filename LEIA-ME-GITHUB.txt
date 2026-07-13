@@ -1,0 +1,30 @@
+ALL-ALPHA V6 — GITHUB DEPLOYMENT
+
+O QUE FAZER
+1. Abre o repositório GitHub Pages da ALL-ALPHA.
+2. Faz upload de TODOS os ficheiros deste pacote para a raiz do repositório.
+3. Confirma "Commit changes".
+4. Aguarda 1–5 minutos e abre o site.
+
+FICHEIROS NOVOS
+- all-alpha-emblem.svg
+- favicon.svg
+- site.webmanifest
+
+FICHEIROS ATUALIZADOS
+- index.html
+
+FICHEIROS MANTIDOS
+- alpha-code-vol1.webp
+- alpha-code-vol2.webp
+- alpha-code-vol3.webp
+- arquivo-vivo.webp
+- entre-o-riso-e-a-pele.webp
+
+ALTERAÇÕES V6
+- Emblema Horizon integrado na navbar, abertura e Alpha Dawn.
+- Favicon oficial.
+- Identidade instalável como web app.
+- Marca d'água do emblema no hero.
+- Barra móvel inferior removida para não tapar conteúdo.
+- GitHub continua 100% estático: HTML, CSS, JS e SVG.
