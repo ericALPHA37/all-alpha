@@ -1333,7 +1333,7 @@ body::after{
 <p class="section-lead">Manifesto, sistema e execução: uma sequência pensada para acompanhar a passagem da consciência à construção.</p>
 <div class="collection-note">CAPAS REAIS · COLECÇÃO EDITORIAL ALL-ALPHA®</div>
 <div class="volumes-grid">
-<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">$15 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('vol1')">COMPRAR VOL. I</button></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">GRÁTIS</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('vol1')">OBTER VOL. I</button></article>
 <article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol2.webp" alt="ALPHA CODE Volume II"></div></div><div class="vol-stage">VOLUME II · SISTEMA</div><div class="vol-title">O Despertar do Homem Indomável</div><div class="vol-sub">Identidade, disciplina e reconstrução</div><div class="vol-price">$18 USD</div><div class="vol-lang">PDF · PORTUGUÊS</div><button class="btn secondary" onclick="openModal('vol2')">COMPRAR VOL. II</button></article>
 <article class="vol-card featured"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol3.webp" alt="ALPHA CODE Volume III"></div></div><div class="vol-stage">VOLUME III · EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-price">$22 USD</div><div class="vol-lang">PDF · PORTUGUÊS · VERSÃO GRÁFICA</div><button class="btn" onclick="openModal('vol3')">COMPRAR VOL. III</button></article>
 </div>
@@ -1592,17 +1592,18 @@ const USD_TO_MZN_RATE=64.5;
 const REGISTAR_VENDA_URL='https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro';
 const WHATSAPP_NUMBER='258843895232';
 const PRODUCT_CATALOG={
- vol1:{name:'ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável',title:'O Manual do Indivíduo Indomável',priceUsd:15},
+ vol1:{name:'ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável',title:'O Manual do Indivíduo Indomável',priceUsd:0,priceLabel:'GRÁTIS'},
  vol2:{name:'ALPHA CODE Vol.2 — O Despertar do Homem Indomável',title:'O Despertar do Homem Indomável',priceUsd:18},
  vol3:{name:'ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário',title:'A Morte do Génio e a Disciplina do Operário',priceUsd:22},
  trilogy:{name:'ALPHA CODE — Trilogia Completa',title:'Trilogia Completa',priceUsd:39}
 };
 function formatMzn(value){return `${String(Math.round(value)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')} MZN`}
+function formatUsd(value){return Number(value)===0?'GRÁTIS':`$${value} USD`}
 function getMznFromUsd(usd){return Math.round(Number(usd)*USD_TO_MZN_RATE)}
 function openModal(productKey){
  const product=PRODUCT_CATALOG[productKey];
  if(!product)return false;
- selectedProduct={...product,key:productKey,price:`$${product.priceUsd} USD`,mzn:getMznFromUsd(product.priceUsd)};
+ selectedProduct={...product,key:productKey,price:formatUsd(product.priceUsd),mzn:getMznFromUsd(product.priceUsd)};
  document.getElementById('modal-name').textContent=selectedProduct.name;
  document.getElementById('modal-price').textContent=`${selectedProduct.price} · ${formatMzn(selectedProduct.mzn)}`;
  document.getElementById('step-form').classList.add('active');
@@ -1626,14 +1627,14 @@ async function gerarReferencia(){
   const valorUsd=Number(data.valor_usd||selectedProduct.priceUsd);
   const valorMzn=getMznFromUsd(valorUsd);
   document.getElementById('ref-code').textContent=data.referencia;
-  document.getElementById('ref-amount').textContent=`$${valorUsd} USD · ${formatMzn(valorMzn)}`;
+  document.getElementById('ref-amount').textContent=`${formatUsd(valorUsd)} · ${formatMzn(valorMzn)}`;
   const waMessage=encodeURIComponent(`Olá! Fiz o pagamento da encomenda ${referencia}.
 Referência: ${referencia}
 Nome: ${name}
 Email: ${email}
 Produto: ${selectedProduct.name}
 Título: ${selectedProduct.title}
-Valor: $${valorUsd} USD · ${formatMzn(valorMzn)}
+Valor: ${formatUsd(valorUsd)} · ${formatMzn(valorMzn)}
 Segue o comprovativo em anexo.`);
   document.getElementById('btn-whatsapp').href=`https://wa.me/${WHATSAPP_NUMBER}?text=${waMessage}`;
   document.getElementById('step-form').classList.remove('active');
