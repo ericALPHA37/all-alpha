@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#080808">
-<meta name="all-alpha-version" content="10.2">
+<meta name="all-alpha-version" content="10.4">
 <meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
 <meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
 
@@ -1110,6 +1110,14 @@ body::after{
 .dawn-v8-title span{display:block;margin-top:12px;color:#f0bf47}
 .dawn-v8-text{max-width:680px;margin:28px auto 36px;color:rgba(255,244,217,.78);font-size:clamp(18px,2.2vw,22px);line-height:1.7;font-style:italic}
 .dawn-v8-cta{display:inline-flex;justify-content:center;min-width:280px;text-decoration:none}
+/* V10.4 · A VIGÍLIA ALPHA */
+.alpha-vigil{position:relative;z-index:5;margin:54px auto 0;display:grid;justify-items:center;gap:10px;color:rgba(255,242,204,.86);text-align:center}
+.alpha-vigil-kicker{font-family:var(--mono);font-size:8px;letter-spacing:4px;color:#e9b84f;text-transform:uppercase}
+.alpha-vigil-day{display:flex;align-items:center;justify-content:center;gap:13px;font-family:var(--mono);font-size:clamp(24px,4vw,44px);font-weight:700;line-height:1;font-variant-numeric:tabular-nums;color:#f7e7a8;letter-spacing:.06em;text-shadow:0 0 22px rgba(212,175,55,.24);max-width:100%;overflow-wrap:anywhere}
+.alpha-vigil-light{width:9px;height:9px;border-radius:999px;background:#f5d36e;box-shadow:0 0 10px rgba(245,211,110,.58),0 0 28px rgba(212,175,55,.28);animation:alphaVigilPulse 5.8s ease-in-out infinite;flex:0 0 auto}
+.alpha-vigil-meta,.alpha-vigil-continuum{font-family:var(--mono);font-size:8px;letter-spacing:2.4px;text-transform:uppercase;color:rgba(255,242,204,.62)}
+.alpha-vigil-continuum{color:#e9b84f}
+@keyframes alphaVigilPulse{0%,100%{opacity:.58;transform:scale(.86);box-shadow:0 0 8px rgba(245,211,110,.42),0 0 22px rgba(212,175,55,.18)}50%{opacity:.95;transform:scale(1);box-shadow:0 0 12px rgba(245,211,110,.68),0 0 34px rgba(212,175,55,.30)}}
 .dawn-v8-horizon{position:absolute;left:0;right:0;bottom:16%;height:1px;z-index:2;background:linear-gradient(90deg,transparent,#b78326,#fff0b3,#b78326,transparent);box-shadow:0 0 18px rgba(255,224,141,.62),0 -10px 55px rgba(212,175,55,.34),0 -30px 110px rgba(212,175,55,.16);animation:dawnV8Horizon 5.5s ease-in-out infinite}
 .dawn-v8-sun{position:absolute;left:50%;bottom:calc(16% - 32px);width:64px;height:64px;border-radius:50%;transform:translateX(-50%);z-index:1;opacity:.48;background:radial-gradient(circle,#fff2bf 0%,#e8b13c 34%,rgba(213,141,27,.22) 62%,transparent 72%);box-shadow:0 0 52px rgba(255,222,126,.46),0 0 130px rgba(212,175,55,.34),0 0 230px rgba(212,175,55,.22);filter:blur(.3px);animation:dawnV8Pulse 6s ease-in-out infinite}
 .dawn-v8-mist{position:absolute;left:-10%;right:-10%;bottom:10%;height:20%;z-index:0;background:linear-gradient(to top,rgba(255,221,134,.18),rgba(255,221,134,.06) 45%,transparent);filter:blur(22px)}
@@ -1120,8 +1128,8 @@ body::after{
 @keyframes dawnV8Horizon{0%,100%{opacity:.48;transform:scaleX(.82)}50%{opacity:1;transform:scaleX(1)}}
 @keyframes dawnV8Pulse{0%,100%{transform:translateX(-50%) scale(.9);opacity:.36}50%{transform:translateX(-50%) scale(1.04);opacity:.56}}
 @keyframes dawnV8Float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-@media(max-width:620px){.hero-symbol-statement{max-width:100%;padding:12px}.hero-symbol-statement img{width:44px;height:44px}.alpha-dawn-v8{min-height:100vh;padding:100px 20px 220px}.dawn-v8-emblem{width:82px;height:82px}.dawn-v8-cta{width:100%;min-width:0}.dawn-v8-horizon{bottom:17%}.dawn-v8-sun{bottom:calc(17% - 27px);width:54px;height:54px}.dawn-v8-signature{bottom:36px}}
-@media(prefers-reduced-motion:reduce){.hero-books img,.vol-card img,.shelf-book img,.author-book img,.dawn-v8-emblem,.dawn-v8-horizon,.dawn-v8-sun{animation:none!important}}
+@media(max-width:620px){.hero-symbol-statement{max-width:100%;padding:12px}.hero-symbol-statement img{width:44px;height:44px}.alpha-dawn-v8{min-height:100vh;padding:100px 20px 220px}.dawn-v8-emblem{width:82px;height:82px}.dawn-v8-cta{width:100%;min-width:0}.alpha-vigil{margin-top:38px}.alpha-vigil-day{gap:10px;letter-spacing:.02em}.alpha-vigil-meta,.alpha-vigil-continuum{font-size:7px;letter-spacing:1.7px}.dawn-v8-horizon{bottom:17%}.dawn-v8-sun{bottom:calc(17% - 27px);width:54px;height:54px}.dawn-v8-signature{bottom:36px}}
+@media(prefers-reduced-motion:reduce){.hero-books img,.vol-card img,.shelf-book img,.author-book img,.dawn-v8-emblem,.dawn-v8-horizon,.dawn-v8-sun,.alpha-vigil-light{animation:none!important}}
 
 
 /* ===== V9 · SIGNATURE MOTION ===== */
@@ -1629,6 +1637,16 @@ body::after{
       O verdadeiro projecto és tu.
     </p>
     <a class="btn dawn-v8-cta" href="#volumes">ENTRAR NA BIBLIOTECA</a>
+    <div class="alpha-vigil" aria-label="Dias de existência da visão ALL-ALPHA desde 27 de Março de 2025.">
+      <div class="alpha-vigil-kicker">A VIGÍLIA ALPHA</div>
+      <div class="alpha-vigil-day">
+        <span class="alpha-vigil-light" aria-hidden="true"></span>
+        <span>DIA</span>
+        <span class="alpha-vigil-count" data-alpha-vigil-count>DESDE 27 MAR 2025</span>
+      </div>
+      <div class="alpha-vigil-meta">DESDE 27 MAR 2025 · MAPUTO</div>
+      <div class="alpha-vigil-continuum">A VISÃO CONTINUA · ∞</div>
+    </div>
   </div>
 
   <div class="dawn-v8-signature">
@@ -1824,6 +1842,53 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()
   },{threshold:.22,rootMargin:'0px 0px -80px 0px'});
 
   builderObserver.observe(builder);
+})();
+</script>
+
+
+<script>
+(function(){
+  // V10.4 · A VIGÍLIA ALPHA
+  // Data fundadora oficial: a visão ALL-ALPHA recebeu nome definitivo em Maputo.
+  const ALL_ALPHA_EPOCH = '2025-03-27T00:00:00+02:00';
+
+  function getAlphaVigilDay(now){
+    return Math.floor((now.getTime() - Date.parse(ALL_ALPHA_EPOCH)) / 86400000) + 1;
+  }
+
+  function formatAlphaVigilNumber(day){
+    const value = Math.max(1, Number(day));
+    const raw = String(value);
+    const padded = raw.length < 6 ? raw.padStart(6,'0') : raw;
+    return padded.replace(/\B(?=(\d{3})+(?!\d))/g,' ');
+  }
+
+  function getNextMaputoMidnightDelay(now){
+    const maputoParts = new Intl.DateTimeFormat('en-CA',{
+      timeZone:'Africa/Maputo',
+      year:'numeric',
+      month:'2-digit',
+      day:'2-digit'
+    }).formatToParts(now).reduce((acc,part)=>{
+      if(part.type !== 'literal') acc[part.type] = Number(part.value);
+      return acc;
+    },{});
+
+    const nextMidnightUtc = Date.UTC(maputoParts.year,maputoParts.month - 1,maputoParts.day + 1) - (2 * 60 * 60 * 1000);
+    return Math.max(1000,nextMidnightUtc - now.getTime());
+  }
+
+  function updateAlphaVigil(){
+    const target = document.querySelector('[data-alpha-vigil-count]');
+    if(!target) return;
+    target.textContent = formatAlphaVigilNumber(getAlphaVigilDay(new Date()));
+  }
+
+  updateAlphaVigil();
+  window.setTimeout(function scheduleNextAlphaVigilUpdate(){
+    updateAlphaVigil();
+    window.setTimeout(scheduleNextAlphaVigilUpdate,getNextMaputoMidnightDelay(new Date()));
+  },getNextMaputoMidnightDelay(new Date()));
 })();
 </script>
 
