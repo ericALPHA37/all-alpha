@@ -25,16 +25,6 @@ jobs:
           ref: v10-5-checkout-recovery
           fetch-depth: 0
 
-      - name: Rebuild official free Volume I PDF
-        shell: bash
-        run: |
-          mkdir -p downloads
-          if compgen -G '.github/assets/vol1.part*' > /dev/null; then
-            cat .github/assets/vol1.part* | base64 --decode > downloads/alpha-code-volume-i.pdf
-            test "$(head -c 4 downloads/alpha-code-volume-i.pdf)" = '%PDF'
-            rm -f .github/assets/vol1.part*
-          fi
-
       - name: Apply V10.5 frontend recovery
         run: python .github/scripts/v10_5_patch.py
 
@@ -44,6 +34,7 @@ jobs:
           mkdir -p diagnostics
           python - <<'PY'
           from datetime import datetime, timezone
+          from pathlib import Path
           import json, time, urllib.error, urllib.request
 
           endpoint = 'https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro'
@@ -60,7 +51,7 @@ jobs:
               f'- Data UTC: `{datetime.now(timezone.utc).isoformat()}`',
               f'- Endpoint: `{endpoint}`',
               f'- Origin testada: `{origin}`',
-              '- Payload: campos compatíveis, usando dados fictícios de QA.',
+              '- Payload: campos compatíveis, usando apenas dados fictícios de QA.',
               '',
           ]
 
@@ -70,6 +61,9 @@ jobs:
                   'Accept': 'application/json',
                   'User-Agent': 'ALL-ALPHA-V10.5-QA/1.0',
               }
+              if method == 'OPTIONS':
+                  headers['Access-Control-Request-Method'] = 'POST'
+                  headers['Access-Control-Request-Headers'] = 'content-type'
               if body is not None:
                   headers['Content-Type'] = 'application/json'
               request = urllib.request.Request(
@@ -87,6 +81,8 @@ jobs:
                           'elapsed_ms': round((time.monotonic() - started) * 1000),
                           'content_type': response.headers.get('Content-Type', ''),
                           'allow_origin': response.headers.get('Access-Control-Allow-Origin', ''),
+                          'allow_methods': response.headers.get('Access-Control-Allow-Methods', ''),
+                          'allow_headers': response.headers.get('Access-Control-Allow-Headers', ''),
                           'body': raw[:1500],
                       }
               except urllib.error.HTTPError as error:
@@ -96,6 +92,8 @@ jobs:
                       'elapsed_ms': round((time.monotonic() - started) * 1000),
                       'content_type': error.headers.get('Content-Type', '') if error.headers else '',
                       'allow_origin': error.headers.get('Access-Control-Allow-Origin', '') if error.headers else '',
+                      'allow_methods': error.headers.get('Access-Control-Allow-Methods', '') if error.headers else '',
+                      'allow_headers': error.headers.get('Access-Control-Allow-Headers', '') if error.headers else '',
                       'body': raw[:1500],
                   }
               except Exception as error:
@@ -104,6 +102,8 @@ jobs:
                       'elapsed_ms': round((time.monotonic() - started) * 1000),
                       'content_type': '',
                       'allow_origin': '',
+                      'allow_methods': '',
+                      'allow_headers': '',
                       'body': f'{type(error).__name__}: {error}',
                   }
 
@@ -116,6 +116,8 @@ jobs:
                   f'- Tempo: `{result["elapsed_ms"]} ms`',
                   f'- Content-Type: `{result["content_type"] or "ausente"}`',
                   f'- Access-Control-Allow-Origin: `{result["allow_origin"] or "ausente"}`',
+                  f'- Access-Control-Allow-Methods: `{result["allow_methods"] or "ausente"}`',
+                  f'- Access-Control-Allow-Headers: `{result["allow_headers"] or "ausente"}`',
                   '',
                   '```text',
                   result['body'] or '(resposta vazia)',
@@ -123,7 +125,6 @@ jobs:
                   '',
               ])
 
-          Path = __import__('pathlib').Path
           Path('diagnostics/v10-5-base44.md').write_text('\n'.join(lines), encoding='utf-8')
           PY
 
@@ -133,6 +134,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           html = Path('index.html').read_text(encoding='utf-8')
+          free_page = Path('downloads/alpha-code-volume-i.html').read_text(encoding='utf-8')
           assertions = {
               'version 10.5': 'content="10.5"' in html,
               'release comment': 'V10.5 · CHECKOUT RECOVERY' in html,
@@ -143,16 +145,13 @@ jobs:
               'WhatsApp fallback': 'CONTINUAR PELO WHATSAPP' in html,
               'provisional cryptographic id': 'crypto.getRandomValues' in html,
               'prices preserved': all(token in html for token in ['priceUsd:18','priceUsd:22','priceUsd:39']),
+              'free reader available': '../experiences/alpha-code-v1-preview.html' in free_page,
+              'missing PDF cannot create broken visible link': 'id="download-pdf"' in free_page and 'hidden' in free_page,
           }
           failed = [name for name, ok in assertions.items() if not ok]
           print('\n'.join(f'{"PASS" if ok else "FAIL"}: {name}' for name, ok in assertions.items()))
           if failed:
               raise SystemExit('Failed assertions: ' + ', '.join(failed))
-          pdf = Path('downloads/alpha-code-volume-i.pdf')
-          if not pdf.exists() or pdf.read_bytes()[:4] != b'%PDF':
-              raise SystemExit('Official Volume I PDF missing or invalid')
-          if not Path('downloads/alpha-code-volume-i.html').exists():
-              raise SystemExit('Free access page missing')
           PY
 
       - name: Remove one-shot marker
