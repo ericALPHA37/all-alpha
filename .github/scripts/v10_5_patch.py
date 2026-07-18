@@ -14,7 +14,7 @@ html = re.sub(
 )
 
 # Styles: insert once before the first closing style tag.
-if 'V10.5 · CHECKOUT RECOVERY' not in html:
+if '/* V10.5 · CHECKOUT RECOVERY */' not in html:
     v105_css = r'''
 /* V10.5 · CHECKOUT RECOVERY */
 .form-input.is-invalid{border-color:#c44;box-shadow:0 0 0 1px rgba(204,68,68,.28)}
@@ -61,7 +61,6 @@ if 'id="checkout-fallback"' not in html:
         raise RuntimeError('Modal note insertion point was not found')
     html = html.replace(marker, fallback_markup + '\n' + marker, 1)
 
-# Replace only the checkout script, leaving cursor/dawn/vigil scripts untouched.
 checkout_script = r'''<script>
 // V10.5 · CHECKOUT RECOVERY
 let selectedProduct={};
@@ -183,17 +182,14 @@ getField('modal').addEventListener('click',function(e){if(e.target===this)closeM
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()});
 </script>'''
 
-pattern = re.compile(r'<script>\s*let selectedProduct=\{\};.*?</script>', re.S)
-html, replacements = pattern.subn(checkout_script, html, count=1)
-if replacements != 1:
-    raise RuntimeError(f'Expected to replace one checkout script, replaced {replacements}')
+if '// V10.5 · CHECKOUT RECOVERY' not in html:
+    pattern = re.compile(r'<script>\s*let selectedProduct=\{\};.*?</script>', re.S)
+    html, replacements = pattern.subn(checkout_script, html, count=1)
+    if replacements != 1:
+        raise RuntimeError(f'Expected to replace one checkout script, replaced {replacements}')
 
-# Insert release comment near body for fast public verification.
 if '<!-- V10.5 · CHECKOUT RECOVERY -->' not in html:
     html = html.replace('<body id="top">', '<body id="top">\n<!-- V10.5 · CHECKOUT RECOVERY -->', 1)
-
-if html == original:
-    raise RuntimeError('Patch made no changes')
 
 required = [
     'content="10.5"',
@@ -207,5 +203,8 @@ for token in required:
     if token not in html:
         raise RuntimeError(f'Missing required token after patch: {token}')
 
-path.write_text(html, encoding='utf-8')
-print('V10.5 checkout recovery patch applied successfully')
+if html == original:
+    print('V10.5 checkout recovery already applied; no changes needed')
+else:
+    path.write_text(html, encoding='utf-8')
+    print('V10.5 checkout recovery patch applied successfully')
