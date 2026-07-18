@@ -1,0 +1,63 @@
+name: V10.5 Patch Diagnostics
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout recovery branch
+        uses: actions/checkout@v4
+        with:
+          ref: v10-5-checkout-recovery
+          fetch-depth: 0
+
+      - name: Run patch and capture complete output
+        id: patch
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p diagnostics
+          set +e
+          python .github/scripts/v10_5_patch.py > diagnostics/v10-5-patch.log 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          cat diagnostics/v10-5-patch.log
+          exit $code
+
+      - name: Save relevant source fragments
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo '=== VERSION ==='
+            grep -n 'all-alpha-version' index.html || true
+            echo '=== VOL1 BUTTON ==='
+            grep -n -C 2 'OBTER VOL. I' index.html || true
+            echo '=== NAME INPUT ==='
+            grep -n -C 1 'input-name' index.html | head -20 || true
+            echo '=== EMAIL INPUT ==='
+            grep -n -C 1 'input-email' index.html | head -20 || true
+            echo '=== CHECKOUT SCRIPT START ==='
+            grep -n -C 2 'let selectedProduct' index.html || true
+            echo '=== MODAL NOTE ==='
+            grep -n -C 1 'O nome e o e-mail' index.html || true
+          } > diagnostics/v10-5-source-fragments.txt
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v10-5-patch-diagnostics
+          path: diagnostics/
+          if-no-files-found: error
+
+      - name: Fail when patch failed
+        if: steps.patch.outputs.exit_code != '0'
+        run: exit 1
