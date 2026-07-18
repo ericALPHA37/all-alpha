@@ -1,0 +1,107 @@
+name: V10.5 Final Public QA
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+
+      - name: Execute corrected public QA
+        shell: bash
+        run: |
+          cat > qa.mjs <<'JS'
+          import { chromium,devices } from 'playwright';
+          import fs from 'node:fs';
+          const base='https://ericalpha37.github.io/all-alpha/';
+          const report={testedAt:new Date().toISOString(),checks:[],errors:[]};
+          const check=(name,ok,details='')=>{report.checks.push({name,ok,details});if(!ok)throw new Error(`${name}: ${details}`)};
+          const browser=await chromium.launch({headless:true});
+          try{
+            const desktop=await browser.newContext({viewport:{width:1440,height:900}});
+            const page=await desktop.newPage();
+            const consoleErrors=[];
+            page.on('console',m=>{if(m.type()==='error')consoleErrors.push(m.text())});
+            await page.goto(`${base}?qa=${Date.now()}`,{waitUntil:'networkidle'});
+            check('public version 10.5',(await page.locator('meta[name="all-alpha-version"]').getAttribute('content'))==='10.5');
+            await page.waitForTimeout(3400);
+            check('desktop no overflow',(await page.evaluate(()=>document.documentElement.scrollWidth===document.documentElement.clientWidth)));
+            await page.getByRole('link',{name:'OBTER VOL. I',exact:true}).click();
+            await page.waitForLoadState('networkidle');
+            check('Volume I bypass',page.url().includes('/downloads/alpha-code-volume-i.html'),page.url());
+            check('Volume I free page',await page.getByText('GRATUITO · SEM BARREIRAS',{exact:true}).isVisible());
+            await page.screenshot({path:'01-volume-i-desktop.png',fullPage:true});
+
+            await page.goto(`${base}?qa=vol2-${Date.now()}`,{waitUntil:'networkidle'});
+            await page.waitForTimeout(3400);
+            await page.getByRole('button',{name:'COMPRAR VOL. II',exact:true}).click();
+            await page.locator('#input-name').fill('QA V10.5 Público');
+            await page.locator('#input-email').fill('qa.v10.5.publico@example.com');
+            await page.locator('#btn-gerar').click();
+            await page.locator('#step-payment.active').waitFor({timeout:16000});
+            const ref=await page.locator('#ref-code').innerText();
+            const amount=await page.locator('#ref-amount').innerText();
+            check('Vol II reference',/^ALPHA-[A-Z0-9]+$/.test(ref),ref);
+            check('Vol II amount',amount==='$18 USD · 1.161 MZN',amount);
+            const wa=decodeURIComponent(await page.locator('#btn-whatsapp').getAttribute('href')||'');
+            check('Vol II WhatsApp',wa.includes(ref)&&wa.includes('qa.v10.5.publico@example.com'),wa);
+            await page.screenshot({path:'02-volume-ii-desktop.png',fullPage:true});
+            check('desktop console',consoleErrors.length===0,consoleErrors.join(' | '));
+            await desktop.close();
+
+            const mobile=await browser.newContext({...devices['iPhone 13']});
+            const mp=await mobile.newPage();
+            await mp.goto(`${base}?qa=mobile-${Date.now()}`,{waitUntil:'networkidle'});
+            await mp.waitForTimeout(3400);
+            check('mobile no overflow',(await mp.evaluate(()=>document.documentElement.scrollWidth===document.documentElement.clientWidth)));
+            await mp.getByRole('button',{name:'COMPRAR VOL. III',exact:true}).click();
+            await mp.locator('#input-name').fill('QA Mobile V10.5');
+            await mp.locator('#input-email').fill('qa.mobile.v10.5@example.com');
+            await mp.locator('#btn-gerar').click();
+            await mp.locator('#step-payment.active').waitFor({timeout:16000});
+            check('Vol III mobile amount',(await mp.locator('#ref-amount').innerText())==='$22 USD · 1.419 MZN');
+            await mp.screenshot({path:'03-volume-iii-mobile.png',fullPage:true});
+            await mobile.close();
+
+            const fallback=await browser.newContext({viewport:{width:390,height:844}});
+            const fp=await fallback.newPage();
+            await fp.route('**/functions/registarVendaLivro',route=>route.abort('failed'));
+            await fp.goto(`${base}?qa=fallback-${Date.now()}`,{waitUntil:'networkidle'});
+            await fp.waitForTimeout(3400);
+            await fp.getByRole('button',{name:'COMPRAR VOL. II',exact:true}).click();
+            await fp.locator('#input-name').fill('QA Fallback');
+            await fp.locator('#input-email').fill('qa.fallback@example.com');
+            await fp.locator('#btn-gerar').click();
+            await fp.locator('#checkout-fallback.active').waitFor({timeout:6000});
+            const fw=decodeURIComponent(await fp.locator('#btn-whatsapp-fallback').getAttribute('href')||'');
+            check('fallback visible',await fp.getByRole('link',{name:'CONTINUAR PELO WHATSAPP',exact:true}).isVisible());
+            check('fallback data',fw.includes('ALPHA-PENDENTE-')&&fw.includes('QA Fallback')&&fw.includes('qa.fallback@example.com'),fw);
+            await fp.screenshot({path:'04-fallback-mobile.png',fullPage:true});
+            await fallback.close();
+          }catch(error){report.errors.push({name:error.name,message:error.message,stack:error.stack});throw error}
+          finally{await browser.close();fs.writeFileSync('v10-5-final-public-qa.json',JSON.stringify(report,null,2));}
+          JS
+          node qa.mjs
+          cat v10-5-final-public-qa.json
+
+      - name: Upload final evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v10-5-final-public-qa
+          path: |
+            v10-5-final-public-qa.json
+            0*.png
+          if-no-files-found: warn
