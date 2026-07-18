@@ -6,6 +6,9 @@ on:
       - v10-5-checkout-recovery
     paths:
       - .github/v10-5-run
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -19,11 +22,21 @@ jobs:
   recover-checkout:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch
+      - name: Checkout recovery branch
         uses: actions/checkout@v4
         with:
           ref: v10-5-checkout-recovery
           fetch-depth: 0
+
+      - name: Record whether the branch is already patched
+        id: state
+        shell: bash
+        run: |
+          if grep -q 'name="all-alpha-version" content="10.5"' index.html; then
+            echo 'already_patched=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'already_patched=false' >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Apply V10.5 frontend recovery
         run: python .github/scripts/v10_5_patch.py
@@ -157,15 +170,16 @@ jobs:
       - name: Remove one-shot marker
         run: rm -f .github/v10-5-run
 
-      - name: Commit recovery changes
+      - name: Commit recovery changes to the branch
+        if: steps.state.outputs.already_patched == 'false'
         shell: bash
         run: |
           git config user.name 'ALL-ALPHA Work'
           git config user.email 'actions@users.noreply.github.com'
           git add -A
-          if git diff --cached --quiet; then
-            echo 'No changes to commit.'
-          else
-            git commit -m 'fix: recover free delivery and paid checkout'
-            git push origin HEAD:v10-5-checkout-recovery
-          fi
+          git commit -m 'fix: recover free delivery and paid checkout'
+          git push origin HEAD:v10-5-checkout-recovery
+
+      - name: Keep repeated QA runs clean
+        if: steps.state.outputs.already_patched == 'true'
+        run: git reset --hard HEAD
