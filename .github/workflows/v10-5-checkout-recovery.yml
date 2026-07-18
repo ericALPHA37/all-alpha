@@ -1,0 +1,172 @@
+name: V10.5 Checkout Recovery
+
+on:
+  push:
+    branches:
+      - v10-5-checkout-recovery
+    paths:
+      - .github/v10-5-run
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v10-5-checkout-recovery
+  cancel-in-progress: false
+
+jobs:
+  recover-checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: v10-5-checkout-recovery
+          fetch-depth: 0
+
+      - name: Rebuild official free Volume I PDF
+        shell: bash
+        run: |
+          mkdir -p downloads
+          if compgen -G '.github/assets/vol1.part*' > /dev/null; then
+            cat .github/assets/vol1.part* | base64 --decode > downloads/alpha-code-volume-i.pdf
+            test "$(head -c 4 downloads/alpha-code-volume-i.pdf)" = '%PDF'
+            rm -f .github/assets/vol1.part*
+          fi
+
+      - name: Apply V10.5 frontend recovery
+        run: python .github/scripts/v10_5_patch.py
+
+      - name: Diagnose Base44 public function
+        shell: bash
+        run: |
+          mkdir -p diagnostics
+          python - <<'PY'
+          from datetime import datetime, timezone
+          import json, time, urllib.error, urllib.request
+
+          endpoint = 'https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro'
+          origin = 'https://ericalpha37.github.io'
+          payload = {
+              'nome': 'QA V10.5',
+              'email': 'qa.v10.5@example.com',
+              'produto': 'ALPHA CODE Vol.2 — O Despertar do Homem Indomável',
+              'valor_usd': 18,
+          }
+          lines = [
+              '# V10.5 — Diagnóstico público da função Base44',
+              '',
+              f'- Data UTC: `{datetime.now(timezone.utc).isoformat()}`',
+              f'- Endpoint: `{endpoint}`',
+              f'- Origin testada: `{origin}`',
+              '- Payload: campos compatíveis, usando dados fictícios de QA.',
+              '',
+          ]
+
+          def probe(method, body=None):
+              headers = {
+                  'Origin': origin,
+                  'Accept': 'application/json',
+                  'User-Agent': 'ALL-ALPHA-V10.5-QA/1.0',
+              }
+              if body is not None:
+                  headers['Content-Type'] = 'application/json'
+              request = urllib.request.Request(
+                  endpoint,
+                  data=(json.dumps(body).encode('utf-8') if body is not None else None),
+                  headers=headers,
+                  method=method,
+              )
+              started = time.monotonic()
+              try:
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      raw = response.read().decode('utf-8', errors='replace')
+                      return {
+                          'status': response.status,
+                          'elapsed_ms': round((time.monotonic() - started) * 1000),
+                          'content_type': response.headers.get('Content-Type', ''),
+                          'allow_origin': response.headers.get('Access-Control-Allow-Origin', ''),
+                          'body': raw[:1500],
+                      }
+              except urllib.error.HTTPError as error:
+                  raw = error.read().decode('utf-8', errors='replace')
+                  return {
+                      'status': error.code,
+                      'elapsed_ms': round((time.monotonic() - started) * 1000),
+                      'content_type': error.headers.get('Content-Type', '') if error.headers else '',
+                      'allow_origin': error.headers.get('Access-Control-Allow-Origin', '') if error.headers else '',
+                      'body': raw[:1500],
+                  }
+              except Exception as error:
+                  return {
+                      'status': 'NETWORK_ERROR',
+                      'elapsed_ms': round((time.monotonic() - started) * 1000),
+                      'content_type': '',
+                      'allow_origin': '',
+                      'body': f'{type(error).__name__}: {error}',
+                  }
+
+          for method, body in [('OPTIONS', None), ('POST', payload)]:
+              result = probe(method, body)
+              lines.extend([
+                  f'## {method}',
+                  '',
+                  f'- Status: `{result["status"]}`',
+                  f'- Tempo: `{result["elapsed_ms"]} ms`',
+                  f'- Content-Type: `{result["content_type"] or "ausente"}`',
+                  f'- Access-Control-Allow-Origin: `{result["allow_origin"] or "ausente"}`',
+                  '',
+                  '```text',
+                  result['body'] or '(resposta vazia)',
+                  '```',
+                  '',
+              ])
+
+          Path = __import__('pathlib').Path
+          Path('diagnostics/v10-5-base44.md').write_text('\n'.join(lines), encoding='utf-8')
+          PY
+
+      - name: Run static recovery tests
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path('index.html').read_text(encoding='utf-8')
+          assertions = {
+              'version 10.5': 'content="10.5"' in html,
+              'release comment': 'V10.5 · CHECKOUT RECOVERY' in html,
+              'free Volume I bypass': 'href="downloads/alpha-code-volume-i.html"' in html,
+              'no free checkout button': "openModal('vol1')" not in html,
+              'timeout': 'AbortController' in html and '12000' in html,
+              'native email validation': 'emailInput.checkValidity()' in html,
+              'WhatsApp fallback': 'CONTINUAR PELO WHATSAPP' in html,
+              'provisional cryptographic id': 'crypto.getRandomValues' in html,
+              'prices preserved': all(token in html for token in ['priceUsd:18','priceUsd:22','priceUsd:39']),
+          }
+          failed = [name for name, ok in assertions.items() if not ok]
+          print('\n'.join(f'{"PASS" if ok else "FAIL"}: {name}' for name, ok in assertions.items()))
+          if failed:
+              raise SystemExit('Failed assertions: ' + ', '.join(failed))
+          pdf = Path('downloads/alpha-code-volume-i.pdf')
+          if not pdf.exists() or pdf.read_bytes()[:4] != b'%PDF':
+              raise SystemExit('Official Volume I PDF missing or invalid')
+          if not Path('downloads/alpha-code-volume-i.html').exists():
+              raise SystemExit('Free access page missing')
+          PY
+
+      - name: Remove one-shot marker
+        run: rm -f .github/v10-5-run
+
+      - name: Commit recovery changes
+        shell: bash
+        run: |
+          git config user.name 'ALL-ALPHA Work'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'fix: recover free delivery and paid checkout'
+            git push origin HEAD:v10-5-checkout-recovery
+          fi
