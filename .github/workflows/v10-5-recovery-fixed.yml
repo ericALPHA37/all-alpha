@@ -1,0 +1,122 @@
+name: V10.5 Recovery Fixed
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v10-5-recovery-fixed
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout recovery branch
+        uses: actions/checkout@v4
+        with:
+          ref: v10-5-checkout-recovery
+          fetch-depth: 0
+
+      - name: Detect current state
+        id: state
+        shell: bash
+        run: |
+          if grep -q 'name="all-alpha-version" content="10.5"' index.html; then
+            echo 'already_patched=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'already_patched=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Correct regex replacement and apply patch
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path=Path('.github/scripts/v10_5_patch.py')
+          text=path.read_text(encoding='utf-8')
+          text=text.replace(
+              'pattern.subn(checkout_script, html, count=1)',
+              'pattern.subn(lambda _match: checkout_script, html, count=1)',
+          )
+          path.write_text(text,encoding='utf-8')
+          PY
+          python .github/scripts/v10_5_patch.py
+
+      - name: Diagnose Base44 endpoint
+        shell: bash
+        run: |
+          mkdir -p diagnostics
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import json,time,urllib.error,urllib.request
+          endpoint='https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro'
+          origin='https://ericalpha37.github.io'
+          payload={'nome':'QA V10.5','email':'qa.v10.5@example.com','produto':'ALPHA CODE Vol.2 — O Despertar do Homem Indomável','valor_usd':18}
+          lines=['# V10.5 — Diagnóstico público da função Base44','',f'- Data UTC: `{datetime.now(timezone.utc).isoformat()}`',f'- Endpoint: `{endpoint}`',f'- Origin testada: `{origin}`','- Payload: dados fictícios de QA.','']
+          def probe(method,body=None):
+              headers={'Origin':origin,'Accept':'application/json','User-Agent':'ALL-ALPHA-V10.5-QA/1.0'}
+              if method=='OPTIONS':
+                  headers['Access-Control-Request-Method']='POST'
+                  headers['Access-Control-Request-Headers']='content-type'
+              if body is not None: headers['Content-Type']='application/json'
+              req=urllib.request.Request(endpoint,data=json.dumps(body).encode('utf-8') if body is not None else None,headers=headers,method=method)
+              started=time.monotonic()
+              try:
+                  with urllib.request.urlopen(req,timeout=20) as response:
+                      raw=response.read().decode('utf-8',errors='replace')
+                      return response.status,round((time.monotonic()-started)*1000),response.headers,raw[:1500]
+              except urllib.error.HTTPError as error:
+                  raw=error.read().decode('utf-8',errors='replace')
+                  return error.code,round((time.monotonic()-started)*1000),error.headers,raw[:1500]
+              except Exception as error:
+                  return 'NETWORK_ERROR',round((time.monotonic()-started)*1000),{},f'{type(error).__name__}: {error}'
+          for method,body in [('OPTIONS',None),('POST',payload)]:
+              status,elapsed,headers,raw=probe(method,body)
+              lines += [f'## {method}','',f'- Status: `{status}`',f'- Tempo: `{elapsed} ms`',f'- Content-Type: `{headers.get("Content-Type","") or "ausente"}`',f'- Access-Control-Allow-Origin: `{headers.get("Access-Control-Allow-Origin","") or "ausente"}`',f'- Access-Control-Allow-Methods: `{headers.get("Access-Control-Allow-Methods","") or "ausente"}`',f'- Access-Control-Allow-Headers: `{headers.get("Access-Control-Allow-Headers","") or "ausente"}`','','```text',raw or '(resposta vazia)','```','']
+          Path('diagnostics/v10-5-base44.md').write_text('\n'.join(lines),encoding='utf-8')
+          PY
+
+      - name: Run V10.5 assertions
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          page=Path('downloads/alpha-code-volume-i.html').read_text(encoding='utf-8')
+          checks={
+            'version':'content="10.5"' in html,
+            'free bypass':'href="downloads/alpha-code-volume-i.html"' in html,
+            'no free checkout':"openModal('vol1')" not in html,
+            '12s timeout':'AbortController' in html and '12000' in html,
+            'native email validation':'emailInput.checkValidity()' in html,
+            'WhatsApp fallback':'CONTINUAR PELO WHATSAPP' in html,
+            'crypto provisional reference':'crypto.getRandomValues' in html,
+            'prices preserved':all(x in html for x in ['priceUsd:18','priceUsd:22','priceUsd:39']),
+            'free reader':'../experiences/alpha-code-v1-preview.html' in page,
+            'no broken PDF button':'id="download-pdf"' in page and 'hidden' in page,
+          }
+          for name,ok in checks.items(): print(('PASS' if ok else 'FAIL')+': '+name)
+          failed=[name for name,ok in checks.items() if not ok]
+          if failed: raise SystemExit('Failed: '+', '.join(failed))
+          PY
+
+      - name: Commit tested recovery to branch
+        if: steps.state.outputs.already_patched == 'false'
+        shell: bash
+        run: |
+          rm -f .github/v10-5-run
+          git config user.name 'ALL-ALPHA Work'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          git commit -m 'fix: recover free delivery and paid checkout'
+          git push origin HEAD:v10-5-checkout-recovery
+
+      - name: Keep repeated checks clean
+        if: steps.state.outputs.already_patched == 'true'
+        run: git reset --hard HEAD
