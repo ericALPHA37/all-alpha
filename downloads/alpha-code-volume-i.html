@@ -23,7 +23,6 @@ h1 span{color:var(--gold)}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:7px;text-decoration:none;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:1.2px;border:1px solid var(--gold);background:var(--gold);color:#080808}
 .btn.secondary{background:transparent;color:var(--gold)}
-.btn[hidden]{display:none}
 .note{margin-top:24px;padding-left:14px;border-left:2px solid var(--gold2);font-size:15px;color:var(--grey)}
 .asset-note{font-family:var(--mono);font-size:9px;color:var(--gold2);margin-top:10px}
 .back{position:fixed;left:20px;top:18px;font-family:var(--mono);font-size:10px;color:var(--gold);text-decoration:none;z-index:2}
@@ -37,33 +36,14 @@ h1 span{color:var(--gold)}
   <section>
     <p class="kicker">ALL-ALPHA® · ACESSO ABERTO</p>
     <h1>ALPHA CODE <span>VOLUME I</span></h1>
-    <p class="lead">O Manual do Indivíduo Indomável está aberto gratuitamente. Entra na experiência interactiva sem checkout, referência ou recolha de dados.</p>
+    <p class="lead">A experiência gratuita de O Manual do Indivíduo Indomável está aberta sem checkout, referência ou recolha de dados.</p>
     <div class="free">GRATUITO · SEM BARREIRAS</div>
     <div class="actions">
       <a class="btn secondary" href="../experiences/alpha-code-v1-preview.html">LER ONLINE</a>
-      <a class="btn" id="download-pdf" href="alpha-code-volume-i.pdf" download hidden>DESCARREGAR PDF</a>
     </div>
-    <p class="asset-note" id="asset-note">A verificar a disponibilidade do PDF completo…</p>
+    <p class="asset-note">O PDF completo será activado aqui assim que o ficheiro oficial for publicado no repositório.</p>
     <p class="note">Nem tudo o que construímos existe para gerar receita. Algumas obras existem para abrir a porta.</p>
   </section>
 </main>
-<script>
-(async function(){
-  const button=document.getElementById('download-pdf');
-  const note=document.getElementById('asset-note');
-  try{
-    const response=await fetch('alpha-code-volume-i.pdf',{method:'HEAD',cache:'no-store'});
-    const type=(response.headers.get('content-type')||'').toLowerCase();
-    if(response.ok&&type.includes('application/pdf')){
-      button.hidden=false;
-      note.textContent='PDF completo disponível para download.';
-    }else{
-      note.textContent='A leitura online está disponível. O PDF completo será activado aqui assim que o ficheiro oficial estiver publicado.';
-    }
-  }catch(error){
-    note.textContent='A leitura online está disponível. O PDF completo será activado aqui assim que o ficheiro oficial estiver publicado.';
-  }
-})();
-</script>
 </body>
 </html>
