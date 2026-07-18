@@ -1,0 +1,71 @@
+name: V10.5 Paid Checkout Diagnostic
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+
+      - name: Diagnose public checkout
+        shell: bash
+        run: |
+          cat > diagnose.mjs <<'JS'
+          import { chromium } from 'playwright';
+          import fs from 'node:fs';
+          const base='https://ericalpha37.github.io/all-alpha/';
+          const endpoint='registarVendaLivro';
+          const report={testedAt:new Date().toISOString(),events:[],console:[],result:null,error:null};
+          const browser=await chromium.launch({headless:true});
+          const context=await browser.newContext({viewport:{width:1440,height:900}});
+          const page=await context.newPage();
+          page.on('console',m=>report.console.push({type:m.type(),text:m.text()}));
+          page.on('request',req=>{if(req.url().includes(endpoint))report.events.push({kind:'request',method:req.method(),url:req.url(),postData:req.postData()})});
+          page.on('response',async res=>{if(res.url().includes(endpoint)){let body='';try{body=(await res.text()).slice(0,2000)}catch{}report.events.push({kind:'response',status:res.status(),url:res.url(),headers:await res.allHeaders(),body})}});
+          page.on('requestfailed',req=>{if(req.url().includes(endpoint))report.events.push({kind:'requestfailed',url:req.url(),failure:req.failure()})});
+          try{
+            await page.goto(`${base}?paid-diagnostic=${Date.now()}`,{waitUntil:'networkidle'});
+            await page.waitForTimeout(3500);
+            await page.locator('button:has-text("COMPRAR VOL. II")').click();
+            await page.locator('#input-name').fill('QA Browser Diagnostic');
+            await page.locator('#input-email').fill('qa.browser.diagnostic@example.com');
+            await page.locator('#btn-gerar').click();
+            const outcome=await Promise.race([
+              page.locator('#step-payment.active').waitFor({timeout:16000}).then(()=>({type:'automatic'})),
+              page.locator('#checkout-fallback.active').waitFor({timeout:16000}).then(()=>({type:'fallback'})),
+            ]);
+            if(outcome.type==='automatic'){
+              report.result={type:'automatic',reference:await page.locator('#ref-code').innerText(),amount:await page.locator('#ref-amount').innerText(),whatsapp:await page.locator('#btn-whatsapp').getAttribute('href')};
+            }else{
+              report.result={type:'fallback',whatsapp:await page.locator('#btn-whatsapp-fallback').getAttribute('href')};
+            }
+          }catch(error){report.error={name:error.name,message:error.message,stack:error.stack}}
+          await page.screenshot({path:'v10-5-paid-diagnostic.png',fullPage:true});
+          await browser.close();
+          fs.writeFileSync('v10-5-paid-diagnostic.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report,null,2));
+          if(report.error)process.exit(1);
+          JS
+          node diagnose.mjs
+
+      - name: Upload diagnostic evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v10-5-paid-diagnostic
+          path: |
+            v10-5-paid-diagnostic.json
+            v10-5-paid-diagnostic.png
+          if-no-files-found: error
