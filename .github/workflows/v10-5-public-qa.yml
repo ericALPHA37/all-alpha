@@ -1,9 +1,8 @@
 name: V10.5 Public QA
 
 on:
-  push:
+  pull_request:
     branches: [main]
-    paths: [.github/workflows/v10-5-public-qa.yml]
   workflow_dispatch:
 
 permissions:
@@ -45,8 +44,7 @@ jobs:
             }
             check('public version 10.5',(await page.locator('meta[name="all-alpha-version"]').getAttribute('content'))==='10.5');
             await page.waitForTimeout(3400);
-            const scrollWidth=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
-            check('desktop no horizontal overflow',scrollWidth===0,String(scrollWidth));
+            check('desktop no horizontal overflow',(await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth))===0);
             await page.locator('text=OBTER VOL. I').first().click();
             await page.waitForLoadState('networkidle');
             check('Volume I bypasses checkout',page.url().includes('/downloads/alpha-code-volume-i.html'),page.url());
