@@ -184,7 +184,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()
 
 if '// V10.5 · CHECKOUT RECOVERY' not in html:
     pattern = re.compile(r'<script>\s*let selectedProduct=\{\};.*?</script>', re.S)
-    html, replacements = pattern.subn(checkout_script, html, count=1)
+    html, replacements = pattern.subn(lambda _match: checkout_script, html, count=1)
     if replacements != 1:
         raise RuntimeError(f'Expected to replace one checkout script, replaced {replacements}')
 
