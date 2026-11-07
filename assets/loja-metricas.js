@@ -3,8 +3,7 @@
 (function () {
   'use strict';
 
-  var API_EVENTO = 'https://catalisador-alpha-240b44e7.base44.app/functions/registarEvento';
-  var API_LEITOR = 'https://catalisador-alpha-240b44e7.base44.app/functions/registarLeitor';
+  var API_LOJA = 'https://jarvis-os-mobile.pages.dev/api/alpha-os-loja';
   var CHAVE_SESSAO = 'alpha_sessao_v1';
 
   function lerSessao() {
@@ -59,7 +58,7 @@
       utm: utm()
     };
     try {
-      fetch(API_EVENTO, {
+      fetch(API_LOJA, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dados),
@@ -119,19 +118,20 @@
       if (!email) return;
       botao.disabled = true;
       estado.textContent = 'a registar…';
-      fetch(API_LEITOR, {
+      fetch(API_LOJA, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          tipo: 'leitor',
           email: email,
           interesse: 'ambos',
           origem: location.pathname.slice(0, 120)
         })
       }).then(function (r) { return r.json(); }).then(function (d) {
-        if (d && d.success) {
+        if (d && d.ok) {
           caixa.querySelector('form').style.display = 'none';
           estado.style.color = '#D4AF37';
-          estado.textContent = d.jaExistia ? 'Já estavas na lista. Fico contigo.' : 'Contigo. Aviso-te quando abrir.';
+          estado.textContent = 'Contigo. Aviso-te quando abrir.';
           enviar('regresso', {});
         } else {
           botao.disabled = false;
