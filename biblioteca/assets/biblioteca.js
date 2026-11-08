@@ -67,8 +67,7 @@
 
   var guardado = null;
   try { guardado = localStorage.getItem(CHAVE_IDIOMA); } catch (e) {}
-  var doNavegador = (navigator.language || "pt").toLowerCase().indexOf("en") === 0 ? "en" : "pt";
-  aplicarIdioma(guardado || doNavegador);
+  aplicarIdioma(guardado === "en" ? "en" : "pt");
 
   /* --- menu mobile -------------------------------------------------------- */
 
