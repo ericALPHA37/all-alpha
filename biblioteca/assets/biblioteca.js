@@ -65,9 +65,12 @@
     });
   }
 
+  var daUrl = null;
+  try { daUrl = new URLSearchParams(location.search).get("lang"); } catch (e) {}
   var guardado = null;
   try { guardado = localStorage.getItem(CHAVE_IDIOMA); } catch (e) {}
-  aplicarIdioma(guardado === "en" ? "en" : "pt");
+  var inicial = (daUrl === "en" || daUrl === "pt") ? daUrl : (guardado === "en" ? "en" : "pt");
+  aplicarIdioma(inicial);
 
   /* --- menu mobile -------------------------------------------------------- */
 
