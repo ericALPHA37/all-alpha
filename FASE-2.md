@@ -1,9 +1,10 @@
 # FASE 2 — Correcções e integração
 
-Data: 09/11/2026 · Estado: **pré-visualização pronta, produção intacta**
+Data: 09/11/2026 · Estado: **promovida a produção** (v2.0.1)
 
 - Produção (não alterada): https://ericalpha37.github.io/all-alpha/
-- Pré-visualização: https://ericalpha37.github.io/all-alpha/preview-fase2/
+- Cópia de recuperação anterior: https://ericalpha37.github.io/all-alpha/alpha-code-v1-0-1.html
+- Recuperação ainda mais antiga: https://ericalpha37.github.io/all-alpha/alpha-code-anterior.html
 - Repositório: https://github.com/ericALPHA37/all-alpha
 
 ---
@@ -20,7 +21,7 @@ Data: 09/11/2026 · Estado: **pré-visualização pronta, produção intacta**
 | Entidade `LeitorLoja` | esquema | Novos campos: `consentimento`, `consentimento_data`, `consentimento_versao`, `estado`, `idioma`, `token_cancelamento`, `mailerlite_estado` |
 | `propostas-capas/` | novo | 6 capas + folha de contacto para aprovação |
 
-**Nada na raiz do site foi tocado.** `git diff` entre a versão em produção e o estado actual nos ficheiros de produção: 0 bytes. `alpha-code-anterior.html` continua igual.
+A promoção foi feita a 09/11/2026. A versão anterior da raiz ficou guardada em `alpha-code-v1-0-1.html`; `alpha-code-anterior.html` continua intacta. A pasta de pré-visualização foi removida para não haver conteúdo duplicado.
 
 ## 2. Problemas encontrados e correcções
 
@@ -82,13 +83,12 @@ Nada foi aplicado na Gumroad nem substituído no site.
 
 ## 7. Visitas
 
-A contagem está implementada e testada, mas **só começa a registar visitas reais quando a Fase 2 substituir a produção**. O que fica registado por visita: página, idioma, tipo de dispositivo, site de origem, sessão anónima e data. Sem cookies, sem IP, sem identificação. Respeita o sinal `Do Not Track` do navegador.
+A contagem está **activa em produção desde 09/11/2026**. O que fica registado por visita: página, idioma, tipo de dispositivo, site de origem, sessão anónima e data. Sem cookies, sem IP, sem identificação. Respeita o sinal `Do Not Track` do navegador.
 
 Para consultar: basta pedir "quantas visitas hoje" ou "visitas desta semana".
 
 ## 8. Depende de aprovação humana
 
-1. Promover a pré-visualização a produção (`preview-fase2/` → raiz).
 2. Escolher a variante de capa para o Volume II e para o Volume III.
 3. Criar a conta MailerLite e fornecer as duas credenciais.
 4. Confirmar o email público de contacto (`ericdcxavier@icloud.com`).
