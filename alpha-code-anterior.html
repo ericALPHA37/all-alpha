@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ALPHA CODE — uma trilogia sobre disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
+<title>ALPHA CODE — Mais do que um livro | ALL-ALPHA®</title>
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#080808">
+<meta name="all-alpha-version" content="10.5">
+<meta property="og:title" content="ALPHA CODE — ALL-ALPHA®">
+<meta property="og:description" content="Disciplina, execução, identidade e legado. Entra no universo ALL-ALPHA.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080808;--surface:#111;--border:#232323;--gold:#D4AF37;--gold2:#8B6914;--gold3:#2A2000;--red:#8B0000;--white:#F0EDE5;--grey:#9A9A9A;--bebas:'Bebas Neue',sans-serif;--serif:'Crimson Pro',Georgia,serif;--mono:'Space Mono',monospace}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:var(--bg);color:var(--white);font-family:var(--serif);font-size:18px;line-height:1.7;overflow-x:hidden}
+.wrap{max-width:1060px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+.section{padding:92px 0;border-top:1px solid var(--border)}
+.shdr{font-family:var(--mono);font-size:10px;letter-spacing:4px;color:var(--gold2);text-transform:uppercase;margin-bottom:18px}
+.section-title{font-family:var(--bebas);font-size:clamp(38px,6vw,64px);line-height:1;color:var(--white);margin-bottom:18px}
+.section-title span{color:var(--gold)}
+.section-lead{max-width:700px;color:var(--grey);font-size:19px;margin-bottom:42px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:7px;text-decoration:none;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:1.4px;cursor:pointer;transition:.2s;color:#080808;border:1px solid var(--gold);background:var(--gold)}
+.btn:hover{background:#fff;border-color:#fff;transform:translateY(-2px)}
+.btn.secondary{background:transparent;color:var(--gold)}
+.btn.secondary:hover{background:var(--gold3)}
+a:focus-visible,button:focus-visible,input:focus-visible,.builder-portal:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+/* V10.2 · EXPERIÊNCIA INTEGRADA */
+.alpha-cursor{position:fixed;left:0;top:0;width:28px;height:28px;z-index:9999;pointer-events:none;opacity:0;transform:translate3d(-100px,-100px,0);transition:opacity .2s ease}
+.alpha-cursor img{width:100%;height:100%;display:block;filter:drop-shadow(0 0 12px rgba(212,175,55,.42))}
+body.cursor-ready{cursor:none}
+body.cursor-ready .alpha-cursor{opacity:.86}
+body.modal-open .alpha-cursor,body.cursor-muted .alpha-cursor{opacity:0}
+@media(hover:none),(pointer:coarse){.alpha-cursor{display:none}}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(8,8,8,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+.topbar-logo{font-family:var(--bebas);font-size:21px;letter-spacing:4px;color:var(--gold)}
+.topbar-cta{background:var(--gold);color:#080808;font-family:var(--mono);font-size:10px;font-weight:700;padding:9px 16px;border-radius:5px;text-decoration:none}
+.hero{min-height:100vh;display:flex;align-items:center;padding:122px 0 82px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 82% 35%,rgba(212,175,55,.10),transparent 34%),linear-gradient(180deg,transparent 70%,rgba(0,0,0,.55))}
+.hero::after{content:'A';position:absolute;right:-45px;top:50%;transform:translateY(-50%);font-family:var(--bebas);font-size:min(52vw,640px);line-height:1;color:rgba(212,175,55,.035)}
+.hero-copy{max-width:780px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:3px;color:var(--gold);text-transform:uppercase}
+.hero-title{font-family:var(--bebas);font-size:clamp(62px,11vw,118px);line-height:.84;letter-spacing:2px;margin:22px 0}
+.hero-title span{color:var(--gold)}
+.hero-positioning{font-family:var(--bebas);font-size:clamp(30px,5vw,54px);line-height:1.05;margin-bottom:24px}
+.hero-lead{font-size:clamp(18px,2.2vw,22px);max-width:680px;color:rgba(240,237,229,.82)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:34px 0 24px}
+.hero-proof{display:flex;gap:10px 24px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;color:var(--grey)}
+.hero-proof span::before{content:'✓';color:var(--gold);margin-right:7px}
+.community-line{margin-top:46px;border-left:2px solid var(--gold);padding:14px 20px;background:linear-gradient(90deg,var(--gold3),transparent);font-style:italic;font-size:23px;color:var(--gold)}
+.community-line small{display:block;font-family:var(--mono);font-style:normal;font-size:9px;color:var(--gold2);margin-top:6px}
+.cards4,.movement-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.pillar,.movement-card,.testi-card,.step,.inside-item,.vol-card{background:var(--surface);border:1px solid var(--border);border-radius:12px}
+.pillar{padding:26px 22px;transition:.25s}
+.pillar:hover,.movement-card:hover,.vol-card:hover{transform:translateY(-4px);border-color:var(--gold2)}
+.pillar-icon{font-size:24px;color:var(--gold);margin-bottom:12px}
+.pillar h3{font-family:var(--bebas);font-size:26px}
+.pillar p{font-size:14px;color:var(--grey)}
+.volumes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-bottom:34px}
+.vol-card{padding:26px 22px;position:relative;transition:.25s}
+.vol-card.featured{border-color:var(--gold)}
+.vol-card.featured::before{content:'DESTAQUE';position:absolute;right:14px;top:14px;font-family:var(--mono);font-size:8px;background:var(--gold);color:#080808;padding:3px 8px;border-radius:20px}
+.vol-num{font-family:var(--bebas);font-size:54px;color:var(--gold);opacity:.6;line-height:1}
+.vol-stage{font-family:var(--mono);font-size:9px;letter-spacing:2px;color:var(--gold2);margin:8px 0}
+.vol-title{font-weight:600;font-size:17px;line-height:1.35;min-height:46px}
+.vol-sub{font-style:italic;font-size:14px;color:var(--grey);margin:7px 0 18px}
+.vol-price{font-family:var(--mono);font-size:22px;color:var(--gold);font-weight:700}
+.vol-lang{font-family:var(--mono);font-size:9px;color:var(--grey);margin:5px 0 18px}
+.vol-card .btn{width:100%;min-height:44px}
+.vol-actions{display:grid;gap:10px}
+.experience-link{font-size:9px;min-height:40px}
+.pack-card{background:linear-gradient(135deg,var(--gold3),#111);border:1px solid var(--gold);border-radius:16px;padding:38px;text-align:center}
+.pack-badge{display:inline-block;background:var(--red);font-family:var(--mono);font-size:9px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px}
+.pack-title{font-family:var(--bebas);font-size:44px;color:var(--gold)}
+.pack-sub{color:var(--grey);font-style:italic}
+.pack-price{font-family:var(--bebas);font-size:66px;color:var(--gold);margin:18px 0}
+.pack-includes{display:flex;justify-content:center;gap:12px 26px;flex-wrap:wrap;font-family:var(--mono);font-size:9px;color:var(--grey);margin:20px 0 26px}
+.pack-includes span::before{content:'◆';color:var(--gold);margin-right:7px}
+.dossie-card{margin-top:24px;border:1px solid rgba(212,175,55,.38);border-radius:14px;background:radial-gradient(circle at 84% 20%,rgba(139,0,0,.2),transparent 34%),linear-gradient(135deg,#121212,var(--gold3));padding:32px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
+.dossie-card h3{font-family:var(--bebas);font-size:40px;color:var(--gold);line-height:1;margin:8px 0}
+.dossie-card p{color:var(--grey);max-width:620px}
+.dossie-card .btn{white-space:nowrap}
+.testi-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:17px}
+.testi-card{padding:28px}
+.testi-card.feature{grid-row:span 2;border-color:var(--gold2)}
+.testi-tag{font-family:var(--mono);font-size:9px;letter-spacing:2px;color:var(--gold);margin-bottom:15px}
+.testi-text{font-size:18px;color:rgba(240,237,229,.86)}
+.testi-text p+p{margin-top:13px}
+.testi-highlight{font-size:27px;font-style:italic;color:var(--gold);line-height:1.25;margin:22px 0}
+.testi-author{font-family:var(--mono);font-size:10px;color:var(--grey);margin-top:18px}
+.avatar{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--gold3);border:1px solid var(--gold2);color:var(--gold);font-family:var(--bebas);font-size:20px;margin-bottom:15px}
+.trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:26px}
+.trust-strip div{background:var(--surface);padding:17px;text-align:center;font-family:var(--mono);font-size:9px;color:var(--gold)}
+.reader-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.checklist{display:grid;gap:11px}
+.checklist li{list-style:none;color:var(--grey)}
+.checklist li::before{content:'✓';color:var(--gold);margin-right:10px}
+.quote-panel{background:var(--gold3);border-left:3px solid var(--gold);padding:32px;border-radius:0 12px 12px 0;font-size:26px;font-style:italic;color:var(--gold)}
+.quote-panel small{display:block;font-family:var(--mono);font-style:normal;font-size:9px;color:var(--gold2);margin-top:14px}
+.movement-card{padding:22px;min-height:150px;transition:.25s}
+.movement-name{font-family:var(--mono);font-size:9px;color:var(--gold2);margin-bottom:12px}
+.movement-quote{font-size:20px;font-style:italic}
+.inside-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.inside-item{padding:21px;display:flex;gap:14px}
+.inside-title{font-weight:600;font-size:16px}
+.inside-desc{font-size:14px;color:var(--grey)}
+/* V10.2 · EXPERIÊNCIA INTEGRADA */
+/* V10 · O CONSTRUTOR */
+.builder-section{position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(8,8,8,.12),rgba(42,32,0,.05) 48%,rgba(8,8,8,.1))}
+.builder-section::before{content:'';position:absolute;left:0;right:0;top:92px;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,.42),transparent);opacity:.55}
+.builder-grid{display:grid;grid-template-columns:minmax(280px,.42fr) minmax(0,.58fr);gap:64px;align-items:start}
+.builder-portal{position:relative;aspect-ratio:3/4;min-height:540px;border:1px solid rgba(212,175,55,.46);border-radius:10px;overflow:hidden;background:radial-gradient(circle at 50% 35%,rgba(212,175,55,.16),transparent 38%),linear-gradient(145deg,var(--gold3),var(--surface));box-shadow:0 34px 70px rgba(0,0,0,.58),inset 0 0 0 1px rgba(255,255,255,.04);isolation:isolate}
+.builder-portal::before{content:'';position:absolute;inset:12px;border:1px solid rgba(212,175,55,.18);z-index:2;pointer-events:none}
+.builder-portal::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.02) 36%,rgba(0,0,0,.42) 72%,rgba(0,0,0,.82));z-index:1;pointer-events:none}
+.builder-portal img{width:100%;height:100%;display:block;object-fit:cover;object-position:center center;filter:saturate(.92) contrast(1.03) brightness(.86);transition:filter 1.4s ease,transform 1.4s ease}
+.builder-portal:hover img,.builder-portal:focus img{filter:saturate(1) contrast(1.06) brightness(.98);transform:scale(1.012)}
+.builder-monogram{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--bebas);font-size:clamp(96px,15vw,180px);color:var(--gold);opacity:0;z-index:0}
+.builder-portal.image-missing .builder-monogram{opacity:1}
+.builder-caption{position:absolute;left:22px;right:22px;bottom:22px;z-index:3;color:rgba(240,237,229,.9);font-size:18px;font-style:italic;line-height:1.25;opacity:0;transform:translateY(10px);transition:opacity .45s ease,transform .45s ease;text-shadow:0 2px 18px rgba(0,0,0,.65)}
+.builder-portal:hover .builder-caption,.builder-portal:focus .builder-caption{opacity:1;transform:translateY(0)}
+.builder-copy{position:relative}
+.builder-line{width:132px;height:2px;background:linear-gradient(90deg,var(--gold),rgba(212,175,55,.18));margin-bottom:24px;transform-origin:left center}
+.builder-kicker{font-family:var(--mono);font-size:10px;letter-spacing:4px;color:var(--gold2);text-transform:uppercase;margin-bottom:12px}
+.builder-title{font-family:var(--bebas);font-size:clamp(54px,8vw,92px);line-height:.86;letter-spacing:1px;color:var(--white)}
+.builder-title span{display:block;color:var(--gold);font-size:.52em;line-height:1;margin-top:12px}
+.builder-position{margin:22px 0 8px;font-family:var(--bebas);font-size:clamp(27px,4.5vw,46px);line-height:1;color:var(--gold)}
+.builder-role{font-family:var(--mono);font-size:9px;line-height:1.8;letter-spacing:2px;color:var(--grey);text-transform:uppercase;margin-bottom:30px}
+.builder-text{display:grid;gap:15px;color:rgba(240,237,229,.84);font-size:19px;max-width:670px}
+.builder-quote{margin:32px 0 26px;padding:24px 0 24px 26px;border-left:2px solid var(--gold);font-family:var(--bebas);font-size:clamp(28px,4vw,44px);line-height:1.02;color:var(--white)}
+.builder-quote span{color:var(--gold)}
+.builder-quote cite{display:block;margin-top:16px;font-family:var(--mono);font-size:9px;font-style:normal;letter-spacing:2px;color:var(--gold2)}
+.builder-chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:22px}
+.builder-chips span{border:1px solid rgba(212,175,55,.24);background:rgba(17,17,17,.68);padding:8px 10px;font-family:var(--mono);font-size:8px;line-height:1.25;letter-spacing:.9px;color:var(--gold2);text-align:center;min-width:0}
+.builder-close{margin-top:40px;padding-top:24px;border-top:1px solid rgba(212,175,55,.18);font-size:25px;font-style:italic;color:var(--gold);max-width:620px}
+.builder-section.builder-motion .builder-line{transform:scaleX(0);opacity:0}
+.builder-section.builder-motion .builder-portal{filter:brightness(.62);box-shadow:0 22px 54px rgba(0,0,0,.58),inset 0 0 0 1px rgba(255,255,255,.04)}
+.builder-section.builder-motion .builder-title{opacity:0;transform:translateY(16px)}
+.builder-section.builder-motion .builder-kicker,.builder-section.builder-motion .builder-position,.builder-section.builder-motion .builder-role,.builder-section.builder-motion .builder-text,.builder-section.builder-motion .builder-quote,.builder-section.builder-motion .builder-chips,.builder-section.builder-motion .builder-close{opacity:0;transform:translateY(14px)}
+.builder-section.builder-motion.is-active .builder-line{transform:scaleX(1);opacity:1;transition:transform .9s ease,opacity .9s ease}
+.builder-section.builder-motion.is-active .builder-portal{filter:brightness(1);box-shadow:0 34px 74px rgba(0,0,0,.6),0 0 38px rgba(212,175,55,.1),inset 0 0 0 1px rgba(255,255,255,.05);transition:filter 1.1s ease .18s,box-shadow 1.1s ease .18s}
+.builder-section.builder-motion.is-active .builder-title{opacity:1;transform:translateY(0);transition:opacity .75s ease .28s,transform .75s ease .28s}
+.builder-section.builder-motion.is-active .builder-kicker,.builder-section.builder-motion.is-active .builder-position,.builder-section.builder-motion.is-active .builder-role,.builder-section.builder-motion.is-active .builder-text,.builder-section.builder-motion.is-active .builder-quote,.builder-section.builder-motion.is-active .builder-chips,.builder-section.builder-motion.is-active .builder-close{opacity:1;transform:translateY(0);transition:opacity .72s ease,transform .72s ease}
+.builder-section.builder-motion.is-active .builder-kicker{transition-delay:.18s}
+.builder-section.builder-motion.is-active .builder-position{transition-delay:.42s}
+.builder-section.builder-motion.is-active .builder-role{transition-delay:.5s}
+.builder-section.builder-motion.is-active .builder-text{transition-delay:.62s}
+.builder-section.builder-motion.is-active .builder-quote{transition-delay:.78s}
+.builder-section.builder-motion.is-active .builder-chips{transition-delay:.92s}
+.builder-section.builder-motion.is-active .builder-close{transition-delay:1.04s}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.step{padding:24px 15px;text-align:center}
+.step-n{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 13px;background:var(--gold);color:#080808;font-family:var(--mono);font-size:10px;font-weight:700}
+.step h3{font-family:var(--bebas);font-size:22px}
+.step p{font-size:13px;color:var(--grey)}
+.faq-item{border-bottom:1px solid var(--border);padding:20px 0}
+.faq-q{font-weight:600;font-size:17px}
+.faq-a{font-size:15px;color:var(--grey);margin-top:6px}
+.cta-final{text-align:center;padding:110px 0;border-top:1px solid var(--border);background:radial-gradient(circle at center,rgba(212,175,55,.08),transparent 55%)}
+.cta-final h2{font-family:var(--bebas);font-size:clamp(46px,8vw,82px);line-height:.95}
+.cta-final h2 span{color:var(--gold)}
+.cta-final p{font-size:21px;color:var(--grey);font-style:italic;margin:22px auto 34px}
+footer{border-top:1px solid var(--border);padding:34px 0;text-align:center}
+footer p{font-family:var(--mono);font-size:9px;color:var(--grey)}
+footer a{color:var(--gold2);text-decoration:none}
+.mobile-buy{display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:95;background:rgba(17,17,17,.88);backdrop-filter:blur(14px);border:1px solid var(--gold2);border-radius:12px;padding:7px;box-shadow:0 12px 34px rgba(0,0,0,.55)}
+.mobile-buy .btn{width:100%;min-height:44px;padding:10px 16px}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.87);z-index:200;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.active{display:flex}
+.modal{background:var(--surface);border:1px solid var(--gold2);border-radius:16px;padding:36px 32px;max-width:480px;width:100%;position:relative}
+.modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--grey);font-size:20px}
+.modal-title{font-family:var(--bebas);font-size:30px;color:var(--gold)}
+.modal-sub{font-style:italic;color:var(--grey);font-size:15px;margin-bottom:22px}
+.modal-product{background:var(--gold3);border:1px solid var(--gold2);border-radius:8px;padding:14px 18px;margin-bottom:22px}
+.modal-product-name{font-family:var(--mono);font-size:10px;color:var(--gold)}
+.modal-product-price{font-family:var(--bebas);font-size:32px}
+.form-group{margin-bottom:15px}
+.form-label{font-family:var(--mono);font-size:9px;color:var(--grey);display:block;margin-bottom:6px}
+.form-input{width:100%;background:#0A0A0A;border:1px solid var(--border);border-radius:6px;padding:12px 14px;color:var(--white);font-family:var(--serif);font-size:16px}
+.modal-note{font-family:var(--mono);font-size:8px;color:var(--grey);text-align:center;margin-top:11px}
+.pay-step{display:none}.pay-step.active{display:block}
+.ref-box{background:var(--gold3);border:1px solid var(--gold);border-radius:8px;padding:16px;text-align:center;margin-bottom:18px}
+.ref-label{font-family:var(--mono);font-size:8px;color:var(--gold2)}
+.ref-code{font-family:var(--bebas);font-size:27px;color:var(--gold)}
+.ref-amount{font-family:var(--mono);font-size:12px}
+.pay-method{border:1px solid var(--border);border-radius:8px;padding:11px 14px;margin-bottom:9px;display:flex;justify-content:space-between}
+.pay-method-name{font-family:var(--mono);font-size:9px;color:var(--grey)}
+.pay-method-number{font-family:var(--bebas);font-size:18px}
+.pay-instructions{font-size:14px;color:var(--grey);margin:15px 0}
+.btn-whatsapp{display:block;padding:15px;background:#25D366;color:#080808;border-radius:8px;text-align:center;text-decoration:none;font-family:var(--mono);font-size:10px;font-weight:700}
+
+/* ===== ALPHA CODE V2 — CAPAS REAIS EM 3D ===== */
+.hero .wrap{width:100%}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(430px,.97fr);gap:42px;align-items:center}
+.hero-books{position:relative;min-height:610px;perspective:1700px;filter:drop-shadow(0 35px 42px rgba(0,0,0,.72))}
+.hero-books::after{content:'';position:absolute;left:8%;right:2%;bottom:34px;height:52px;background:radial-gradient(ellipse,rgba(212,175,55,.24),rgba(0,0,0,0) 68%);filter:blur(13px);z-index:0}
+.book-3d{position:absolute;bottom:70px;width:35%;aspect-ratio:.69;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.8,.2,1),filter .4s;z-index:2}
+.book-3d img{width:100%;height:100%;object-fit:cover;display:block;border-radius:2px 6px 6px 2px;box-shadow:0 28px 40px rgba(0,0,0,.68),inset -7px 0 0 rgba(255,255,255,.05);border:1px solid rgba(212,175,55,.28)}
+.book-3d::before{content:'';position:absolute;top:7px;right:-15px;width:15px;height:calc(100% - 14px);background:linear-gradient(90deg,#c6b38a,#f6eed9 45%,#7a6845);transform:rotateY(90deg);transform-origin:left;box-shadow:inset 0 0 8px rgba(0,0,0,.45)}
+.book-3d::after{content:'';position:absolute;left:5px;right:-8px;bottom:-12px;height:12px;background:linear-gradient(#6d5a34,#17130b);transform:rotateX(90deg);transform-origin:top}
+.book-3d:hover{z-index:8;filter:brightness(1.07)}
+.book-one{left:0;transform:rotateY(17deg) rotateZ(-2deg) translateY(18px)}
+.book-one:hover{transform:rotateY(5deg) rotateZ(0) translateY(-10px) scale(1.05)}
+.book-two{left:31.5%;z-index:5;width:38%;transform:translateY(-8px) rotateY(0deg)}
+.book-two:hover{transform:translateY(-28px) scale(1.055)}
+.book-three{right:0;transform:rotateY(-17deg) rotateZ(2deg) translateY(20px)}
+.book-three:hover{transform:rotateY(-5deg) rotateZ(0) translateY(-10px) scale(1.05)}
+.book-caption{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-family:var(--mono);font-size:8px;letter-spacing:2px;color:var(--gold2);z-index:4}
+.vol-card{overflow:visible;padding-top:20px}
+.cover-stage{height:325px;display:flex;align-items:flex-end;justify-content:center;perspective:1200px;margin:-4px 0 22px;position:relative}
+.cover-stage::after{content:'';position:absolute;width:74%;height:24px;bottom:-3px;background:radial-gradient(ellipse,rgba(212,175,55,.2),transparent 68%);filter:blur(6px)}
+.cover-book{height:300px;max-width:91%;position:relative;transform-style:preserve-3d;transform:rotateY(-12deg) rotateX(1deg);transition:transform .45s cubic-bezier(.2,.8,.2,1);z-index:2}
+.cover-book img{height:100%;width:auto;max-width:100%;object-fit:cover;display:block;border-radius:2px 5px 5px 2px;border:1px solid rgba(212,175,55,.25);box-shadow:16px 24px 30px rgba(0,0,0,.65)}
+.cover-book::before{content:'';position:absolute;top:6px;right:-11px;width:11px;height:calc(100% - 12px);background:linear-gradient(90deg,#bca879,#f6edd8 48%,#55472c);transform:rotateY(90deg);transform-origin:left}
+.vol-card:nth-child(2) .cover-book{transform:rotateY(0deg) translateY(-8px)}
+.vol-card:nth-child(3) .cover-book{transform:rotateY(12deg)}
+.vol-card:hover .cover-book{transform:rotateY(0deg) translateY(-13px) scale(1.035)}
+.vol-card .vol-num{display:none}
+.vol-card .vol-title{font-family:var(--bebas);font-size:25px;min-height:auto;letter-spacing:.4px}
+.vol-card .vol-sub{min-height:48px}
+.collection-note{text-align:center;font-family:var(--mono);font-size:9px;color:var(--gold2);letter-spacing:1.5px;margin-top:-20px;margin-bottom:34px}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}.hero-books{min-height:480px;max-width:680px;width:100%;margin:0 auto}.hero-copy{max-width:760px}.book-3d{bottom:55px}.cover-stage{height:290px}.cover-book{height:265px}}
+@media(max-width:620px){.hero-books{min-height:350px;margin-top:12px}.book-3d{width:38%;bottom:48px}.book-two{left:31%;width:40%}.book-caption{font-size:7px}.cover-stage{height:350px}.cover-book{height:325px}.vol-card .vol-title{font-size:28px}.hero-grid{gap:10px}}
+
+@media(max-width:820px){.cards4,.movement-grid{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}.testi-grid{grid-template-columns:1fr}.testi-card.feature{grid-row:auto}.mobile-buy{display:block}body{padding-bottom:78px}}
+@media(max-width:620px){.wrap{padding:0 20px}.section{padding:72px 0}.hero-actions{display:grid}.hero-actions .btn{width:100%}.cards4,.volumes-grid,.movement-grid,.inside-grid,.reader-grid,.timeline{grid-template-columns:1fr}.trust-strip{grid-template-columns:1fr}.pack-card{padding:30px 20px}.dossie-card{grid-template-columns:1fr;padding:26px 20px}.dossie-card .btn{width:100%}.modal{padding:32px 22px}}
+@media(max-width:920px){.builder-grid{grid-template-columns:1fr;gap:42px}.builder-portal{order:0;width:min(100%,520px);min-height:0;margin:0 auto}.builder-copy{order:1}.builder-chips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.builder-section::before{top:72px}.builder-grid{gap:34px}.builder-portal{width:100%;border-radius:8px}.builder-caption{left:18px;right:18px;bottom:18px;font-size:16px;opacity:1;transform:none}.builder-title{font-size:clamp(48px,16vw,70px)}.builder-title span{font-size:.58em}.builder-position{font-size:clamp(28px,9vw,38px)}.builder-role{font-size:8px;letter-spacing:1.4px}.builder-text{font-size:18px}.builder-quote{padding-left:18px}.builder-chips{gap:8px}.builder-chips span{font-size:7px;padding:8px 6px}.builder-close{font-size:22px}}
+
+/* ===== UNIVERSO ÉRIC XAVIER ===== */
+.universe-section{background:radial-gradient(circle at 18% 35%,rgba(139,0,0,.11),transparent 33%),radial-gradient(circle at 82% 52%,rgba(35,83,125,.13),transparent 36%),#090909}
+.universe-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.universe-card{position:relative;min-height:460px;border:1px solid var(--border);border-radius:18px;overflow:hidden;background:#101010;display:grid;grid-template-columns:42% 58%;align-items:center;transition:.35s}
+.universe-card:hover{transform:translateY(-7px);border-color:var(--gold2);box-shadow:0 28px 55px rgba(0,0,0,.45)}
+.universe-cover{height:390px;display:flex;justify-content:center;align-items:center;perspective:1200px;padding:18px;position:relative;z-index:2}
+.universe-cover img{height:100%;max-width:100%;object-fit:cover;border-radius:3px 8px 8px 3px;box-shadow:18px 28px 38px rgba(0,0,0,.62);transform:rotateY(11deg) rotateZ(-1deg);transition:.45s;border:1px solid rgba(255,255,255,.08)}
+.universe-card:hover .universe-cover img{transform:rotateY(2deg) translateY(-8px) scale(1.025)}
+.universe-copy{padding:34px 30px 34px 8px;position:relative;z-index:3}
+.universe-label{font-family:var(--mono);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--gold2);margin-bottom:12px}
+.universe-title{font-family:var(--bebas);font-size:39px;line-height:1;color:var(--white);margin-bottom:10px}
+.universe-desc{font-size:16px;color:var(--grey);line-height:1.55;margin-bottom:20px}
+.universe-status{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:6px 11px;font-family:var(--mono);font-size:8px;color:var(--gold)}
+.universe-card.riso{background:linear-gradient(135deg,#1b0c0f,#331015 55%,#13090b)}
+.universe-card.arquivo{background:linear-gradient(135deg,#07101b,#0c2239 58%,#07101a)}
+.catalogue-line{margin-top:28px;padding:22px;border:1px dashed var(--gold2);border-radius:12px;text-align:center;font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--grey)}
+.catalogue-line strong{color:var(--gold)}
+@media(max-width:820px){.universe-grid{grid-template-columns:1fr}.universe-card{min-height:410px}}
+@media(max-width:620px){.universe-card{grid-template-columns:44% 56%;min-height:360px}.universe-cover{height:320px;padding:12px}.universe-copy{padding:25px 18px 25px 4px}.universe-title{font-size:30px}.universe-desc{font-size:14px}}
+
+
+/* ===== V4 · BIBLIOTECA ALL-ALPHA ===== */
+.library-section{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 18% 28%,rgba(139,0,0,.10),transparent 30%),
+    radial-gradient(circle at 82% 66%,rgba(30,76,122,.13),transparent 34%),
+    linear-gradient(180deg,#080808,#0b0b0b 45%,#080808);
+}
+.library-section::before{
+  content:'BIBLIOTECA';
+  position:absolute;
+  right:-2vw;
+  top:7%;
+  font-family:var(--bebas);
+  font-size:clamp(90px,18vw,280px);
+  color:rgba(212,175,55,.025);
+  letter-spacing:8px;
+  pointer-events:none;
+}
+.library-head{
+  display:grid;
+  grid-template-columns:1.45fr .85fr;
+  gap:35px;
+  align-items:end;
+  margin-bottom:30px;
+}
+.library-stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border:1px solid var(--border);
+  border-radius:14px;
+  overflow:hidden;
+  background:rgba(17,17,17,.78);
+  backdrop-filter:blur(8px);
+}
+.library-stats div{
+  padding:18px 12px;
+  text-align:center;
+  border-right:1px solid var(--border);
+}
+.library-stats div:last-child{border-right:0}
+.library-stats strong{
+  display:block;
+  font-family:var(--bebas);
+  font-size:35px;
+  line-height:1;
+  color:var(--gold);
+}
+.library-stats span{
+  display:block;
+  margin-top:7px;
+  font-family:var(--mono);
+  font-size:7px;
+  line-height:1.45;
+  color:var(--grey);
+  text-transform:uppercase;
+}
+.library-tabs{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:48px;
+}
+.library-tab{
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:8px 14px;
+  text-decoration:none;
+  font-family:var(--mono);
+  font-size:8px;
+  letter-spacing:1px;
+  color:var(--grey);
+  background:#101010;
+}
+.library-tab.active{
+  color:#080808;
+  background:var(--gold);
+  border-color:var(--gold);
+}
+.library-tab:hover{border-color:var(--gold2);color:var(--gold)}
+.library-tab.disabled{opacity:.45;cursor:default}
+.shelf-block{
+  position:relative;
+  margin-top:28px;
+  padding:34px 28px 12px;
+  border:1px solid var(--border);
+  border-radius:22px;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.015),transparent),
+    rgba(12,12,12,.83);
+  box-shadow:0 30px 70px rgba(0,0,0,.36);
+}
+.shelf-heading{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:24px;
+  margin-bottom:30px;
+}
+.shelf-kicker{
+  display:block;
+  font-family:var(--mono);
+  font-size:8px;
+  letter-spacing:2px;
+  color:var(--gold2);
+  margin-bottom:5px;
+}
+.shelf-heading h3{
+  font-family:var(--bebas);
+  font-size:42px;
+  line-height:1;
+  color:var(--white);
+}
+.shelf-heading p{
+  max-width:340px;
+  color:var(--grey);
+  font-style:italic;
+  text-align:right;
+}
+.book-shelf{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  align-items:end;
+  perspective:1600px;
+}
+.shelf-book{
+  min-width:0;
+  cursor:pointer;
+  transition:transform .4s,filter .4s;
+}
+.shelf-book:hover{transform:translateY(-11px)}
+.shelf-cover{
+  height:390px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  position:relative;
+}
+.shelf-cover::after{
+  content:'';
+  position:absolute;
+  left:18%;
+  right:12%;
+  bottom:5px;
+  height:30px;
+  background:rgba(0,0,0,.58);
+  filter:blur(15px);
+  border-radius:50%;
+}
+.shelf-cover img{
+  height:100%;
+  max-width:100%;
+  object-fit:contain;
+  position:relative;
+  z-index:2;
+  border-radius:3px 9px 9px 3px;
+  box-shadow:18px 24px 34px rgba(0,0,0,.58);
+  border:1px solid rgba(255,255,255,.08);
+  transition:transform .45s,box-shadow .45s;
+  transform-origin:center bottom;
+}
+.alpha-one .shelf-cover img{transform:rotateY(10deg) rotateZ(-2deg)}
+.alpha-two .shelf-cover img{transform:translateY(-13px) scale(1.05)}
+.alpha-three .shelf-cover img{transform:rotateY(-10deg) rotateZ(2deg)}
+.alpha-one:hover .shelf-cover img,
+.alpha-two:hover .shelf-cover img,
+.alpha-three:hover .shelf-cover img{
+  transform:translateY(-16px) scale(1.055) rotateY(0);
+  box-shadow:20px 35px 46px rgba(0,0,0,.67);
+}
+.shelf-copy{
+  padding:20px 8px 10px;
+  text-align:center;
+}
+.shelf-copy span{
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:1.8px;
+  color:var(--gold2);
+}
+.shelf-copy h4{
+  margin:7px auto 4px;
+  max-width:290px;
+  font-family:var(--bebas);
+  font-size:24px;
+  line-height:1.08;
+  color:var(--white);
+}
+.shelf-copy p{
+  color:var(--grey);
+  font-size:14px;
+  font-style:italic;
+}
+.shelf-plank{
+  height:18px;
+  margin:10px -10px -22px;
+  border-radius:4px 4px 10px 10px;
+  background:linear-gradient(180deg,#6b4a13,#201505 35%,#080808);
+  border-top:1px solid #b38729;
+  box-shadow:0 18px 24px rgba(0,0,0,.55);
+}
+.author-block{margin-top:70px}
+.author-shelf{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+.author-book{
+  min-height:420px;
+  display:grid;
+  grid-template-columns:42% 58%;
+  align-items:center;
+  overflow:hidden;
+  border:1px solid var(--border);
+  border-radius:16px;
+  transition:transform .35s,border-color .35s;
+}
+.author-book:hover{
+  transform:translateY(-7px);
+  border-color:var(--gold2);
+}
+.riso-book{background:linear-gradient(135deg,#1b0b0f,#351016 58%,#13090b)}
+.arquivo-book{background:linear-gradient(135deg,#07101b,#0c2239 58%,#07101a)}
+.author-cover{
+  height:360px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:18px;
+  perspective:1200px;
+}
+.author-cover img{
+  height:100%;
+  max-width:100%;
+  object-fit:cover;
+  border-radius:3px 8px 8px 3px;
+  transform:rotateY(10deg);
+  box-shadow:16px 25px 35px rgba(0,0,0,.62);
+  transition:transform .42s;
+}
+.author-book:hover .author-cover img{
+  transform:rotateY(0) translateY(-8px) scale(1.025);
+}
+.author-info{padding:30px 28px 30px 4px}
+.author-info>span{
+  font-family:var(--mono);
+  font-size:7px;
+  line-height:1.5;
+  letter-spacing:1.7px;
+  color:var(--gold2);
+}
+.author-info h4{
+  font-family:var(--bebas);
+  font-size:36px;
+  line-height:1;
+  margin:11px 0;
+}
+.author-info p{
+  color:var(--grey);
+  font-size:15px;
+  line-height:1.55;
+}
+.status-pill{
+  display:inline-block;
+  margin-top:20px;
+  border:1px solid var(--gold2);
+  color:var(--gold);
+  border-radius:999px;
+  padding:7px 11px;
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:1px;
+}
+.author-plank{margin-top:22px}
+.coming-row{
+  margin-top:52px;
+  display:grid;
+  grid-template-columns:110px 1fr;
+  gap:25px;
+  align-items:center;
+  padding:28px;
+  border:1px dashed var(--gold2);
+  border-radius:18px;
+  background:linear-gradient(90deg,rgba(212,175,55,.06),transparent);
+}
+.coming-symbol{
+  width:95px;
+  height:95px;
+  border:1px solid var(--gold2);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:var(--bebas);
+  font-size:58px;
+  color:var(--gold);
+  box-shadow:inset 0 0 30px rgba(212,175,55,.08);
+}
+.coming-row span{
+  font-family:var(--mono);
+  font-size:8px;
+  letter-spacing:2px;
+  color:var(--gold2);
+}
+.coming-row h3{
+  font-family:var(--bebas);
+  font-size:32px;
+  margin:4px 0;
+}
+.coming-row p{color:var(--grey);font-size:15px}
+.legacy-row{
+  margin-top:28px;
+  padding:28px;
+  border:1px solid rgba(212,175,55,.28);
+  border-radius:18px;
+  background:linear-gradient(135deg,rgba(42,32,0,.72),rgba(17,17,17,.88));
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:22px;
+  align-items:center;
+}
+.legacy-row h3{
+  font-family:var(--bebas);
+  font-size:34px;
+  line-height:1;
+  color:var(--gold);
+  margin:6px 0;
+}
+.legacy-row p{color:var(--grey);font-size:15px;max-width:680px}
+.legacy-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:900px){
+  .library-head{grid-template-columns:1fr}
+  .library-stats{max-width:620px}
+  .shelf-cover{height:340px}
+  .legacy-row{grid-template-columns:1fr}
+  .legacy-actions{justify-content:flex-start}
+}
+@media(max-width:700px){
+  .library-stats{grid-template-columns:1fr 1fr 1fr}
+  .library-stats div{padding:13px 6px}
+  .library-stats strong{font-size:28px}
+  .book-shelf{grid-template-columns:1fr}
+  .shelf-cover{height:430px}
+  .shelf-book{border-bottom:1px solid var(--border);padding-bottom:20px}
+  .shelf-heading{display:block}
+  .shelf-heading p{text-align:left;margin-top:10px}
+  .author-shelf{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+  .shelf-block{padding:26px 15px 10px}
+  .shelf-cover{height:360px}
+  .author-book{grid-template-columns:44% 56%;min-height:350px}
+  .author-cover{height:310px;padding:10px}
+  .author-info{padding:22px 16px 22px 2px}
+  .author-info h4{font-size:29px}
+  .author-info p{font-size:13px}
+  .coming-row{grid-template-columns:75px 1fr;padding:20px 15px;gap:14px}
+  .coming-symbol{width:68px;height:68px;font-size:40px}
+  .coming-row h3{font-size:25px}
+  .legacy-row{padding:22px 16px}
+  .legacy-actions .btn{width:100%}
+  .library-tab{font-size:7px;padding:7px 10px}
+  .mobile-buy{left:10px;right:10px;bottom:8px}
+}
+
+
+/* ===== V5 · THE ALPHA DAWN ===== */
+:root{
+  --dawn-progress:0;
+  --dawn-amber:0;
+  --dawn-horizon:0;
+  --dawn-warmth:0;
+}
+body{
+  background:
+    radial-gradient(circle at 50% 108%,rgba(245,175,66,calc(.03 + var(--dawn-warmth)*.20)),transparent 34%),
+    linear-gradient(
+      180deg,
+      rgb(
+        calc(8 + var(--dawn-progress)*16),
+        calc(8 + var(--dawn-progress)*10),
+        calc(8 + var(--dawn-progress)*3)
+      ),
+      rgb(
+        calc(8 + var(--dawn-progress)*28),
+        calc(8 + var(--dawn-progress)*18),
+        calc(8 + var(--dawn-progress)*5)
+      )
+    );
+  transition:background .12s linear;
+}
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 50% 105%,
+      rgba(246,190,83,calc(var(--dawn-progress)*.24)),
+      rgba(153,74,10,calc(var(--dawn-progress)*.10)) 28%,
+      transparent 58%);
+}
+body::after{
+  content:'';
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  height:1px;
+  z-index:-1;
+  pointer-events:none;
+  opacity:calc(var(--dawn-horizon));
+  background:linear-gradient(90deg,transparent,var(--gold),#ffe9a6,var(--gold),transparent);
+  box-shadow:
+    0 0 calc(25px + var(--dawn-horizon)*55px) rgba(255,191,65,.74),
+    0 -14px calc(40px + var(--dawn-horizon)*85px) rgba(212,175,55,.20);
+}
+
+/* Intro mark */
+.alpha-intro{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#050505;
+  transition:opacity .7s ease,visibility .7s ease;
+}
+.alpha-intro.hidden{opacity:0;visibility:hidden}
+.intro-core{text-align:center;transform:translateY(-2vh)}
+.intro-emblem{
+  width:120px;
+  height:112px;
+  margin:0 auto 22px;
+  position:relative;
+}
+.intro-emblem::before,
+.intro-emblem::after{
+  content:'';
+  position:absolute;
+  top:5px;
+  width:22px;
+  height:100px;
+  border-radius:4px;
+  background:linear-gradient(180deg,#f8e8aa,#c69a2b 70%,#63450a);
+  box-shadow:0 0 24px rgba(212,175,55,.22);
+}
+.intro-emblem::before{left:30px;transform:skewX(-18deg)}
+.intro-emblem::after{right:30px;transform:skewX(18deg)}
+.intro-horizon{
+  position:absolute;
+  left:0;
+  right:0;
+  top:72px;
+  height:2px;
+  transform:scaleX(0);
+  transform-origin:center;
+  background:linear-gradient(90deg,transparent,var(--gold),#fff1b8,var(--gold),transparent);
+  box-shadow:0 0 18px rgba(255,199,84,.72);
+  animation:introHorizon 1.15s .18s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-name{
+  font-family:var(--bebas);
+  font-size:29px;
+  letter-spacing:8px;
+  color:var(--white);
+  opacity:0;
+  transform:translateY(10px);
+  animation:introName .7s .75s forwards;
+}
+.intro-tagline{
+  margin-top:7px;
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:2px;
+  color:var(--gold2);
+  opacity:0;
+  animation:introName .7s 1s forwards;
+}
+@keyframes introHorizon{
+  0%{transform:scaleX(0);opacity:0}
+  30%{opacity:1}
+  100%{transform:scaleX(1);opacity:1}
+}
+@keyframes introName{
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Navbar intelligence */
+.topbar{
+  transition:
+    padding .35s ease,
+    background .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+.topbar.scrolled{
+  padding-top:8px;
+  padding-bottom:8px;
+  background:rgba(10,9,7,.84);
+  border-bottom-color:rgba(212,175,55,.28);
+  box-shadow:0 12px 35px rgba(0,0,0,.33);
+}
+.topbar.scrolled .topbar-logo{
+  text-shadow:0 0 18px rgba(212,175,55,.28);
+}
+
+/* Hero entrance */
+.hero-copy>*{
+  opacity:0;
+  transform:translateY(14px);
+  animation:heroReveal .75s ease forwards;
+}
+.hero-copy>*:nth-child(1){animation-delay:1.55s}
+.hero-copy>*:nth-child(2){animation-delay:1.67s}
+.hero-copy>*:nth-child(3){animation-delay:1.78s}
+.hero-copy>*:nth-child(4){animation-delay:1.90s}
+.hero-copy>*:nth-child(5){animation-delay:2.02s}
+.hero-copy>*:nth-child(6){animation-delay:2.13s}
+.hero-copy>*:nth-child(7){animation-delay:2.24s}
+@keyframes heroReveal{to{opacity:1;transform:none}}
+
+/* Deliberate motion only */
+.pillar,.vol-card,.testi-card,.movement-card,.inside-item,.step,
+.shelf-book,.author-book,.library-stats,.coming-row{
+  transition:
+    transform .28s ease,
+    border-color .28s ease,
+    background .28s ease,
+    box-shadow .28s ease;
+}
+.reveal-on-scroll{
+  opacity:0;
+  transform:translateY(18px);
+}
+.reveal-on-scroll.revealed{
+  opacity:1;
+  transform:none;
+  transition:opacity .72s ease,transform .72s ease;
+}
+
+/* Alpha Dawn finale */
+.alpha-dawn-finale{
+  position:relative;
+  min-height:92vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:120px 24px 135px;
+  border-top:1px solid rgba(212,175,55,.22);
+  background:
+    linear-gradient(180deg,rgba(13,12,10,.92),rgba(48,27,8,.82) 60%,rgba(126,63,9,.62));
+}
+.alpha-dawn-finale::before{
+  content:'';
+  position:absolute;
+  left:-10%;
+  right:-10%;
+  bottom:-38%;
+  height:68%;
+  background:
+    radial-gradient(ellipse at center,
+      rgba(255,225,139,.88) 0%,
+      rgba(236,166,51,.45) 17%,
+      rgba(160,72,7,.22) 36%,
+      transparent 69%);
+  filter:blur(16px);
+}
+.alpha-dawn-finale::after{
+  content:'';
+  position:absolute;
+  left:5%;
+  right:5%;
+  bottom:22%;
+  height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),#fff2bc,var(--gold),transparent);
+  box-shadow:
+    0 0 30px rgba(255,210,104,.75),
+    0 -10px 70px rgba(212,175,55,.40);
+}
+.dawn-content{
+  position:relative;
+  z-index:2;
+  max-width:920px;
+  text-align:center;
+}
+.dawn-kicker{
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:4px;
+  color:#e8bc58;
+  margin-bottom:26px;
+}
+.dawn-title{
+  font-family:var(--bebas);
+  font-size:clamp(54px,9vw,104px);
+  line-height:.92;
+  color:#fff1c2;
+  text-shadow:0 0 40px rgba(212,175,55,.20);
+}
+.dawn-title span{
+  display:block;
+  margin-top:12px;
+  color:var(--gold);
+}
+.dawn-sub{
+  max-width:650px;
+  margin:28px auto 34px;
+  font-size:21px;
+  color:rgba(255,244,210,.74);
+  font-style:italic;
+}
+.dawn-emblem{
+  width:90px;
+  height:82px;
+  margin:0 auto 28px;
+  position:relative;
+}
+.dawn-emblem::before,
+.dawn-emblem::after{
+  content:'';
+  position:absolute;
+  top:4px;
+  width:17px;
+  height:75px;
+  background:linear-gradient(180deg,#fff1bd,#c99f32);
+  border-radius:3px;
+}
+.dawn-emblem::before{left:23px;transform:skewX(-18deg)}
+.dawn-emblem::after{right:23px;transform:skewX(18deg)}
+.dawn-emblem i{
+  position:absolute;
+  left:0;
+  right:0;
+  top:54px;
+  height:2px;
+  background:linear-gradient(90deg,transparent,#ffe89c,transparent);
+  box-shadow:0 0 16px rgba(255,218,116,.82);
+}
+.dawn-cta{
+  min-width:290px;
+  box-shadow:0 16px 45px rgba(82,41,0,.30);
+}
+.dawn-note{
+  margin-top:16px;
+  font-family:var(--mono);
+  font-size:7px;
+  letter-spacing:1.4px;
+  color:rgba(255,238,188,.52);
+}
+
+/* Soundless brand signature line */
+.alpha-signature-line{
+  height:1px;
+  margin:0 auto;
+  width:min(680px,72vw);
+  background:linear-gradient(90deg,transparent,var(--gold2),var(--gold),var(--gold2),transparent);
+  box-shadow:0 0 18px rgba(212,175,55,.25);
+}
+
+@media (prefers-reduced-motion:reduce){
+  .alpha-intro{display:none}
+  .hero-copy>*{opacity:1;transform:none;animation:none}
+  .reveal-on-scroll{opacity:1;transform:none}
+  .builder-section.builder-motion .builder-line,.builder-section.builder-motion .builder-portal,.builder-section.builder-motion .builder-title,.builder-section.builder-motion .builder-kicker,.builder-section.builder-motion .builder-position,.builder-section.builder-motion .builder-role,.builder-section.builder-motion .builder-text,.builder-section.builder-motion .builder-quote,.builder-section.builder-motion .builder-chips,.builder-section.builder-motion .builder-close{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}
+  *{scroll-behavior:auto!important}
+}
+@media(max-width:620px){
+  .intro-emblem{transform:scale(.82)}
+  .intro-name{font-size:24px;letter-spacing:6px}
+  .alpha-dawn-finale{min-height:83vh;padding:100px 20px 125px}
+  .dawn-sub{font-size:18px}
+  .dawn-cta{min-width:0;width:100%}
+}
+
+
+/* ===== V6 · OFFICIAL WORKING EMBLEM ===== */
+.brand-lockup{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--gold);
+  text-decoration:none;
+  min-width:0;
+}
+.brand-lockup img{
+  width:34px;
+  height:34px;
+  display:block;
+  flex:0 0 auto;
+  filter:drop-shadow(0 0 9px rgba(212,175,55,.18));
+}
+.brand-lockup span{
+  font-family:var(--bebas);
+  font-size:21px;
+  letter-spacing:4px;
+  white-space:nowrap;
+}
+.intro-emblem{
+  background:url('all-alpha-hero-symbol.svg') center/contain no-repeat;
+}
+.intro-emblem::before,
+.intro-emblem::after,
+.intro-emblem .intro-horizon{display:none!important}
+.dawn-emblem{
+  width:96px;
+  height:96px;
+  background:url('all-alpha-hero-symbol.svg') center/contain no-repeat;
+}
+.dawn-emblem::before,
+.dawn-emblem::after,
+.dawn-emblem i{display:none!important}
+.emblem-watermark{
+  position:absolute;
+  right:5vw;
+  top:50%;
+  width:min(38vw,460px);
+  opacity:.025;
+  transform:translateY(-50%);
+  pointer-events:none;
+}
+@media(max-width:820px){
+  .mobile-buy{display:none!important}
+  body{padding-bottom:0!important}
+}
+@media(max-width:620px){
+  .brand-lockup span{font-size:17px;letter-spacing:2.5px}
+  .brand-lockup img{width:29px;height:29px}
+  .topbar{padding-left:14px;padding-right:14px}
+  .topbar-cta{padding:8px 10px;font-size:8px}
+}
+
+
+/* ===== V7 · ALPHA DAWN CINEMATIC FINALE ===== */
+.alpha-dawn-v7{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:150px 24px 180px;
+  isolation:isolate;
+  background:linear-gradient(to bottom,#050505 0%,#080808 28%,#11100e 47%,#1a1711 62%,#2c2212 76%,#5b3d13 89%,#b87d20 100%);
+  border-top:1px solid rgba(212,175,55,.18);
+}
+.alpha-dawn-v7::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-4;
+  background:
+    radial-gradient(circle at 50% 115%,rgba(255,225,140,.38),transparent 32%),
+    radial-gradient(circle at 50% 108%,rgba(220,146,35,.28),transparent 47%);
+}
+.alpha-dawn-v7::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-3;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,transparent 0 48%,rgba(255,255,255,.018) 50%,transparent 52%),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 1px,transparent 1px 4px);
+  mix-blend-mode:screen;
+  opacity:.38;
+}
+.dawn-v7-content{position:relative;z-index:4;max-width:980px;text-align:center}
+.dawn-v7-emblem{
+  display:block;width:110px;height:110px;margin:0 auto 26px;
+  filter:drop-shadow(0 0 16px rgba(246,228,163,.32)) drop-shadow(0 0 38px rgba(212,175,55,.22));
+  animation:dawnEmblemFloat 5.5s ease-in-out infinite;
+}
+.dawn-v7-kicker{font-family:var(--mono);font-size:9px;letter-spacing:5px;color:#f0c45f;margin-bottom:28px}
+.dawn-v7-title{
+  margin:0;font-family:var(--bebas);font-size:clamp(58px,9vw,108px);line-height:.95;
+  color:#f7f0df;text-wrap:balance;text-shadow:0 0 28px rgba(0,0,0,.34)
+}
+.dawn-v7-title span{
+  display:block;margin-top:14px;color:#f2c44f;
+  text-shadow:0 0 18px rgba(212,175,55,.18),0 0 50px rgba(212,175,55,.14)
+}
+.dawn-v7-text{
+  max-width:720px;margin:30px auto 38px;font-size:clamp(18px,2.4vw,23px);
+  line-height:1.65;color:rgba(255,244,217,.78);font-style:italic
+}
+.dawn-v7-cta{
+  display:inline-flex;min-width:310px;justify-content:center;text-decoration:none;
+  box-shadow:0 18px 50px rgba(67,34,2,.34),0 0 26px rgba(212,175,55,.16)
+}
+.dawn-horizon{
+  position:absolute;left:0;right:0;bottom:18%;height:2px;z-index:2;
+  background:linear-gradient(90deg,transparent,#c99d31,#fff0b3,#c99d31,transparent);
+  box-shadow:0 0 22px rgba(255,224,141,.78),0 -18px 60px rgba(212,175,55,.42),0 -50px 120px rgba(212,175,55,.20);
+  animation:horizonGlow 5s ease-in-out infinite
+}
+.dawn-sun{
+  position:absolute;left:50%;bottom:calc(18% - 58px);width:116px;height:116px;border-radius:50%;
+  transform:translateX(-50%);z-index:1;
+  background:radial-gradient(circle at 50% 42%,#fff3c1 0%,#f1c34b 30%,#d38f22 62%,rgba(211,143,34,0) 72%);
+  opacity:.76;
+  box-shadow:0 0 40px rgba(255,222,126,.52),0 0 110px rgba(212,175,55,.34),0 0 190px rgba(212,175,55,.18);
+  animation:sunRisePulse 6s ease-in-out infinite
+}
+.dawn-stars{
+  position:absolute;inset:0;z-index:-1;opacity:.3;
+  background-image:
+    radial-gradient(circle at 12% 18%,rgba(255,224,140,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 26% 31%,rgba(255,224,140,.65) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 71% 24%,rgba(255,224,140,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 84% 37%,rgba(255,224,140,.55) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 43% 14%,rgba(255,224,140,.48) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 61% 43%,rgba(255,224,140,.42) 0 1px,transparent 1.5px);
+  animation:starDrift 18s linear infinite alternate
+}
+@keyframes horizonGlow{0%,100%{opacity:.5;transform:scaleX(.82)}50%{opacity:1;transform:scaleX(1)}}
+@keyframes dawnEmblemFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes sunRisePulse{0%,100%{transform:translateX(-50%) scale(.94);opacity:.62}50%{transform:translateX(-50%) scale(1.05);opacity:.88}}
+@keyframes starDrift{from{transform:translateY(0)}to{transform:translateY(-16px)}}
+@media(max-width:620px){
+  .alpha-dawn-v7{min-height:92vh;padding:120px 20px 150px}
+  .dawn-v7-emblem{width:88px;height:88px}
+  .dawn-v7-cta{min-width:0;width:100%}
+  .dawn-horizon{bottom:15%}
+  .dawn-sun{bottom:calc(15% - 46px);width:92px;height:92px}
+}
+@media(prefers-reduced-motion:reduce){
+  .dawn-v7-emblem,.dawn-horizon,.dawn-sun,.dawn-stars{animation:none!important}
+}
+
+
+/* ===== V8 · HERO SYMBOL + REFINED DAWN ===== */
+.hero-symbol-statement{display:flex;align-items:center;gap:16px;margin:28px 0 26px;padding:14px 16px;max-width:520px;border:1px solid rgba(212,175,55,.24);background:linear-gradient(90deg,rgba(212,175,55,.07),rgba(255,255,255,.01));border-radius:14px}
+.hero-symbol-statement img{width:52px;height:52px;flex:0 0 auto;filter:drop-shadow(0 0 12px rgba(212,175,55,.22))}
+.hero-symbol-statement div{display:flex;flex-direction:column;gap:4px}
+.hero-symbol-statement strong{font-family:var(--bebas);font-size:19px;letter-spacing:2.6px;color:var(--white)}
+.hero-symbol-statement span{font-family:var(--mono);font-size:7px;letter-spacing:1.5px;color:var(--gold2)}
+.hero-books img,.vol-card img,.shelf-book img,.author-book img{animation:alphaBookFloat 7s ease-in-out infinite;transform-origin:center bottom}
+.vol-card:nth-child(2) img,.shelf-book:nth-child(2) img{animation-delay:-2.1s}
+.vol-card:nth-child(3) img,.shelf-book:nth-child(3) img{animation-delay:-4.2s}
+@keyframes alphaBookFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-6px) rotate(.25deg)}}
+
+.alpha-dawn-v8{position:relative;min-height:105vh;display:flex;align-items:flex-start;justify-content:center;overflow:hidden;isolation:isolate;padding:120px 24px 240px;background:linear-gradient(to bottom,#050505 0%,#070707 25%,#0e0d0b 43%,#18140d 60%,#2f220e 75%,#6d4714 89%,#c99028 100%);border-top:1px solid rgba(212,175,55,.18)}
+.alpha-dawn-v8::before{content:'';position:absolute;inset:0;z-index:-5;background:radial-gradient(ellipse at 50% 110%,rgba(255,228,151,.30),transparent 34%),radial-gradient(ellipse at 50% 102%,rgba(214,139,33,.18),transparent 50%)}
+.dawn-v8-content{position:relative;z-index:4;max-width:960px;text-align:center}
+.dawn-v8-emblem{width:96px;height:96px;margin:0 auto 24px;display:block;filter:drop-shadow(0 0 14px rgba(246,228,163,.28));animation:dawnV8Float 5.5s ease-in-out infinite}
+.dawn-v8-kicker{margin-bottom:24px;font-family:var(--mono);font-size:9px;letter-spacing:5px;color:#e9b84f}
+.dawn-v8-title{margin:0;font-family:var(--bebas);font-size:clamp(54px,8vw,96px);line-height:.98;color:#f6f0e4;text-wrap:balance}
+.dawn-v8-title span{display:block;margin-top:12px;color:#f0bf47}
+.dawn-v8-text{max-width:680px;margin:28px auto 36px;color:rgba(255,244,217,.78);font-size:clamp(18px,2.2vw,22px);line-height:1.7;font-style:italic}
+.dawn-v8-cta{display:inline-flex;justify-content:center;min-width:280px;text-decoration:none}
+/* V10.4 · A VIGÍLIA ALPHA */
+.alpha-vigil{position:relative;z-index:5;margin:54px auto 0;display:grid;justify-items:center;gap:10px;color:rgba(255,242,204,.86);text-align:center}
+.alpha-vigil-kicker{font-family:var(--mono);font-size:8px;letter-spacing:4px;color:#e9b84f;text-transform:uppercase}
+.alpha-vigil-day{display:flex;align-items:center;justify-content:center;gap:13px;font-family:var(--mono);font-size:clamp(24px,4vw,44px);font-weight:700;line-height:1;font-variant-numeric:tabular-nums;color:#f7e7a8;letter-spacing:.06em;text-shadow:0 0 22px rgba(212,175,55,.24);max-width:100%;overflow-wrap:anywhere}
+.alpha-vigil-light{width:9px;height:9px;border-radius:999px;background:#f5d36e;box-shadow:0 0 10px rgba(245,211,110,.58),0 0 28px rgba(212,175,55,.28);animation:alphaVigilPulse 5.8s ease-in-out infinite;flex:0 0 auto}
+.alpha-vigil-meta,.alpha-vigil-continuum{font-family:var(--mono);font-size:8px;letter-spacing:2.4px;text-transform:uppercase;color:rgba(255,242,204,.62)}
+.alpha-vigil-continuum{color:#e9b84f}
+@keyframes alphaVigilPulse{0%,100%{opacity:.58;transform:scale(.86);box-shadow:0 0 8px rgba(245,211,110,.42),0 0 22px rgba(212,175,55,.18)}50%{opacity:.95;transform:scale(1);box-shadow:0 0 12px rgba(245,211,110,.68),0 0 34px rgba(212,175,55,.30)}}
+.dawn-v8-horizon{position:absolute;left:0;right:0;bottom:16%;height:1px;z-index:2;background:linear-gradient(90deg,transparent,#b78326,#fff0b3,#b78326,transparent);box-shadow:0 0 18px rgba(255,224,141,.62),0 -10px 55px rgba(212,175,55,.34),0 -30px 110px rgba(212,175,55,.16);animation:dawnV8Horizon 5.5s ease-in-out infinite}
+.dawn-v8-sun{position:absolute;left:50%;bottom:calc(16% - 32px);width:64px;height:64px;border-radius:50%;transform:translateX(-50%);z-index:1;opacity:.48;background:radial-gradient(circle,#fff2bf 0%,#e8b13c 34%,rgba(213,141,27,.22) 62%,transparent 72%);box-shadow:0 0 52px rgba(255,222,126,.46),0 0 130px rgba(212,175,55,.34),0 0 230px rgba(212,175,55,.22);filter:blur(.3px);animation:dawnV8Pulse 6s ease-in-out infinite}
+.dawn-v8-mist{position:absolute;left:-10%;right:-10%;bottom:10%;height:20%;z-index:0;background:linear-gradient(to top,rgba(255,221,134,.18),rgba(255,221,134,.06) 45%,transparent);filter:blur(22px)}
+.dawn-v8-stars{position:absolute;inset:0;z-index:-1;opacity:.2;background-image:radial-gradient(circle at 18% 14%,rgba(255,224,140,.75) 0 1px,transparent 1.4px),radial-gradient(circle at 38% 28%,rgba(255,224,140,.48) 0 1px,transparent 1.4px),radial-gradient(circle at 67% 18%,rgba(255,224,140,.66) 0 1px,transparent 1.4px),radial-gradient(circle at 84% 31%,rgba(255,224,140,.46) 0 1px,transparent 1.4px)}
+.dawn-v8-signature{position:absolute;left:0;right:0;bottom:48px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(255,242,204,.78)}
+.dawn-v8-signature span{font-family:var(--bebas);font-size:24px;letter-spacing:5px}
+.dawn-v8-signature small{font-family:var(--mono);font-size:7px;letter-spacing:2px}
+@keyframes dawnV8Horizon{0%,100%{opacity:.48;transform:scaleX(.82)}50%{opacity:1;transform:scaleX(1)}}
+@keyframes dawnV8Pulse{0%,100%{transform:translateX(-50%) scale(.9);opacity:.36}50%{transform:translateX(-50%) scale(1.04);opacity:.56}}
+@keyframes dawnV8Float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@media(max-width:620px){.hero-symbol-statement{max-width:100%;padding:12px}.hero-symbol-statement img{width:44px;height:44px}.alpha-dawn-v8{min-height:100vh;padding:100px 20px 220px}.dawn-v8-emblem{width:82px;height:82px}.dawn-v8-cta{width:100%;min-width:0}.alpha-vigil{margin-top:38px}.alpha-vigil-day{gap:10px;letter-spacing:.02em}.alpha-vigil-meta,.alpha-vigil-continuum{font-size:7px;letter-spacing:1.7px}.dawn-v8-horizon{bottom:17%}.dawn-v8-sun{bottom:calc(17% - 27px);width:54px;height:54px}.dawn-v8-signature{bottom:36px}}
+@media(prefers-reduced-motion:reduce){.hero-books img,.vol-card img,.shelf-book img,.author-book img,.dawn-v8-emblem,.dawn-v8-horizon,.dawn-v8-sun,.alpha-vigil-light{animation:none!important}}
+
+
+/* ===== V9 · SIGNATURE MOTION ===== */
+.alpha-intro-v9{
+  background:
+    radial-gradient(circle at 50% 57%,rgba(212,175,55,.035),transparent 26%),
+    #040404;
+}
+.intro-v9-stage{
+  width:min(88vw,620px);
+  text-align:center;
+  transform:translateY(-1vh);
+}
+.intro-v9-symbol{
+  position:relative;
+  width:190px;
+  height:170px;
+  margin:0 auto 20px;
+}
+.intro-v9-symbol img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  opacity:0;
+  transform:translateY(14px) scale(.94);
+  filter:
+    drop-shadow(0 0 12px rgba(246,228,163,.24))
+    drop-shadow(0 0 36px rgba(212,175,55,.16));
+  animation:v9SymbolReveal .72s 1.05s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-v9-line{
+  position:absolute;
+  left:-18%;
+  right:-18%;
+  top:65%;
+  height:2px;
+  z-index:4;
+  transform:scaleX(0);
+  transform-origin:left center;
+  background:linear-gradient(90deg,transparent,#c79b30,#fff0b3,#c79b30,transparent);
+  box-shadow:
+    0 0 18px rgba(255,224,141,.66),
+    0 0 42px rgba(212,175,55,.24);
+  animation:v9LineDraw .9s .18s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.intro-v9-core{
+  position:absolute;
+  left:50%;
+  top:calc(65% - 6px);
+  width:12px;
+  height:12px;
+  z-index:5;
+  border-radius:50%;
+  opacity:0;
+  transform:translateX(-50%) scale(.2);
+  background:#fff0b3;
+  box-shadow:
+    0 0 20px rgba(255,239,184,.85),
+    0 0 60px rgba(212,175,55,.55),
+    0 0 120px rgba(212,175,55,.28);
+  animation:v9CoreIgnite .8s .74s ease forwards;
+}
+.intro-v9-name{
+  opacity:0;
+  transform:translateY(10px);
+  font-family:var(--bebas);
+  font-size:34px;
+  letter-spacing:9px;
+  color:#f1eee7;
+  animation:v9TextRise .65s 1.55s ease forwards;
+}
+.intro-v9-tagline{
+  margin-top:7px;
+  opacity:0;
+  transform:translateY(8px);
+  font-family:var(--mono);
+  font-size:8px;
+  letter-spacing:3.5px;
+  color:#d7ab43;
+  animation:v9TextRise .6s 1.78s ease forwards;
+}
+.intro-v9-thesis{
+  max-width:520px;
+  margin:18px auto 0;
+  opacity:0;
+  font-family:var(--mono);
+  font-size:7px;
+  line-height:1.7;
+  letter-spacing:1.5px;
+  color:rgba(246,228,163,.55);
+  animation:v9Fade .6s 2.02s ease forwards;
+}
+@keyframes v9LineDraw{
+  0%{transform:scaleX(0);opacity:0}
+  15%{opacity:1}
+  100%{transform:scaleX(1);opacity:1}
+}
+@keyframes v9CoreIgnite{
+  0%{opacity:0;transform:translateX(-50%) scale(.2)}
+  55%{opacity:1;transform:translateX(-50%) scale(1.35)}
+  100%{opacity:1;transform:translateX(-50%) scale(1)}
+}
+@keyframes v9SymbolReveal{
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes v9TextRise{
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes v9Fade{
+  to{opacity:1}
+}
+
+/* Signature replay on the final horizon */
+.alpha-dawn-v8.is-active .dawn-v8-horizon{
+  animation:v9DawnLine 1.25s cubic-bezier(.2,.7,.2,1) both,dawnV8Horizon 5.5s 1.25s ease-in-out infinite;
+  transform-origin:left center;
+}
+.alpha-dawn-v8.is-active .dawn-v8-sun{
+  animation:v9DawnCore .95s .75s ease both,dawnV8Pulse 6s 1.7s ease-in-out infinite;
+}
+.alpha-dawn-v8.is-active .dawn-v8-emblem{
+  animation:v9DawnSymbol .8s 1.2s ease both,dawnV8Float 5.5s 2s ease-in-out infinite;
+}
+.alpha-dawn-v8:not(.is-active) .dawn-v8-horizon{
+  transform:scaleX(0);
+  opacity:0;
+}
+.alpha-dawn-v8:not(.is-active) .dawn-v8-sun,
+.alpha-dawn-v8:not(.is-active) .dawn-v8-emblem{
+  opacity:0;
+}
+@keyframes v9DawnLine{
+  from{transform:scaleX(0);opacity:0}
+  to{transform:scaleX(1);opacity:1}
+}
+@keyframes v9DawnCore{
+  0%{opacity:0;transform:translateX(-50%) scale(.2)}
+  70%{opacity:.62;transform:translateX(-50%) scale(1.15)}
+  100%{opacity:.48;transform:translateX(-50%) scale(1)}
+}
+@keyframes v9DawnSymbol{
+  from{opacity:0;transform:translateY(14px) scale(.94)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+
+@media(max-width:620px){
+  .intro-v9-symbol{width:145px;height:132px}
+  .intro-v9-name{font-size:27px;letter-spacing:6px}
+  .intro-v9-thesis{font-size:6px;letter-spacing:1.1px}
+}
+@media(prefers-reduced-motion:reduce){
+  .intro-v9-symbol img,.intro-v9-line,.intro-v9-core,.intro-v9-name,.intro-v9-tagline,.intro-v9-thesis{
+    animation:none!important;opacity:1!important;transform:none!important;
+  }
+  .alpha-dawn-v8 .dawn-v8-horizon,
+  .alpha-dawn-v8 .dawn-v8-sun,
+  .alpha-dawn-v8 .dawn-v8-emblem{
+    animation:none!important;opacity:1!important;transform:none!important;
+  }
+}
+
+
+/* V10.5 · CHECKOUT RECOVERY */
+.form-input.is-invalid{border-color:#c44;box-shadow:0 0 0 1px rgba(204,68,68,.28)}
+.form-error{min-height:1.2em;margin-top:6px;color:#ef8a8a;font-family:var(--mono);font-size:9px;letter-spacing:.04em}
+.checkout-fallback{display:none;margin-top:16px;padding:16px;border:1px solid rgba(212,175,55,.38);border-radius:9px;background:linear-gradient(135deg,rgba(42,32,0,.48),rgba(17,17,17,.96))}
+.checkout-fallback.active{display:block}
+.checkout-fallback p{margin-bottom:12px;color:rgba(240,237,229,.82);font-size:15px;line-height:1.55}
+.checkout-fallback .btn{width:100%}
+#btn-gerar[disabled]{cursor:wait;opacity:.64;transform:none}
+.free-access-note{font-family:var(--mono);font-size:9px;color:var(--gold2);margin-top:8px}
+
+</style>
+</head>
+<body id="top">
+<!-- V10.5 · CHECKOUT RECOVERY -->
+
+<div class="alpha-cursor" aria-hidden="true"><img src="assets/all-alpha-cursor.svg" alt="" width="28" height="28"></div>
+
+<div class="alpha-intro alpha-intro-v9" id="alphaIntro" aria-hidden="true">
+  <div class="intro-v9-stage">
+    <div class="intro-v9-symbol">
+      <span class="intro-v9-line"></span>
+      <span class="intro-v9-core"></span>
+      <img src="all-alpha-hero-symbol.svg" alt="">
+    </div>
+    <div class="intro-v9-name">ALL-ALPHA®</div>
+    <div class="intro-v9-tagline">THE ALPHA DAWN</div>
+    <div class="intro-v9-thesis">MAIS DO QUE LIVROS. UM SISTEMA PARA CONSTRUIR PESSOAS.</div>
+  </div>
+</div>
+
+
+<div class="modal-overlay" id="modal"><div class="modal">
+<button class="modal-close" onclick="closeModal()" aria-label="Fechar">✕</button>
+<div class="pay-step active" id="step-form">
+<div class="modal-title">QUASE LÁ</div><div class="modal-sub">Introduz os teus dados para gerar a referência de pagamento.</div>
+<div class="modal-product"><div class="modal-product-name" id="modal-name">ALPHA CODE</div><div class="modal-product-price" id="modal-price">$0 USD</div></div>
+<div class="form-group"><label class="form-label" for="input-name">O TEU NOME</label><input class="form-input" id="input-name" name="name" autocomplete="name" required placeholder="Ex: João Silva"><div class="form-error" id="name-error" aria-live="polite"></div></div>
+<div class="form-group"><label class="form-label" for="input-email">O TEU EMAIL</label><input class="form-input" type="email" id="input-email" name="email" autocomplete="email" required placeholder="Ex: joao@email.com"><div class="form-error" id="email-error" aria-live="polite"></div></div>
+<button type="button" class="btn" style="width:100%" id="btn-gerar" onclick="return gerarReferencia()">GERAR REFERÊNCIA →</button>
+<div class="checkout-fallback" id="checkout-fallback" role="status" aria-live="polite">
+<p>Neste momento não conseguimos gerar a referência automaticamente. Podes concluir a encomenda directamente pelo WhatsApp.</p>
+<a class="btn secondary" id="btn-whatsapp-fallback" href="#" target="_blank" rel="noopener">CONTINUAR PELO WHATSAPP</a>
+</div>
+<div class="modal-note">O nome e o e-mail são enviados para gerar a referência e preparar a confirmação da encomenda.</div>
+<div class="modal-note">Pagamento por M-Pesa, e-Mola ou BIM · Confirmação manual após envio do comprovativo</div>
+</div>
+<div class="pay-step" id="step-payment">
+<div class="modal-title">PAGAR AGORA</div><div class="modal-sub">Usa a tua referência em todas as transferências.</div>
+<div class="ref-box"><div class="ref-label">A TUA REFERÊNCIA</div><div class="ref-code" id="ref-code">ALPHA-XXXXX</div><div class="ref-amount" id="ref-amount">$0 USD · 0 MZN</div></div>
+<div class="pay-method"><div class="pay-method-name">M-PESA</div><div class="pay-method-number">+258 84 389 5232</div></div>
+<div class="pay-method"><div class="pay-method-name">E-MOLA</div><div class="pay-method-number">868 330 859</div></div>
+<div class="pay-method"><div class="pay-method-name">MILLENNIUM BIM</div><div class="pay-method-number">121 995 349</div></div>
+<div class="pay-instructions">1. Transfere o valor indicado.<br>2. Usa a referência, se o método permitir.<br>3. Envia o comprovativo por WhatsApp.</div>
+<a href="#" class="btn-whatsapp" id="btn-whatsapp" target="_blank" rel="noopener">ENVIAR COMPROVATIVO →</a>
+</div></div></div>
+
+<nav class="topbar"><a class="brand-lockup" href="#top" aria-label="ALL-ALPHA — início"><img src="all-alpha-hero-symbol.svg" alt=""><span>ALL-ALPHA®</span></a><div style="display:flex;gap:9px;align-items:center"><a href="#biblioteca" class="topbar-cta" style="background:transparent;color:var(--gold);border:1px solid var(--gold2)">BIBLIOTECA</a><a href="#volumes" class="topbar-cta">DESCARREGAR AGORA</a></div></nav>
+
+<section class="hero">
+<img class="emblem-watermark" src="all-alpha-hero-symbol.svg" alt="" aria-hidden="true"><div class="wrap"><div class="hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">ÉRIC ALPHA · ALL-ALPHA® · 2026</p>
+<h1 class="hero-title">ALPHA <span>CODE</span></h1>
+<h2 class="hero-positioning">Mais do que um livro.<br>O início de uma nova identidade.</h2>
+<p class="hero-lead">Três volumes. Um sistema. Um código para quem decidiu deixar de ser espectador e construir disciplina, execução e legado.</p>
+
+<div class="hero-symbol-statement" aria-label="Identidade ALL-ALPHA">
+  <img src="all-alpha-hero-symbol.svg" alt="">
+  <div>
+    <strong>MAIS DO QUE LIVROS.</strong>
+    <span>UM SISTEMA PARA CONSTRUIR PESSOAS.</span>
+  </div>
+</div>
+
+<div class="hero-actions"><a href="#volumes" class="btn">EXPLORAR A TRILOGIA</a><a href="#amostra" class="btn secondary">VER O QUE ESTÁ DENTRO</a></div>
+<div class="hero-proof"><span>Capas e edições oficiais</span><span>PDF digital</span><span>Métodos locais de pagamento</span><span>Pack disponível</span></div>
+<div class="community-line">“The Alpha Life is just beginning.”<small>— IVAN JAWANA TEMBE · PRIMEIRO LEITOR DO VOLUME I</small></div>
+</div>
+<div class="hero-books" aria-label="Trilogia ALPHA CODE em 3D">
+<figure class="book-3d book-one"><img src="alpha-code-vol1.webp" alt="Capa do ALPHA CODE Volume I — O Manual do Indivíduo Indomável"></figure>
+<figure class="book-3d book-two"><img src="alpha-code-vol2.webp" alt="Capa do ALPHA CODE Volume II — O Despertar do Homem Indomável"></figure>
+<figure class="book-3d book-three"><img src="alpha-code-vol3.webp" alt="Capa do ALPHA CODE Volume III — A Morte do Génio e a Disciplina do Operário"></figure>
+<div class="book-caption">A TRILOGIA OFICIAL · MANIFESTO · SISTEMA · EXECUÇÃO</div>
+</div>
+</div></div></section>
+
+<section class="section"><div class="wrap">
+<p class="shdr">A transformação</p><h2 class="section-title">Porque este livro é <span>diferente?</span></h2>
+<p class="section-lead">Não foi escrito para te entreter por algumas horas. Foi construído para mudar a forma como pensas, decides e executas.</p>
+<div class="cards4">
+<article class="pillar"><div class="pillar-icon">◆</div><h3>Disciplina</h3><p>Trocar intenção por rotina, consistência e domínio próprio.</p></article>
+<article class="pillar"><div class="pillar-icon">◆</div><h3>Mentalidade</h3><p>Romper padrões que te mantêm dependente da validação dos outros.</p></article>
+<article class="pillar"><div class="pillar-icon">◆</div><h3>Execução</h3><p>Parar de acumular planos e começar a concluir o que importa.</p></article>
+<article class="pillar"><div class="pillar-icon">◆</div><h3>Legado</h3><p>Construir activos, família, influência e continuidade.</p></article>
+</div></div></section>
+
+<section class="section" id="volumes"><div class="wrap">
+<p class="shdr">A colecção</p><h2 class="section-title">Três volumes. <span>Uma evolução.</span></h2>
+<p class="section-lead">Manifesto, sistema e execução: uma sequência pensada para acompanhar a passagem da consciência à construção.</p>
+<div class="collection-note">CAPAS REAIS · COLECÇÃO EDITORIAL ALL-ALPHA®</div>
+<div class="volumes-grid">
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol1.webp" alt="ALPHA CODE Volume I"></div></div><div class="vol-stage">VOLUME I · MANIFESTO</div><div class="vol-title">O Manual do Indivíduo Indomável</div><div class="vol-sub">Construção do Homem Eficiente</div><div class="vol-price">GRÁTIS</div><div class="vol-lang">PDF · PORTUGUÊS</div><div class="vol-actions"><a class="btn secondary experience-link" href="experiences/alpha-code-v1-preview.html">EXPERIMENTAR VOL. I</a><a class="btn" href="downloads/alpha-code-volume-i.html">DESCARREGAR VOL. I</a></div></article>
+<article class="vol-card"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol2.webp" alt="ALPHA CODE Volume II"></div></div><div class="vol-stage">VOLUME II · SISTEMA</div><div class="vol-title">O Despertar do Homem Indomável</div><div class="vol-sub">Identidade, disciplina e reconstrução</div><div class="vol-price">GRÁTIS</div><div class="vol-lang">PDF · PORTUGUÊS</div><div class="vol-actions"><a class="btn secondary experience-link" href="experiences/alpha-code-v2-preview.html">EXPERIMENTAR VOL. II</a><a class="btn" href="downloads/alpha-code-volume-ii.html">DESCARREGAR VOL. II</a></div></article>
+<article class="vol-card featured"><div class="cover-stage"><div class="cover-book"><img src="alpha-code-vol3.webp" alt="ALPHA CODE Volume III"></div></div><div class="vol-stage">VOLUME III · EXECUÇÃO</div><div class="vol-title">A Morte do Génio e a Disciplina do Operário</div><div class="vol-price">GRÁTIS</div><div class="vol-lang">PDF · PORTUGUÊS</div><div class="vol-actions"><a class="btn secondary experience-link" href="experiences/alpha-code-v3-preview.html">EXPERIMENTAR VOL. III</a><a class="btn" href="downloads/alpha-code-volume-iii.html">DESCARREGAR VOL. III</a></div></article>
+</div>
+<div class="pack-card"><div class="pack-badge">PERCURSO COMPLETO</div><div class="pack-title">TRILOGIA COMPLETA</div><div class="pack-sub">Os três volumes reunidos num único percurso.</div><div class="pack-price">GRÁTIS</div><div class="pack-includes"><span>3 PDFs digitais</span><span>Nota de leitura</span><span>Edições revistas</span><span>Apoio voluntário opcional</span></div><a class="btn" href="downloads/trilogia.html">DESCARREGAR A TRILOGIA</a></div>
+<article class="dossie-card">
+  <div>
+    <p class="shdr">PROTOCOLO DE EXECUÇÃO</p>
+    <h3>DOSSIÊ DE CONSTRUÇÃO</h3>
+    <p>Uma pré-visualização limitada para transformar leitura em acto, decisão e registo, sem publicar o dossiê completo.</p>
+  </div>
+  <a class="btn secondary" href="experiences/dossie-preview.html">ABRIR PRÉVIA</a>
+</article>
+</div></section>
+
+
+
+<section class="section library-section" id="biblioteca">
+  <div class="wrap">
+    <div class="library-head">
+      <div>
+        <p class="shdr">Literatura aberta</p>
+        <h2 class="section-title">Biblioteca <span>Éric Xavier</span></h2>
+        <p class="section-lead">Romance, memória, infância e legado. Obras completas para ler online ou descarregar gratuitamente.</p>
+      </div>
+      <div class="library-stats" aria-label="Resumo do catálogo">
+        <div><strong>4</strong><span>Obras gratuitas</span></div>
+        <div><strong>3</strong><span>Categorias</span></div>
+        <div><strong>1</strong><span>Biblioteca aberta</span></div>
+      </div>
+    </div>
+    <div class="legacy-row">
+      <div>
+        <span class="shelf-kicker">UMA INICIATIVA EDITORIAL ALL-ALPHA</span>
+        <h3>Uma casa própria para as obras de Éric Xavier.</h3>
+        <p>Conhece cada livro, lê no navegador e guarda o PDF. A leitura é gratuita; os direitos do autor permanecem protegidos.</p>
+      </div>
+      <div class="legacy-actions">
+        <a class="btn" href="library/">ENTRAR NA BIBLIOTECA</a>
+        <a class="btn secondary" href="library/#infantil">INFANTIL E LEGADO</a>
+      </div>
+    </div>
+    <div class="catalogue-line"><strong>LINHAS EDITORIAIS SEPARADAS.</strong> A série ALPHA CODE permanece na área comercial do site e não integra a biblioteca gratuita.</div>
+  </div>
+</section>
+
+<section class="section" id="depoimentos"><div class="wrap">
+<p class="shdr">Prova social</p><h2 class="section-title">O que os primeiros leitores <span>disseram</span></h2>
+<p class="section-lead">Comentários reais, espontâneos e publicados com autorização dos próprios leitores.</p>
+<div class="testi-grid">
+<article class="testi-card feature"><div class="avatar">MZ</div><div class="testi-tag">MAX ZUYA · VOLUME I</div><div class="testi-text"><p>“Li todo o livro. Logo à primeira gostei da capa, é chamativa e bonita.</p><p>Quando lia o livro, identifiquei-me com muitas passagens. Durante muito tempo vivi para agradar aos outros sem perceber que isso acabava comigo. Vi-me espelhado no livro.</p><p>O livro é claro, curto e directo. Até quem não gosta de ler não vai sentir preguiça em fazê-lo.”</p></div><div class="testi-highlight">“Quero ser Alpha. Quero aprender a dizer NÃO sem dar satisfações.”</div><div class="testi-author">MAX ZUYA · FEEDBACK REAL DE LEITURA</div></article>
+<article class="testi-card"><div class="avatar">C</div><div class="testi-tag">CHIRLEY · VOLUME II</div><div class="testi-text"><p>“Eu sei que o público-alvo não era propriamente as mulheres, mas identifiquei-me profundamente com o Volume II.</p><p>Conheci-te um pouco mais através do livro. Já te admirava. Agora admiro-te ainda mais. Tens o meu total respeito. Parabéns.”</p></div><div class="testi-highlight">“Agora admiro-te ainda mais.”</div><div class="testi-author">CHIRLEY · FEEDBACK EM ÁUDIO</div></article>
+<article class="testi-card"><div class="avatar">IJ</div><div class="testi-tag">QUANDO O LIVRO ENTRA NA LINGUAGEM</div><div class="testi-highlight">“The Alpha Life is just beginning.”</div><div class="testi-author">IVAN JAWANA TEMBE · PRIMEIRO LEITOR DO VOLUME I</div></article>
+<article class="testi-card"><div class="avatar">MM</div><div class="testi-tag">PROCURA PELOS PRÓXIMOS VOLUMES</div><div class="testi-text"><p>“Já agora… sonhei ou existe o Volume II do Alpha?”</p><p>“Tenho que ler de novo… parece que li com pressa. Só sei que tens que ler estando em modo adrenalina.”</p></div><div class="testi-author">MUSSAGY MASSANGO · PRIMEIRO LEITOR DO VOLUME I</div></article>
+</div>
+<div class="trust-strip"><div>COMENTÁRIOS REAIS</div><div>LEITORES REAIS</div><div>FEEDBACK ESPONTÂNEO</div></div>
+</div></section>
+
+<section class="section"><div class="wrap"><div class="reader-grid">
+<div><p class="shdr">Sem enrolação</p><h2 class="section-title">Não gostas de ler? <span>Este livro foi escrito para ti.</span></h2><ul class="checklist"><li>Capítulos curtos</li><li>Linguagem simples e directa</li><li>Ideias aplicáveis</li><li>Sem teoria desnecessária</li><li>Leitura dinâmica</li></ul></div>
+<blockquote class="quote-panel">“Até quem não gosta de ler não vai sentir preguiça em fazê-lo.”<small>— MAX ZUYA</small></blockquote>
+</div></div></section>
+
+<section class="section"><div class="wrap">
+<p class="shdr">A comunidade responde</p><h2 class="section-title">O Movimento ALPHA <span>já começou</span></h2>
+<div class="movement-grid">
+<article class="movement-card"><div class="movement-name">MAX ZUYA</div><div class="movement-quote">“Quero ser Alpha.”</div></article>
+<article class="movement-card"><div class="movement-name">CHIRLEY</div><div class="movement-quote">“Agora admiro-te ainda mais.”</div></article>
+<article class="movement-card"><div class="movement-name">IVAN JAWANA TEMBE</div><div class="movement-quote">“The Alpha Life is just beginning.”</div></article>
+<article class="movement-card"><div class="movement-name">MUSSAGY MASSANGO</div><div class="movement-quote">“Existe o Volume II?”</div></article>
+</div></div></section>
+
+<section class="section" id="amostra"><div class="wrap">
+<p class="shdr">Dentro da trilogia</p><h2 class="section-title">O que encontrarás <span>dentro</span></h2>
+<p class="section-lead">Uma visão concreta dos temas, códigos e sistemas trabalhados ao longo da trilogia.</p>
+<div class="inside-grid">
+<div class="inside-item"><div>⚡</div><div><div class="inside-title">WIP=1 — O Código</div><div class="inside-desc">Como parar de ter dez projectos a 40% e começar a ter um projecto a 100%.</div></div></div>
+<div class="inside-item"><div>🏭</div><div><div class="inside-title">Sistema Nagato</div><div class="inside-desc">Liderar sem estar sempre no palco e construir uma equipa que executa.</div></div></div>
+<div class="inside-item"><div>🛡️</div><div><div class="inside-title">A Paz Inegociável</div><div class="inside-desc">Cortar ladrões de foco e proteger a energia necessária para construir.</div></div></div>
+<div class="inside-item"><div>💰</div><div><div class="inside-title">Engenharia do Dinheiro</div><div class="inside-desc">Transformar rendimento em activos, segurança e liberdade de decisão.</div></div></div>
+<div class="inside-item"><div>🔥</div><div><div class="inside-title">A Alquimia da Dor</div><div class="inside-desc">Converter perdas, quedas e silêncio em combustível para reconstruir.</div></div></div>
+<div class="inside-item"><div>⚔️</div><div><div class="inside-title">Blindagem Espiritual</div><div class="inside-desc">Manter a identidade firme quando o ambiente tenta desmontá-la.</div></div></div>
+</div></div></section>
+
+<section class="section builder-section" id="o-construtor" aria-labelledby="builder-title">
+  <div class="wrap">
+    <div class="builder-grid">
+      <figure class="builder-portal" tabindex="0">
+        <div class="builder-monogram" aria-hidden="true">É</div>
+        <picture>
+          <img src="assets/eric-alpha-portal.jpg" width="1440" height="1920" loading="lazy" decoding="async" alt="Éric Alpha de pé sob arcos vermelhos num ambiente natural" onerror="this.closest('.builder-portal').classList.add('image-missing');this.remove()">
+        </picture>
+        <figcaption class="builder-caption">Toda transformação começa quando alguém decide atravessar o portal.</figcaption>
+      </figure>
+
+      <div class="builder-copy">
+        <div class="builder-line" aria-hidden="true"></div>
+        <p class="builder-kicker">O HOMEM POR TRÁS DO MÉTODO</p>
+        <h2 class="builder-title" id="builder-title">O CONSTRUTOR <span>ÉRIC ALPHA</span></h2>
+        <div class="builder-position">NÃO ESCREVO IDEIAS. CONSTRUO SISTEMAS.</div>
+        <div class="builder-role">FARMACÊUTICO · ESTRATEGA · AUTOR · FUNDADOR DA ALL-ALPHA®</div>
+
+        <div class="builder-text">
+          <p>Antes da ALL-ALPHA existir, existia um homem a tentar compreender por que algumas pessoas transformam sofrimento em disciplina enquanto outras desistem.</p>
+          <p>Farmacêutico, estratega, pai e construtor de sistemas, Éric Xavier desenvolveu a sua trajectória entre saúde pública, logística farmacêutica, gestão da qualidade, tecnologia, liderança e empreendedorismo.</p>
+          <p>Ao longo da carreira participou na construção de sistemas nacionais de saúde, liderou equipas, representou Moçambique internacionalmente e transformou experiências reais em métodos práticos.</p>
+          <p>A ALL-ALPHA nasceu dessa procura.</p>
+          <p>Não como uma editora tradicional, mas como uma casa de construção de identidades, sistemas e legados.</p>
+        </div>
+
+        <blockquote class="builder-quote">
+          “NÃO ESCREVO LIVROS PARA SEREM APENAS LIDOS.<br>
+          <span>ESCREVO SISTEMAS PARA SEREM VIVIDOS.”</span>
+          <cite>— ÉRIC ALPHA</cite>
+        </blockquote>
+
+        <div class="builder-chips" aria-label="Áreas de construção de Éric Alpha">
+          <span>SISTEMAS DE SAÚDE</span>
+          <span>GESTÃO DA QUALIDADE</span>
+          <span>ESTRATÉGIA</span>
+          <span>INTELIGÊNCIA ARTIFICIAL</span>
+          <span>EMPREENDEDORISMO</span>
+          <span>PATERNIDADE</span>
+          <span>MOÇAMBIQUE</span>
+          <span>ALL-ALPHA®</span>
+        </div>
+
+        <p class="builder-close">“Ainda estou a construir aquilo que um dia vou deixar para trás.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section"><div class="wrap">
+<p class="shdr">Depois da decisão</p><h2 class="section-title">O que acontece <span>depois da compra?</span></h2>
+<div class="timeline">
+<div class="step"><div class="step-n">1</div><h3>Escolha</h3><p>Escolhes o volume ou a trilogia. Sem custo, sem conta.</p></div>
+<div class="step"><div class="step-n">2</div><h3>Descarga</h3><p>Descarregas o PDF na hora. Sem checkout, sem comprovativo.</p></div>
+<div class="step"><div class="step-n">3</div><h3>Leitura</h3><p>Lês no telefone, no computador, ou imprimes em casa.</p></div>
+<div class="step"><div class="step-n">4</div><h3>Aplicação</h3><p>Lês com caneta na mão e transformas ideias em acções.</p></div>
+<div class="step"><div class="step-n">5</div><h3>Universo ALPHA</h3><p>Passas a acompanhar a mentoria, os livros físicos e as próximas obras.</p></div>
+</div></div></section>
+
+<section class="section"><div class="wrap">
+<p class="shdr">Perguntas frequentes</p>
+<div class="faq-item"><div class="faq-q">Como recebo o livro?</div><div class="faq-a">Descarregas directamente do site, na hora. Sem checkout, sem comprovativo, sem esperar por ninguém.</div></div>
+<div class="faq-item"><div class="faq-q">Tenho de pagar alguma coisa?</div><div class="faq-a">Não. Os ebooks são gratuitos. Se quiseres apoiar o projecto, podes fazê-lo por M-Pesa, e-Mola ou BIM, de forma voluntária e sem obrigação.</div></div>
+<div class="faq-item"><div class="faq-q">Em que formato recebo?</div><div class="faq-a">Em PDF, em português. Lês no telefone ou no computador, e podes imprimir em casa.</div></div>
+<div class="faq-item"><div class="faq-q">Posso descarregar os volumes separadamente?</div><div class="faq-a">Sim. Cada volume descarrega-se sozinho, ou levas os três de uma vez no pacote da trilogia. Tudo gratuito.</div></div>
+</div></section>
+
+
+
+
+<section class="alpha-dawn-v8" id="alpha-dawn">
+  <div class="dawn-v8-stars" aria-hidden="true"></div>
+  <div class="dawn-v8-mist" aria-hidden="true"></div>
+  <div class="dawn-v8-sun" aria-hidden="true"></div>
+  <div class="dawn-v8-horizon" aria-hidden="true"></div>
+
+  <div class="dawn-v8-content reveal-on-scroll">
+    <img class="dawn-v8-emblem" src="all-alpha-hero-symbol.svg" alt="" aria-hidden="true">
+    <div class="dawn-v8-kicker">THE ALPHA DAWN</div>
+    <h2 class="dawn-v8-title">
+      A maioria espera pelo nascer do sol.
+      <span>O Alpha constrói-o.</span>
+    </h2>
+    <p class="dawn-v8-text">
+      Cada livro é uma ferramenta. Cada sistema é uma ponte.
+      O verdadeiro projecto és tu.
+    </p>
+    <a class="btn dawn-v8-cta" href="#volumes">ENTRAR NA BIBLIOTECA</a>
+    <div class="alpha-vigil" aria-label="Dias de existência da visão ALL-ALPHA desde 27 de Março de 2025.">
+      <div class="alpha-vigil-kicker">A VIGÍLIA ALPHA</div>
+      <div class="alpha-vigil-day">
+        <span class="alpha-vigil-light" aria-hidden="true"></span>
+        <span>DIA</span>
+        <span class="alpha-vigil-count" data-alpha-vigil-count>DESDE 27 MAR 2025</span>
+      </div>
+      <div class="alpha-vigil-meta">DESDE 27 MAR 2025 · MAPUTO</div>
+      <div class="alpha-vigil-continuum">A VISÃO CONTINUA · ∞</div>
+    </div>
+  </div>
+
+  <div class="dawn-v8-signature">
+    <span>ALL-ALPHA®</span>
+    <small>MAPUTO · MOÇAMBIQUE</small>
+  </div>
+</section>
+
+
+
+
+<footer style="background:#2b1808;border-top-color:rgba(212,175,55,.26)"><div class="wrap"><p>ALL-ALPHA® · 2026 · MAPUTO, MOÇAMBIQUE</p><p style="margin-top:8px"><a href="mailto:ericdcxavier@icloud.com">ericdcxavier@icloud.com</a> · <a href="https://wa.me/258843895232">WhatsApp</a></p><p style="margin-top:8px">© 2026 Éric Xavier · Todos os direitos reservados.</p></div></footer>
+
+
+<script>
+// V10.5 · CHECKOUT RECOVERY
+let selectedProduct={};
+const USD_TO_MZN_RATE=64.5;
+const REGISTAR_VENDA_URL='https://catalisador-alpha-240b44e7.base44.app/functions/registarVendaLivro';
+const WHATSAPP_NUMBER='258843895232';
+const PRODUCT_CATALOG={
+ vol1:{name:'ALPHA CODE Vol.1 — O Manual do Indivíduo Indomável',title:'O Manual do Indivíduo Indomável',priceUsd:0,priceLabel:'GRÁTIS'},
+ vol2:{name:'ALPHA CODE Vol.2 — O Despertar do Homem Indomável',title:'O Despertar do Homem Indomável',priceUsd:18},
+ vol3:{name:'ALPHA CODE Vol.3 — A Morte do Génio e a Disciplina do Operário',title:'A Morte do Génio e a Disciplina do Operário',priceUsd:22},
+ trilogy:{name:'ALPHA CODE — Trilogia Completa',title:'Trilogia Completa',priceUsd:39}
+};
+function formatMzn(value){return `${String(Math.round(value)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')} MZN`}
+function formatUsd(value){return Number(value)===0?'GRÁTIS':`$${value} USD`}
+function getMznFromUsd(usd){return Math.round(Number(usd)*USD_TO_MZN_RATE)}
+function getField(id){return document.getElementById(id)}
+function clearFieldError(inputId,errorId){const input=getField(inputId);const error=getField(errorId);if(input)input.classList.remove('is-invalid');if(error)error.textContent=''}
+function setFieldError(inputId,errorId,message){const input=getField(inputId);const error=getField(errorId);if(input){input.classList.add('is-invalid');input.focus()}if(error)error.textContent=message}
+function hideCheckoutFallback(){const box=getField('checkout-fallback');if(box)box.classList.remove('active')}
+function createProvisionalReference(){
+ const bytes=new Uint8Array(4);
+ crypto.getRandomValues(bytes);
+ const suffix=Array.from(bytes,b=>b.toString(16).padStart(2,'0')).join('').toUpperCase();
+ const stamp=new Date().toISOString().replace(/[-:TZ.]/g,'').slice(0,14);
+ return `ALPHA-PENDENTE-${stamp}-${suffix}`;
+}
+function buildWhatsAppMessage({reference,name,email,product,usd,mzn,automatic=true}){
+ const lines=[
+  automatic?'Olá! Fiz o pagamento da encomenda.':'Olá! Quero concluir uma encomenda. A geração automática de referência estava temporariamente indisponível.',
+  `Referência ${automatic?'oficial':'provisória'}: ${reference}`,
+  `Nome: ${name}`,
+  `Email: ${email}`,
+  `Produto: ${product.name}`,
+  `Título: ${product.title}`,
+  `Valor: ${formatUsd(usd)} · ${formatMzn(mzn)}`,
+  automatic?'Segue o comprovativo em anexo.':'Peço confirmação dos dados de pagamento e registo manual da encomenda.'
+ ];
+ return encodeURIComponent(lines.join('\n'));
+}
+function showCheckoutFallback(name,email,reason){
+ const box=getField('checkout-fallback');
+ const link=getField('btn-whatsapp-fallback');
+ if(!box||!link)return;
+ const reference=createProvisionalReference();
+ const usd=Number(selectedProduct.priceUsd);
+ const mzn=getMznFromUsd(usd);
+ link.href=`https://wa.me/${WHATSAPP_NUMBER}?text=${buildWhatsAppMessage({reference,name,email,product:selectedProduct,usd,mzn,automatic:false})}`;
+ box.classList.add('active');
+ console.warn('[ALL-ALPHA checkout] automatic reference unavailable; manual fallback enabled.',{category:reason||'unknown'});
+}
+function openModal(productKey){
+ const product=PRODUCT_CATALOG[productKey];
+ if(!product)return false;
+ if(productKey==='vol1'||Number(product.priceUsd)===0){window.location.href='downloads/alpha-code-volume-i.html';return false}
+ selectedProduct={...product,key:productKey,price:formatUsd(product.priceUsd),mzn:getMznFromUsd(product.priceUsd)};
+ getField('modal-name').textContent=selectedProduct.name;
+ getField('modal-price').textContent=`${selectedProduct.price} · ${formatMzn(selectedProduct.mzn)}`;
+ getField('step-form').classList.add('active');
+ getField('step-payment').classList.remove('active');
+ getField('modal').classList.add('active');
+ document.body.classList.add('modal-open');
+ hideCheckoutFallback();
+ clearFieldError('input-name','name-error');
+ clearFieldError('input-email','email-error');
+ return false;
+}
+function closeModal(){getField('modal').classList.remove('active');document.body.classList.remove('modal-open');hideCheckoutFallback()}
+function classifyCheckoutError(error){
+ if(error&&error.name==='AbortError')return'timeout';
+ if(error&&error.code)return error.code;
+ if(error instanceof TypeError)return'network-or-cors';
+ return'unknown';
+}
+async function gerarReferencia(){
+ const nameInput=getField('input-name');
+ const emailInput=getField('input-email');
+ const name=nameInput.value.trim();
+ const email=emailInput.value.trim();
+ const btn=getField('btn-gerar');
+ clearFieldError('input-name','name-error');
+ clearFieldError('input-email','email-error');
+ hideCheckoutFallback();
+ if(!name){setFieldError('input-name','name-error','Introduz o teu nome.');return false}
+ if(!emailInput.checkValidity()){setFieldError('input-email','email-error','Introduz um endereço de e-mail válido.');return false}
+ if(!selectedProduct.key||Number(selectedProduct.priceUsd)<=0){window.location.href='downloads/alpha-code-volume-i.html';return false}
+ btn.disabled=true;
+ btn.textContent='A GERAR REFERÊNCIA...';
+ const controller=new AbortController();
+ const timer=window.setTimeout(()=>controller.abort(),12000);
+ try{
+  const res=await fetch(REGISTAR_VENDA_URL,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},signal:controller.signal,body:JSON.stringify({nome:name,email:email,produto:selectedProduct.name,valor_usd:selectedProduct.priceUsd})});
+  const contentType=(res.headers.get('content-type')||'').toLowerCase();
+  const raw=await res.text();
+  if(!res.ok){const err=new Error(`HTTP ${res.status}`);err.code=`http-${res.status}`;throw err}
+  if(!contentType.includes('application/json')){const err=new Error('Resposta não JSON');err.code='non-json';throw err}
+  let data;
+  try{data=JSON.parse(raw)}catch(parseError){const err=new Error('JSON inválido');err.code='invalid-json';throw err}
+  if(data.success!==true){const err=new Error('Backend recusou a operação');err.code='success-false';throw err}
+  if(typeof data.referencia!=='string'||!data.referencia.trim()){const err=new Error('Referência ausente');err.code='missing-reference';throw err}
+  const valorUsd=Number(data.valor_usd);
+  if(!Number.isFinite(valorUsd)||valorUsd!==Number(selectedProduct.priceUsd)){const err=new Error('Valor inválido');err.code='invalid-value';throw err}
+  const referencia=data.referencia.trim();
+  const valorMzn=getMznFromUsd(valorUsd);
+  getField('ref-code').textContent=referencia;
+  getField('ref-amount').textContent=`${formatUsd(valorUsd)} · ${formatMzn(valorMzn)}`;
+  getField('btn-whatsapp').href=`https://wa.me/${WHATSAPP_NUMBER}?text=${buildWhatsAppMessage({reference:referencia,name,email,product:selectedProduct,usd:valorUsd,mzn:valorMzn,automatic:true})}`;
+  getField('step-form').classList.remove('active');
+  getField('step-payment').classList.add('active');
+ }catch(error){
+  showCheckoutFallback(name,email,classifyCheckoutError(error));
+ }finally{
+  window.clearTimeout(timer);
+  btn.disabled=false;
+  btn.textContent='GERAR REFERÊNCIA →';
+ }
+ return false;
+}
+getField('modal').addEventListener('click',function(e){if(e.target===this)closeModal()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()});
+</script>
+
+<script>
+(function(){
+  const cursor = document.querySelector('.alpha-cursor');
+  const finePointer = window.matchMedia && window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!cursor || !finePointer || reduceMotion) return;
+
+  let x = -100, y = -100, targetX = x, targetY = y, raf = 0;
+  document.body.classList.add('cursor-ready');
+
+  function move(){
+    x += (targetX - x) * .22;
+    y += (targetY - y) * .22;
+    cursor.style.transform = `translate3d(${x}px,${y}px,0)`;
+    if(Math.abs(targetX - x) > .2 || Math.abs(targetY - y) > .2){
+      raf = requestAnimationFrame(move);
+    } else {
+      raf = 0;
+    }
+  }
+
+  window.addEventListener('mousemove', function(event){
+    targetX = event.clientX + 10;
+    targetY = event.clientY + 10;
+    if(!raf) raf = requestAnimationFrame(move);
+  }, {passive:true});
+
+  document.querySelectorAll('input,textarea,select,.modal').forEach(function(el){
+    el.addEventListener('mouseenter', function(){document.body.classList.add('cursor-muted')});
+    el.addEventListener('mouseleave', function(){document.body.classList.remove('cursor-muted')});
+  });
+})();
+</script>
+
+<script>
+(function(){
+  const root = document.documentElement;
+  const topbar = document.querySelector('.topbar');
+  const intro = document.getElementById('alphaIntro');
+
+  function clamp(v,min,max){ return Math.min(max,Math.max(min,v)); }
+
+  function updateDawn(){
+    const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    const p = clamp(window.scrollY / max, 0, 1);
+    const eased = p*p*(3 - 2*p);
+    root.style.setProperty('--dawn-progress', eased.toFixed(4));
+    root.style.setProperty('--dawn-amber', clamp((p-.28)/.72,0,1).toFixed(4));
+    root.style.setProperty('--dawn-horizon', clamp((p-.72)/.28,0,1).toFixed(4));
+    root.style.setProperty('--dawn-warmth', clamp((p-.42)/.58,0,1).toFixed(4));
+    if(topbar) topbar.classList.toggle('scrolled', window.scrollY > 42);
+  }
+
+  const revealTargets = document.querySelectorAll(
+    '.section-title,.section-lead,.pillar,.vol-card,.pack-card,.dossie-card,.testi-card,'+
+    '.movement-card,.inside-item,.step,.faq-item,.library-stats,'+
+    '.shelf-block,.coming-row,.legacy-row,.dawn-content,.dawn-v8-content'
+  );
+  revealTargets.forEach(el => el.classList.add('reveal-on-scroll'));
+
+  if('IntersectionObserver' in window){
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    },{threshold:.11,rootMargin:'0px 0px -35px 0px'});
+    revealTargets.forEach(el=>observer.observe(el));
+  } else {
+    revealTargets.forEach(el=>el.classList.add('revealed'));
+  }
+
+  window.addEventListener('scroll', updateDawn, {passive:true});
+  window.addEventListener('resize', updateDawn);
+  updateDawn();
+
+  window.addEventListener('load', ()=>{
+    window.setTimeout(()=>{
+      if(intro) intro.classList.add('hidden');
+    }, 2450);
+  });
+  window.setTimeout(()=>{
+    if(intro) intro.classList.add('hidden');
+  }, 3200);
+})();
+</script>
+
+
+<script>
+(function(){
+  const builder = document.querySelector('.builder-section');
+  if(!builder) return;
+
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduceMotion){
+    builder.classList.add('is-active');
+    return;
+  }
+
+  builder.classList.add('builder-motion');
+
+  if(!('IntersectionObserver' in window)){
+    builder.classList.add('is-active');
+    return;
+  }
+
+  const builderObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        builder.classList.add('is-active');
+        builderObserver.unobserve(builder);
+      }
+    });
+  },{threshold:.22,rootMargin:'0px 0px -80px 0px'});
+
+  builderObserver.observe(builder);
+})();
+</script>
+
+
+<script>
+(function(){
+  // V10.4 · A VIGÍLIA ALPHA
+  // Data fundadora oficial: a visão ALL-ALPHA recebeu nome definitivo em Maputo.
+  const ALL_ALPHA_EPOCH = '2025-03-27T00:00:00+02:00';
+
+  function getAlphaVigilDay(now){
+    return Math.floor((now.getTime() - Date.parse(ALL_ALPHA_EPOCH)) / 86400000) + 1;
+  }
+
+  function formatAlphaVigilNumber(day){
+    const value = Math.max(1, Number(day));
+    const raw = String(value);
+    const padded = raw.length < 6 ? raw.padStart(6,'0') : raw;
+    return padded.replace(/\B(?=(\d{3})+(?!\d))/g,' ');
+  }
+
+  function getNextMaputoMidnightDelay(now){
+    const maputoParts = new Intl.DateTimeFormat('en-CA',{
+      timeZone:'Africa/Maputo',
+      year:'numeric',
+      month:'2-digit',
+      day:'2-digit'
+    }).formatToParts(now).reduce((acc,part)=>{
+      if(part.type !== 'literal') acc[part.type] = Number(part.value);
+      return acc;
+    },{});
+
+    const nextMidnightUtc = Date.UTC(maputoParts.year,maputoParts.month - 1,maputoParts.day + 1) - (2 * 60 * 60 * 1000);
+    return Math.max(1000,nextMidnightUtc - now.getTime());
+  }
+
+  function updateAlphaVigil(){
+    const target = document.querySelector('[data-alpha-vigil-count]');
+    if(!target) return;
+    target.textContent = formatAlphaVigilNumber(getAlphaVigilDay(new Date()));
+  }
+
+  updateAlphaVigil();
+  window.setTimeout(function scheduleNextAlphaVigilUpdate(){
+    updateAlphaVigil();
+    window.setTimeout(scheduleNextAlphaVigilUpdate,getNextMaputoMidnightDelay(new Date()));
+  },getNextMaputoMidnightDelay(new Date()));
+})();
+</script>
+
+
+<script>
+(function(){
+  const dawn = document.querySelector('.alpha-dawn-v8');
+  if(!dawn) return;
+  if(!('IntersectionObserver' in window)){
+    dawn.classList.add('is-active');
+    return;
+  }
+  const dawnObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        dawn.classList.add('is-active');
+        dawnObserver.unobserve(dawn);
+      }
+    });
+  },{threshold:.28});
+  dawnObserver.observe(dawn);
+})();
+</script>
+
+<script src="assets/loja-metricas.js?v=20261107" defer></script>
+</body>
+</html>
