@@ -93,3 +93,19 @@ Para consultar: basta pedir "quantas visitas hoje" ou "visitas desta semana".
 3. Criar a conta MailerLite e fornecer as duas credenciais.
 4. Confirmar o email público de contacto (`ericdcxavier@icloud.com`).
 5. Publicar a trilogia na Gumroad, quando existir.
+
+---
+
+## 9. Envio das boas-vindas (actualização 10/11/2026, 01:10)
+
+O MailerLite desta conta recusa todos os envios: a campanha criada e agendada por API fica presa, e os pedidos de envio de teste devolvem `Resource does not exist`. A conta está activa mas sem remetente verificado, e nada sai enquanto isso não for resolvido no painel.
+
+Solução implementada e testada:
+
+- Função `enviarBoasVindas` envia o email pelos servidores do Gmail, em nome do Éric, usando uma palavra-passe de aplicação guardada como segredo. Liga-se ao SMTP do Gmail na porta 465 a partir da plataforma, sem depender de aprovação de terceiros.
+- Fluxo `Boas-vindas Biblioteca ALL-ALPHA` corre de cinco em cinco minutos, chama a função e envia no máximo cinco emails por execução.
+- Cada leitor é marcado com `contactado = true` depois do envio, por isso ninguém recebe duas vezes.
+- Se o envio falhar, o leitor fica por marcar e volta a ser tentado na execução seguinte.
+- O MailerLite mantém-se como lista de subscritores, pronto para campanhas quando a conta for verificada.
+
+Verificado em produção: envio automático para um leitor real às 01:05 de 10/11/2026, com o registo marcado como contactado.
