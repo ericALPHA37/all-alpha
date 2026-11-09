@@ -57,7 +57,8 @@
       var saved = localStorage.getItem(STORE.lang);
       if (saved === "pt" || saved === "en") return saved;
     } catch (e) {}
-    return (navigator.language || "pt").toLowerCase().indexOf("pt") === 0 ? "pt" : "en";
+    // Portuguese is the editorial default; English is opt-in via the switch or ?lang=en
+    return "pt";
   }
 
   function applyLang(next, opts) {
