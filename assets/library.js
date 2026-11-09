@@ -1,54 +1,64 @@
 /* ============================================================
-   ALL-ALPHA · Digital Library
-   Language, catalogue, navigation and newsletter behaviour
+   ALL-ALPHA · Digital Library · Fase 2
+   Idioma, catálogo, consentimento, newsletter e contagem de visitas
    ============================================================ */
 (function () {
   "use strict";
 
-  var STORE = {
-    lang: "alpha-library-lang"
-  };
+  var STORE = { lang: "alpha-library-lang", sessao: "alpha-library-sessao" };
 
-  /* ---------- Config ---------- */
   var CONFIG = {
-    // Backend endpoint that stores newsletter subscriptions (ALL-ALPHA database).
-    newsletterEndpoint: "https://catalisador-alpha-240b44e7.base44.app/functions/registarLeitor",
-    // Set to a newsletter service URL (Buttondown, MailerLite, ConvertKit) to also forward the email.
-    newsletterForwardUrl: ""
+    // Inscrição: grava na base ALL-ALPHA e sincroniza com MailerLite no servidor.
+    newsletterEndpoint: "https://catalisador-alpha-240b44e7.base44.app/functions/subscreverNewsletter",
+    // Contagem de visitas anónima: sem cookies, sem IP, sem identificação pessoal.
+    visitaEndpoint: "https://catalisador-alpha-240b44e7.base44.app/functions/registarEvento",
+    versaoConsentimento: "2026-11-09.v1"
   };
 
   var META = {
     pt: {
       title: "ALL-ALPHA · Biblioteca Digital — Éric Xavier",
-      desc: "Biblioteca digital independente de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. Todas as obras com acesso gratuito.",
-      works: function (n) { return n === 1 ? "1 obra" : n + " obras"; }
+      desc: "Sete obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. A trilogia completa está em preparação.",
+      available: function (n, p) {
+        var base = n === 1 ? "1 obra disponível" : n + " obras disponíveis";
+        return p > 0 ? base + " · " + p + " em preparação" : base;
+      }
     },
     en: {
       title: "ALL-ALPHA · Digital Library — Éric Xavier",
-      desc: "An independent digital library by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. Every work is free to read.",
-      works: function (n) { return n === 1 ? "1 work" : n + " works"; }
+      desc: "Seven works, free to read, by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. The complete trilogy is in preparation.",
+      available: function (n, p) {
+        var base = n === 1 ? "1 work available" : n + " works available";
+        return p > 0 ? base + " · " + p + " in preparation" : base;
+      }
     }
   };
 
   var MSG = {
     pt: {
       invalid: "Introduz um email válido.",
+      consent: "Para continuar, confirma que aceitas receber comunicações editoriais.",
       sending: "A registar…",
-      success: "Inscrição registada. Ficaste na lista da ALL-ALPHA para novidades editoriais. O envio de emails começa quando a newsletter for activada.",
-      error: "Não foi possível registar a inscrição agora. Tenta novamente em instantes."
+      success: "Inscrição registada. Vais receber um email para confirmares a subscrição.",
+      successLocal: "Inscrição registada na base de dados da ALL-ALPHA. O email de confirmação será enviado assim que o serviço de newsletter estiver activo.",
+      error: "Não foi possível registar a inscrição agora. Tenta novamente em instantes.",
+      duplicate: "Este email já estava inscrito. Actualizámos os teus dados e manténs-te na lista."
     },
     en: {
       invalid: "Please enter a valid email address.",
+      consent: "Please confirm that you agree to receive editorial communications.",
       sending: "Saving…",
-      success: "You are on the list. You will hear from ALL-ALPHA about editorial news. Email delivery starts once the newsletter is activated.",
-      error: "We could not save your subscription right now. Please try again in a moment."
+      success: "You're subscribed. You'll receive an email to confirm your subscription.",
+      successLocal: "Subscription saved in the ALL-ALPHA database. The confirmation email will be sent once the newsletter service is active.",
+      error: "We could not save your subscription right now. Please try again in a moment.",
+      duplicate: "This email was already subscribed. We updated your details and you remain on the list."
     }
   };
 
   var docEl = document.documentElement;
   var lang = "pt";
 
-  /* ---------- Language ---------- */
+  /* ---------------- Idioma ---------------- */
   function detectLang() {
     var url = new URL(window.location.href);
     var fromUrl = url.searchParams.get("lang");
@@ -57,7 +67,6 @@
       var saved = localStorage.getItem(STORE.lang);
       if (saved === "pt" || saved === "en") return saved;
     } catch (e) {}
-    // Portuguese is the editorial default; English is opt-in via the switch or ?lang=en
     return "pt";
   }
 
@@ -84,7 +93,6 @@
     if (ogTitle) ogTitle.setAttribute("content", META[lang].title);
     var ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc) ogDesc.setAttribute("content", META[lang].desc);
-    docEl.setAttribute("data-og-locale", lang === "pt" ? "pt_MZ" : "en_US");
 
     try { localStorage.setItem(STORE.lang, lang); } catch (e) {}
 
@@ -104,30 +112,30 @@
     applyLang(btn.getAttribute("data-set-lang"));
   });
 
-  /* ---------- Catalogue filters ---------- */
+  /* ---------------- Catálogo ---------------- */
   var grid = document.getElementById("grid");
   var cards = grid ? Array.prototype.slice.call(grid.querySelectorAll(".card")) : [];
   var filterButtons = Array.prototype.slice.call(document.querySelectorAll(".filter"));
   var countLabel = document.querySelector("[data-count-label]");
   var currentFilter = "all";
 
-  function visibleCards() {
-    return cards.filter(function (c) {
-      return currentFilter === "all" || c.getAttribute("data-collection") === currentFilter;
-    });
+  function inFilter(card) {
+    return currentFilter === "all" || card.getAttribute("data-collection") === currentFilter;
   }
 
   function updateCount() {
     if (!countLabel) return;
-    var n = visibleCards().length;
-    countLabel.textContent = META[lang].works(n);
+    var visiveis = cards.filter(inFilter);
+    var disponiveis = visiveis.filter(function (c) { return !c.classList.contains("card--pending"); }).length;
+    var pendentes = visiveis.length - disponiveis;
+    countLabel.textContent = META[lang].available(disponiveis, pendentes);
   }
 
   function setFilter(value, opts) {
     opts = opts || {};
     currentFilter = value;
     cards.forEach(function (card) {
-      var match = value === "all" || card.getAttribute("data-collection") === value;
+      var match = inFilter(card);
       card.hidden = !match;
       if (match) card.classList.add("is-in");
     });
@@ -154,7 +162,7 @@
     });
   });
 
-  /* ---------- Mobile drawer ---------- */
+  /* ---------------- Menu móvel ---------------- */
   var burger = document.querySelector(".burger");
   var drawer = document.getElementById("drawer");
 
@@ -162,7 +170,7 @@
     if (!drawer || !burger) return;
     drawer.setAttribute("data-open", "false");
     burger.setAttribute("aria-expanded", "false");
-    burger.setAttribute("aria-label", "Abrir menu");
+    burger.setAttribute("aria-label", lang === "pt" ? "Abrir menu" : "Open menu");
     document.body.classList.remove("is-locked");
   }
 
@@ -174,7 +182,7 @@
       } else {
         drawer.setAttribute("data-open", "true");
         burger.setAttribute("aria-expanded", "true");
-        burger.setAttribute("aria-label", "Fechar menu");
+        burger.setAttribute("aria-label", lang === "pt" ? "Fechar menu" : "Close menu");
         document.body.classList.add("is-locked");
       }
     });
@@ -189,7 +197,7 @@
     });
   }
 
-  /* ---------- Scroll reveal ---------- */
+  /* ---------------- Revelação ao scroll ---------------- */
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var revealEls = Array.prototype.slice.call(document.querySelectorAll("[data-reveal]"));
 
@@ -207,23 +215,25 @@
     revealEls.forEach(function (el) { io.observe(el); });
   }
 
-  /* ---------- Newsletter ---------- */
+  /* ---------------- Newsletter ---------------- */
   var form = document.getElementById("newsForm");
   var email = document.getElementById("newsEmail");
+  var consent = document.getElementById("newsConsent");
   var status = document.getElementById("newsStatus");
   var submit = document.getElementById("newsSubmit");
   var lastState = null;
 
   function refreshStatus() {
     if (!status || !lastState) return;
-    status.textContent = MSG[lang][lastState];
+    var key = lastState;
+    status.textContent = MSG[lang][key] || MSG[lang].error;
   }
 
-  function setStatus(state) {
+  function setStatus(state, override) {
     lastState = state;
     if (!status) return;
     status.setAttribute("data-state", state === "error" ? "error" : state === "success" ? "success" : "info");
-    status.textContent = MSG[lang][state];
+    status.textContent = override || MSG[lang][state] || MSG[lang].error;
   }
 
   function validEmail(value) {
@@ -242,30 +252,24 @@
         return;
       }
       email.removeAttribute("aria-invalid");
+
+      if (consent && !consent.checked) {
+        setStatus("consent");
+        consent.focus();
+        return;
+      }
+
       setStatus("sending");
       if (submit) submit.disabled = true;
 
       var payload = {
         email: value,
+        consentimento: !!(consent && consent.checked),
+        versaoConsentimento: CONFIG.versaoConsentimento,
         origem: "biblioteca-all-alpha",
         pagina: window.location.pathname,
         idioma: lang
       };
-
-      var done = function (ok) {
-        if (submit) submit.disabled = false;
-        if (ok) {
-          setStatus("success");
-          form.reset();
-        } else {
-          setStatus("error");
-        }
-      };
-
-      if (!CONFIG.newsletterEndpoint) {
-        done(false);
-        return;
-      }
 
       fetch(CONFIG.newsletterEndpoint, {
         method: "POST",
@@ -273,11 +277,28 @@
         body: JSON.stringify(payload)
       })
         .then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status);
-          return res.json().catch(function () { return {}; });
+          return res.json().then(function (data) { return { ok: res.ok, data: data }; });
         })
-        .then(function () { done(true); })
-        .catch(function () { done(false); });
+        .then(function (r) {
+          if (submit) submit.disabled = false;
+          if (!r.ok || !r.data || r.data.success !== true) {
+            setStatus("error");
+            return;
+          }
+          // Só é sucesso quando o servidor confirmou a gravação.
+          if (r.data.jaExistia) {
+            setStatus("duplicate", MSG[lang].duplicate);
+          } else if (r.data.mailerlite === "sincronizado") {
+            setStatus("success");
+          } else {
+            setStatus("successLocal", MSG[lang].successLocal);
+          }
+          form.reset();
+        })
+        .catch(function () {
+          if (submit) submit.disabled = false;
+          setStatus("error");
+        });
     });
 
     email.addEventListener("input", function () {
@@ -285,11 +306,52 @@
     });
   }
 
-  /* ---------- Misc ---------- */
+  /* ---------------- Contagem de visitas ---------------- */
+  function registrarVisita() {
+    if (!CONFIG.visitaEndpoint) return;
+    if (navigator.doNotTrack === "1" || window.doNotTrack === "1") return;
+    try {
+      var sessao = sessionStorage.getItem(STORE.sessao);
+      if (!sessao) {
+        sessao = "s-" + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
+        sessionStorage.setItem(STORE.sessao, sessao);
+      }
+      var largura = window.innerWidth;
+      var params = new URLSearchParams(window.location.search);
+      var utm = ["utm_source", "utm_medium", "utm_campaign"]
+        .map(function (k) { return params.get(k) ? k + ":" + params.get(k) : ""; })
+        .filter(Boolean)
+        .join(",");
+
+      var corpo = JSON.stringify({
+        tipo: "visita",
+        pagina: window.location.pathname,
+        idioma: lang,
+        referrer: document.referrer ? new URL(document.referrer).hostname : "",
+        dispositivo: largura < 720 ? "movel" : largura < 1100 ? "tablet" : "desktop",
+        sessao: sessao,
+        utm: utm
+      });
+
+      fetch(CONFIG.visitaEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: corpo,
+        keepalive: true
+      }).catch(function () {});
+    } catch (e) {}
+  }
+
+  /* ---------------- Arranque ---------------- */
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
-  /* ---------- Boot ---------- */
   applyLang(detectLang(), { updateUrl: false });
   setFilter("all");
+
+  if (document.readyState === "complete") {
+    registrarVisita();
+  } else {
+    window.addEventListener("load", registrarVisita);
+  }
 })();
