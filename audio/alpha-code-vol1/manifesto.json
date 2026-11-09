@@ -1,0 +1,27 @@
+{
+  "voz": "pt-PT-DuarteNeural",
+  "capitulos": [
+    {
+      "n": 1,
+      "titulo": "Parte 1",
+      "ficheiro": "cap-01.mp3",
+      "kb": 2027,
+      "min": 5.8
+    },
+    {
+      "n": 2,
+      "titulo": "Parte 2",
+      "ficheiro": "cap-02.mp3",
+      "kb": 2385,
+      "min": 6.8
+    },
+    {
+      "n": 3,
+      "titulo": "Parte 3",
+      "ficheiro": "cap-03.mp3",
+      "kb": 315,
+      "min": 0.9
+    }
+  ],
+  "total_min": 13.5
+}
