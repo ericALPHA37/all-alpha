@@ -39,8 +39,8 @@
       invalid: "Introduz um email válido.",
       consent: "Para continuar, confirma que aceitas receber comunicações editoriais.",
       sending: "A registar…",
-      success: "Inscrição registada. Vais receber um email para confirmares a subscrição.",
-      successLocal: "Inscrição registada na base de dados da ALL-ALPHA. O email de confirmação será enviado assim que o serviço de newsletter estiver activo.",
+      success: "Inscrição registada. Passas a receber as novidades editoriais da ALL-ALPHA no teu email.",
+      successLocal: "Inscrição registada na base de dados da ALL-ALPHA. A ligação ao serviço de envio será feita assim que estiver activa.",
       error: "Não foi possível registar a inscrição agora. Tenta novamente em instantes.",
       duplicate: "Este email já estava inscrito. Actualizámos os teus dados e manténs-te na lista."
     },
@@ -48,8 +48,8 @@
       invalid: "Please enter a valid email address.",
       consent: "Please confirm that you agree to receive editorial communications.",
       sending: "Saving…",
-      success: "You're subscribed. You'll receive an email to confirm your subscription.",
-      successLocal: "Subscription saved in the ALL-ALPHA database. The confirmation email will be sent once the newsletter service is active.",
+      success: "You're subscribed. ALL-ALPHA editorial news will reach you by email.",
+      successLocal: "Subscription saved in the ALL-ALPHA database. Sync with the sending service happens as soon as it is connected.",
       error: "We could not save your subscription right now. Please try again in a moment.",
       duplicate: "This email was already subscribed. We updated your details and you remain on the list."
     }
