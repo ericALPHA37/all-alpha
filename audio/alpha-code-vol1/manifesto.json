@@ -5,23 +5,23 @@
       "n": 1,
       "titulo": "Parte 1",
       "ficheiro": "cap-01.mp3",
-      "kb": 2027,
-      "min": 5.8
+      "kb": 2164,
+      "min": 6.2
     },
     {
       "n": 2,
       "titulo": "Parte 2",
       "ficheiro": "cap-02.mp3",
-      "kb": 2385,
-      "min": 6.8
+      "kb": 2521,
+      "min": 7.2
     },
     {
       "n": 3,
       "titulo": "Parte 3",
       "ficheiro": "cap-03.mp3",
-      "kb": 315,
-      "min": 0.9
+      "kb": 260,
+      "min": 0.7
     }
   ],
-  "total_min": 13.5
+  "total_min": 14.1
 }
