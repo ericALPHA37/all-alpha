@@ -18,17 +18,17 @@
   var META = {
     pt: {
       title: "Biblioteca ALL-ALPHA — Éric Xavier",
-      desc: "Oito obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. A trilogia completa está em preparação.",
+      desc: "Oito obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. Leitura no browser e descarga gratuita de todas as obras.",
       available: function (n, p) {
-        var base = n === 1 ? "1 obra disponível" : n + " obras disponíveis";
+        var base = n === 1 ? "1 título disponível" : n + " títulos disponíveis";
         return p > 0 ? base + " · " + p + " em preparação" : base;
       }
     },
     en: {
       title: "ALL-ALPHA · Digital Library — Éric Xavier",
-      desc: "Eight works, free to read, by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. The complete trilogy is in preparation.",
+      desc: "Eight works, free to read, by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. Read in the browser and download every work for free.",
       available: function (n, p) {
-        var base = n === 1 ? "1 work available" : n + " works available";
+        var base = n === 1 ? "1 title available" : n + " titles available";
         return p > 0 ? base + " · " + p + " in preparation" : base;
       }
     }
@@ -307,7 +307,10 @@
   }
 
   /* ---------------- Contagem de visitas ---------------- */
+  // A medição vive agora em assets/metricas.js (visitas, obra, leitura, descargas).
+  // Mantém-se a função inerte para não haver contagem duplicada nem erro em cache antiga.
   function registrarVisita() {
+    return;
     if (!CONFIG.visitaEndpoint) return;
     if (navigator.doNotTrack === "1" || window.doNotTrack === "1") return;
     try {
