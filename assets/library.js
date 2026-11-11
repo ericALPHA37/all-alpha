@@ -18,7 +18,7 @@
   var META = {
     pt: {
       title: "ALL-ALPHA · Biblioteca Digital — Éric Xavier",
-      desc: "Sete obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. A trilogia completa está em preparação.",
+      desc: "Oito obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. A trilogia completa está em preparação.",
       available: function (n, p) {
         var base = n === 1 ? "1 obra disponível" : n + " obras disponíveis";
         return p > 0 ? base + " · " + p + " em preparação" : base;
@@ -26,7 +26,7 @@
     },
     en: {
       title: "ALL-ALPHA · Digital Library — Éric Xavier",
-      desc: "Seven works, free to read, by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. The complete trilogy is in preparation.",
+      desc: "Eight works, free to read, by Éric Xavier. Books on discipline, identity, knowledge and the building of a legacy. The complete trilogy is in preparation.",
       available: function (n, p) {
         var base = n === 1 ? "1 work available" : n + " works available";
         return p > 0 ? base + " · " + p + " in preparation" : base;
