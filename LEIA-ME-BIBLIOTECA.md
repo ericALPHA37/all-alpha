@@ -11,11 +11,14 @@
 index.html                     página da biblioteca (PT por defeito, EN por interruptor)
 alpha-code-anterior.html       página de vendas anterior, preservada sem alterações
 assets/library.css             sistema de design (cor, tipografia, componentes)
+library/styles/library.css     tema da biblioteca de leitura (páginas de livro) — claro, alinhado com a raiz
 assets/library.js              idioma, filtros do catálogo, menu móvel, newsletter
 assets/library-img/*.webp      capas e imagens de obra optimizadas
 assets/eric-alpha-portal.jpg   retrato do autor (já existia no repositório)
 favicon.svg · site.webmanifest
 ```
+
+**Tema.** Toda a biblioteca de leitura (`/library/` e páginas de livro) usa o mesmo tema claro da raiz: papel `#FAFAF8`, tinta `#0A0A0A`, dourado `#C9A227` em linhas e botões, dourado `#8B6914` onde é texto (contraste AA). As capas continuam a ser imagens escuras por decisão dos autores, não por tema.
 
 ## 2. O que está implementado
 
