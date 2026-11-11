@@ -734,3 +734,24 @@ html[lang="en"] .card__sub{display:block}
   .hero__stats{gap:18px 26px}
   .consent{font-size:.82rem;padding:12px 13px}
 }
+
+/* ---------- Ligação à biblioteca de leitura ---------- */
+.grid__more{
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  margin-top:clamp(28px,4vw,44px);
+  padding-top:clamp(24px,3vw,34px);
+  border-top:1px solid var(--line);
+}
+.grid__more-note{
+  font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);
+}
+.inline-link{
+  color:var(--ink);text-decoration:none;
+  border-bottom:1px solid var(--gold-line);
+}
+.inline-link:hover{border-bottom-color:var(--gold)}
+@media(max-width:560px){
+  .grid__more{flex-direction:column;align-items:flex-start;gap:14px}
+  .grid__more .btn{width:100%}
+}

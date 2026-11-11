@@ -17,7 +17,7 @@
 
   var META = {
     pt: {
-      title: "ALL-ALPHA · Biblioteca Digital — Éric Xavier",
+      title: "Biblioteca ALL-ALPHA — Éric Xavier",
       desc: "Oito obras disponíveis com acesso gratuito, de Éric Xavier. Livros sobre disciplina, identidade, conhecimento e construção de legado. A trilogia completa está em preparação.",
       available: function (n, p) {
         var base = n === 1 ? "1 obra disponível" : n + " obras disponíveis";
