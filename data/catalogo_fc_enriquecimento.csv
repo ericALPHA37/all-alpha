@@ -1,0 +1,1557 @@
+codigo,grupo_terapeutico,classe_terapeutica,prescritor,prioritario,exclusivo_macs,temperatura
+01A01,Aparelho Cardiovascular,Cardiotónicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08B08,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D08,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A12,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+10A07,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A07,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04C01,Aparelho Génito-urinário E Hormonas Sexuais,Inibidores Da Prolactina,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08K03,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07G04,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J07Z,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J11,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07D14,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07F01,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07D04,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01A0i,Aparelho Cardiovascular,Antiarritmicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C18,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+17D03,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02B02,Aparelho Digestivo,Anti-espasmodicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02I01,Aparelho Digestivo,Anti-hemorroidarios,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01I01,Aparelho Cardiovascular,Bloqueadoresdos Dos Receptores Da Angiotensinaii,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15D01,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+04E01,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02C03,Aparelho Digestivo,Estimulanesda Motilidade Digestiva,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04E02,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J05,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07D02,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+11A02,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+20A05,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A14,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06A03,Sangue,Anti-anemicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01F02Z,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07F04,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07A06Y,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+18C07,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09B01,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+09B04,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08O12,Antibióticos,Anti-protozoários,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+09D04,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+09A09,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09A02,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09C01,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09C10Z,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04H03Z,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07J03,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q04,Antibióticos,Anti-micóticos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09H01,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09G03,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+09F02,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E11III,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09E01,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E08Z,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E10,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+14E03Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01B04i,Aparelho Cardiovascular,Antiarritmicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15F05Z,Dermatologia,"Preparações Para Verrugas, Calos E Calosidades",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05A05i,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E04,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07G07,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14A08,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+05A05,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07I07i,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07J13,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17A07,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09G04i,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09D03,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09H04Z,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09E11II,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+15C02,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+16A01,Otorrinolaringologia,Medicamentos De Acção No Ouvido,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17A02,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+17A04,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04F03,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04B02i,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+07J05Z,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R02,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A12,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03B08,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+09LME1,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+01A04,Aparelho Cardiovascular,Cardiotónicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01B01,Aparelho Cardiovascular,Antiarritmicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02D06,Aparelho Digestivo,Laxantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D16i,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09F03I,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12B08Z,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12D01,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+12D16,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D14,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+12B06Z,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+13A01i,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12A0ZV,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12A15ZZ,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D04Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B03,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A11Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A05,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+14A04Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+13A06,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+13A05,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+14A09,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D10Y,,,,,,
+09A06ii,,,,,,
+09A06I,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09B03,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08R05,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08S18ZW,,,,,,
+09C02i,Citostáticos E Imunosupressores,Anti-metabólitos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09C08,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09C04,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08R0ZZ,Antibióticos,Anti-virais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+11A13,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09H05I,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E03,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09C10,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E09Z,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09LMEIII,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09H04Y,,,,,,
+10A06,Diuréticos,Diuréticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+09E11I,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F01Y,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A03XX,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01C01,Aparelho Cardiovascular,Anti-hipertensivos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01E01,Aparelho Cardiovascular,Β-bloqueadores,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A11YY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C21,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C20,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05A12Z,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A08Y,Aparelho Respiratório,Anti-asmaticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06E03,Sangue,Anti-agregantes Plaquetários E Outros Anti-trombóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06D0iii,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06D0i,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04B07Y,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04B05,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Sim,Não,2°C  a  8°C  Geleira/frio
+05A00ii,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+05A00i,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04D10,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A03X,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+06F06i,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06F05Z,Sangue,Antifibrinolíticos E Hemostáticos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+06F06ii,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A06X,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+07D06,Sistema Nervoso,Anti-convulsivantes,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+05LME03,Aparelho Respiratório,Anti-asmaticos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+05LME01,Aparelho Respiratório,Anti-asmaticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06A0ZX,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03A01i,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03A01aa,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A01a,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01F02ZZ,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01H02,Aparelho Cardiovascular,Inibidores Do Enzima De Conversao Da Angiotensina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01F02Y,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01E03i,Aparelho Cardiovascular,Β-bloqueadores,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04E08,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03A06Z,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+04B03,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Sim,Não,2°C  a  8°C  Geleira/frio
+03D03i,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03E01,Endocrinologia E Metabolismo,Outros Farm Endocrinologia,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03B07ZZ,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04A08,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08I02Z,Antibióticos,Sulfamidas E Trimetoprim,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08N02,Antibióticos,Anti-helmínticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08N06Z,,,,,,
+08K07AN,,,,,,
+08F01Y,Antibióticos,Macrólidos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08F01X,Antibióticos,Macrólidos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08D05,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08F01W,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08F02Trac,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08C01Z,Antibióticos,Outros B-lactámicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A13,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08G03,Antibióticos,Tetraciclinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08H07Z,Antibióticos,Quinolonas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08O11,Antibióticos,Anti-protozoários,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08Q01ZZ,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O19Y,Antibióticos,Outros Anti-parasitários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08O19X,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q06,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08Q05ii,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08N03,Antibióticos,Anti-helmínticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07D0ii,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D0i,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07I08,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07G05,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J02i,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07D07i,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07H01,Sistema Nervoso,Estabilizadores Do Humor,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08B06X,Antibióticos,Cefalosporinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08A17ZZ,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B08W,Antibióticos,Cefalosporinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08A09i,Antibióticos,Penicilinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08A09ZZ,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A10,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A18,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08H03Y,Antibióticos,Quinolonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08H01,Antibióticos,Quinolonas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08A0ZYi,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A07Y,Antibióticos,Penicilinas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+08A06i,Antibióticos,Penicilinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07M01,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08N03ZY,,,,,,
+12B04Z,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+11A09X,,,,,,
+11A06,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+10A07Z,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A03X,,,,,,
+11A01X,,,,,,
+11A12Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A0i,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A17X,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A05Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14A01X,,,,,,
+13A12,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A11,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A03Y,,,,,,
+14A03W,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14D01Z,,,,,,
+14A03X,,,,,,
+14A08Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15B07,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+14A04Y,,,,,,
+12D06Y,,,,,,
+12D03,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12C04Z,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15A03X,,,,,,
+12D09,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D11X,,,,,,
+12D10X,,,,,,
+09F01i,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09B05X,,,,,,
+08R06II,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+08R06,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R0iii,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R0ii,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09301ZY,,,,,,
+08R07,,,,,,
+08R0i,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R0aa,Antibióticos,Anti-virais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08R0a,Antibióticos,Anti-virais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08S01X,,,,,,
+08S18XX,,,,,,
+10A0ZX,,,,,,
+11A20,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A15Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09E01XX,,,,,,
+09F02ii,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C09Z,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09D06i,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E05Z,,,,,,
+09F02i,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09F02ZX,,,,,,
+09F02Z,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09F02XY,,,,,,
+09F02X,,,,,,
+09E10ii,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E09X,,,,,,
+09F01X,,,,,,
+09H03Z,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A04W,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A04OY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A04OW,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A03ZY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A03Y,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A03XU,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A03X,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A03U,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C05X,,,,,,
+18C10W,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17C07ZZ,Oftalmologia,Agentes Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01B02ii,Aparelho Cardiovascular,Antiarritmicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01B02i,Aparelho Cardiovascular,Antiarritmicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A08i,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18D01Z,,,,,,
+20A04ZY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A04ZX,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A04ZO,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A07X,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A13Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A13,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01C04Z,,,,,,
+01A01X,,,,,,
+20A10Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01C02X,,,,,,
+20A04YY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18F04ii,Anestesia,Fármacos Adjuvantes Na Anestesia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+19A04,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+18D03Z,Anestesia,Miorrelaxantes Periféricos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+20A04Y,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A17,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+19B02Z,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A00i,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+22A02,Agentes De Diagnóstico,Clínica,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15C28,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C17ZZ,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15F05,Dermatologia,"Preparações Para Verrugas, Calos E Calosidades",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15C18Z,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15C06ZZ,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C06ZX,Dermatologia,Anti-infecciosos Tópicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15C06,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C03i,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C08i,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A08Y,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14C02,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+14E03X,,,,,,
+15D01ii,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15D01i,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15D01Z,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15B05,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15B02Z,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B02X,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B02,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+16C10Z,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17D03Z,Oftalmologia,Corticosteróides Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17F10,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17A06Z,,,,,,
+17A06Y,,,,,,
+17A05,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15D06Z,,,,,,
+15D04,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+16C09,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+16A0i,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+16C09Z,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15H02,Dermatologia,Preparações Para O Couro Cabeludo,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15G03,Dermatologia,Anti-pruriginosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17B04Z,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17B01Z,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17A04Y,,,,,,
+17A0i,Oftalmologia,N/A,Es,Não,Não,25°C Temperatura Ambiente
+17A0II,,,,,,
+17A08Z,Oftalmologia,Corticosteróides Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17A08,Oftalmologia,Corticosteróides Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15E01,Dermatologia,Preparações Para A Acne,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15D0i,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17B01i,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+04F02Z,,,,,,
+06D01Y,Sangue,Anti-anemicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06E02,Sangue,Anti-agregantes Plaquetários E Outros Anti-trombóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+05A07,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04G04Z,,,,,,
+04E08Z,,,,,,
+04D04Z,,,,,,
+04F06XX,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F0ZZ,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06F06ZZ,,,,,,
+06F06ZX,,,,,,
+07A01,Sistema Nervoso,Analgésicos-antipiréticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07B04Y,,,,,,
+06F06XX,,,,,,
+06F03,Sangue,Antifibrinolíticos E Hemostáticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06F06X,,,,,,
+07A03Y,Sistema Nervoso,Analgésicos-antipiréticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07D05i,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07A03Z,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+06A01Z,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07B04Z,,,,,,
+05B05,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05B04,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05B03,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A15,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06A09,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A08,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A06Z,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A03Z,,,,,,
+02E03Z,Aparelho Digestivo,Anti-diarreicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02D0iii,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02D0ii,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03A03X,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02C00ii,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02D06X,,,,,,
+03A01iii,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A01ii,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A03Y,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02C00i,Aparelho Digestivo,Estimulanesda Motilidade Digestiva,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02A08,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02A06i,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01G0ZZ,Aparelho Cardiovascular,Vasodilatadores,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01G01XX,,,,,,
+01H0ZZ,Aparelho Cardiovascular,Inibidores Do Enzima De Conversao Da Angiotensina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01H02Y,,,,,,
+01H02X,,,,,,
+01H01Y,,,,,,
+01H01X,,,,,,
+01F01X,,,,,,
+01G01,Aparelho Cardiovascular,Vasodilatadores,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+02A06Z,,,,,,
+02A05Z,,,,,,
+03B02XX,,,,,,
+03B02X,,,,,,
+03A06Y,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+04B04X,,,,,,
+04A02,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+03A01Y,,,,,,
+03D01Z,,,,,,
+03D01,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03B03Z,,,,,,
+03B02Z,,,,,,
+03B07Y,,,,,,
+02D0i,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02D0aa,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02D0a,Aparelho Digestivo,Laxantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03B03Y,,,,,,
+04A10,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04B04ZX,,,,,,
+03A01X,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03A01iiiii,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A01iiii,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02H03ZZ,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02H02,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08N0i,Antibióticos,Anti-helmínticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08N0a,Antibióticos,Outros Anti-parasitários,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08N07Z,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08NOii,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08N01ZZ,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A14,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A13Z,Antibióticos,Penicilinas,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08F01Z,Antibióticos,Macrólidos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08F05Z,,,,,,
+08O16Z,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q08,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O0ZX,Antibióticos,Anti-protozoários,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q01Z,Antibióticos,Anti-micóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08O19XX,,,,,,
+08L06XX,,,,,,
+08Q05Z,Antibióticos,Anti-micóticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q05X,Antibióticos,Anti-micóticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q09,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07F05Z,,,,,,
+07F05,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D13X,,,,,,
+07I0YZ,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07I05,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07I12,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07B09ii,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B09i,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07E01,Sistema Nervoso,Anti-eméticos E Anti-vertiginosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07F0ii,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A09,Sistema Nervoso,Analgésicos-antipiréticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A07Z,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A07X,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07I12Z,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07D04Y,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B07Z,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D01Y,Sistema Nervoso,Anti-convulsivantes,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+07B09iii,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D03,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B08U,Antibióticos,Cefalosporinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08B03,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B01,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08H03i,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08B08Y,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07L04Z,,,,,,
+07M02Z,,,,,,
+07M02X,,,,,,
+07M02,,,,,,
+07L01,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07J15Y,,,,,,
+07J12Z,,,,,,
+07J12X,,,,,,
+07LME05,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07LME04,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A04X,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A02i,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D01Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+13A11Z,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15B10,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D09X,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+12D0i,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09F02iii,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09H04ZZ,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+22B05X,Agentes De Diagnóstico,Radiologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+22B05ZZ,Agentes De Diagnóstico,Radiologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+22B05W,Agentes De Diagnóstico,Radiologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18C13,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17C05ZZ,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A10X,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A10W,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A0Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A09X,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A04Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A18Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A18Y,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A18,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+01A01i,Aparelho Cardiovascular,Cardiotónicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+19A01Y,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Sim,Não,2°C  a  8°C  Geleira/frio
+20A17ZX,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+16C10Y,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C17Z,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A10,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A0i,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15B03X,Dermatologia,Corticosteróides Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18B02X,Anestesia,Anestésicos Gerais Intravenosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15D07,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+16C10,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17A09,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06E04,Sangue,Anti-agregantes Plaquetários E Outros Anti-trombóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+05B06,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01J03,Aparelho Cardiovascular,Anti-dislipidemicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01I01Z,Aparelho Cardiovascular,Bloqueadoresdos Dos Receptores Da Angiotensinaii,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02C04,Aparelho Digestivo,Estimulanesda Motilidade Digestiva,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02A09,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A17ZZ,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08A17,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08P0aa,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08P0a,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08P0i,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08P0aaa,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A08,Sistema Nervoso,Analgésicos-antipiréticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A07,Sistema Nervoso,Fármacos Usados No Tratamento Da Enxaqueca,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07G09Z,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07C01,Sistema Nervoso,Fármacos Usados No Tratamento Da Enxaqueca,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+12B08Y,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A04,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09C03,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09D05,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+19B09,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+19B08,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+20A09i,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+19B07,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+19B05,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+19B03,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+17A01,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15E02Z,Dermatologia,Preparações Para A Acne,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+05A03Z,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A09,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q02,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07I04,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07I11,25°C Temperatura Ambiente,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Sem VEN,12000,10mg
+07I01,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A09,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A09X,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12A05Z,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B10Z,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D14Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12C02,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12B09,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12B07,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12B08,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12A02,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A0XX,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B02,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12B01,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12A14,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A13,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A12,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A11,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12A10,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A03Y,,,,,,
+11A0VY,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B03Y,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A12,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A01Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14E04,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14E03ZY,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A0XY,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+13A07,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+13A04Z,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14E01,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15A04,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A0ZZ,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A0ZY,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A0ZX,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A0ZW,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A0Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A07,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15B0ZY,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B0Z,Dermatologia,Corticosteróides Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15B0XZ,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B09,Dermatologia,Corticosteróides Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+14A01Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+12C0ZZ,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A03Z,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D07i,N/A,N/A,N/A,Não,Não,N/A
+12D07,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D06Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D06,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D05,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B10,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12B0XZ,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+12D03Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D02Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D02,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15A03,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15A02,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A01,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D08Z,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12D07ii,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A26,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09F03Z,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+09F03II,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09A07i,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09A06,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09B01Z,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09A08,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08R04,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09A05,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09A03Z,Citostáticos E Imunosupressores,Agentes Alquilantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09A01,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08R0YZ,Antibióticos,Anti-virais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08R0X,Antibióticos,Anti-virais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08S30YX,Antibióticos,Anti-retrovirais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08S30ZZ,Antibióticos,Anti-retrovirais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09C03Z,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C02Z,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,N/A
+09B06,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C08Z,Citostáticos E Imunosupressores,Anti-metabólitos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08R0Z,Antibióticos,Anti-virais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09E12I,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E12,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A10Y,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A0ZZ,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A18,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A17Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14E02,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+11A24,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+10A0XZ,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A17,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A16,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A1Y,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A1X,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09G02,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+09E07,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E06Z,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E08i,N/A,N/A,N/A,Não,Não,N/A
+09D01Z,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E11,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A05,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+10A03Z,Diuréticos,Diuréticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+09F01,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+18C12,Anestesia,Anestésicos Locais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18C11Z,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+22B0YZ,Agentes De Diagnóstico,Radiologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+22B05ii,Agentes De Diagnóstico,Clínica,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+18C03Z,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C03Y,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C03X,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C02Z,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C02Y,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+22B05Y,Agentes De Diagnóstico,Radiologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+22B04,Agentes De Diagnóstico,Radiologia,Médicos Especialistas,Não,Não,25°C Temperatura Ambiente
+22B03,Agentes De Diagnóstico,Radiologia,Médicos Especialistas,Não,Não,25°C Temperatura Ambiente
+22B05a,Agentes De Diagnóstico,Radiologia,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+19A01,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+18F0ZZ,Anestesia,Fármacos Adjuvantes Na Anestesia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+19B10,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+18C10X,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C09Z,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+19B12,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Sim,Não,2°C  a  8°C  Geleira/frio
+17C04,Oftalmologia,Agentes Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17C06,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17D02Z,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17D01Z,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+22B05Z,Agentes De Diagnóstico,Radiologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17D01,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17F08,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17F06,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17F05,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17F04,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17F03,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17F02,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17F09,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C10Z,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+18C10Y,Anestesia,Anestésicos Locais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A08Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A08,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A07i,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A06,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A05Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A09Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+20A11Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+20A11,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01E01Y,Aparelho Cardiovascular,Β-bloqueadores,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01C0XZ,Aparelho Cardiovascular,Anti-hipertensivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01C05,Aparelho Cardiovascular,Anti-hipertensivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18F05i,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+19A05,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+19A01Z,Imunotropos,Imunização Passiva - Imunoglobulinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18E01,Anestesia,Miorrelaxantes Periféricos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18D03,Anestesia,Miorrelaxantes Periféricos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+20A16,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+19B04,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+19B02,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+20A02,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+22A04,Agentes De Diagnóstico,Clínica,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+22A03Z,Agentes De Diagnóstico,Clínica,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+22A03,Agentes De Diagnóstico,Clínica,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+22A01,Antídotos,Antídotos,Médicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15E0Z,Dermatologia,Preparações Para A Acne,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15E05,Dermatologia,Preparações Para A Acne,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15E04,Dermatologia,Preparações Para A Acne,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15E03,Dermatologia,Preparações Para A Acne,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15E02i,Otorrinolaringologia,Medicamentos Para Uso Nas Doenças Da Boca E Faringe,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15G02,Dermatologia,Anti-pruriginosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15C01,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15B22Z,Dermatologia,Corticosteróides Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15B22,Dermatologia,Corticosteróides Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15B21,Dermatologia,Corticosteróides Tópicos,Medicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B19,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C06Y,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B18,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B17,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B16,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B15,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B14,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B12,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15C27,Dermatologia,Anti-infecciosos Tópicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15B20,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C16,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C15Z,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C26,Dermatologia,Anti-infecciosos Tópicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15C25,Dermatologia,Anti-infecciosos Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15C24,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C23,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C10,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C0i,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15F01,Dermatologia,"Preparações Para Verrugas, Calos E Calosidades",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15C17,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C14,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C13Z,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C13,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C12,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C11,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15A11,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15C06Z,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A0Z,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A09,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C05,Dermatologia,Anti-infecciosos Tópicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C03Z,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C09,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C07,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14B0ZZ,Fármacos Usados Nas Afecções Musculo Esquelécticas,Antigotosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14E03,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14E02I,Fármacos Usados Nas Afecções Musculo Esquelécticas,Outros Fármacos Nas Afecções Musculo - Esqueléticas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15C04,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15C19,Dermatologia,Anti-infecciosos Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15D03,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15D02,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15A12,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15B06,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15B04,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15B03Z,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B10Z,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15A06,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A05,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15B01Z,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15A14,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17C0ZZ,Oftalmologia,Agentes Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17C08,Oftalmologia,Agentes Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17F01,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17E0ZZ,Oftalmologia,Anestésicos Locais E Regionais Para Uso Oftalmológico,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17D0ZZ,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17D0YZ,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15L02,Dermatologia,Imunossupressores Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15L01,Dermatologia,Imunossupressores Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+16C05,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15K01Z,Dermatologia,Preparações Tópicas Analgésicas E Anestésicas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+17E01,Oftalmologia,Anestésicos Locais E Regionais Para Uso Oftalmológico,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+18C01Z,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+16D02,Otorrinolaringologia,Medicamentos Para Uso Nas Doenças Da Boca E Faringe,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+16D03,Otorrinolaringologia,Medicamentos Para Uso Nas Doenças Da Boca E Faringe,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17A06,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17A04Z,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+16D04,Otorrinolaringologia,Medicamentos Para Uso Nas Doenças Da Boca E Faringe,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15F03,Dermatologia,"Preparações Para Verrugas, Calos E Calosidades",Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15F02,Dermatologia,"Preparações Para Verrugas, Calos E Calosidades",Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+15D08,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15D06,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15D05,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15E02II,Dermatologia,Preparações Para A Acne,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15K01,Dermatologia,Preparações Tópicas Analgésicas E Anestésicas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+16C08,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+16C07,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+16C06,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15D0YZ,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15D08Z,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+16C04,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+16C03,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+16C02,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15J01,Dermatologia,Preparações Tópicas Despigmentares,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15I01,Dermatologia,Preparações Anti-transpirantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15H01,Dermatologia,Preparações Para O Couro Cabeludo,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15G0ZZ,Dermatologia,Anti-pruriginosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17B03Z,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17B03X,Oftalmologia,Midriáticos E Cicloplégicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17B03,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+17B02,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15D0ZX,Dermatologia,Preparações Tópicas Para Psoríase E Eczemas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15E02,Dermatologia,Preparações Para A Acne,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+04F02,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04F01,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E11,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A07Z,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F10,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04J02,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Disfunçao Erectil,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04J01,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Disfunçao Erectil,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+04I01,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Alcanizaçao Urina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04H04,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04H02,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04H01,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04G01,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Retensao Urinaria,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04D09,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D08,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D04,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D03,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D02Z,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D02,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04D01,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04F0ZY,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04E10,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04E0YZ,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04F06WZ,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F05,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+05A01Z,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04K08,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04K07,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04K06,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04K05,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04K03,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04J03,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Disfunçao Erectil,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E03,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07A02Z,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+06F06Z,Sangue,Antifibrinolíticos E Hemostáticos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+06F06Y,Sangue,Antifibrinolíticos E Hemostáticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07A02T,Sistema Nervoso,Analgésicos-antipiréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A13,Aparelho Respiratório,Anti-asmaticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06F05,Sangue,Antifibrinolíticos E Hemostáticos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+06F07,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B03,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A0ZZ,Sistema Nervoso,Analgésicos-antipiréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07A0ZX,Sistema Nervoso,Analgésicos-antipiréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07A0ZW,Sistema Nervoso,Analgésicos-antipiréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06F0ZZ,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06F0ZY,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06F07Z,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+05B0ZZ,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05B0X,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05B02,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05B01,Aparelho Respiratório,Anti-tussicos E Fluidificantes Secreçoes Bronquicas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+05A06,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06A0ZZ,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A0YZ,Sangue,Anti-anemicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06D0ZZ,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06D03i,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01J02Z,Aparelho Cardiovascular,Anti-dislipidemicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01J01,Aparelho Cardiovascular,Anti-dislipidemicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04F04,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02F01,Aparelho Digestivo,Med Para  Afecções Inflamatorias Gastrointestinais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02E01,Aparelho Digestivo,Anti-diarreicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+03A02,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01K0ZZ,Aparelho Cardiovascular,Anti-agregantes Plaquetarios E Outros Anti-tromboticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03A01Z,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A04i,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A03Z,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02A03Y,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02A03,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02A02Z,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02A02,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01G01Z,Aparelho Cardiovascular,Vasodilatadores,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02B03,Aparelho Digestivo,Anti-espasmodicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A0ZZ,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A0ZY,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E07Z,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E07,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E06,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04E03Z,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B01,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A07Z,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02F02,Aparelho Digestivo,Med Para  Afecções Inflamatorias Gastrointestinais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B06,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03A07,Endocrinologia E Metabolismo,Corticosteroides,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04F08,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04A06,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04A05,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04A04,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04A03,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+04A01,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03E02,Endocrinologia E Metabolismo,Outros Farm Endocrinologia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03D0i,Endocrinologia E Metabolismo,Corticosteroides,N/A,Não,Não,25°C Temperatura Ambiente
+03D04i,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03D03Z,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03D02Z,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02G02Z,Aparelho Digestivo,Med Que Afectam Secreções Digestivas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02G02,Aparelho Digestivo,Med Que Afectam Secreções Digestivas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B06X,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03D02,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+03B13,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02H0ZY,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03B05,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04B03Y,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+03B0ZZ,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+03B0ZY,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+02D07,Aparelho Digestivo,Laxantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02D06Z,Aparelho Digestivo,Laxantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04B02,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Agente de Medicina,Sim,Não,2°C  a  8°C  Geleira/frio
+04B01,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+04A09,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02H01,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02I02Y,Aparelho Digestivo,Anti-hemorroidarios,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02H0ZZ,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02H0YZ,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02H01Z,Aparelho Digestivo,Outros Farm Disturbios Funcionais Tracto Digestivo,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04A07,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07A06YY,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+08L09,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08L11X,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08L11,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08N0ZZ,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08J01,Antibióticos,Antibióticos Glicopeptídeos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08N01Z,Antibióticos,Anti-helmínticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08N0YZ,Antibióticos,Anti-helmínticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08N05,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08K02Z,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08K02Y,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08K01Z,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08A15Z,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A15,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08F07Z,Antibióticos,Macrólidos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08E03,Antibióticos,Lincosamidas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08E01Z,Antibióticos,Lincosamidas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08F04,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08H06Z,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08D02,Antibióticos,Aminoglicósidos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08F07Y,Antibióticos,Macrólidos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08F05,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08G02,Antibióticos,Tetraciclinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08G01ii,Antibióticos,Tetraciclinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08G01i,Antibióticos,Tetraciclinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08K03i,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L02X,Antibióticos,Antituberculosos,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+08L01,Antibióticos,Antituberculosos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08K09,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08K08,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08K03Z,Antibióticos,Outros Antibióticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08O15Z,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08O15Y,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08P02,Antibióticos,Outros Anti-parasitários,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O08,Antibióticos,Anti-protozoários,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O15X,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08O15,Antibióticos,Anti-protozoários,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R03,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R02Z,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O11Z,Antibióticos,Anti-protozoários,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08S17Y,Antibióticos,Anti-retrovirais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08P01,Antibióticos,Outros Anti-parasitários,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08L0YZ,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L0XZ,Antibióticos,Antituberculosos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08Q06Z,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08Q0XX,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08M6ZZ,Antibióticos,Anti-lepróticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07D11,Sistema Nervoso,Anti-convulsivantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07F03,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07E02,Sistema Nervoso,Anti-eméticos E Anti-vertiginosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08D06Z,Antibióticos,Aminoglicósidos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07D12,Sistema Nervoso,Anti-convulsivantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07I10,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07I0Ai,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07I09,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07I04i,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07I03,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07G09,Sistema Nervoso,Anti-depressivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07G06Z,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07F0I,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A0WZ,Sistema Nervoso,Analgésicos-antipiréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07A0WX,Sistema Nervoso,Analgésicos-antipiréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07A06ZZ,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+07I02,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J09Z,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J08,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07J05Y,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D04I,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D08Z,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B08Z,,,,,,
+07C02,Sistema Nervoso,Fármacos Usados No Tratamento Da Enxaqueca,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B10Z,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D04Z,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B06Z,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Sem VEN,Não,25°C Temperatura Ambiente
+08B06Y,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B0ZY,,,,,,
+08B0YZi,Antibióticos,Cefalosporinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08B02,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A0ZW,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A0XY,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A0WZ,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A11Z,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A10Z,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08D06,Antibióticos,Aminoglicósidos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08D05Z,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08D05Y,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08G01Z,Antibióticos,Tetraciclinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08F08Z,Antibióticos,Macrólidos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08H02,Antibióticos,Quinolonas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08H01Z,Antibióticos,Quinolonas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08G03Z,Antibióticos,Tetraciclinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07LME02i,Sistema Nervoso,Anti-depressivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07L04,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07L03Z,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A03,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07L02,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A0ZZ,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J14,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07J12,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07L03,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A02Z,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A01Z,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A06Y,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07LME07,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,N/A,Não,Não,25°C Temperatura Ambiente
+20A10,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08K07,Antibióticos,Outros Antibióticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08B04Z,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04B06,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+12D15,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08H03,Antibióticos,Quinolonas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07A03,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+08Q0ZZ,Antibióticos,Anti-micóticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07B06,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+13A04,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08K04,Antibióticos,Outros Antibióticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A06Z,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A08,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A15,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+12B04,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+10A02,Diuréticos,Diuréticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08F01,Antibióticos,Macrólidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+13A01,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08F08,Antibióticos,Macrólidos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+05A12,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07A06,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+04B04,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15G01,Dermatologia,Anti-pruriginosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+12D11,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+12D08,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08N01,Antibióticos,Anti-helmínticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+13A03,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A15Z,,,,,,
+07A04,Sistema Nervoso,Analgésicos-antipiréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08B08ZZ,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A05,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14B02,Fármacos Usados Nas Afecções Musculo Esquelécticas,Antigotosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q03,Antibióticos,Anti-micóticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08I01,Antibióticos,Sulfamidas E Trimetoprim,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06F08,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07B11,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15C08,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C03,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A08,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B01,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07J10,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+17C07,Oftalmologia,Agentes Anti-infecciosos Tópicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+01E01Z,Aparelho Cardiovascular,Β-bloqueadores,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06F01,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+04K04,Aparelho Génito-urinário E Hormonas Sexuais,Outros Farm Em Urologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08A0ZY,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D10,Sistema Nervoso,Anti-convulsivantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01F01Z,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17D02,Oftalmologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D12,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A15,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17C05,Oftalmologia,Agentes Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17C03,Oftalmologia,Agentes Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C06,Anestesia,Anestésicos Locais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+18C04,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C05,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+10A03,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08B07,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B07,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Técnico de Medicina,Sim,Não,2°C  a  8°C  Geleira/frio
+01B03,Aparelho Cardiovascular,Antiarritmicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18A02Z,Anestesia,Anestésicos Gerais De Inalação,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09D06ii,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06F06,Sangue,Antifibrinolíticos E Hemostáticos,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+18A02,Anestesia,Anestésicos Gerais De Inalação,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+17C07i,Oftalmologia,Outros Fármacos Usados Em Oftalmologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+05A03,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+19A06,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Sim,Não,2°C  a  8°C  Geleira/frio
+18F02,Anestesia,Fármacos Adjuvantes Na Anestesia,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+06F02,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12C03,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09E05,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+15C22,Dermatologia,Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01H02Z,Aparelho Cardiovascular,Inibidores Do Enzima De Conversao Da Angiotensina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A11,Antibióticos,Penicilinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A05,Antibióticos,Penicilinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+14A01,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+10A04Z,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+18C02,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07B05,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08F02,Antibióticos,Macrólidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+11A19,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07I06,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08A09,Antibióticos,Penicilinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08K05,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A06,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+12D17,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07B08,Sistema Nervoso,Analgésicos Opióides,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07G03,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+18C03,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+11A01,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+20A07,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09E02,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01C04,Aparelho Cardiovascular,Anti-hipertensivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09G05,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+07B09,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09E09,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18D04,Anestesia,Miorrelaxantes Periféricos,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+10A01,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17C01,Oftalmologia,Agentes Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09E08,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+10A08Y,,,,,,
+01F01,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15C0ZX,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07D01,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18D02,Anestesia,Miorrelaxantes Periféricos,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+17D03X,Oftalmologia,Corticosteróides Tópicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09F01Z,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09G01,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+03D04,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09E11IV,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02C02,Aparelho Digestivo,Estimulanesda Motilidade Digestiva,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+13A10,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07F02,Sistema Nervoso,Antiparkinsónicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01E03,Aparelho Cardiovascular,Β-bloqueadores,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+11A09,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+05A01,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+13A08Z,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+03A06,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+02A04,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14A02,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+03A03,Endocrinologia E Metabolismo,Corticosteroides,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01F02,Aparelho Cardiovascular,Bloqueadoresdos Canais De Calcio,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A03,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05A08,Aparelho Respiratório,Anti-asmaticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09C07,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09E10i,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04G04,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na Retensao Urinaria,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J15Z,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F01,Anestesia,Fármacos Adjuvantes Na Anestesia,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05A11,Aparelho Respiratório,Anti-asmaticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+06D01,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08O13,Antibióticos,Anti-protozoários,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+18C11,Anestesia,Anestésicos Locais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+03B10,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Sim,Não,2°C  a  8°C  Geleira/frio
+03D03,Endocrinologia E Metabolismo,Farm Afecçoes Tiroide,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09E07i,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18B02,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09B05Z,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07B07,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18A04,Anestesia,Anestésicos Gerais De Inalação,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08A16,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18F03,Anestesia,Fármacos Adjuvantes Na Anestesia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12D13,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+19B01,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,-25°C Congelador
+01B05,Aparelho Cardiovascular,Antiarritmicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+15B11,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08B08X,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18C05Z,,,,,,
+04B04XX,,,,,,
+08O13Y,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04E02Z,,,,,,
+04B07,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14D01i,Fármacos Usados Nas Afecções Musculo Esquelécticas,Fármacos Com Acção Na Placa Motora,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09F03,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+07J16,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+20A04ZZ,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08J02I,Antibióticos,Antibióticos Glicopeptídeos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+13A0XZ,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A25,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C06Z,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08D0ZZ,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09E13,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08S30XX,,,,,,
+12D10,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+07G01,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D06Z,Sistema Nervoso,Anti-convulsivantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06A06,Sangue,Anti-anemicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+05A09,Aparelho Respiratório,Anti-asmaticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08G01,Antibióticos,Tetraciclinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08A01,Antibióticos,Penicilinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+02C01,Aparelho Digestivo,Estimulanesda Motilidade Digestiva,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02A01,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+14B01i,Fármacos Usados Nas Afecções Musculo Esquelécticas,Antigotosos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+20A04,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q05,Antibióticos,Anti-micóticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08S18W,Antibióticos,Anti-retrovirais,N/A,Não,Não,25°C Temperatura Ambiente
+11A14,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+11A08,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+12B05,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08D0X,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B08YZ,,,,,,
+07J02,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06A07Y,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A07X,,,,,,
+06A07W,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08F07,Antibióticos,Macrólidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07A02,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+08H07X,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A04,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A07X,Antibióticos,Penicilinas,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+08B05,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A06,Antibióticos,Penicilinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07G06,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07I06X,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08H07XZ,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08F01ZTrac,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01G01X,Aparelho Cardiovascular,Vasodilatadores,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01H01,Aparelho Cardiovascular,Inibidores Do Enzima De Conversao Da Angiotensina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B02,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+03B04,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+02A04i,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14B01,Fármacos Usados Nas Afecções Musculo Esquelécticas,Antigotosos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+14A04,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+01B02,Aparelho Cardiovascular,Antiarritmicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01A05,Aparelho Cardiovascular,Cardiotónicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+17C07Trac,Antibióticos,Tetraciclinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08O05Z,Antibióticos,Anti-protozoários,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08O05Y,Antibióticos,Anti-protozoários,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08O05X,Antibióticos,Anti-protozoários,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08N01ZY,,,,,,
+08O19Z,Antibióticos,Outros Anti-parasitários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q02Z,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q01Y,Antibióticos,Anti-micóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08O05,Antibióticos,Anti-protozoários,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08N06,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08N04Z,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q01,Antibióticos,Anti-micóticos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08L11ZX,,,,,,
+08K02,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08K05Z,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A11Y,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A19Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12B06,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+12D04,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08S01ZV,,,,,,
+09D01,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08S23,Antibióticos,Anti-retrovirais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08S30ZY,Antibióticos,Anti-retrovirais,N/A,Não,Não,25°C Temperatura Ambiente
+11A05,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A0XY,,,,,,
+09H04,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09D06,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09B05,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+11A04ii,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A04i,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09H01II,,,,,,
+09H01i,,,,,,
+15C15,Dermatologia,Anti-infecciosos Tópicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08R02Y,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A08,Antibióticos,Penicilinas,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08B06,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A03W,Sistema Nervoso,Analgésicos-antipiréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+06F04,Sangue,Antifibrinolíticos E Hemostáticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08F08X,,,,,,
+08F07ZY,,,,,,
+050A2X,,,,,,
+08A08Z,Antibióticos,Penicilinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08A07,Antibióticos,Penicilinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08D01,Antibióticos,Aminoglicósidos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08D01i,Antibióticos,Aminoglicósidos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07J01,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07J15,Sistema Nervoso,Anti-psicóticos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08E02,Antibióticos,Lincosamidas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08B08Z,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07B09Z,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B10,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01G01Y,Aparelho Cardiovascular,Vasodilatadores,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+04E05,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04F06X,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02E02,Aparelho Digestivo,Anti-diarreicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+02D01,Aparelho Digestivo,Laxantes,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15C0WZ,Antibióticos,Anti-micóticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+15C03Y,,,,,,
+15F05X,,,,,,
+17B01Y,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A03XY,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A07Z,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A04ZW,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A00II,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,N/A,Não,Não,25°C Temperatura Ambiente
+17C07I,,,,,,
+19A04Z,,,,,,
+18C06Y,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18A01,Anestesia,Anestésicos Gerais De Inalação,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F04iii,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+18F04i,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18F04a,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18F03X,,,,,,
+08L10Z,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08O17AN,,,,,,
+08Q08II,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q08i,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q08III,,,,,,
+08O13X,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L11i,,,,,,
+08K07Z,Antibióticos,Outros Antibióticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A17Y,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+12B04X,,,,,,
+13A02Z,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+13A02,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08S23X,,,,,,
+08R06Z,,,,,,
+08S18ZX,,,,,,
+11A04iii,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09H03Y,,,,,,
+20A0Y,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+15A0ZY,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08O13Z,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07G08,Sistema Nervoso,Anti-depressivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08I01Z,Antibióticos,Sulfamidas E Trimetoprim,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08F06,Antibióticos,Macrólidos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+01H01Z,Aparelho Cardiovascular,Inibidores Do Enzima De Conversao Da Angiotensina,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01G04,Aparelho Cardiovascular,Vasodilatadores,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04F06ZY,Aparelho Génito-urinário E Hormonas Sexuais,"Horm Sexuais, Moduladores Sistema Genital",Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F06Z,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F06ZZ,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+02B01Z,Aparelho Digestivo,Anti-espasmodicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+14A03,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+12D0XZ,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+15A08,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+15B08,Dermatologia,Corticosteróides Tópicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+20A09ZX,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18A05Y,,,,,,
+18A05X,,,,,,
+08R01,Antibióticos,Anti-virais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08K01,Antibióticos,Outros Antibióticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09C01Z,Citostáticos E Imunosupressores,Anti-metabólitos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06F07Y,Sangue,Antifibrinolíticos E Hemostáticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06D03,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07D01Z,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03B04Y,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+03A05,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+02B01,Aparelho Digestivo,Anti-espasmodicos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+02E02Z,Aparelho Digestivo,Anti-diarreicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+14A03Z,Fármacos Usados Nas Afecções Musculo Esquelécticas,Anti-inflamatórios E Anti-reumatismais,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+17A0I,,,,,,
+12B10Y,"Nutrição, Sais Minerais E Vitaminas",Alimentação Parenteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09H02,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F02X,Anestesia,Fármacos Adjuvantes Na Anestesia,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18F01Z,Anestesia,Fármacos Adjuvantes Na Anestesia,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+05A09Z,Aparelho Respiratório,Anti-asmaticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04C02,Aparelho Génito-urinário E Hormonas Sexuais,Inibidores Da Prolactina,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08B0i,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08R01Z,Antibióticos,Anti-virais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08A05Z,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A0XZ,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08H07Y,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F07,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F07Z,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+06D01Z,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06D02,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06D0II,,,,,,
+04H02I,,,,,,
+04H02i,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08H07,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08H06,Antibióticos,Quinolonas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08H05,Antibióticos,Quinolonas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08H03Z,Antibióticos,Quinolonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+05A02Z,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04H03,Aparelho Génito-urinário E Hormonas Sexuais,Farm Na  Freq E Incontinencia Urinaria E Enurese,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07LME01I,,,,,,
+07LME01i,Sistema Nervoso,Anti-depressivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+07LME06,Sistema Nervoso,Outros Fármacos Em Afecções Do Sistema Nervoso,N/A,Não,Não,25°C Temperatura Ambiente
+08A07Z,Antibióticos,Penicilinas,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08B04,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A0YZ,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08A0ZX,Antibióticos,Penicilinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08C01,Antibióticos,Outros B-lactámicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08D01I,,,,,,
+07J03Y,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08D05X,Antibióticos,Aminoglicósidos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08D04i,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07B02,Sistema Nervoso,Analgésicos Opióides,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+07B04i,Sistema Nervoso,Analgésicos Opióides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07D09,Sistema Nervoso,Anti-convulsivantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08B0YZ,Antibióticos,Cefalosporinas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07A06Z,Sistema Nervoso,Analgésicos-antipiréticos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+01A03Z,Aparelho Cardiovascular,Cardiotónicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F06W,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04F0XZ,Aparelho Génito-urinário E Hormonas Sexuais,Contraceptivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+04B03Z,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+04B04Z,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Agente Polivalente Elementar,Sim,Não,25°C Temperatura Ambiente
+14D01I,,,,,,
+16D04i,Dermatologia,Medicamentos Para Uso Nas Doenças Da Boca E Faringe,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+15G01Z,Dermatologia,Anti-pruriginosos,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+16C01,Otorrinolaringologia,Medicamentos De Acção Sobre A Mucosa Nasal E Laríngea,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+15C03X,,,,,,
+15B13,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+13A10Z,Fármacos Usados Nos Transtornos Alérgicos,Anti-histamínicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+12D12i,"Nutrição, Sais Minerais E Vitaminas",Vitaminas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+15B03,Dermatologia,Corticosteróides Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+20A0X,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+20A04YZ,,,,,,
+20A03,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A01,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A11Y,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+20A10ZZ,Anti-sépticos E Desinfectantes,Anti-sépticos E Desinfectantes,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+17C0I,,,,,,
+17C07Z,Oftalmologia,Agentes Anti-infecciosos Tópicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+17C07TRAC,,,,,,
+18C08,Anestesia,Anestésicos Locais,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+18C07Z,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+18C10,Anestesia,Anestésicos Locais,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+17A03,Oftalmologia,Fármacos Usados No Tratamento Do Glaucoma,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18B05Z,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18B02Z,Anestesia,Anestésicos Gerais Intravenosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+17C02,Oftalmologia,Agentes Anti-infecciosos Tópicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+19A02,Imunotropos,Imunização Passiva - Imunoglobulinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+18B01,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F04A,,,,,,
+18F03Z,Anestesia,Fármacos Adjuvantes Na Anestesia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08N03Z,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08M0ZZ,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M0ZY,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M0XZ,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M0XX,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L11W,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08L11I,,,,,,
+08L10,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08L0XX,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L08,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08M04,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08O15ZZ,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08O15W,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08M06,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M05,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08Q08I,,,,,,
+08O0XZ,Antibióticos,Anti-protozoários,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08N04,Antibióticos,Anti-helmínticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+08S17,Antibióticos,Anti-retrovirais,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08L11Z,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08L11Y,Antibióticos,Antituberculosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+08K04X,Antibióticos,Outros Antibióticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08J02,Antibióticos,Antibióticos Glicopeptídeos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08L12X,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L02,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08K08Z,Antibióticos,Outros Antibióticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08M03,Antibióticos,Anti-lepróticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08M02,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M01Z,Antibióticos,Anti-lepróticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08M01,Antibióticos,Anti-lepróticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08L02Z,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L04,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L03,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08L07,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L06Z,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L06YZ,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L06Y,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L06XZ,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L06X,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L05Y,Antibióticos,Antituberculosos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+08L05,Antibióticos,Antituberculosos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09H02ZZ,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12A0ZX,"Nutrição, Sais Minerais E Vitaminas",Nutrição Enteral,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+12C04,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09D04Z,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+09C0I,,,,,,
+08S30Y,Antibióticos,Anti-retrovirais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A03i,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+11A03Z,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+09F04,Citostáticos E Imunosupressores,Medicamentos Que Afectam A Resposta Imune,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+09E07I,,,,,,
+09E04,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09B03I,,,,,,
+08A02,Antibióticos,Penicilinas,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+01A04Z,Aparelho Cardiovascular,Cardiotónicos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03A04,Endocrinologia E Metabolismo,Corticosteroides,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+18C07B,Anestesia,Anestésicos Locais,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+10A08Z,Diuréticos,Diuréticos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+17B04,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+17B01,Oftalmologia,Midriáticos E Cicloplégicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08D03,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06A07,Sangue,Anti-anemicos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+02A07,Aparelho Digestivo,Anti-acidos E Outros Medicamentos Anti-ulcerosos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08Q07,Antibióticos,Anti-micóticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+07D13,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07J04,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08I03,Antibióticos,Sulfamidas E Trimetoprim,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+05A10,Aparelho Respiratório,Anti-asmaticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+05A02,Aparelho Respiratório,Anti-asmaticos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+03A01,Endocrinologia E Metabolismo,Corticosteroides,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08I02,Antibióticos,Sulfamidas E Trimetoprim,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06A05,Sangue,Anti-anemicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+04A03Z,Aparelho Génito-urinário E Hormonas Sexuais,Anti-infecciosos E Anti-septicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07D05,Sistema Nervoso,Anti-convulsivantes,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+06A01,Sangue,Anti-anemicos,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07G02,Sistema Nervoso,Anti-depressivos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08A04,Antibióticos,Penicilinas,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+07J07,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+01C02,Aparelho Cardiovascular,Anti-hipertensivos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+08N07,Antibióticos,Anti-helmínticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+11A0XX,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+10A04,Diuréticos,Diuréticos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01J02,Aparelho Cardiovascular,Anti-dislipidemicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+14C01,Fármacos Usados Nas Afecções Musculo Esquelécticas,Tópicos Usados No Alívio Da Inflamação Dos Tecidos Moles,Agente Polivalente Elementar,Não,Não,25°C Temperatura Ambiente
+20A12Z,,,,,,
+08H04,Antibióticos,Quinolonas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08F03,Antibióticos,Macrólidos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+08E01,Antibióticos,Lincosamidas,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+07B01,Sistema Nervoso,Analgésicos Opióides,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07J06,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07J09,Sistema Nervoso,Anti-psicóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+04E09,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C07Y,,,,,,
+04E12,Aparelho Génito-urinário E Hormonas Sexuais,Outras Hormonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+12C01,"Nutrição, Sais Minerais E Vitaminas",Sais Minerais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01C01Z,Aparelho Cardiovascular,Anti-hipertensivos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01G02,Aparelho Cardiovascular,Vasodilatadores,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+07D07,Sistema Nervoso,Anti-convulsivantes,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+03B03,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+04B05Z,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+08D04,Antibióticos,Aminoglicósidos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+07I07,Sistema Nervoso,Ansiolíticos E Hipno-sedativos,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+04B07Z,Aparelho Génito-urinário E Hormonas Sexuais,Oxitocicos E Miorelaxantes Uterinos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+18C09,Anestesia,Anestésicos Locais,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+18F04,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+08Q0ZX,Antibióticos,Anti-micóticos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09H03,Citostáticos E Imunosupressores,Outros Medicamentos Usados Em Oncologia,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+06E01,Sangue,Anti-agregantes Plaquetários E Outros Anti-trombóticos,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+18C11Y,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01A03,Aparelho Cardiovascular,Cardiotónicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01G03,Aparelho Cardiovascular,Vasodilatadores,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+11A10,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Agente de Medicina,Sim,Não,25°C Temperatura Ambiente
+06D0ii,Sangue,Anti-coagulantes,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+11A11,Equilíbrio Hidro-electrolítico E Ácido-base,Equilíbrio Hidro-electrolítico E Ácido-base,Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+09A04,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,2°C  a  8°C  Geleira/frio
+09A03,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+10A05Z,Diuréticos,Diuréticos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+06A04,Sangue,Anti-anemicos,Agente de Medicina,Não,Não,25°C Temperatura Ambiente
+01A02,Aparelho Cardiovascular,Cardiotónicos,Técnico de Medicina,Não,Não,25°C Temperatura Ambiente
+01B04,Aparelho Cardiovascular,Antiarritmicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+06C01,Sangue,Medicamentos Utilizados No Tratamento Da Neutropenia,Medicos Especialistas,Não,Não,2°C  a  8°C  Geleira/frio
+14D01,Fármacos Usados Nas Afecções Musculo Esquelécticas,Fármacos Com Acção Na Placa Motora,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09D02,Citostáticos E Imunosupressores,Etopósido E Alcalóides Da Vinca,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+19B06,Imunotropos,Imunização Activa - Vacinas,Agente de Medicina,Não,Não,2°C  a  8°C  Geleira/frio
+17C0i,Antibióticos,Quinolonas,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01J0ZZ,Aparelho Cardiovascular,Anti-dislipidemicos,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+01C03,Aparelho Cardiovascular,Anti-hipertensivos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18F05,Anestesia,Fármacos Adjuvantes Na Anestesia,Médicos de Clínica Geral,Não,Não,25°C Temperatura Ambiente
+09A07,Citostáticos E Imunosupressores,Agentes Alquilantes,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C06,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18B05,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E06,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+18D01,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+02A04I,,,,,,
+18C03XZ,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+01A0ZZ,Aparelho Cardiovascular,Β-bloqueadores,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C09i,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09C09,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09G04,Citostáticos E Imunosupressores,Hormonas Sexuais E Antagonistas Hormonais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18B04,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18B03,Anestesia,Anestésicos Gerais Intravenosos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+18C01,Anestesia,Anestésicos Locais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+19A03,Imunotropos,Imunização Passiva - Imunoglobulinas,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+09C05,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+09B02,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Sim,Não,25°C Temperatura Ambiente
+08O16,Antibióticos,Anti-protozoários,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09B03i,Citostáticos E Imunosupressores,Antibióticos Anti-tumorais,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+09E14,Citostáticos E Imunosupressores,Outros Citostáticos E Fármacos Relacionados,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
+03B14,Endocrinologia E Metabolismo,Farm Tratamento Diabetes Mellitus,Médicos de Clínica Geral,Não,Não,2°C  a  8°C  Geleira/frio
+15A13,Dermatologia,"Preparados Emolientes, Adstringentes E De Barreira (protecção)",Técnico de Medicina,Sim,Não,25°C Temperatura Ambiente
+08O17,Antibióticos,Anti-protozoários,Médicos de Clínica Geral,Sim,Não,25°C Temperatura Ambiente
+09C0i,N/A,N/A,N/A,Não,Não,N/A
+09C02,Citostáticos E Imunosupressores,Anti-metabólitos,Medicos Especialistas,Não,Não,25°C Temperatura Ambiente
