@@ -887,3 +887,25 @@ body {
 .detail-meta span {
   color: #6e6862;
 }
+
+/* No telemóvel o atalho "Ler" fica visível: é a acção principal da página.
+   O regresso à biblioteca continua garantido pelo logótipo (com aria-label)
+   e pelo rodapé, por isso o "Todos os livros" recolhe no ecrã estreito.
+   O índice da biblioteca não muda: lá os restantes links são âncoras da
+   própria página e o "Voltar à ALL-ALPHA" é a única saída. */
+@media (max-width: 760px) {
+  body.book-page .topnav a:not(.site-link) {
+    display: inline-flex;
+    min-height: 44px;
+    padding: 0.6rem 0.9rem;
+    border-color: var(--line);
+    color: var(--gold-ink);
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 560px) {
+  body.book-page .topnav a.site-link {
+    display: none;
+  }
+}
