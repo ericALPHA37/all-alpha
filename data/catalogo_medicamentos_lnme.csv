@@ -1,0 +1,1557 @@
+codigo,dci,dosagem,forma_farmaceutica,apresentacao,ven
+01A01,Digoxina,"0,25mg",Comp,,Vital
+08B08,Ceftriaxona,1g/4ml- ampola,Inj,,Vital
+07D08,Fenobarbital,200mg/2mL,Inj,,Vital
+08A12,Amoxicilina+Acido clavulanico,"250mg + 62,5mg",Sus,,Vital
+10A07,Amilorido+Hidroclortiazida,5mg + 50mg,Comp,,Vital
+11A07,Cloreto de sodio,"250 mL 0,9%",Inj,,Vital
+04C01,Bromocriptina,"2,5mg",Comp,,Vital
+08K03,Cloranfenicol,250mg/5mL,Susp,,Vital
+07G04,Imipramina,25mg,Comp,,Vital
+07J07Z,Haloperidol,50 mg/mL,Inj,,Vital
+07J11,Trifluorperazina,5mg,Comp,,Vital
+07D14,Valproato de sodio,200mg/5mL,Xpe,,Vital
+07F01,Biperideno Hidrocloreto,2mg,Comp,,Vital
+07D04,Fenitoina,100mg,Comp,,Vital
+01A0i,Lidocaina  Injectavel (cloridrato),20mg/mL,Inj,,Essencial
+15C18,Ketoconazol,2%,Creme,,Essencial
+17D03,Prednisolona,1% 10 mL,Colirio,,Essencial
+02B02,Butilescopolamina,20mg/mL,Inj,,Essencial
+02I01,Anti hemorroidario,"0,2%",Creme,,Essencial
+01I01,Irbesartam,300mg,Comp,,Necessário
+15D01,Acido salicílico,5%,Pomada,,Essencial
+04E01,Medroxiprogesterona acetato,5mg,Comp,,Essencial
+02C03,Metoclopramida,5mg/5mL,Xpe,,Necessário
+04E02,Noretisterona,5mg,Comp,,Necessário
+07J05,Flufenazina,25mg/2mL,Inj,,
+07D02,Clonazepam,2mg,Comp,,
+11A02,Cloreto de potassio,500mg,Comp,,
+20A05,Cetrimida+Clorexidina,"15 g + 1,5 g/100mL",Sol aqu,,
+20A14,Permanganato de potassio,500mg,Comp,,
+06A03,Ferro dextrano,100mg/2mL,Inj,,
+01F02Z,Nifedipina,10mg,Comp,,
+07F04,Levodopa+Benzerazida,200mg + 50mg,Comp,,
+07A06Y,Paracetamol,250mg/5mL,Xpe,,
+18C07,Lidocaina carpule,"36mg/1,8ml-Ampola",Inj,,
+09B01,Bleomicina,15.000UI,Inj,,Vital
+09B04,Doxorrubicina (Adriamicina),10mg/5mL,Inj,,Vital
+08O12,"Quinina, dicloridrato",600mg/2mL,Inj,,Vital
+09D04,"Vincristina,sulfato",2mg/2mL,Inj,,Vital
+09A09,Melfalan,5mg,Comp,,Vital
+09A02,Ciclofosfamida,50mg,Comp,,Vital
+09C01,Citarabina (citosina arabinosido),100mg/5mL,Inj,,Vital
+09C10Z,Capecitabina,500mg,Comp,,Vital
+04H03Z,Oxibutinina,5mg,Comp,,Vital
+07J03,Clorpromazina,25mg/2mL,Inj,,Vital
+08Q04,Fluconazol,2mg/mL,Inj,,Vital
+09H01,Acido folinico (folinato de calcio),15mg,Comp,,Vital
+09G03,"Goserelina, acetato","10,8mg",Implante,,Essencial
+09F02,Ciclosporina,50mg,Caps,,Essencial
+09E11III,Oxaliplatina,100mg/50ml,Inj,,Vital
+09E01,L-acido Zoledronico,4 mg/5mL,Inj,,Essencial
+09E08Z,Hidroxicarbamida ( Hidroxiureia),200mg,Caps,,Essencial
+09E10,Paclitaxel,30mg/5mL,Inj,,Essencial
+14E03Z,Hidroxicloroquina(Covid 19),200mg,Comp,,Essencial
+01B04i,Cloridrato de Verapamil,80mg,Comp,,Vital
+15F05Z,Podofilina soluçao topica de resina,25%,Sol,,Essencial
+05A05i,"Brometo de ipratrópio Aerossol para inalação 0,03%",,,,Essencial
+04E04,"Ciproterona, acetato",100mg,Comp,,Essencial
+07G07,Paroxetina,20mg,Comp,,Essencial
+14A08,Metilprednisolona acetato,40mg/mL,Inj,,Essencial
+05A05,Brometo de ipratropio,20mcg/inalacao,Aerosol,,Essencial
+07I07i,Diazepam Solucao Rectal,5mg/2mL,Sol,,Essencial
+07J13,Clozapina,100mg,Comp,,Necessário
+17A07,Timolol Colirio,"0,5% 10 mL",Colirio,,
+09G04i,Anastrazol,1mg,Comp,,
+09D03,"Vinblastina, sulfato",10mg/10mL,Inj,,
+09H04Z,Ondansetron,2mg/4ml,Inj,,
+09E11II,Oxaliplatina,50mg/25mL,Inj,,
+15C02,Acido fusidico,2%,Creme,,
+16A01,"Ciprofloxacina 0,3% gotas","0,3%",Gota Aur,,
+17A02,Acetazolamida,500mg,Inj,,
+17A04,Pilocarpina,2% 10 mL,Colirio,,
+04F03,Etinilest+Levonorgestrel,30mcg + 150mcg,Comp,,
+04B02i,Ergometrina,"0,2mg/mL",Inj,,
+07J05Z,Flufenazina,25mg/mL,Inj,,
+08R02,Aciclovir,25mg/mL,Inj,,
+20A12,Iodopovidona,1% 1g/100ml,Sol aquosa,,
+03B08,Insulina accao curta (ultra-rapida),100UI/mL,Inj,,
+09LME1,Acido Transretinoico,10mg,Caps,,Vital
+01A04,Dobutamina,250mg/5mL,Inj,,Essencial
+01B01,Adenosina,6mg/2mL,Inj,,Essencial
+02D06,Lactulose,100g/200mL,Xpe,,Essencial
+12D16i,Tiamina,50 mg 30 comp,Comp,,Vital
+09F03I,Cetuximab,5mg/mL,Inj,,Vital
+12B08Z,"Lipidos,Aminoacidos e Glicose",3500 Kcal,Bolsa co,,Vital
+12D01,Acido Ascorbico (Vitamina C),100mg,Comp,,Vital
+12D16,Tiamina (Vitamina B1),100mg,Comp,,Vital
+12D14,Piridoxina (Vitamina B6),50mg,Comp,,Vital
+12B06Z,Glicose,25ml 50%,Inj,,Vital
+13A01i,Adrenalina  (100mcg/ml),100mcg,Inj,,Vital
+12A0ZV,Plumpy'Sup (ASPU),500 Kcal,Pasta,,Vital
+12A15ZZ,Nutributter,20g,Pasta,,Vital
+12D04Z,Axeroftol(Vitamina A),100 000UI,Caps,,Vital
+12B03,Glicose,500ml 10%,Inj,,Vital
+11A11Z,Gelatina Polimerizada,"3,2 g/500ml",Inj,,Vital
+14A05,Indometacina,25mg,Comp,,Vital
+14A04Z,Ibuprofeno,200mg/5mL,Susp,,Vital
+13A06,Hidroxizina HCl,50 mg/mL,Inj,,Vital
+13A05,Hidroxizina HCl,25mg,Comp,,Vital
+14A09,Naproxeno,500mg,Comp,,Essencial
+12D10Y,Multivitaminas Comprimidos para Gravidas,2%,"0,2%",,Vital
+09A06ii,Mitomicina C,10mg,Inj,,Essencial
+09A06I,"Estramustina, Fosfato",Capsula,140mg,140mg ; Caps,Vital
+09B03,Daunorubicina,20mg,Inj,,Vital
+08R05,"Ganciclovir, sal sódico",500mg,Inj,,Vital
+08S18ZW,Cabotegravir,600mg/3mL,Inj,,Vital
+09C02i,Fludarabina,50mg/2mL,Frasco,,Essencial
+09C08,Metotrexato,5mg/2mL,Inj,,Vital
+09C04,Fluorouracilo,50 mg/mL,Inj,,Vital
+08R0ZZ,Aciclovir,200mg/5mL,Sol Oral,,Vital
+11A13,Glicose (Dextrose),250mL 5%,Inj,,Vital
+09H05I,Talidomida,100mg,Comp,,Essencial
+09E03,Carboplatina,50mg/5mL,Inj,,Vital
+09C10,Capecitabine,150mg,Comp,,Vital
+09E09Z,Imatinib mesilato,400mg,Comp,,Essencial
+09LMEIII,"Urato Oxidase Inj 1,5mg + 1ml Diluente","1,5 mg",In,,Vital
+09H04Y,Granisetron,3mg/3ml,Inj,,Vital
+10A06,Hidroclortiazida,50mg,Comp,,Vital
+09E11I,Azacitidina,100mg,Inj frasco,,Essencial
+18F01Y,Atropina Sulfato,600mcg/ml,Inj,,Vital
+20A03XX,"Desinfectante para as maos,5L(Covid 19)",N/A,Liqu,,Vital
+01C01,Hidralazina,25mg/5mL,Inj,,Vital
+01E01,Atenolol,50mg,Comp,,Vital
+20A11YY,Lixivia Solida,N/A,,,Vital
+15C21,Miconazol muco-adesivo bucal,10mg,Comp,,
+15C20,Miconazol Nitrato,20mg/ml(2%) 30g,Gel,,
+05A12Z,Levosalbutamol,1mg/5mL,Xpe,,Vital
+05A08Y,Salbutamol,"2,5mg/mL 200 doses",Aerosol,,Vital
+06E03,Estreptoquinase,1 500 000UI,Inj,,Vital
+06D0iii,Enoxaparina (heparina de baixo peso molecular) (Co,,,,Vital
+06D0i,Enoxaparina (heparina de baixo peso  molecular),2,,,Vital
+04B07Y,Sulfato de magnesio,200mg/mL,Inj,,Vital
+04B05,Oxitocina,5 UI/mL,Inj,,Vital
+05A00ii,Budesonida Aerossol pressurizado,200 mcg por dose,,,Vital
+05A00i,Budesonida Aerossol pressurizado 100 mcg por dose,,,,Vital
+04D10,Alendronato Sodico,70 mg,Comp,,Vital
+07A03X,Paracetamol,1g,Comp,,Vital
+06F06i,"Factor IX complexo (Factores da coagulaçao II, VII",,,,Vital
+06F05Z,Fibrinogenio injectavel (0.5g/25mL),"0,5g",Inj fra,,Vital
+06F06ii,"Factor IX complexo (Factores da coagulação II, VII",,,,Vital
+07A06X,Paracetamol,40mg/mL,Xpe,,Vital
+07D06,Fenobarbital,15mg,Comp,,Vital
+05LME03,Cafeina  Líquido,20 mg/mL,Liquido,,Vital
+05LME01,Solucao Oral de Citrato de Cafeina,10mg/mL,Liqui,,Vital
+06A0ZX,Sulfato Ferroso,25mg/mL,Liquido,,Vital
+03A01i,Dexametasona Comp (0.5mg),"0,5 mg",Comp,,Vital
+03A01aa,Dexametasona Sol oral,2mg/5mL,Sol,,Vital
+03A01a,Dexametasona,Sol oral,"0,5 mg/5 ml","0,5 mg/5 ml ; ",Vital
+01F02ZZ,Nifedipina,5mg,Caps,,Vital
+01H02,Enalapril,20mg,Comp,,Vital
+01F02Y,Nifedipina,5mg,Comp Subl,,Vital
+01E03i,Propranolol,10mg,Comp,,Vital
+04E08,Tamoxifeno citrato,20mg,Comp,,Vital
+03A06Z,Metilprednisolona,Injectável,40mg/mL,Inj,Essencial
+04B03,Metilergometrina,"0,125mg",Comp,,Vital
+03D03i,Levotiroxina,Comp (25mcg),25 mcg,Comp,Vital
+03E01,Vasopressina,10UI/mL,Inj,,Vital
+03B07ZZ,Glipizida,5mg,Comp,,Vital
+04A08,Nistatina,100 000UI,Comp Vag,,Vital
+08I02Z,Co-trimoxazol,80mg+16mgmg/ml ampolas 5ml,Inj amp,,Vital
+08N02,Dietilcarbamazina,50mg,Comp,,Vital
+08N06Z,Praziquantel (DTNs),600mg,Comp,,Vital
+08K07AN,Meropenem,1g,Inj,,Essencial
+08F01Y,Azitromicina(Covid 19),500mg,Comp,,Vital
+08F01X,Azitromicina(Covid 19),250mg,Comp,,Vital
+08D05,Kanamicina sulfato,1g/3mL-ampola,Inj,,Vital
+08F01W,Azitromicina,500mg,Inj,,Vital
+08F02Trac,Azitromicina (Zithromax para campanha de Tracoma),,,,Vital
+08C01Z,Imipenem+Cilastatina(Covid 19),(500+500)mg,Inj,,Vital
+08A13,"Flucloxacilina, Sodica",250mg,Caps,,Vital
+08G03,"Tetraciclina, hidrocloreto",500mg,Caps,,Vital
+08H07Z,Levofloxacina,500mg,Comp,,Vital
+08O11,Quinina sulfato,300mg,Comp,,Vital
+08Q01ZZ,Anfotericina 10%,10%,Susp,,Vital
+08O19Y,Artemisinina+Piperaquina,(20+160)mgComp Desp,,,Vital
+08O19X,Artemisinina+Piperaquina,(40+320)mg,Comp,,Vital
+08Q06,Ketoconazol,200mg,Comp,,Vital
+08Q05ii,Haloperidol,2mg/mL,Sol  frasco,,Vital
+08N03,Ivermectina,6mg,Comp,,Vital
+07D0ii,Etossuximida,250mg/5mL,Liquido,,Vital
+07D0i,Etossuximida,250mg,Caps,,Vital
+07I08,Flunitrazepam,2mg,Comp,,Vital
+07G05,Imipramina,25mg/2mL,Inj,,Vital
+07J02i,Clorpromazina,25mg/5mL,Xpe,,Essencial
+07D07i,Fenobarbital,15mg/5mL,Liquido,,Essencial
+07H01,Litio carbonato,300mg,Comp,,Vital
+08B06X,Cefotaxima(Covid 19),1g,Inj,,Vital
+08A17ZZ,Cloxacilina,,1g,Inj,Vital
+08B08W,Ceftriaxona(Covid 19),1g/10mL,Inj frasco,,Vital
+08A09i,Ampicilina,1000mg,Inj,,Vital
+08A09ZZ,Ampicilina,500mg,Caps,,Vital
+08A10,Amoxicilina+Acido clavulanico,250mg + 125mg,Comp,,Vital
+08A18,Ampicilina + Cloxacilina,500mg,Caps,,Vital
+08H03Y,"Ciprofloxacina, 750mg, Comprimidos Revestidos por",,,,Vital
+08H01,Acido Nalidixico,500mg,Comp,,Vital
+08A0ZYi,Cloxacilina,500mg,Inj,,Vital
+08A07Y,Amoxicilina comprimido dispersivél,125mg,Comp,,Vital
+08A06i,Penicilina procaina,1 000 000UI(1g),Inj frasco,,Vital
+07M01,Memantina,20 mg,Comp,,Vital
+08N03ZY,Ivermectina (DTNs),3mg,Comp,,Vital
+12B04Z,Dextrose,25% 25ml,Inj,,Essencial
+11A09X,Cloreto de Magnesio,440mg,Comp,,Essencial
+11A06,Cloreto de sodio,"100 mL 0,9%",Inj,,Essencial
+10A07Z,Hidroclortiazida+Amilorido,25mg+5mg,Comp,,Essencial
+11A03X,Cloreto de Magnésio,440 mg,Comp,,Essencial
+11A01X,Bicarbonato de sodio,500mg,Comp,,Essencial
+11A12Z,Glicose injectavel,5%,Inj,,Essencial
+11A0i,Lactato de Sódio,5 mEq/ml,Inj,,Essencial
+11A17X,Glicose + Cloreto de Sódio 5%+ 0.9%,"5% + 0,9%",I,,Essencial
+14A05Z,Naproxeno,250mg,Comp,,Essencial
+14A01X,Randutil,90mg,Comp,,Essencial
+13A12,Feniramina,25mg,Co,,Essencial
+13A11,Cetirizina,10mg,Comp,,Essencial
+14A03Y,Sulfato de Glicosamina+Sulfato de Condroitina,750,,,Essencial
+14A03W,Ibuprofeno(Covid 19),400mg,Comp,,Essencial
+14D01Z,Mestinon,60mg,Comp,,Essencial
+14A03X,Sulfato de Glicosamina +Sulfato de Condroitina,50,,,Essencial
+14A08Z,Metilprednisolona acetato,80mg/mL,Inj,,Essencial
+15B07,Betametasona+Clotrimazol+Gentamicina,"0,5mg+10mg +",,,Essencial
+14A04Y,Randutil,90mg,Comp,,Essencial
+12D06Y,Colecalciferol (Vit D3),600 000UI,Capsula,600 0,Essencial
+12D03,Alfa tocoferol (Vitamina E),100mg,Caps,,Essencial
+12C04Z,"Sulfato de Zinco, Comp",10mg,Comp,,Essencial
+15A03X,Fotoprotector,N/A,Creme,,Essencial
+12D09,Complexo B,"0,2%",Inj,,Essencial
+12D11X,Vitamina B1 + B6 + B12,100mg+200mg+200mcg,Comp,,Essencial
+12D10X,Multivitamina (Vicombil),500mg,Comp,,Essencial
+09F01i,Azatioprina,100 mg/mL-ampola,Inj,,Essencial
+09B05X,Epirrubicina,2mg/mL,Inj,,Essencial
+08R06II,Tocilizumab,200mg/10ml,Inj,,Essencial
+08R06,Remdesivir,100mg,Inj,,Essencial
+08R0iii,Ribavirina,600mg,Caps,,Essencial
+08R0ii,Ribavirina,400mg,Caps,,Essencial
+09301ZY,Micofenolato,250mg,Comp,,Essencial
+08R07,Daclatasvir + Sofosbuvir (SOF/DCV),60mg+400mg,Co,,Essencial
+08R0i,Ribavirina,200mg,Caps,,Essencial
+08R0aa,Ribavirina,800 mg/ 10 ml,Inj,,Essencial
+08R0a,Ribavirina,1g/10mL,Inj,,Essencial
+08S01X,Entecavir,50 mg 30 comp,Comp,,Essencial
+08S18XX,Entecavir,"0,5 mg",Comp,,Essencial
+10A0ZX,Clortalidona,25mg,Comp,,Essencial
+11A20,Polielectrolítico de restituição (H/S Darrol),"0,2",,,Essencial
+11A15Z,Glicose injectavel,10%,Inj,,Essencial
+09E01XX,Micofenolato,500mg,Comp,,Essencial
+09F02ii,Ciclosporina,50mg/mL,Inj ampola,,Essencial
+09C09Z,Metotrexato( Covid 19),50mg/2mL,Inj,,Essencial
+09D06i,Docetaxel injectavel,20mg/mL,Inj,,Essencial
+09E05Z,Topotecan,"0,1mg/mL",Inj,,Essencial
+09F02i,Ciclosporina,25 mg,Caps,,Essencial
+09F02ZX,Tracolimus,1mg,Comp,,Essencial
+09F02Z,Ciclosporina,25mg,Caps,,Essencial
+09F02XY,Tracolimus,"0,5mg",Comp,,Essencial
+09F02X,Ciclosporina,100mg,Comp,,Essencial
+09E10ii,Paclitaxel,300mg,Inj,,Essencial
+09E09X,Isotretinoina (Acido Cis-retinoico),4mg,Comp,,Essencial
+09F01X,CellCept,500mg,Comp,,Essencial
+09H03Z,Ondansetrom Comp,8mg,Comp,,Essencial
+20A04W,Etanol Desnaturado (Lab),70% 1L,Liquido,,Essencial
+20A04OY,Alcool spray 70%,250 mL,Liquido,,Essencial
+20A04OW,Alcool spray 70%,500ml,Spray,,Essencial
+20A03ZY,Desinfectante c Alcool a 70% (COVID-19),20 L,Gel,,Essencial
+20A03Y,Desinfectante c alcool a 70% (Covid 19),25 L,Liq,,Essencial
+20A03XU,Desinfectante c alcool a 70%,5 L,Liquido,,Essencial
+20A03X,Desinfectante c alcool a 70% (Covid 19),5 L,Liqu,,Essencial
+20A03U,Desinfectante c alcool a 80% (Covid 19),25 L,Liq,,Essencial
+18C05X,Lidocaina,1% 20ml,Inj,,Essencial
+18C10W,"Lidocaina+Adrenalina Inj (34mg+0,02125)/1,7mL",(3,,,Essencial
+17C07ZZ,Oxitetraciclina,5%,Pomada oftálmica,,Essencial
+01B02ii,Amiodarona HCL,100mg,Comp,,Essencial
+01B02i,Amiodarona,400mg,Comp,,Essencial
+20A08i,Cloroxilenol 4.8%(Dettol),"4,8 %",Liquido,,Essencial
+18D01Z,Atracurio,10mg/5mL,Inj,,Essencial
+20A04ZY,Alcool gel (Covid-19),500ml,Liquido,,Essencial
+20A04ZX,Alcool gel 70% (Covid-19) 5L Liquido,5 L,Liquido,,Essencial
+20A04ZO,Alcool gel 70%,250 mL,Liquido,,Essencial
+20A07X,Clorexidina(5 %),125 mL,Sol,,Essencial
+20A13Z,Iodopovidona,,4%,Sol aquosa,Essencial
+20A13,Iodopovidona,4% 4g/100ml,Sol aquosa,,Essencial
+01C04Z,Clonidina,25UG,Comp,,Essencial
+01A01X,Clonidina,25 mg,Comp,,Essencial
+20A10Z,Hipoclorito de Sodio (Lixivia Liquida),5 L,Sol,,Essencial
+01C02X,Carvedilol,6.25mg,Comp,,Essencial
+20A04YY,Alcool gel 60% (Covid-19),500ml,Liquido,500ml ; ,Essencial
+18F04ii,Midazolam,"7,5 mg",Comp,,Essencial
+19A04,Imunoglobulina humana anti-tetano inj,250 UI/2mL,,,
+18D03Z,Vecuronio brometo,10mg/5mL,Inj frasco,,
+20A04Y,Alcool a 70% (Covid 19),70% 250 mL,Liquido,,Essencial
+20A17,Clorohexidina+Hexamidina+ Clorocresol,"2,5g/250 mL",,,Essencial
+19B02Z,Vacina anti-hepatite A 1 dose,"0,5ml",Inj,,Essencial
+20A00i,Cloroxilenol,"4,8 %",Sol,,Essencial
+22A02,Pilocarpina,1mg/mL,Inj,,Essencial
+15C28,Sulfato de Framicetina,1% 1g/100,,,Essencial
+15C17ZZ,iodopovidona,"2,3%",Pomad,,Essencial
+15F05,Podofilina,20%,Sol Alcoolica,,Essencial
+15C18Z,Ketoconazol,2%,Champo,,Essencial
+15C06ZZ,Sulfato de neomicina +bacitracina250UI,1% 15g,Po,,Essencial
+15C06ZX,Clorexidina + Neomicia,0.1%+0.5%,Creme,15g ; Cr,Essencial
+15C06,Bacitracina,1% 30g,Pomada,,Essencial
+15C03i,Acido Benzoico + Acido Salicilico Pomada topica,(,,,Essencial
+15C08i,Clotrimazol+ Betametasona,"1%+0,05%",Creme,,Essencial
+14A08Y,Metilprednisolona,125mg/5mL,Inj,,Essencial
+14C02,Salicilato de Metilo,10%,Pomada,,Essencial
+14E03X,Hidroxicloroquina,200mg,Comp,,Essencial
+15D01ii,Ácido Salicílico,5% (50 mg/)100 g,Pomada,,Essencial
+15D01i,Ácido Salicílico,10 %,Pomada,,Essencial
+15D01Z,Acido salicílico,20%,Pomada,,Essencial
+15B05,Betametasona+Acido salicilico,"0,05%+3%",Pomada,,Essencial
+15B02Z,Betametasona Valerato,"0,01%",Locao,,Essencial
+15B02X,Betametasona Dipropionato,"0,1%",Locao,,Essencial
+15B02,Betametasona dipropionato,"0,05%",Locao Capilar,,Essencial
+16C10Z,Oximetazolina,"0,25mg",Gotas nasais,,Essencial
+17D03Z,Prednisolona,"0,5% 10 mL",Gotas Oft,,Essencial
+17F10,Bromfenac,"0,9%",Gotas Oft,,Essencial
+17A06Z,Brinzolamida + Timolol (Azarga),10 mg+5 mg,Colir,,Essencial
+17A06Y,Protizol Colirio,20mg+5mg,Colirio,,Essencial
+17A05,Pilocarpina,4% 10 mL,Colirio,,Essencial
+15D06Z,Calcipotriol,"0,0001 Bisnaga 100g",Creme,,Essencial
+15D04,Alcatrao de Hulha (Coaltar),5% + 2%,Locao,,Essencial
+16C09,"Cloridrato de xilometazolina 0.05%, gotas nasais p",,,,Essencial
+16A0i,Xilometazolina,"0,05%",Aerosol,,Essencial
+16C09Z,"Cloridrato de Xilometazolina 0.1%,  Gotas nasais a",,,,Essencial
+15H02,Permetrina,100mg/g,Gel,,Essencial
+15G03,Clemastina,2mg/mL,Inj,,Essencial
+17B04Z,Tropicamida,"0,5% 10 mL",Colirio,,Essencial
+17B01Z,Atropina sulfato,"0,5% 10 mL",Colirio,,Essencial
+17A04Y,Brimonidina,2mg/mL,Colirio,,Essencial
+17A0i,Latanoprost,"0,05mg/mL",Gotas Oft,,
+17A0II,Dorzolamida,2% (20mg/mL),Sol Oral,,Essencial
+17A08Z,Fluoresceina sodica (0.05%) 5mL,"0,05% 5mL",Coliri,,Essencial
+17A08,Fluoresceina,1% 10 mL,Colirio,,Essencial
+15E01,Isotretinoina,10mg,Caps,,Essencial
+15D0i,Iodeto de Potassio,65mg,Comp,,Essencial
+17B01i,Atropina,"0,1%",Gotas Oft,,Essencial
+04F02Z,Enzalutamida,40mg,Comp,,Essencial
+06D01Y,Heparina Sodica injectavel 20000UI/1ml de baixo pe,,,,Essencial
+06E02,Clopidogrel,75mg,Comp,,Essencial
+05A07,Ketotifeno,1mg,Comp,,Essencial
+04G04Z,Alfazosina,10mg,Comp,,Essencial
+04E08Z,Leuprolida,11.25mg,Comp,,Essencial
+04D04Z,Estrofen,1mg,Comp,,Essencial
+04F06XX,Etonogestrel - Placebo,68 mg(Implanon NXT),Impla,,Essencial
+04F0ZZ,Etinilestradiol,"0,01mg 10mcg",Comp,,Essencial
+06F06ZZ,Hemlibra,60mg,Comp,,Essencial
+06F06ZX,Hemlibra,30mg,Comp,,Essencial
+07A01,Acetilsalicilato de lisina,900mg/5mL,Inj,,Essencial
+07B04Y,Morfina Sulfato,10mg,Comp Lib Imediata,,Essencial
+06F06XX,Hemiliobra,30mg,Comp,,Essencial
+06F03,Esponja de Gelatina,"0,2%",Cubos,,Essencial
+06F06X,Hemiliobra,60mg,Comp,,Essencial
+07A03Y,Paracetamol comprimidos dispersiveis,250mg,Comp,,Essencial
+07D05i,Fenitoina,25mg/5mL,Sol  frasco,,Essencial
+07A03Z,Paracetamol comprimido dispersivel,125mg,Comp,,Essencial
+06A01Z,Acido folico,1mg,Comp,,Essencial
+07B04Z,Morfina  Libertação imediata,10mg,Comp,,Essencial
+05B05,Cloridrato de Ambroxol,,15mg/mL,Xpe,Essencial
+05B04,Cloreto de amonio 100mg+citrato de  sodio75mg+male,,,,Essencial
+05B03,Bromexina,8mg+ Hidrobromido de Dextrometorfano 10,,,Essencial
+05A15,Bromexina+Orciprenalina,(4+5)mg/5ml,Susp,,Essencial
+06A09,Proteina hidrolisada+ H.Carbono+sulfato ferroso+Ac,,,,Essencial
+06A08,"Citrato de amonio ferrico+A.folico+B1+B6+B7+B12, F",,,,Essencial
+06A06Z,Sal ferroso 125mg (40 mg de ferro elementar),125m,,,Essencial
+06A03Z,Encifer,100mg/5mL,Inj,,Essencial
+02E03Z,Streptoquin,N/A,Comp,,Essencial
+02D0iii,Docusato de sodio,100mg,Comp,,Essencial
+02D0ii,Docusato de sodio,50mg/5mL,Sol Oral,,Essencial
+03A03X,Hidrocortisona,20mg,Comp,,Essencial
+02C00ii,Ciclizina,50mg/mL,Inj,,Essencial
+02D06X,Dimeticona + Pancreatina,80mg + 170mg,Comp,,Essencial
+03A01iii,Dexametasona,"1,5 mg",Comp,,Essencial
+03A01ii,Dexametasona,"0,75mg",Comp,,Essencial
+03A03Y,Hidrocortisona,10mg,Comp,,Essencial
+02C00i,Ciclizina hidrocloreto 50 mg,50 mg 30 comp,Comp,,Essencial
+02A08,Lansoprazol,,30mg,Comp,Essencial
+02A06i,Ranitidina,75mg/5mL,Sol Oral,,Essencial
+01G0ZZ,Nitroglicerina,400mcg,Spray,,Essencial
+01G01XX,Ismo,20mg,Comp,,Essencial
+01H0ZZ,Captopril,25 mg,Comp,,Essencial
+01H02Y,Perindopril,4mg,Comp,,Essencial
+01H02X,Sacubitril + Valsartan,24/26mg,Comp,,Essencial
+01H01Y,Sacubitril+Valsartana,24/26mg,Comp,,Essencial
+01H01X,Ibersartam + Hidroclortiazida,300mg+12.5mg,Comp,,Essencial
+01F01X,Mondietem,20mg,Comp,,Essencial
+01G01,Dinitrato de isossorbido,40mg,Comp,,Essencial
+02A06Z,Randutil,90mg,Comp,,Essencial
+02A05Z,Sucralfato,1mg,Comp,,Essencial
+03B02XX,Sitaglipitina,100mg,Comp,,Essencial
+03B02X,Sitaglipitina,25 mg,Comp,,Essencial
+03A06Y,Metilprednisolona,80 mg/ml,Inj,,Essencial
+04B04X,Empagilflozin,10mg,Comp,,Essencial
+04A02,Clotrimazol,50mg/5g,Creme Vag,,Necessário
+03A01Y,Dexametasona,"1mg/mL -0,1% Fr. 10mL",Inj,,Essencial
+03D01Z,Carbimazol,10mg,Comp,,Essencial
+03D01,Carbimazol,5mg,Comp,,Essencial
+03B03Z,Vildagliptina,50 mg 30 comp,Comp,,Essencial
+03B02Z,Sitaglipitina,25 mg,Comp,,Essencial
+03B07Y,Empagliflozina,10mg,Comp,,Essencial
+02D0i,Docusato de sodio,100mg,Caps,,Essencial
+02D0aa,Sene,"7,5mg/5mL",Sol Oral,,Essencial
+02D0a,Sene (senósidos),"7,5 mg",Comp,,Essencial
+03B03Y,Dapagliflozina,10mg,Comp,,Essencial
+04A10,Norfloxacina+ Tinidazol,(400+500,,,Essencial
+04B04ZX,Misoprostrol,200mcg 4Comp,Comp,,Essencial
+03A01X,Dexametasona,2mL,Inj,,Essencial
+03A01iiiii,Dexametasona,6mg,Comp,,Essencial
+03A01iiii,Dexametasona,4mg,Comp,,Essencial
+02H03ZZ,bicarbonato de sodio + Mentol,40mg/2mL,Xpe,,Essencial
+02H02,Simeticone,75mg/ml,Emulsao,,Essencial
+08N0i,Levamisol,150mg,Comp,,Essencial
+08N0a,Niclosamida,500mg,Comp,,Essencial
+08N07Z,Tiabendazol,1%,Creme,,Essencial
+08NOii,Levamisol,50 mg 30 comp,Comp,,Essencial
+08N01ZZ,Albendazol,20 mg/mL,Susp,,Essencial
+08A14,Flucloxacilina Sodica,500mg,Inj,,Essencial
+08A13Z,Flucloxacilina capsulas de 500 mg,500mg,Caps,,Essencial
+08F01Z,Azitromicina,250mg,Comp,,Essencial
+08F05Z,Claritromicina,250mg/5mL,Susp,,Essencial
+08O16Z,Pirimetamina,50mg,Comp,,Essencial
+08Q08,Flucitosina,"2,5g/250 mL",Inj,,Essencial
+08O0ZX,Trimetoprim,200mg,Comp,,Essencial
+08Q01Z,Anfotericina B,100mg,Inj,,Essencial
+08O19XX,Di-hidroartemisinina + piperaquinafosfato,40mg,C,,Essencial
+08L06XX,Rifapentina 300mg comprimidos,300mg,Comp,,Essencial
+08Q05Z,Terbinafina,125mg/5mL,Xpe,,Essencial
+08Q05X,Griseofulvina,125mg/5mL,Liquido,,Essencial
+08Q09,Tinidazol,500mg,Comp,,Essencial
+07F05Z,Levodopa+Carbidopa,100mg+25mg,Comp,,Essencial
+07F05,Levodopa + Carbidopa,100mg,Comp,,Essencial
+07D13X,Valproato de Sódio,300mg,Comp,,Essencial
+07I0YZ,Diazepam,5mg/2mL,Inj ampola,,Essencial
+07I05,Diazepam,2mg,Comp,,Essencial
+07I12,Lorazepam,2mg/mL,Inj,,Essencial
+07B09ii,Tramadol,100mg/mL,Sol Oral,,Essencial
+07B09i,Tramadol,50 mg 30 comp,Sol  frasco,,Essencial
+07E01,Cinarizina,25mg,Comp,,Essencial
+07F0ii,Amantadina,100mg,Comp,,Essencial
+07A09,Lornoxicam,8mg,Inj,,Essencial
+07A07Z,Paracetamol+Cafeina+Fenilefrina+ Clorfeniramina,,,,Essencial
+07A07X,Paracetamol+Fenilefrina+ Clorfeniramina,120mg/5m,,,Essencial
+07I12Z,Lorazepam,4mg/mL,Inj,,Essencial
+07D04Y,Fenitoina,Sol Oral,125mg/5mL,Sol  frasco,Essencial
+07B07Z,Morfina Sulfato,5mg/mL,Sol,,Essencial
+07D01Y,Carbamazepina oral,100mg/5mL,Sol Oral,,Essencial
+07B09iii,Tramadol Bomba Doseadora,100 mg/mL,Gotas Orais,,Essencial
+07D03,Clonazepam,1mg/mL,Inj,,Essencial
+08B08U,Ceftriaxona(Covid 19),500mg,Inj,,Essencial
+08B03,"Cefuroxima, axetil",125mg/5mL,Susp,,Essencial
+08B01,"Cefuroxima,axetil",250mg,Comp,,Essencial
+08H03i,Ciprofloxacina,250mg/5mL,Susp,,Essencial
+08B08Y,Ceftriaxona,,(1g/3mL),Inj,Essencial
+07L04Z,Donepexilo,5mg,Comp,,Essencial
+07M02Z,Memantina,10mg,Comp,,Essencial
+07M02X,Donepexilo,5mg,Comp,,Essencial
+07M02,Cloridrato de Memantina,10mg,Comp,,Essencial
+07L01,Baclofeno,10mg,Comp,,Essencial
+07J15Y,Quetiapina,25 mg,Comp,,Essencial
+07J12Z,Olanzapiza,5mg,Comp,,Essencial
+07J12X,Olanzapina,5mg,Comp,,Essencial
+07LME05,Buprenorfina comprimido sublingual (200mcg),200mc,,,Essencial
+07LME04,Buprenorfina comprimido sublingual (100mcg),100,,,Essencial
+13A04X,Difenidramina,7mg/5mL,Xpe,,Necessário
+13A02i,Clorfeniramina,10mg,Inj,,Necessário
+12D01Z,Vitamina C com Zinco,Efervescente,1000mg,Compri,Necessário
+13A11Z,Levocetirizina,5mg,Comp,,Necessário
+15B10,Dexametasona+Clotrimazol,"0,1% + 1%",Creme,,Necessário
+12D09X,Complexo B(Vit B1+Vit B2+Vit B6+Vit B3+B5),Varias,,,Necessário
+12D0i,Riboflavina (Vitamina B2),5mg,Comp,,Necessário
+09F02iii,Ciclosporina,100 mg/mL,Sol Oral,,Necessário
+09H04ZZ,ondansetrom,2mg/5mL,Xpe,,Necessário
+22B05X,Sulfato de Bario,300g,Po para Susp,,Necessário
+22B05ZZ,Sulfato de Bario,150mg,Po para Susp,,Necessário
+22B05W,Sulfato de Bario,400g,Po para Susp,,Necessário
+18C13,Ropivacaina,7.5mg/ml,Inj,,Necessário
+17C05ZZ,Gentamicina,3mg,Pomada oftálmi,,Necessário
+20A10X,"Hipoclorito de Sodio 3,5%(Lixivia)(Covid 19)5L",Sol,,,Necessário
+20A10W,Hipoclorito de Sodio 3% 5L (Covid 19),5 L,Sol,,Necessário
+20A0Z,Clorexidina,"7.1% W/W, 10g",Gel,,Necessário
+20A09X,Gluteraldeido 5L (Covid 19),2%-2g/100ml,Liquido,,Necessário
+20A04Z,Etanol Absoluto (Lab),99%,Liquido,,Necessário
+20A18Z,Dicloroisocianurato de sódio,3mg,Comprimidos efe,,Necessário
+20A18Y,Dicloroisocianurato de sodio,55%,Granulado,,Necessário
+20A18,Dicloroisocianurato de sódio,2.5g,Comprimidos e,,Necessário
+01A01i,Digoxina,"62,5 mcg",Comp,,Necessário
+19A01Y,Imunoglobulina Humana Inespecifica,"0,5mg/10mL",In,,Necessário
+20A17ZX,Formol,1g,Comp,,Necessário
+16C10Y,Oximetazolina,"0,5%",Gotas nasais,,Necessário
+15C17Z,"Iodopovidona 100mg/g, Pomada",100mg/g,Pomada,,Necessário
+15A10,Oxido de zinco+Talco,25g + 25g,Pasta,,Necessário
+15A0i,Oxido de Zinco,N/A,Creme,,Necessário
+15B03X,Betametasona,5mg,Pomada,,Necessário
+18B02X,Ketamina Hidrocloreto,100mg/mL,Inj,,Necessário
+15D07,Calciprotiol,"0,005%",Pomada,,Necessário
+16C10,Oximetazolina,"0,025%",Gotas nasais,,Necessário
+17A09,Bitartarato de epinefrina,2%,Colirio,,Necessário
+06E04,Tirofiban,50mcg/mL,Inj,,Necessário
+05B06,Oxomemazina+ Guaiacolato+Benz.Sodio+ Paracetamol,,,,Necessário
+01J03,Atorvastatina,10mg,Comp,,Necessário
+01I01Z,Olmesartan,20mg,Comp,,Necessário
+02C04,Domperidona,10mg,Comp,,Necessário
+02A09,Sucralfato,(1g/3mL),Susp,,Necessário
+20A17ZZ,Paraformaldeido,500mg,Comp,,Necessário
+08A17,Cloxacilina,500mg,,,Necessário
+08P0aa,Nifurtimox,250mg,Comp,,Necessário
+08P0a,Nifurtimox,120mg,Comp,,Necessário
+08P0i,Eflornitina,200mg/mL,Inj,,Necessário
+08P0aaa,Nifurtimox,30mg,Comp,,Necessário
+07A08,Ibuprofeno+Paracetamol,400mg+500mg,Comp,(400+50,Necessário
+07A07,Paracetamol+Cafeina,(500+30) mg,C,,Necessário
+07G09Z,Trazodona comprimidos,100mg,Comp,,Necessário
+07C01,Ergotamina+Cafeina,1g + 100mg,Comp,,Necessário
+12B08Y,Glicose+poliaminoacidos e emulsao lipidica,1900 K,,,
+11A04,Cloreto de Sodio,"0,45% - 1000ml",Inj,,
+09C03,Fluorouracilo,5%,Creme,,
+09D05,Vinorelbina,10mg/mL,Inj,,
+19B09,Vacina BCG,1ml,Inj,,
+19B08,Vacina anti-tetânica,"0,5ml",Inj,,
+20A09i,Gluteraldeido,2%,Sol,,
+19B07,Vacina anti-sarampo,"0,5ml",Inj,,
+19B05,Vacina anti-poliomielítica 10 doses,Sem Dosagem,,,
+19B03,Vacina anti-hepatite B 10 doses,20mcg,Inj,,
+17A01,Acetazolamida,250mg,Comp,,
+15E02Z,Peroxido de benzoilo,5%,Gel,,
+05A03Z,Beclometasona,50mcg/inalacao,Aerosol,,
+20A09,Gluteraldeído,2%-2g/100ml,Sol Alcoolica,,
+08Q02,Fluconazol,50mg,Caps,,
+07I04,Clordiazepoxido,10mg,Comp,,
+07I11,Zolpidem,10mg,Comp,,
+07I01,Alprazolam,"0,5mg",Comp,,
+12A09,Trigliceridos de cadeia media,"0,2%",Inj,,
+12A09X,Isoflagen,50mg,Caps,,
+12A05Z,Dextrano 40+Glicose,5%,Inj,,
+12B10Z,Albumina,20% 100ml 20g,Inj,,
+12D14Z,Piridoxina (Vit B6),25mg,Comp,,
+12C02,Gluconato de cálcio,"500mg (2,3 mEq  cálcio)",Comp,,
+12B09,Sol oligoelementos,"0,2%",Inj,,
+12B07,Lipidos,10%,Inj,,
+12B08,Lipidos+aminoacidos e glicose,1876 Kcal,Bolsa co,,
+12A02,Hidrolizado de proteinas composto (Complan),"0,2%",,,
+12A0XX,Sacarina,20mg,Comp,,
+12B02,Glicose (Dextrose),250ml 10%,Inj,,
+12B01,Aminoacidos,10%,Inj,,
+12A14,Dietapolimerica  para insuficientes renais,"0,2%",,,
+12A13,Dietapolimérica  para doentes Diabeticos,Sem Dosa,,,
+12A12,Dietapolimerica  ped normo proteica/normocalorica,,,,
+12A11,Dietapolimerica  hiperproteica e hipercalorica,"0,",,,
+12A10,Dietapolimérica normo proteica/normo calórica,"0,2",,,
+11A03Y,Cloreto de potassio,"74,5mg/ml",Inj,,
+11A0VY,Glucose+Cloreto Sodio,"5% +0,9% 500ml set AD",Inj,,
+12B03Y,Dextrose,25% 250ml,Inj,,
+11A12,Glicose (Dextrose),100mL 5%,Inj,,
+11A01Z,Bicarbonato de sodio,"4,2%",Inj,,
+14E04,Carisoprodol,350,Comp,,
+14E03ZY,Cloroquina Fosfato,500mg,Comp,,
+13A0XY,Prometazina HCL,5mg/mL,Xpe,,
+13A07,Hidroxizina,"0,2%",Xpe,,
+13A04Z,Difenidramina,100mg/5mL,Inj,,
+14E01,Alendronato Sodico,10mg,Comp,,
+15A04,Linimento de calcario,50g + 50g,Linimento,,
+14A0ZZ,Ibuprofeno+Paracetamol,400mg+350mg,Comp,,
+14A0ZY,Piroxicam capsulas,10mg,Caps,,
+14A0ZX,Piroxican Gel,5mg,Gel,,
+14A0ZW,Piroxicam,60g,Gel,,
+14A0Z,Diclofenac,1%,Gel,,
+14A07,Ketorolac,30mg/mL,Inj,,
+15B0ZY,Betametasona+Neomicina,1g+5g,Creme,,
+15B0Z,Betametasona+Neomicina,1g+5g,Pomada,,
+15B0XZ,Dexametasona+Clotrimazol+ Betametasona,1%+1%,Cre,,
+15B09,Clobetasol propionato,"0,05%",Pomada,,
+14A01Z,Diclofenac,25mg,Comp,,
+12C0ZZ,Gluconato de calcio,600mg,Comp,,
+15A03Z,Vaselina branca,20g,Pomada,,
+12D07i,Ergocalciferol,"1,25mg",Caps,,
+12D07,Colecalciferol (Vit D),560UI,Gotas Orais,,
+12D06Z,Colecalciferol (Vit D),200 000 UI,Inj,,
+12D06,Colecalciferol (Vit D),600 000UI,Ampola Bebivel,,
+12D05,Axeroftol (Vitamina A),100 000UI/ml,Sol,,
+12B10,Suplemento multivitamfnico parenteral,"0,2% -Ampol",,,
+12B0XZ,Mistura Intraven para nutritao parent (1900Kcal),,,,
+12D03Z,Alfa tocoferol (Vitamina E),50mg,Caps,,
+12D02Z,Acido Ascorbico (VIT C),100mg/5mL,Inj,,
+12D02,Acido ascórbico (Vitamina C),500mg/5mL,Inj,,
+15A03,Lanolina,"0,2% 20g",Creme,,
+15A02,Creme aquoso,"0,2%",Creme,,
+15A01,Acetato de aluminio,"0,65%",Locao Aquosa,,
+12D08Z,Complexo B,"0,2%",Xpe,,
+12D07ii,Ergocalciferol,250 mcg/ml,Liquido,,
+11A26,Solucao p/ Dialise peritoneal c/ Glicose,4.50%,I,,
+09F03Z,Interferon alfa,5 000 000UI,Inj,,
+09F03II,Trastuzumab,440 mg,Inj,,
+09A07i,Ifosfamida,2g,Inj,,
+09A06,Estramustina fosfato,140mg,Inj,,
+09B01Z,Bleomicina Sulfato,15UI,Inj,,
+09A08,Ifosfamida,3 g,Inj,,
+08R04,"Ganciclovir, sal sódico",500mg,Caps,,
+09A05,Clormetina,10mg,Inj,,
+09A03Z,Ciclofosfamida,1000mg,Inj,,
+09A01,Bussulfano,2mg,Comp,,
+08R0YZ,Tamiflu,75mg,Caps,,
+08R0X,Tamiflu,30mg,Comp,,
+08S30YX,Darunavir,400mg 60Comp,Embalagem,,
+08S30ZZ,Raltegravir,400mg 60Comp,Embalagem,,
+09C03Z,Fluorouracilo,5%,Pomada,,
+09C02Z,Fludarabina,50mg,Frasco,,
+09B06,"Mitoxantrona, hidrocloreto",10mg,Inj,,
+09C08Z,Metotrexato,25mg/mL Ampola 2mL,Inj,,
+08R0Z,Tamiflu,45mg,Comp,,
+09E12I,Termozolamida,100mg,Caps,,
+09E12,Trastuzumab,150mg,Inj,,
+10A10Y,Benazepril+Hidroclorotiazida,"10 mg +12,5 mg",Comp,,
+10A0ZZ,Clortalidona,50mg,Comp,,
+11A18,Hidroxietilamido,6%,Inj,,
+11A17Z,Dextrano 40+Glicose,5% (50mg/mL)+50g,Inj,,
+14E02,Cloroquina fosfato,150mg,Comp,,
+11A24,Solucao p/ Dialise peritoneal c/ Glicose,"1,5%",In,,
+10A0XZ,Amilorido HCL,500mg,Inj,,
+11A17,Glicose+Cloreto de Sódio,"4,3% + 0,18%/500ml",Inj,,
+11A16,Glicose+Cloreto de Sódio,"4,3% + 0,18%/250ml",Inj,,
+11A1Y,Lactato de sódio inj (5%),5%,Inj,,
+11A1X,Lactato de potássio,"0,2%",Inj,,
+09G02,"Goserelina, acetato","3,6mg",Implante,,
+09E07,Dacarbazina,200mg,Inj,,
+09E06Z,Cisplatina,50mg/100mL,Inj,,
+09E08i,Hidroxicarbamida,1g,Caps,,
+09D01Z,Etoposido,50mg,Caps,,
+09E11,Procarbazina,50mg,Caps,,
+10A05,Furosemida pediatrica,1mg/mL,Sol,,
+10A03Z,Furosemida (20mg),20mg,Comp,,
+09F01,Azatioprina,25mg,Comp,,
+18C12,Lidocaina+Prilocaina,10mg/mL,Creme,,
+18C11Z,Lidocaina+Prilocaína,5% (25mg + 25mg),Creme,,
+22B0YZ,Propiliodona,"0,2%",Susp,,
+22B05ii,Amidotrizoato,140 mg a 420 mg,Inj,,
+18C03Z,Bupivacaina+Dextrose,10mg + 75 mg,Inj,,
+18C03Y,Bupivacaina+Dextrose,10mg+75mg,Inj,,
+18C03X,Bupivacaina+Dextrose,20mg/4ml,Inj,,
+18C02Z,Bupivacaina+ Dextrose (Hiperbarica),100mg+5mg,In,,
+18C02Y,Bupivacaina HCL+Adrenalina,(10+0.01)mg/20ml,Inj,,
+22B05Y,Sulfato de Bario,95g/100g,Po para Susp,,
+22B04,Iotrolan,iodine content 240 mg/mL,Inj,,
+22B03,Iohexol,"iodine content 300mg, 350mg/mL frasco 50",,,
+22B05a,Iotroxato  de Meglumina,5 g a 8 g (100ml a 250ml),,,
+19A01,Imunoglobulina humana Inespecifica,800mg/5mL,Inj,,
+18F0ZZ,Droperidol (sol Aquosa),"0,2%",Inj,,
+19B10,Vacina pentavalente,"0,5%",Inj,,
+18C10X,Lidocaina+Adrenalina,"20 mg/ml + 0,02 mg/ml",Inj,,
+18C09Z,"Lidocaina 5% + Dextrose 7,5% raquianestesia",(5%/7,,,
+19B12,Vacina pneumococica conjugada,"0,5ml",Inj frasco,,
+17C04,Cloranfenicol,1%,Pomada oftálmica,,
+17C06,Iodopovidona,5%,5%,Sol Oft,
+17D02Z,Hidrocortisona acetato,"2,3%",Pomada oftálmica,,
+17D01Z,Dexametasona,"0,1%",Colirio,,
+22B05Z,Sulfato de Bario,175g,Po para Susp,,
+17D01,Dexametasona,"0,5%",Colirio,,
+17F08,Hidroxipropilmetilcelulose,"1,75%",Sol aquosa,,
+17F06,Fluoresceina,600mg/3mL,Inj,,
+17F05,Diclofenac,1mg/mL,Colirio,,
+17F04,Cromoglicato de Sodio,4%,Pomada oftálmica,,
+17F03,Cromoglicato de Sodio,4%,Colirio,,
+17F02,Corante azul diluida de azul typan esterilizada,0,,,
+17F09,Hidroxipropilmetilcelulose,20mg/mL,Inj,,
+18C10Z,Lidocaina+Adrenalina carpule,"40mg+0,02mg/2mL",Inj,,
+18C10Y,"Lidocaina HCL + Destrose (5% + 7,5%) 2ml Injectáve",,,,
+20A08Z,Cetrimida+Clorexidina,15%+7.5% 500mL,Sol,,
+20A08,Clorexidina,2g/400ml,Spray,,
+20A07i,Clorexidina,20%,Sol,,
+20A06,Clorexidina,1% 1g/100g,Creme,,
+20A05Z,Cetrimida + Clorexidina,"15% + 1,5%",Sol aquosa,,
+20A09Z,Gluteraldeido Litro,10% (1g/ml),Sol aquosa,,
+20A11Z,Hipoclorito de Calcio,70% 45 kg,Granulado,,
+20A11,Hipoclorito de Sódio (Sol. Dakin),"0,025%-250 ppm",,,
+01E01Y,Esmolol Hidrocloreto,10mg,Inj,,
+01C0XZ,Indapamida,"2,5mg",Comp,,
+01C05,Reserpina,"0,25mg",Comp,,
+18F05i,Neostigmina,15mg,Comp,,
+19A05,Soro Anti-Tetanico(SAT)inj (20000UI/5mL),20000 UI,,,
+19A01Z,Imunoglobulina humana normal,"16,5%",Inj,,
+18E01,Dantroleno,Inj (20mg/70mL),20mg/70mL,Inj,
+18D03,Vecuronio brometo (4mg/mL),4mg/mL,Inj frasco,,
+20A16,Trioximetileno,1g,Comp,,
+19B04,Vacina anti-meningocócica 10 doses,50 μg ou mcg,,,
+19B02,Vacina anti-colerica 10 doses,"0,5ml",Inj,,
+20A02,Agua oxigenada,20 volumes sol 6%,Sol,,
+22A04,Tuberculina purificada,"2UI/1,5mL",Inj,,
+22A03Z,Tuberculina purificada,10 TU,Inj,,
+22A03,Tuberculina purificada,5 TU,Inj,,
+22A01,Carmin de indigo,80mg/10mL,Inj,,
+15E0Z,Tretinoina,"0,05%",Pomada,,
+15E05,Tretinoina,"0,05%100mL",Locao,,
+15E04,Tretinoina,"0,05%",Creme,,
+15E03,Tretinoina,"0,025%",Creme,,
+15E02i,Peróxido de Benzoílo,"0,5%",Gel,,
+15G02,Mentol+Etanol,2%,Sol,,
+15C01,Aciclovir,5%,Creme,,
+15B22Z,Triamcinolona Hexacetonido,40mg/mL,Inj,,
+15B22,Triamcinolona hexacetonido,20mg/mL,Inj,,
+15B21,Mometasona,"0,1%",Pomada,,
+15B19,Mometasona furoato,"0,1%",Creme,,
+15C06Y,Soframicina,20g,Creme,,
+15B18,Metilprednisolona aceponato,"0,1%",Pomada,,
+15B17,Metilprednisolona aceponato,"0,1%",Emulsao,,
+15B16,Metilprednisolona aceponato,"0,1%",Creme,,
+15B15,Hidrocortisona butirato,2%,Locao Capilar,,
+15B14,Hidrocortisona butirato,"0,1%",Creme,,
+15B12,Hidrocortisona acetato,1%,Locao,,
+15C27,Violeta de genciana,1%,Sol aquosa,,
+15B20,Mometasona furoato,"0,1%",Locao,,
+15C16,Iodo+Acido salicilico,1g + 3g,Sol Alcoolica,,
+15C15Z,Hexacloreto de benzeno,1%,Locao,,
+15C26,Violeta de genciana,1%,Sol Alcoolica,,
+15C25,Terbinafina,1%,Creme,,
+15C24,Piritionato de zinco,20mg/g,Susp,,
+15C23,Piritionato de zinco,2%,Champo,,
+15C10,Crotamitona,10%,Creme,,
+15C0i,Permetrina,1%,Locao,,
+15F01,Ac.salicilico+Ac. lact+5FU,"(10+16,7+0,5)%",Sol,,
+15C17,Iodopovidona,"0,2%",Sol,,
+15C14,Eritromicina estearato,4%,Locao,,
+15C13Z,Eosina,2%,Sol aquosa,,
+15C13,Eosina dermica,2%,Sol Alcoolica,,
+15C12,Enxofre+Acido salicílico,3g + 3g,Pomada,,
+15C11,Crotamitona,10%,Locao,,
+15A11,Ureia,5%,Creme,,
+15C06Z,Neomicina + Bacitracina,3300UI+250UI,Creme,,
+15A0Z,Oxido de Zinco,"0,2%",Locao,,
+15A09,Oxido de zinco+Talco+Glicerina,15g + 15g + 5g,Su,,
+15C05,Bacitracina,1% 15g,Pomada,,
+15C03Z,Acido Benzoico,"0,2%",Pomada,,
+15C09,Clotrimazol,1%,Sol Ungueal,,
+15C07,Clindamicina Fosfato,10mg/mL,Sol,,
+14B0ZZ,Probenicide,500mg,Comp,,
+14E03,Cloroquina difosfato,250mg,Comp,,
+14E02I,Cloroquina Fosfato,100mg,Comp,,
+15C04,Amorolfine,"5%Frasco 2,5mL",Frasco,,
+15C19,Metronidazol,1%,Creme,,
+15D03,Alcatrão de Hulha (Coaltar),5% + 0.2%,Champo,,
+15D02,Alcatrao de Hulha (Coaltar),5% + 2%,Creme,,
+15A12,Ureia,10%,Creme,,
+15B06,Betametasona+Clotrimazol+Gentamicina,"(0,5+10+1)mg",,,
+15B04,Betametasona+Acido salicilico,"0,05%+3%",Locao,,
+15B03Z,Betametasona dipropionato,"0,05%",Pomada,,
+15B10Z,Dexametasona+Clotrimazol+ Betametasona,"1%+0,4%",C,,
+15A06,Oleo de banho,"91,7% + 3%",Liquido,,
+15A05,Oleo amendoas doces,"0,2%",Liquido,,
+15B01Z,Betametasona dipropionato,"0,05%",Creme,,
+15A14,Ureia,30%,Creme,,
+17C0ZZ,Idoxiuridina,"0,5%",Pomada oftálmica,,
+17C08,Tobramicina sulfato,"0,3%",Colirio,,
+17F01,Acetilcolina,1%,Sol Oft,,
+17E0ZZ,Oxibuprocaina,"0,4%",Colirio,,
+17D0ZZ,Dexametasona+Cloranfenicol,"1% + 0,5%",Colirio,,
+17D0YZ,Prednisolona,"0,02%",Colirio,,
+15L02,Tacrolimus,"0,1%",Pomada,,
+15L01,Tacrolimus,"0,03%",Pomada,,
+16C05,Fenilefrina HCL,"0,5%",Gotas nasais,,
+15K01Z,Capsaicina,"0,025%",Creme,,
+17E01,Proparacaina (Proxymetacaine),"0,5% 5mL",Frasco,,
+18C01Z,Bupivacaina HCL,5mg/ml,"0,5%",Inj,
+16D02,Acido tricloroacetico,50%,Sol,,
+16D03,Benzidamina HCl,"0,15%",Sol,,
+17A06,Timolol Meleato,"0,25% 10 mL",Colirio,,
+17A04Z,Pilocarpina,1% 10 mL,Colirio,,
+16D04,Miconazol nitrato,2%,Gel oral,,
+15F03,Colodio queratolitico,1g + 1g + 1g + 10g,Liquido,,
+15F02,Acido tricloroacetico,80%,Sol,,
+15D08,Ditranol,"0,1%",Creme,,
+15D06,Calcipotriol,"0,005%",Locao,,
+15D05,Calcipotriol,"0,005%",Creme,,
+15E02II,Peroxido de benzoilo locao,"0,5% 100ml",Locao,,
+15K01,Capsaicina,"0,075%",Creme,,
+16C08,Triprolina+Pseudoefedrina,"1,25mg+30mg/5mL",Xpe,,
+16C07,Triprolina e Pseudoefedrina,"1,25mg+30mg",Comp,,
+16C06,Tint atrop beladon+Tint eucalip+Ess de Timos,"0,2%",,,
+15D0YZ,Iodeto de potassio,"0,2%",Sol,,
+15D08Z,Ditranol,"0,25%",Creme,,
+16C04,Fenilefrina HCL,"0,25%",Gotas nasais,,
+16C03,Efedrina HCL,"0,5%",Gotas nasais,,
+16C02,Cromoglicato de Sódio,2%,Spray Nasal,,
+15J01,Hidroquinona,2%,Creme,,
+15I01,Hidroxicloreto de aluminio,20%,Sol,,
+15H01,Sulfureto de selenio,"2,3%",Locao,,
+15G0ZZ,Cloreto de Benzalconio,"0,2%",Champo,,
+17B03Z,Fenilefrina,"2,3%",Colirio,,
+17B03X,Fenilefrina,5%,Colirio,,
+17B03,Fenilefrina,10%,Colirio,,
+17B02,Ciclopentolato,1%,Colirio,,
+15D0ZX,Oleo de Cade,2% 20mg/mL,Pomada,,
+15E02,Peroxido de benzoilo,5%,Creme,,
+04F02,Etinilestradiol+Gestodeno,20mcg + 75mcg,Comp,,
+04F01,Ciproterona+Etinilestradiol,2mg + 35mcg,Comp,,
+04E11,Hormona foliculo-estimulante (FSH),75UI,Inj,,
+05A07Z,Ketotifeno,1mg/5mL,Xpe,,
+04F10,Nonoxinol,2%,Gel,,
+04J02,Papaverina,60mg/2mL,Inj,,
+04J01,Alprostadil,10mcg,Inj,,
+04I01,Acido Citrico+Citrato de potassio+Citrato de Sodio,,,,
+04H04,Tolterodina,4mg,Caps,,
+04H02,Desmopressina,"0,1mg/mL",Spray Nasal,,
+04H01,Cloreto de trospio,20mg,Comp,,
+04G01,Doxazosina,2mg,Comp,,
+04D09,Alendronato  sodico,10mg,Comp,,
+04D08,Ciproterona+Estradiol,2mg+2mg+1mg,Comp,,
+04D04,Estradiol+Noretisterona,"1mg + 0,5mg",Comp,,
+04D03,Estrogenios conjugados,625mcg/g,Creme Vag,,
+04D02Z,Estrogenios conjugados,"1,25mg",Comp,,
+04D02,Estrogenios conjugados,"0,625mg",Comp,,
+04D01,Estradiol,1mg,Caps,,
+04F0ZY,Etinilestradiol,"0,05mg 50mcg",Comp,,
+04E10,Gonadotrofina coriónica humana,5000UI/mL,Inj,,
+04E0YZ,Progesterona,25mg/mL,Inj,,
+04F06WZ,Levonorgestrel 150mcg+Etinilestradiol 30mcg+Ferrou,,,,
+04F05,Etinilest+Levonorgestrel,30mcg + 50 mcg/40mcg + 7,,,
+05A01Z,Aminofilina,125mg,Comp,,
+04K08,Stilbestrol (Dietilstilbestrol),3mg,Comp,,
+04K07,Stilbestrol (Dietilstilbestrol),1mg,Comp,,
+04K06,Glicina,"1,5%",Sol aquosa,,
+04K05,Flutamida,250mg,Comp,,
+04K03,Bicalutamida,150mg,Comp,,
+04J03,Sildenafil,50mg,Comp,,
+04E03,"Ciproterona, acetato",10mg,Comp,,
+07A02Z,Acido acetilsalicilico (Aspirina),320mg,Comp,,
+06F06Z,Factor de coagulacao VIII,1000UI,Inj,,
+06F06Y,"Factor de Coagulacao Humana II,VII,IX,X,Inj(500UI)",,,,
+07A02T,Acido acetil Salcilico,650mg,Comp,,
+05A13,Salmeterol,25mcg/inalacao,Aerosol,,
+06F05,Fibrinogenio,1g/50mL,Inj,,
+06F07,Fitomenadiona (Vit K1),"2mg/0,2mL",Inj,,
+07B03,Dextropopoxifeno,65mg,Caps,,
+07A0ZZ,Paracetamol+Cafeina+Ergotamina,250+100+1mg,Comp,,
+07A0ZX,Paracetamol+Codeina,500mg+30mg,Comp,,
+07A0ZW,Metamizol,5mg,Comp,,
+06F0ZZ,Acido aminocaproico,250mg/2mL,Inj,,
+06F0ZY,Acido aminocaproico,5g/20mL,Inj,,
+06F07Z,Fitomenadiona (Vit K1),"0,5mg/mL",Inj,,
+05B0ZZ,Bromexina,4mg/5ml,Xpe,,
+05B0X,Ciclidrol,8mg/mL,Xpe,,
+05B02,Bromidrato de Dextrometorfano,27mg/15ml,Xpe,,
+05B01,Benzoato de sodio,3 g/100mL,Xpe,,
+05A06,Cromoglicato de sodio,5mg/Inalacao,Aerosol,,
+06A0ZZ,Sal ferroso,30mg/5mL,Xpe,,
+06A0YZ,Acido Folico+Vit B12,1mg+25mcg,Caps,,
+06D0ZZ,Enoxeparina,"40mg/0,4mL",Inj,,
+06D03i,Warfarina,2mg,Comp,,
+01J02Z,Sinvastatina,10mg,Comp,,
+01J01,Bezafibrato,200mg,Comp,,
+04F04,Etinilest+Levonorgestrel,50mcg + 250mcg,Comp,,
+02F01,Mesalazina ou Sulfasalazina (5ASA),400mg,Comp,,
+02E01,Difenoxilato+Atropina,"2,5mg+0,025mg",Comp,,
+03A02,Fludrocortisona acetato,"0,1mg",Comp,,
+01K0ZZ,Polidocanol,60mg/2mL,Inj,,
+03A01Z,Dexametasona,5mg/mL,Inj,,
+03A04i,Prednisolona Liq (5mg/ml),5mg/mL,Liquido,,
+02A03Z,Hidrox de Alumin+Magn,405mg+100mg/mL,Susp,,
+02A03Y,Hidrox de Alumin+Magn,225 +200mg/5mL,Susp,,
+02A03,Hidrox de magn+Aluminio,665mg/5mL + 1200mg/5mL,G,,
+02A02Z,Hidroxido de  Magnesio,311mg,Comp,,
+02A02,Hidroxido de Magnesio,425mg/5mL,Susp,,
+01G01Z,Mononitrato de isossorbido,40mg,Comp,,
+02B03,Mebeverina HCL,135mg,Comp,,
+02A0ZZ,Cimetidina,200mg,Comp,,
+02A0ZY,Cimetidina,200mg/2mL,Inj,,
+04E07Z,Testosterona deposito,100 mg/mL,Inj,,
+04E07,Testosterona enantato,250mg/mL,Inj,,
+04E06,Testosterona,50mg/5g,Gel,,
+04E03Z,"Ciproterona, acetato",50mg,Comp,,
+03B01,Acarbose,50mg,Comp,,
+03A07Z,Prednisolona acetato,100mg/2mL,Inj,,
+02F02,Prednisolona fosfato sódico,20mg,Enema,,
+03B06,Rosiglitazona,1mg,Comp,,
+03A07,Prednisolona acetato,80mg/2mL,Inj,,
+04F08,Levonorgestrel+Etinilestradiol,250mcg + 50mcg,Co,,
+04A06,Iodopovidona ginecologica,100mg/mL,Sol,,
+04A05,Iodopovidona ginecologico,100 mg/g,Gel,,
+04A04,Econazol,1g/100g,Creme Vag,,
+04A03,Clotrimazol,100mg,Ovulo Vag,,
+04A01,Clindamicina,20mg/g,Creme Vag,,
+03E02,Somatropina,"6,1 mg/ml, ampola pre-enchida",Inj,,
+03D0i,Solucao aquosa de Iodeto (Lugol),130 mg,130 mg,,
+03D04i,Propiltiouracilo,,50 mg 30 comp,Sol Oral,
+03D03Z,Levotiroxina Sodica,100mg,Comp,,
+03D02Z,Iodo+Iodeto de potassio,5% + 10%,Sol,,
+02G02Z,Pancrealipase,33500 + 33500 + 8040UI,Caps,,
+02G02,Pancreatina,5000+2900+3309UI,Caps,,
+03B06X,Rosiglitazona,2mg,Comp,,
+03D02,Iodo+Iodeto de Potassio(Lugol),5% + 10%,Sol,,
+03B13,Diazoxido,50mg,Comp,,
+02H0ZY,Fenipentol,100mg,Comp,,
+03B05,Repaglinida,1mg,Comp,,
+04B03Y,Metilergometrina,"0,5mg/mL",Inj,,
+03B0ZZ,Insulina accao retardada (Monotard),100UI/mL,Inj,,
+03B0ZY,Insulina accao retardada (Ultratard),100UI/mL,In,,
+02D07,Parafina Liquida,100g,Emulsao,,
+02D06Z,Lactulose,"66,7% 667mg/mL",Sol,,
+04B02,Ergometrina+Oxitocina,500mg + 5UI,Inj,,
+04B01,Dinoprost (Prostaglandina F2 Alfa),5mg/mL,Inj,,
+04A09,Nistatina,100 000UI/4g,Creme Vag,,
+02H01,Dimeticone,50 mg/mL,Gotas Orais,,
+02I02Y,Anti hemorroidario,"0,2%",Pomada,,
+02H0ZZ,Fenipentol,100mg,Caps,,
+02H0YZ,Dimetilpolissiloxano,250mg,Comp,,
+02H01Z,Dimetilpolissiloxano,10mg/25mL,Gotas Orais,,
+04A07,Metronidazol,500mg,Ovulo Vag,,
+07A06YY,Paracetamol,250mg/5mL,Susp: (Covid 19),250mg/5m,
+08L09,"Capreomicina,sulfato",1 000 000UI(1g),Inj,,
+08L11X,Etionamida,125mg,Comp,,
+08L11,Etionamida,250mg,Comp,,
+08N0ZZ,Mebendazol,100mg/5mL,Xpe,,
+08J01,Vancomicina,125mg,Caps,,
+08N01Z,Albendazol,200mg,Comp,,
+08N0YZ,Metrifonato,100mg,Comp,,
+08N05,Piperazina,750mg/5mL,Xpe,,
+08K02Z,Cloranfenicol oleosa,1g/4mL,Inj,,
+08K02Y,Cloranfenicol,1g/4mL,Inj,,
+08K01Z,Cloranfenicol,500mg,Caps,,
+08A15Z,Flucloxacilina Sodica,250mg/5mL,Susp,,
+08A15,"Flucloxacilina, Sal de magnesio",125mg/5mL,Susp,,
+08F07Z,Eritromicina,1g,Inj,,
+08E03,Clindamicina,75mg/5mL,Sol,,
+08E01Z,Clindamicina,100 mg/mL,Sol,,
+08F04,Claritromicina,500mg-ampola,Inj,,
+08H06Z,Norfloxacina,100mg,Caps,,
+08D02,Amikacina sulfato,100mg/2mL-ampola,Inj,,
+08F07Y,Eritromicina Etilsuccinato,"2,5mg/mL",Inj,,
+08F05,Claritromicina,125mg/5mL,Susp,,
+08G02,"Minociclina, hidrocloreto",50mg,Caps,,
+08G01ii,Doxicilina,50 mg/5 ml,Liquido,,
+08G01i,Doxicilina,25 mg/5 ml,Liquido,,
+08K03i,Cloranfenicol,"0,5g",Inj,,
+08L02X,Etambutol+Isoniazida,400mg+150mg,Comp,,
+08L01,Estreptomicina,1g/5mL,Inj,,
+08K09,Nitrofurantoina,25mg/5mL,Susp,,
+08K08,Nitrofurantoína,50mg,Comp,,
+08K03Z,Cloranfenicol,125mg/5mL,Susp,,
+08O15Z,Artesunato+Amodiaquina,100mg+153mg,Comp,,
+08O15Y,Artesunato+Amodiaquina,"25mg+67,5mg",Comp,,
+08P02,Suramina,1g/5mL,Inj,,
+08O08,"Mefloquina, hidrocloreto",250mg,Comp,,
+08O15X,Artesunato+Amodiaquina,50mg+150mg,Comp,,
+08O15,Artesunato+Amodiaquina,100mg+270mg,Comp,,
+08R03,"Ganciclovir, sal sódico",250mg,Caps,,
+08R02Z,Aciclovir,400mg,Inj,,
+08O11Z,Quinina,300mg/2mL,Inj,,
+08S17Y,Zidovudina (AZT),50mg/5mL 100ml,Susp,,
+08P01,Melarsoprol,"3,6% 36mg/mL",Inj,,
+08L0YZ,Rifamp+Isoniaz+Piraz,Comp(60+30+150)mg 3DFC pediat,,,
+08L0XZ,Rifampicina+Isoniazida+Pirazinamida,300+120+50mg,,,
+08Q06Z,Ketoconazol,200mg/5mL,Xpe,,
+08Q0XX,Fluconazol,100mg,Comp,,
+08M6ZZ,Prednisolona,2X14Comprimidos40+30+20+15+10+5mg,C,,
+07D11,Lamotrigina,50mg,Comp,,
+07F03,Levodopa+Benzerazida,"50mg + 12,5mg",Comp,,
+07E02,Meclizina,25mg,Comp,,
+08D06Z,Neomicina+Bacitracina,"35,2mg+18,25mg",Comp,,
+07D12,Topiramato,50mg,Comp,,
+07I10,Oxazepam,15mg,Comp,,
+07I0Ai,Clordiazepoxido,5mg,Comp,,
+07I09,Hidrato de cloral,10%,Xpe,,
+07I04i,Clordiazepoxido,5mg,Comp,,
+07I03,Buspirona,10mg,Comp,,
+07G09,Trazodona,50mg,Caps,,
+07G06Z,Maprotilina,50mg,Comp,,
+07F0I,Levodopa+Carbidopa,(250mg+25mg),Comp,,
+07A0WZ,Metamizol,5g/100mL,Xpe,,
+07A0WX,Metamizol,500mg/ml,Inj,,
+07A06ZZ,Paracetamol,125mg/5mL,Susp,(Covid 19) ; 125mg/5m,
+07I02,Bromazepam,3mg,Comp,,
+07J09Z,Tioridazina,25mg,Comp,,
+07J08,Tiapride,100mg,Comp,,
+07J05Y,Proclorperazina,3mg,Comp,,
+07D04I,Fenitoina,25mg,Comp,,
+07D08Z,Fenobarbital,200mg/mL,Inj,,
+07B08Z,Petidina,50mg/2mL,Inj,50mg/2mL ; Inj,
+07C02,Sumatriptano,50mg,Comp,,
+07B10Z,Tramadol,150mg,Comp,,
+07D04Z,Fenitoina,50mg,Comp,,
+08B06Z,Cefotaxime de sodio,1g,Inj,,
+08B06Y,Cefotaxima de sodio,250mg-frasco,Inj,,
+08B0ZY,Cefalexina,500mg,Caps,500mg ; Caps,
+08B0YZi,Cefalexina,250 mg/5 ml,Susp,,
+08B02,"Cefuroxima, Sal sodico",750mg,Inj,,
+08A0ZW,Cloxacilina,50mg/mL,Inj,,
+08A0XY,Pefloxacina,400mg,Comp,,
+08A0WZ,Ticarcilina Sódica,50mg/mL,Inj,,
+08A11Z,Amoxicilina +Ac clavulanico,875mg+125mg,Comp,,
+08A10Z,Amoxicilina+Acido clavulanico,"125mg + 31,25mg/5mL",,,
+08D06,"Neomicina, sulfato",500mg,Comp,,
+08D05Z,Kanamicina,1g/10mL-ampola,Inj,,
+08D05Y,Kanamicina,2g/10mL-ampola,Inj,,
+08G01Z,Doxicilina,50mg,Caps,,
+08F08Z,Eritromicina,200mg/5mL,Susp,,
+08H02,Acido Nalidixico,300mg/5mL,Xpe,,
+08H01Z,Acido Nalidixico,125mg,Comp,,
+08G03Z,Tetraciclina,250mg,Caps,,
+07LME02i,Cloridrato de Clomipramina,25 mg,Caps,,
+07L04,Metilfenidato Hidrocloreto,10mg,Comp,,
+07L03Z,Disulfiram,250mg,Comp,,
+08A03,Penicilina benzatinica,1 200 000UI,Inj ampola,,
+07L02,Betanecol,10mg,Comp,,
+08A0ZZ,Cloxacilina,125mg/5mL,Po para Susp,,
+07J14,Clozapina,50mg/2mL,Inj,,
+07J12,Clozapina,25mg,Comp,,
+07L03,Dissulfiram,200mg,Comp,,
+08A02Z,Fenoximetilpenicilina,125mg/5mL,Susp,,
+08A01Z,Fenoximetilpenicilina,250mg,Comp,,
+08A06Y,Penicilina Sodica cristalina,10 000 000UI,Inj,,
+07LME07,Metadona,5mg/mL,Liquido,,
+20A10,Hipoclorito de Sodio (concentrado),1%-5% 1Lt,Sol,,
+08K07,Metronidazol,200mg/5mL,Susp,,Vital
+08B04Z,Cefixima,400mg,Comp,,Vital
+04B06,Terbutalina,"2,5mg",Comp,,Vital
+12D15,Piridoxina (Vit B6),300mg/2mL,Inj,,Vital
+08H03,Ciprofloxacina,500mg,Comp,,Vital
+07A03,Paracetamol,500mg,Comp,,Vital
+08Q0ZZ,Fluconazol Suspensao 50mg/5mL,50mg/5mL,Susp,,Vital
+07B06,Morfina sulfato,10mg/mL,Inj,,Vital
+13A04,Difenidramina,50mg/5mL,Inj,,Vital
+08K04,Metronidazol,250mg,Comp,,Vital
+10A06Z,Hidroclortiazida,25mg,Comp,,Vital
+10A08,Manitol,2g/100ml,Inj,,Vital
+11A15,Glicose (Dextrose),1000mL 5%,Inj,,Vital
+12B04,Glicose,20ml 30%,Inj,,Vital
+10A02,Espironolactona,25mg,Comp,,Vital
+08F01,Azitromicina,500mg,Comp,,Vital
+13A01,Adrenalina,1mg/mL (1:1000),Inj,,Vital
+08F08,Eritromicina,250mg/5mL,Susp,,Vital
+05A12,Salbutamol,2mg/5mL,Xpe,,Vital
+07A06,Paracetamol,120mg/5mL,Susp,,Vital
+04B04,Misoprostol,200mcg ou μg,Comp,,Vital
+15G01,Calamina,15%,Locao,,Vital
+12D11,Multivitaminas,"0,2%-frasco",Xpe,,Vital
+12D08,Complexo B,"0,2%",Comp,,Vital
+08N01,Albendazol,400mg,Comp,,Vital
+13A03,Clorfeniramina,2mg/5mL,Xpe,,Vital
+20A15Z,Sulfadiazina de Prata,1% m/m Bisnaga 50,Creme,,Essencial
+07A04,Paracetamol,10mg/mL,Inj,,Essencial
+08B08ZZ,Ceftriaxona,1g/10mL,Inj frasco,,Essencial
+02A05,Omeprazol,40mg/10mL,Inj,,Essencial
+14B02,Colchicina,"0,5mg",Comp,,Essencial
+08Q03,Fluconazol comprimidos,200mg,Comp,,Vital
+08I01,"Cotrimoxazol(480mg),Comp",,,,Vital
+06F08,Fitomenadiona (Vit K1),10mg/mL,Inj,,Vital
+07B11,Tramadol,100mg/2mL,Inj,,Essencial
+15C08,Clotrimazol,1%,Creme,,Essencial
+15C03,Acido benzoico+Acido salicilico,6+ 3g,Pomada,,Essencial
+13A08,Prometazina,10mg,Comp,,Essencial
+15B01,Betametasona dipropionato,"0,1%",Creme,,Essencial
+07J10,Tioridazina,100mg,Comp,,
+17C07,Tetraciclina,1%,Pomada oftálmica,,
+01E01Z,Atenolol,100mg,Comp,,Vital
+06F01,Acido tranexamico,500mg,Comp,,
+04K04,Finasterida,5mg,Comp,,
+08A0ZY,Cloxacilina,500mg,Caps,,
+07D10,Gabapentina,300mg,Caps,,
+01F01Z,Amlodipina besilato,5mg,Comp,,
+17D02,Hidrocortisona acetato,"0,5%",Pomada oftálmica,,
+12D12,Nicotinamida (Vitamina PP),100mg,Comp,,
+20A15,Sulfadiazina de prata,1% Fr.500g,Creme,,
+17C05,Gentamicina,"0,3%",Colirio,,
+17C03,Cloranfenicol,"0,5%",Colirio,,
+18C06,Lidocaina,1%-10mg/ml- Ampola,Inj,,
+18C04,Cloreto de etilo,100% v/v,Spray,,
+18C05,Lidocaina,2% 20mg/ml-frasco,Inj,,
+10A03,Furosemida,40mg,Comp,,
+08B07,Ceftadizima,1g-ampola,Inj,,Vital
+03B07,Insulina accao curta(rapida)(Actrapid),100UI/mL,,,Vital
+01B03,Amiodarona HCL,150mg/3mL,Inj,,Essencial
+18A02Z,Isoflurano,100% v/v,Liquido,,Vital
+09D06ii,Docetaxel injectavel,40mg/mL,Inj,,Essencial
+06F06,Factor VIII Coagulacao Humano liofilizado,500 UI,,,Essencial
+18A02,Isoflurano,100% v/v Frasco 250 mL,Liquido,,Essencial
+17C07i,Tetracaina,"0,5%",Sol Oft,,Necessário
+05A03,Beclometasona,100mcg/inalacao,Aerosol,,
+19A06,Soro Anti-Ofidico polivalente,10ml,Inj,,
+18F02,Efedrina HCL,50 mg/mL,Inj,,
+06F02,Acido Tranexamico,100 mg/mL,Inj,,
+12C03,Gluconato de calcio,10%-ampola,Inj,,
+09E05,Carboplatina,450mg/45mL,Inj,,
+15C22,Mupirocin,2%,Pomada,,
+01H02Z,Lisinopril,20mg,Comp,,Vital
+08A11,Amoxicilina+Acido clavulanico,500mg + 125mg,Comp,,Vital
+08A05,Penicilina G sodica,10 000 000UI,Inj frasco,,Vital
+14A01,Diclofenac,50mg,Comp,,Vital
+10A04Z,Furosemida,10mg/2mL,Inj,,
+18C02,Bupivacaina+Adrenalina,Inj (100mg+1:200.000/20mL),,,
+07B05,Morfina sulfato,30mg,Comp,,Vital
+08F02,Azitromicina,200mg/5mL,Susp,,Vital
+11A19,Lactato de Ringer+AD set,1000ml,Inj,,Vital
+07I06,Diazepam,10mg,Comp,,Vital
+08A09,Ampicilina,500mg,Inj,,Vital
+08K05,Metronidazol,500mg/100mL,Inj,,Vital
+02A06,Ranitidina,150mg,Comp,,Vital
+12D17,Tiamina (Vitamina B1),100mg/2mL,Inj,,Vital
+07B08,Petidina,100mg/2mL,Inj,,
+07G03,Fluoxetina HCL,20mg,Caps,,
+18C03,Bupivacaina+Dextrose,(5+75)mg,Inj,,
+11A01,Bicarbonato de Sodio,"8,4% 1meq HCO3/mL",Inj,,Vital
+20A07,Clorexidina,5% 500ml,Sol,,
+09E02,L-asparaginase,10 000UI,Inj,,
+01C04,Metildopa,250mg,Comp,,Vital
+09G05,Tamoxifeno,20mg,Comp,,Vital
+07B09,"Tramadol, Hidrocloreto",50mg,Comp,,Essencial
+09E09,"Imatinib, mesilato",100mg,Comp,,Essencial
+18D04,Suxametonio,50 mg/mL,Inj,,
+10A01,Amilorido,5mg,Comp,,Vital
+17C01,Aciclovir Pomada Oftalmica,3%,Pomada oftálmica,,
+09E08,Hidroxicarbamida (Hidroxiureia),500mg,Caps,,Vital
+10A08Y,Manitol,500ML (20%),Inj,,Essencial
+01F01,Amlodipina,10mg,Comp,,Vital
+15C0ZX,Benzoato de benzilo,25% 250mg/mL,Emulsao,,
+07D01,Carbamazepina,200mg,Comp,,Vital
+18D02,Pancuronio,4mg/2mL,Inj,,
+17D03X,Prednisolona,"0,5% 5mL",Colirio,,Essencial
+09F01Z,Azatioprina,50mg,Comp,,
+09G01,Bicalutamida,50mg,Comp,,Essencial
+03D04,Propiltiouracilo,50mg,Comp,,
+09E11IV,Bortezomib,"3,5mg",Inj,,Vital
+02C02,Metoclopramida,10mg/2mL,Inj,,Vital
+13A10,Prometazina,50mg/2mL,Inj,,Vital
+07F02,Biperideno lactato,5mg/mL,Inj,,Vital
+01E03,Propranolol,40mg,Comp,,Vital
+11A09,Cloreto de Sodio,"1000 mL (0,9%)",Inj,,Vital
+05A01,Aminofilina,100mg,Comp,,Vital
+13A08Z,Prometazina,25mg,Comp,,
+03A06,Prednisolona fosfato sodico,50mg/10mL,Inj,,Vital
+02A04,Omeprazol,20mg,Caps,,Vital
+14A02,Diclofenac,75mg/3mL,Inj,,Vital
+03A03,Hidrocortisona,100mg/mL,Inj,,Vital
+01F02,Nifedipina,30mg,Comp,,Vital
+11A03,Cloreto de potassio,10% 1g/ml,Inj,,Vital
+05A08,Salbutamol,100mcg/inalacao,Aerosol,,Vital
+09C07,Metotrexato,"2,5mg",Comp,,Vital
+09E10i,Paclitaxel,"100mg/16,7 mL",Inj,,Essencial
+04G04,Tansulosina,400mcg,Comp,,Necessário
+07J15Z,Risperidona,1mg,Comp,,Essencial
+18F01,Atropina sulfato,"0,5mg/mL",Inj,,
+05A11,Salbutamol,5mg/mL,Sol Neb,,
+06D01,Heparina Sodica,25 000 UI/5mL,Inj,,
+08O13,Sulfadoxina+Pirimetamina,500mg + 25mg,Comp,,
+18C11,Lidocaina+Adrenalina  carpule,"0,2%",Inj,,
+03B10,Insul acc. Inter. Bif.(Actraph.70/30),100UI/mL,Inj,,Vital
+03D03,Levotiroxina Sodica,50 µg ou mcg,Comp,,Vital
+09E07i,Dacarbazina 100mg/mL,100mg/mL,Inj,,Essencial
+18B02,Ketamina Hidrocloreto,500mg/10mL,Inj,,Essencial
+09B05Z,Doxorrubicina liposomal,50mg/25mL,Inj,,Vital
+07B07,Morfina sulfato,5mg/5mL,Xpe,,Essencial
+18A04,Sevoflurano,100% v/v Frasco 250 mL,Liquido,,Essencial
+08A16,Piperacilina+Tazobactam,"4g + 0,5g",Inj,,Essencial
+18F03,Fentanil,"0,5mg/10mL",Inj,,
+12D13,Nicotinamida (Vitamina PP),100 mg/mL-ampola,Inj,,
+19B01,Vacina anti-amarilica 10 doses,"0,5%",Inj,,
+01B05,Verapamil,5mg/2mL,Inj,,Vital
+15B11,Hidrocortisona acetato,1%,Creme,,Essencial
+08B08X,"Ceftriaxona 1g, po para sol.IM",,,,Vital
+18C05Z,Lidocaina,2% 5mL,Inj ampola,,Essencial
+04B04XX,Misoprostol,200mcg 3Comp,Comp,,Essencial
+08O13Y,Sulfadoxina+Pirimetamina,Comp Disp,250mg + 12.5m,,Essencial
+04E02Z,Noretisterona,10mg,Comp,10mg ; Comp,Necessário
+04B07,Sulfato de magnesio,100mg/mL (10%,Inj,,Vital
+14D01i,Piridostigmina,1mg/ml Ampola,Inj ampola,,Necessário
+09F03,Interferon alfa-2a recombinado,"3000000IU/0,5mL",Inj,,
+07J16,Risperidona,3mg,Comp,,
+20A04ZZ,Alcool gel (Covid-19),100mL,Liquido,,Essencial
+08J02I,Vancomicina Hidrocloreto,250mg,Inj,,
+13A0XZ,Prometazina HCL,5mg/5mL,Xpe,,
+11A25,Solucao p/ Dialise peritoneal c/ Glicose,"2,3%",In,,
+18C06Z,Lidocaina carpule,40mg/2mL-ampola,Inj,,
+08D0ZZ,Gentamicina,40mg/2mL-ampola,Inj,,
+09E13,Tretinoina,10mg,Caps,,
+08S30XX,Darunavir 150mg 240 comp,,,,
+12D10,Multivitaminas,"0,2%",Comp,,Vital
+07G01,Amitriptilina,10mg,Comp,,Vital
+07D06Z,Fenobarbital,30mg,Comp,,Vital
+06A06,Sal ferroso,200mg (65 mg de ferro elementa,Comp,,Vital
+05A09,Salbutamol,2mg,Comp,,Vital
+08G01,Doxiciclina Hidrocloreto,100mg,Caps,,Vital
+08A01,Fenoximetilpenicilina,500mg,Comp,,Vital
+02C01,Metoclopramida,10mg,Comp,,Vital
+02A01,Hidroxido de aluminio,500mg,Comp,,Essencial
+14B01i,Alopurinol,300mg,Comp,,Vital
+20A04,Alcool Litro,90% (900mg/mL),Liquido,,Essencial
+08Q05,Griseofulvina,500mg,Comp,,Vital
+08S18W,Tenof+Lamiv+Doluteg(300mg+300mg+50mg)30 Comp,,,,Vital
+11A14,Glicose (Dextrose),500mL 5%,Inj,,Vital
+11A08,Cloreto de sodio,"500 mL 0,9%",Inj,,Vital
+12B05,Glicose,500ml 30%,Inj,,Vital
+08D0X,Kanamicina,2 g/8mL-ampola,Inj,,Vital
+08B08YZ,Ceftriaxona,250mg,Inj,,Vital
+07J02,Clorpromazina,100mg,Comp,,Vital
+06A07Y,Sulfato Ferroso + Acido Folico,"60mg+0,4mg",Comp,,Vital
+06A07X,Sulfato Ferroso Acido Folico,90mg + 0.4 mg,Comp,,Vital
+06A07W,Sulfato Ferroso+Acido Folico,65mg + 0.4 mg,Comp,,Vital
+08F07,"Eritromicina, lactobionato",50mg/mL-frasco,Inj,,Vital
+07A02,Acido acetilsalicilico (Aspirina),500mg,Comp,,Vital
+08H07X,Moxifloxacina,400mg,Comp,,Vital
+05A04,Beclometasona,200mcg/inalacao,Aerosol,,Vital
+08A07X,Amoxicilina comprimido despersivel,250mg,Comp,,Vital
+08B05,Cefixima,100mg/5mL,Susp,,Essencial
+08A06,Penicilina procaina,3 000 000UI,Inj ampola,,Vital
+07G06,Maprotilina,25mg,Comp,,Vital
+07I06X,Diazepam,5mg,Comp,,Vital
+08H07XZ,Moxifloxacina,100mg,Comp,,Vital
+08F01ZTrac,Azitromicina (Zithromax para campanha de Tracoma),,,,Vital
+01G01X,Dinitrato de isossorbido,20mg,Comp,,Essencial
+01H01,Enalapril,5mg,Comp,,Vital
+03B02,Glibenclamida,5mg,Comp,,Vital
+03B04,Metformina,500mg,Comp,,Vital
+02A04i,Omeprazol,20mg,Po para Susp,,Essencial
+14B01,Alopurinol,100mg,Comp,,Vital
+14A04,Ibuprofeno,100mg/5mL,Susp,,Vital
+01B02,Amiodarona HCL,200mg,Comp,,Essencial
+01A05,Dopamina HCL,200mg/5mL,Inj,,Vital
+17C07Trac,Tetraciclina (campanha de Tracoma),1%,Pomada Oft,,Vital
+08O05Z,Artemeter+Lumefantrina,120mg+20mg 2x6,Comp,,Vital
+08O05Y,Artemeter+Lumefantrina,120mg+20mg 3x6,Comp,,Vital
+08O05X,Artemeter+Lumefantrina,120mg+20mg 4x6,Comp,,Vital
+08N01ZY,Albendazol ( DTNs),400mg,Comp,,Vital
+08O19Z,Artemisinina+Piperaquina,(40+320)mgComp Desp,,,Vital
+08Q02Z,Fluconazol,150mg,Comp,,Vital
+08Q01Y,Anfotericina B lipossomica,50 mg,Inj,,Vital
+08O05,Artemeter+Lumefantrina,120mg+20mg 1x6,Comp,,Vital
+08N06,Praziquantel,600mg,Comp,,Vital
+08N04Z,Mebendazol,500mg,Comp,,Vital
+08Q01,Anfotericina B,50mg,Inj,,Vital
+08L11ZX,Bedaquilina Sirturo,20mg,Comp,,Vital
+08K02,Cloranfenicol,1g/10mL,Inj,,Vital
+08K05Z,Metronidazol(Covid 19),500mg/100mL,Inj,,Vital
+11A11Y,Gelatina polimerizada (Haemaccel),"3,5%/500ml",Inj,,Vital
+11A19Z,Lactato de Ringer,500ml,Inj,,Vital
+12B06,Glicose,50ml 50%,Inj,,Vital
+12D04,Axeroftol (Vitamina A),200 000 UI,Caps,,Vital
+08S01ZV,Abacavir+Lamivudina+Dolutegravir,60mg+30mg+5mg 90,,,Vital
+09D01,Etoposido,100mg,Caps,,Vital
+08S23,Nevirapina (NVP),50mg/5mL 240mL,Susp,,Vital
+08S30ZY,Dolutegravir,50 mg 30 comp,Comp,,Vital
+11A05,Cloreto de sódio,"10 mL 0,9%",Inj,,Vital
+11A0XY,Agua para Injectaveis,20ml,Injectavel,20mL ; Inj,Vital
+09H04,Ondansetron,8mg/4mL,Inj,,Vital
+09D06,Docetaxel inj 80 mg/ml ampola,80mg/mL,Inj ampola,,Vital
+09B05,Doxorrubicina,50mg/25mL,Inj,,Vital
+11A04ii,"Cloreto de Sodio 0,45%",250 mL,Inj,,Essencial
+11A04i,"Cloreto de  Sodio 0,45%",100mL,Inj,,Essencial
+09H01II,Folinato de Calcio,10mg/ml - 30ml,Inj,,Essencial
+09H01i,Acido Folinico (Folinato de calcio),3mg/mL-10mL,,,Essencial
+15C15,Hexacloreto de benzeno,600mg/60ml,Locao,,Essencial
+08R02Y,Aciclovir Inj  Frasco,250mg/5mL,Inj frasco,,Essencial
+08A08,Amoxicilina trihidrato,250mg/5mL,Susp,,Vital
+08B06,Cefotaxima sodico,500mg-frasco,Inj,,Essencial
+07A03W,Paracetamol(Covid 19),500mg,Comp,,Essencial
+06F04,Esponja de Gelatina esteril,"0,2%",Cubos,,Essencial
+08F08X,Eritromicina,125mg/5mL,Susp,,Essencial
+08F07ZY,"Eritromicina, lactobionato",500mg,Po para Injecta,,Essencial
+050A2X,Adrenalina,1mg/mL,Inj,,Essencial
+08A08Z,Amoxicilina trihidrato,125mg/5mL,Susp,,Essencial
+08A07,Amoxicilina trihidrato,500mg,Caps,,Vital
+08D01,Amikacina sulfato,250mg/2mL-ampola,Inj,,Essencial
+08D01i,Amikacina sulfato,(500mg/2ml),Inj,,Essencial
+07J01,Clorpromazina,25mg,Comp,,Essencial
+07J15,Risperidona,2mg,Comp,,Essencial
+08E02,Clindamicina,150mg/mL-ampola,Inj,,Essencial
+08B08Z,Ceftriaxona,500mg,Inj,,Essencial
+07B09Z,"Tramadol, Hidrocloreto",50mg,Caps,,Essencial
+07B10,"Tramadol, Hidrocloreto",100mg,Comp,,Essencial
+01G01Y,Dinitrato de isossorbido,5mg,Comp,,Essencial
+04E05,Ciproterona,300 mg/3mL,Inj,,Essencial
+04F06X,Etonogestrel,68 mg(Implanon NXT),Implante,,Essencial
+02E02,Loperamida,2mg,Comp,,Essencial
+02D01,Bisacodil,5mg,Comp,,Essencial
+15C0WZ,Miconazol Nitrato,2%,Creme,,Essencial
+15C03Y,Benzoato de benzilo,25% 100ml,Emulsao,,Essencial
+15F05X,Podofilina,"0,5%",Sol,,Essencial
+17B01Y,Atropina Sulfato,1% 5 mL,Colirio,,Essencial
+20A03XY,Desinfectante c alcool a 70% (100mL),100,Liquido,,Essencial
+20A07Z,Gluconato de Clorexidina,4%,Sol  frasco,,Essencial
+20A04ZW,Alcool gel 70%,500ml,Liquido,,Essencial
+20A00II,Ortoftaldeído,"0.55%, 5L",Sol,,Essencial
+17C07I,Tetracaina,"0,5%",Sol Oft,,
+19A04Z,Imunoglobulina humana anti-tetano,250 UI/1mL,Inj,,Essencial
+18C06Y,Lidocaina,2%,Inj ampola,,Essencial
+18A01,Halotano,100% v/v Frasco 250 mL,Liquido,,Essencial
+18F04iii,Midazolam,1mg/mL,Inj,,Essencial
+18F04i,Midazolam,15mg,Comp,,Essencial
+18F04a,Midazolam Solucao Oral,2mg/mL,Sol  frasco,,Essencial
+18F03X,Fentanil,"0,05mg/5ml",Inj,,Essencial
+08L10Z,Cicloserina,125mg,Caps,,Essencial
+08O17AN,Sulfadiazina,125mg/4ml,Inj,,Essencial
+08Q08II,Flucitosina,,500mg,Comp,Essencial
+08Q08i,Flucitosina,500mg,Caps,,Essencial
+08Q08III,Flucitosina,250mg,Caps,,Essencial
+08O13X,Sulf+Piri+Amod(SPAQ-CO),(250+12.5+76.5)mg,Comp,,Essencial
+08L11i,Linezolide,comp dispersivel,150mg,,Essencial
+08K07Z,Metronidazol,125mg/5mL,Susp,,Essencial
+11A17Y,Glicose + Cloreto de Sodio,"5% + 0,9%",Inj,,Essencial
+12B04X,Glicose,50ml 30%,Inj,,Essencial
+13A02Z,Loratadina,10mg,Comp,,Essencial
+13A02,Clorfeniramina,4mg,Comp,,Vital
+08S23X,Nevirapina (NVP),50mg/5mL 100ml,Susp,,Essencial
+08R06Z,Molnupinavir,200mg,Caps,,Essencial
+08S18ZX,Lenacapavir,"300mg, 4Comp",Comp,,Essencial
+11A04iii,"Cloreto de Sodio 0,45%",500 mL,Inj,,Essencial
+09H03Y,Isotretinoina (Acido Cis-retinoico),4mg,Comp,,Essencial
+20A0Y,Clorexidina,7.1% 3g,Gel,,Necessário
+15A0ZY,Oxido de Zinco,10%,Pomada,,Necessário
+08O13Z,Sulf+Piri+Amod(SPAQ-CO),(500+25+153)mg,Comp,,Necessário
+07G08,Sertralina,50mg,Comp,,Necessário
+08I01Z,Cotrimoxazol (Sulfametazol+Trimetoprim),960mg,Comp,,Necessário
+08F06,"Eritromicina, estearato",500mg,Comp,,Vital
+01H01Z,Lisinopril,5mg,Comp,,Vital
+01G04,Nitropussiato de sodio,50mg,Inj,,Necessário
+04F06ZY,Aplicador Vaginal para comprimidos,N/A,,,Necessário
+04F06Z,Jadelle,150mg,Implante,,Necessário
+04F06ZZ,Levoplant,75mg,Implante,,Necessário
+02B01Z,Butilbrometo de Hioscina,10mg,Comp,,Necessário
+14A03,Ibuprofeno,200mg,Comp,,Vital
+12D0XZ,Vitamina A e Vitamina E,200 000UI+40UI,Caps,,Necessário
+15A08,Oxido de zinco+Oleo de amedoas doces,50g+50g,locao,,Necessário
+15B08,Clobetasol propionato,"0,05%",Creme,,Necessário
+20A09ZX,Sabao Barra Comprida (Covid 19),500g,N/A,,Necessário
+18A05Y,Oxigenio Medicinal,8m3,Aerosol,,Necessário
+18A05X,Oxigenio Medicinal,6m3,Aerosol,,Necessário
+08R01,Aciclovir,400mg,Comp,,Vital
+08K01,Cloranfenicol,250mg,Caps,,Vital
+09C01Z,Citarabina (citosina arabinosido),100 mg/mL,Inj,,Necessário
+06F07Y,Fitomenadiona (Vit K1),1mg/mL,Inj,,
+06D03,Varfarina,5mg,Comp,,
+07D01Z,Carbamazepina,400mg,Comp,,
+03B04Y,Metformina (Cloridrato),1000mg,Comp,,Essencial
+03A05,Prednisolona,20mg,Comp,,
+02B01,Butilescopolamina,10mg,Comp,,
+02E02Z,Loperamida,2mg,Caps,,Essencial
+14A03Z,Ibuprofeno,400mg,Comp,,Essencial
+17A0I,Latanoprost,"0,05mg/mL",Gotas,,
+12B10Y,Albumina,20% 50ml 10g,Inj,,
+09H02,Mesna,400mg,Comp,,
+18F02X,Efedrina,30mg/mL,Inj,,
+18F01Z,Atropina sulfato,1mg/mL,Inj,,
+05A09Z,Salbutamol,4mg,Comp,,
+04C02,Cabergolina,"0,5mg",Caps,,
+08B0i,Cefazolina,1g,Inj,,
+08R01Z,Aciclovir,200mg,Comp,,
+08A05Z,Penicilina G sodica,5 000 000UI,Inj frasco,,
+11A0XZ,Agua para Injectaveis,5ml,Inj,,
+08H07Y,Levofloxacina,100mg,Comp,,
+04F07,Medroxyprogesterone acetate,inj (150mg/mL),,,
+04F07Z,Medroxiprogesterona(Sayana Press),104mg/0.65ml,Inj,,
+06D01Z,Heparina Sodica,5000UI/5mL,Inj,,
+06D02,Heparina de baixo peso molecular,"4000UI/0,4mL",In,,
+06D0II,"Enoxaparin, Inj 60mg/0.6mL",,,,
+04H02I,Desmopressina,Dosagem - 4mcg/1mL,Inj,,
+04H02i,Desmopressina,Dosagem - 4mcg/1mL,Inj,,
+08H07,Levofloxacina,250mg,Comp,,
+08H06,Norfloxacina,400mg,Caps,,
+08H05,Ofloxacina,200mg,Comp,,
+08H03Z,Ciprofloxacina,250mg,Comp,,
+05A02Z,Aminofilina,250mg/10mL,Inj,,
+04H03,Oxibutinina,20mg,Comp,,
+07LME01I,Cloridrato de Clomipramina,10mg,Comp,,
+07LME01i,Cloridrato de Clomipramina,10mg,Comp,,
+07LME06,Metadona,10mg/mL,Liquido,,
+08A07Z,Amoxicilina trihidrato,250mg,Caps,,
+08B04,Cefixima,200mg,Comp,,
+08A0YZ,Amoxicilina,125mg/5mL,Susp,,
+08A0ZX,Cloxacilina,250mg,Comp,,
+08C01,Imipenem+Cilastatina,500mg + 500mg-ampola,Inj,,
+08D01I,Amikacina sulfato,(500mg/2ml),Inj,,
+07J03Y,Clorpromazina,50mg/2mL,Inj,,
+08D05X,Kanamicina,2 g/8mL-ampola,Inj,,
+08D04i,Gentamicina,10mg/mL,Inj,,
+07B02,Codeina fosfato,25mg/5mL,Xpe,,
+07B04i,"Morfina Sulfato, Suspensao Oral",20mg,Granulado,,
+07D09,Gabapentina,100mg,Caps,,
+08B0YZ,Cefalexina,250mg,Caps,,
+07A06Z,Paracetamol,125mg/5mL,Xpe,,
+01A03Z,Digoxina,"0,25mg/2mL",Inj,,
+04F06W,Levonorgestrel,0.75mg,Comp,,
+04F0XZ,"Lubrificante a Base de Agua,","4,5 g  Saqueta",Gel,,
+04B03Z,Metilergometrina,"0,2mg/mL",Inj,,
+04B04Z,Misoprostol blister,200mcg ou μg,Comp,,
+14D01I,Piridostigmina,1mg/ml Ampola,Inj ampola,,
+16D04i,Miconazol,2%,Creme,,
+15G01Z,Calamina,"0,2%",Creme,,
+16C01,Beclometasona,50mcg/inalacao,Spray Nasal,,
+15C03X,Benzoato de Benzilo,25% 1L,Liquido,,
+15B13,Hidrocortisona acetato,1%,Pomada,,
+13A10Z,Prometazina,25mg/mL,Inj,,
+12D12i,Nicotinamida,50mg,Comp,,
+15B03,Betametasona dipropionato,"0,1%",Pomada,,
+20A0X,Clorexidina,7.1% 20g,Gel,,
+20A04YZ,Alcool gel,70% 1L,Liquido,,
+20A03,Alcool Litro,70% (700mg/mL),Liquido,,
+20A01,Agua oxigenada,10 VOLUMES 3%,Sol,,
+20A11Y,Hipoclorito de Calcio,(65-70%) 25Kg,Granulado,,
+20A10ZZ,Hipoclorito de Sodio,"14 a 15 % , 1L",Sol,,
+17C0I,Ofloxacina,"0,3%",Gotas Oft,,
+17C07Z,Tetraciclina HCL,3%,Pomada,,
+17C07TRAC,Tetraciclina (campanha de Tracoma),1%,Pomada Oft,,
+18C08,"Lidocaina, gel(cloridrato)",2%,Gel,,
+18C07Z,Lidocaina,2%-2g/100ml,Gel,,
+18C10,Lidocaina+Adrenalina,2%,Inj,,
+17A03,Adrenalina,2%,Sol Oft,,
+18B05Z,Tiopental,500mg/20mL,Inj,,
+18B02Z,Ketamina Hidrocloreto,50mg/10mL,Inj,,
+17C02,Ciprofloxacina,"0,3%",Colirio,,
+19A02,Imunoglobulina humana anti-D,Inj (300 mcg/mL),,,
+18B01,Etomidato,2mg/mL,Inj,,
+18F04A,Midazolam Solucao Oral,2mg/mL,Sol  frasco,,
+18F03Z,Fentanil,"0,1 mg/2mL",Inj,,
+08N03Z,Ivermectina,3mg,Comp,,
+08M0ZZ,Dapsona+Clofazimina+Rifampicina,50+50+150mg,Comp,,
+08M0ZY,Dapsona+Clofazimina+Rifampicina,100+100+300mg,Co,,
+08M0XZ,Dapsona+Rifampicina infantil,50mg+150mg,Comp,,
+08M0XX,Dapsona+Rifampicina,100mg+300mg,Comp,,
+08L11W,Pretomanida,200mg,Comp,,
+08L11I,Linezolide,comp dispersivel,150mg,,
+08L10,Cicloserina,250mg,Caps,,
+08L0XX,Rifamp+Isoniaz+Piraz. comp,75mg+50 mg+150 mg,Comp,,
+08L08,Rifamp+Isoniaz+Piraz+Etam(150+75+400+275mg),,,,
+08M04,Dapsona,100mg,Comp,,
+08O15ZZ,Amodiaquina +Sulfadoxina+Pirimetamina,Comprimidos,,,
+08O15W,Amodiaquina +Sulfadoxina+Pirimetamina,Comprimidos,,,
+08M06,Rifampicina,300mg,Caps,,
+08M05,Rifampicina,150mg,Caps,,
+08Q08I,Flucitosina,500mg,Caps,,
+08O0XZ,Artesunato,60mg/mL,Inj,,
+08N04,Mebendazol,100mg,Comp,,
+08S17,Zidovudina (AZT),50mg/5mL 240mL,Sol,,
+08L11Z,Bedaquilina Sirturo,100mg,Comp,,
+08L11Y,Linezolida,600mg,Comp,,
+08K04X,Metronidazol,500mg,Comp,,
+08J02,Vancomicina hidrocloreto,500mg,Inj,,
+08L12X,Protionamida,250mg,Comp,,
+08L02,Etambutol,400mg,Comp,,
+08K08Z,Nitrofurantoína,100mg,Comp,,
+08M03,Dapsona,50mg,Comp,,
+08M02,Clofazimina,100mg,Caps,,
+08M01Z,Clofazimina,50mg,Comp,,
+08M01,Clofazimina,50mg,Caps,,
+08L02Z,Etambutol,100mg,Comp,,
+08L04,Isoniazida,100mg,Comp,,
+08L03,Isoniazida,300mg,Comp,,
+08L07,Rifampicina+Isoniazida,150mg+75mg,Comp,,
+08L06Z,Rifampicina+Isoniazida Comp,75mg+50 mg,Comp,,
+08L06YZ,Delamanide comp.,25mg,Comp,,
+08L06Y,Delamanide comp,50mg,Comp,,
+08L06XZ,Rifapentina,150mg,Comp,,
+08L06X,Rifapentina+Isoniazida,300mg+300mg,Comp,,
+08L05Y,Pirazinamida,150mg,Comp,,
+08L05,Pirazinamida,400mg,Comp,,
+09H02ZZ,Mesna,600mg,Comp,,
+12A0ZX,Plumpy 'Nut (ATPU),500 Kcal,Pasta,,
+12C04,Sulfato de Zinco,20mg,Comp,,
+09D04Z,Vincristina,1mg/ml Ampola,Inj,,
+09C0I,Tioguanina,40mg,Comp,,
+08S30Y,Darunavir,600mg 60Comp,Embalagem,,
+11A03i,Cloreto de potassio,75mg/ml,Inj,,
+11A03Z,Cloreto de potassio,15 %  10 mL,Inj,,
+09F04,Rituximab,100mg/10mL,Inj,,
+09E07I,Dacarbazina 100mg/mL,100mg/mL,Inj,,
+09E04,Carboplatina,150mg/15mL,Inj,,
+09B03I,Daunorubicina,50mg,Inj,,
+08A02,Fenoximetilpenicilina,250mg/5mL,Susp,,
+01A04Z,Dobutamina,250mg/20mL,Inj,,
+03A04,Prednisolona,5mg,Comp,,
+18C07B,Lidocaina Hidrocloride Carpule,2%,Inj,,
+10A08Z,Manitol,10% (100mg/ml),Inj,,
+17B04,Tropicamida,1% 5 mL,Colirio,,Essencial
+17B01,Atropina sulfato,1% 10 mL,Colirio,,Essencial
+08D03,"Gentamicina, sulfato",80mg/2mL-ampola,Inj,,Vital
+06A07,Sulfato ferroso+Acido folico,90mg+1mg,Comp,,Vital
+02A07,Ranitidina,50mg/2mL,Inj,,Essencial
+08Q07,Nistatina,100 000UI/ml,Susp,,
+07D13,Valproato de Sodio,200mg,Comp,,Vital
+07J04,Flufenazina,"2,5mg",Comp,,Vital
+08I03,"Cotrimoxazol (240mg/5mL),Susp",,,,Vital
+05A10,Salbutamol,500mcg/mL,Inj,,Vital
+05A02,Aminofilina,240mg/10mL,Inj,,Vital
+03A01,Dexametasona fosfato sodico,4mg/mL,Inj,,Vital
+08I02,"Cotrimoxazol(480mg/5mL),Inj",,,,Vital
+06A05,Hidroxicobalamina acetato B12,1mg/mL,Inj,,Vital
+04A03Z,Clotrimazol,500mg,Ovulo Vag,,Vital
+07D05,Fenitoina,250mg/5mL,Inj,,Vital
+06A01,Acido Folico,5mg,Comp,,Vital
+07G02,Amitriptilina,25mg,Comp,,Vital
+08A04,Penicilina benzatinica,2 400 000UI,Inj ampola,,Vital
+07J07,Haloperidol,5mg/mL,Inj,,Vital
+01C02,Hidralazina,25mg,Comp,,Vital
+08N07,Tiabendazol,5%,Pomada,,Vital
+11A0XX,Agua para Injectaveis,10ml,Inj,,Vital
+10A04,Furosemida,20mg/2mL,Inj,,Vital
+01J02,Sinvastatina,20mg,Comp,,Vital
+14C01,Mentol+Salicilato de metilo,"0,2% 20g",Pomada,,Essencial
+20A12Z,Iodopovidona,10%,Sol  frasco,,Essencial
+08H04,"Ciprofloxacina, lactato",2mg/mL,Inj,,Essencial
+08F03,Claritromicina,500mg,Comp,,Essencial
+08E01,"Clindamicina,hidrocloreto",150mg,Caps,,Essencial
+07B01,Codeina fosfato,30mg,Comp,,Essencial
+07J06,Haloperidol,5mg,Comp,,Vital
+07J09,Tioridazina,10mg,Comp,,Essencial
+04E09,Clomifeno citrato,50mg,Comp,,Essencial
+18C07Y,Lidocaina carpule,20mg/1.8ml,Inj,,Essencial
+04E12,Danazol,200mg,Comp,,Essencial
+12C01,Calcio carbonato,500mg (168mg cálcio element,Comp,,Necessário
+01C01Z,Hidralazina,20mg/mL,Inj,,
+01G02,Nitroglicerina,"0,5mg",Comp Subl,,
+07D07,Fenobarbital,100mg,Comp,,
+03B03,Gliclazida,80mg,Comp,,
+04B05Z,Oxitocina,10UI/mL,Inj,,
+08D04,Gentamicina,20mg/2mL-ampola,Inj,,
+07I07,Diazepam,10mg/2mL,Inj,,
+04B07Z,Sulfato de Magnesio,500mg/mL (50%),Inj,,
+18C09,Lidocaina,10% (100mg/ml),Spray,,
+18F04,Midazolam,15mg/3mL,Inj,,
+08Q0ZX,Fluconazol,200mg,Caps,,
+09H03,Ondansetron,4mg,Comp,,
+06E01,Acido acetilsalicilico  (Aspirina),100mg,Comp,,
+18C11Y,Lidocaina+Adrenalina carpule,2%,Inj,,
+01A03,Digoxina,"0,5mg/2mL",Inj,,Vital
+01G03,Nitroglicerina,5mg/mL,Inj,,Vital
+11A10,Cloreto de sodio,20mL 20%,Inj,,Vital
+06D0ii,Enoxaparina (heparina de baixo peso  molecular),6,,,Vital
+11A11,Gelatina polimerizada,"17,5 g/500mL",Inj,,Vital
+09A04,Clorambucil,2mg,Comp,,Vital
+09A03,Ciclofosfamida,500mg,Inj,,Vital
+10A05Z,Furosemida,20mg/5mL,Sol Oral,,Essencial
+06A04,Gluconato de ferro,30mg/5mL,Xpe,,Essencial
+01A02,Digoxina,"0,05mg/mL",Frasco,,Vital
+01B04,Verapamil,40mg,Comp,,Vital
+06C01,Filgrastim,300 mcg/mL,Inj,,Necessário
+14D01,Piridostigmina,60mg,Comp,,Essencial
+09D02,Etoposido,100mg/5mL,Inj,,Essencial
+19B06,Vacina Anti-Rabica (Antitoxin),1ml,Inj,,Necessário
+17C0i,Ofloxacina,"0,3%",Gotas Oft,,Necessário
+01J0ZZ,Atorvastatina,20mg,Comp,,
+01C03,Labetalol,5mg/mL,Inj,,
+18F05,Neostigmina,"0,5mg/mL",Inj,,
+09A07,Ifosfamida,1g,Inj,,
+09C06,Mercaptopurina,50mg,Comp,,
+18B05,Tiopental,1g/20mL,Inj,,
+09E06,Cisplatina,50mg/50mL,Inj,,
+18D01,Atracurio (besilato),10mg/mL,Inj,,
+02A04I,Omeprazol,20mg,Po para Susp,,
+18C03XZ,Bupivacaina+Destrose,(5mg + 80mg),Inj,,
+01A0ZZ,Noradrenalina( Norepinefrina),2mg/mL,Inj,,
+09C09i,Metotrexato,500mg,Inj,,
+09C09,Metotrexato,50mg/2mL,Inj,,
+09G04,Letrozole,"2,5mg",Comp,,
+18B04,Propofol,(10mg/ml) 50ml,Inj,,
+18B03,Propofol,"10mg/mL, 20 ml",Inj,,
+18C01,Bupivacaina Hidrocloreto,"100mg/20ml, 5%",Inj,,
+19A03,Imunoglubulina anti-rabica,Inj (1000UI/5ml),,,
+09C05,Fluorouracilo,500mg/10mL,Inj,,
+09B02,Dactinomicina (Actinomicina D),"0,5mg",Inj,,Vital
+08O16,Pirimetamina,25mg,Comp,,Vital
+09B03i,Daunorubicina,50mg,Inj,,Vital
+09E14,Gemcitabine injectavel,1g,Inj frasco,,Vital
+03B14,Glucagon,1UI/ml,Inj,,Essencial
+15A13,Ureia,20%,Creme,,
+08O17,Sulfadiazina,500mg,Comp,,
+09C0i,Tioguanina,40mg,Comp,,
+09C02,"Fludarabina, fosfato",10mg,Comp,,
