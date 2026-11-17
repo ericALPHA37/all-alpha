@@ -755,3 +755,15 @@ html[lang="en"] .card__sub{display:block}
   .grid__more{flex-direction:column;align-items:flex-start;gap:14px}
   .grid__more .btn{width:100%}
 }
+
+/* Citação do próprio livro no cartão do catálogo */
+.card__citacao{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-style:italic;
+  font-size:1.02rem;
+  line-height:1.5;
+  color:var(--ink);
+  border-left:2px solid var(--gold-line, #c9a227);
+  padding-left:.85rem;
+}
+.card__citacao::first-letter{}

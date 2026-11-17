@@ -909,3 +909,42 @@ body {
     display: none;
   }
 }
+
+/* ---------- Abertura: o livro mostra-se antes de pedir decisão ---------- */
+.abertura{
+  padding: clamp(3rem,6vw,5rem) 0;
+  border-bottom:1px solid var(--line);
+  background: linear-gradient(180deg,#fffdf8 0%,#fafaf8 100%);
+}
+.abertura__etiqueta{
+  margin:0 0 1.4rem;
+  font-family:var(--mono);font-size:.64rem;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--gold-ink,#8b6914);
+}
+.abertura__texto{
+  margin:0;
+  max-width:34ch;
+  font-family:var(--serif);
+  font-size:clamp(1.32rem,3.2vw,1.95rem);
+  line-height:1.55;
+  font-weight:400;
+  color:var(--ink,#0a0a0a);
+  text-wrap:pretty;
+}
+.abertura__texto::before{content:"«";color:var(--gold,#c9a227);margin-right:.06em}
+.abertura__texto::after{content:"»";color:var(--gold,#c9a227)}
+.abertura__fonte{
+  margin:1.1rem 0 0;
+  font-family:var(--mono);font-size:.64rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted,#5f594f);
+}
+.abertura__acoes{
+  display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;
+  margin-top:clamp(1.8rem,3.5vw,2.6rem);
+}
+.abertura__acoes .button{min-height:48px}
+@media(max-width:560px){
+  .abertura__texto{max-width:none;font-size:1.22rem;line-height:1.6}
+  .abertura__acoes{flex-direction:column;align-items:stretch}
+  .abertura__acoes .button{width:100%;justify-content:center;text-align:center}
+}
