@@ -28,7 +28,7 @@
   /* ---------- identificação da obra a partir do caminho ---------- */
   var caminho = location.pathname;
   function obraDoCaminho() {
-    var m = caminho.match(/\/library\/books\/([a-z0-9-]+)\/?/i);
+    var m = caminho.match(/\/library\/(?:books|classicos)\/([a-z0-9-]+)\/?/i);
     if (m) return m[1].toLowerCase();
     if (/\/experiences\/elysha\//i.test(caminho)) return "a-princesa-elysha";
     if (/\/library\/?$/i.test(caminho)) return "biblioteca";
@@ -98,7 +98,7 @@
   if (umaVez("alpha-visita:" + caminho)) enviar("visita", "");
 
   /* ---------- 2. abertura de obra (páginas de livro) ---------- */
-  var ehPaginaDeLivro = /\/library\/books\/|\/experiences\/elysha\//i.test(caminho);
+  var ehPaginaDeLivro = /\/library\/(books|classicos)\/|\/experiences\/elysha\//i.test(caminho);
   if (ehPaginaDeLivro && umaVez("alpha-obra:" + caminho)) {
     enviar("obra", "abertura");
   }
