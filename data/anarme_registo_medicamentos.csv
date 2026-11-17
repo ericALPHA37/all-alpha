@@ -1,0 +1,11 @@
+item,numero_processo,empresa,nome_comercial,substancia_activa,dosagem,forma,apresentacao,fabricante,estado,numero_registo,data_autorizacao
+1,OO/H/20013/1,MEDIMPORT LDA,CLAVAMOX 125,Amoxicilina + Ácido Clavulânico,125mg/5ml + 31.25mg/5ml,Pó para Suspensão Oral,"Frasco de 60ml, 75ml, 100ml e de 150ml",LABORATÓRIOS BIAL-PORTUGAL,Autorizado,54,30-12-2005
+2,OO/H/20027/5,"SOCIEDADE MOÇAMBICANA DE MEDICAMENTOS, SA",CLORETO DE SÓDIO,Cloreto de Sódio,0.009,Solução injectável,Balões 500ml e 1000ml,"SOCIEDADE MOÇAMBICANA DE MEDICAMENTOS, SA.",Autorizado,1,19-09-2002
+3,OO/H/200210/8,"SOCIEDADE MOÇAMBICANA DE MEDICAMENTOS, SA",GLICOSE,Glicose,0.05,Solução Injectável,Balões de 1000ml,"SOCIEDADE MOÇAMBICANA DE MEDICAMENTOS, SA.",Autorizado,2,19-09-2002
+4,OO/H/20039/18,MEDIMPORT LDA,TRICEF 400,CEFIXIMA,400mg,Comprimidos Revestidos,"CXS de 1, 6, 8 ou 12 COMP",LABORATÓRIOS BIAL-PORTUGAL,Autorizado,55,30-12-2005
+5,OO/H/200310/21,MEDIMPORT LDA,TRICEF SUSP,CEFIXIMA,100mg / 5ml,Pó para Suspensão Oral,Frasco de 60 e 100 ml,LABORATÓRIOS BIAL-PORTUGAL,Autorizado,56,30-12-2005
+6,OO/H/200310/22,MEDIMPORT LDA,MIOSTENIL,Aspartato de potássio hemi-hidratado + aspartato de magnésio tetra-hidratado,250mg + 250mg,Comprimidos,CXS 60 COMP,Bial - Portela & Ca S.A - Portugal,Autorizado,72,30-12-2005
+7,OO/H/200310/35,MEDIMPORT LDA,UROFLOX,NORFLOXACINA,400mg,Comprimidos,CXS 16 COMP,"BIAL- Portela & Cª, SA - PORTUGAL",Autorizado,67,30-12-2005
+8,OO/H/200310/34,MEDIMPORT LDA,URIPRIM 300,Alopurinol,300mg,Comprimidos,CXS 60 COMP,"BIAL- Portela & Cª, SA - PORTUGAL",Autorizado,71,30-12-2005
+9,OO/H/200310/33,MEDIMPORT LDA,URIPRIM 100,Alopurinol,100mg,Comprimidos,CAIXA 20 ou 60 comprimidos,"BIAL- Portela & Cª, SA - PORTUGAL",Autorizado,70,30-12-2005
+10,OO/H/200310/31,MEDIMPORT LDA,NEUFIL,Diprofilina,"6,67mg/ml",Xarope,FRS 200 ML,"BIAL- Portela & Cª, SA - PORTUGAL",Autorizado,75,30-12-2005
